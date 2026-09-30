@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+/*mfit*/html,body{width:100%;max-width:100%;overflow-x:hidden;overflow-x:clip}
+body{margin:0;background:#f4edf1;font-family:Arial,sans-serif}
+a{color:#7135d6}a:hover{color:#5c2bb0}
+*{box-sizing:border-box}
+.lf input{background:transparent;border:0;box-sizing:border-box;color:transparent;font-family:Arial,sans-serif;font-size:clamp(14px,1.45vw,23px);height:100%;outline:0;padding:0 9% 0 10%;width:100%}
+.lf input:not(:placeholder-shown){color:#5b3d86}
+[data-m=mob]{display:none}
+@media(max-width:820px){[data-m=desk]{display:none!important}[data-m=mob]{display:flex!important}[data-m=quick]{display:none!important}}
+.mi{width:100%;height:52px;border:1.5px solid #e2d6f5;border-radius:14px;background:#fff;padding:0 16px;font:600 16px Arial,sans-serif;color:#3b2466;outline:0}
+.mi:focus{border-color:#7C4DE8;box-shadow:0 0 0 3px rgba(124,77,232,.18)}
+.lf:focus-within,[data-hit]:focus-visible{outline:3px solid rgba(91,51,208,.7);outline-offset:3px}
+</style>
+</helmet>
+
+<div data-m="mob" style="flex-direction:column;min-height:100svh;padding:64px 20px 24px;background:linear-gradient(180deg,#efe6ff 0%,#f4edf1 60%)">
+<div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+<img src="brand/login-mascot-only.png" alt="" style="width:132px;height:132px;object-fit:cover;object-position:60% 24%;border-radius:50%;border:6px solid #fff;box-shadow:0 8px 20px rgba(91,51,208,.18)">
+<div style="margin-top:10px;font:800 24px Arial,sans-serif;color:#17113f">TikBeli <span style="color:#f14f9a">Rewards</span></div>
+<div style="font:600 14px Arial,sans-serif;color:#6b5a8c">Sign in with your mobile number</div>
+</div>
+<form onSubmit="{{ submitForm }}" style="display:flex;flex-direction:column;gap:12px;margin-top:24px;padding:20px;border-radius:24px;background:rgba(255,255,255,.92);box-shadow:0 10px 30px rgba(91,51,208,.12)">
+<label style="display:flex;flex-direction:column;gap:6px;font:800 13px Arial,sans-serif;color:#5b3d86">Mobile number<input class="mi" value="{{ emailValue }}" onChange="{{ setEmail }}" type="tel" inputmode="tel" autocomplete="tel" placeholder="010-000 0002"></label>
+<label style="display:flex;flex-direction:column;gap:6px;font:800 13px Arial,sans-serif;color:#5b3d86">Password
+<div style="position:relative"><input class="mi" value="{{ pwValue }}" onChange="{{ setPw }}" type="{{ pwType }}" autocomplete="current-password" placeholder="Optional for now" style="padding-right:64px"><div onClick="{{ togglePw }}" style="position:absolute;right:6px;top:6px;height:40px;padding:0 12px;display:flex;align-items:center;border-radius:10px;cursor:pointer;color:#7C4DE8;font:800 13px Arial,sans-serif">{{ toggleText }}</div></div></label>
+<sc-if value="{{ hasError }}" hint-placeholder-val="{{ false }}"><div style="padding:10px 12px;border-radius:10px;background:#fff0f4;border:1px solid #f3aabd;color:#97234c;font:600 13px Arial,sans-serif">{{ errorText }}</div></sc-if>
+<button type="submit" style="height:54px;border:0;border-radius:16px;background:linear-gradient(135deg,#7137e8,#a54bf0);color:#fff;font:800 16px Arial,sans-serif;cursor:pointer">Sign in</button>
+</form>
+<div style="margin-top:16px;display:flex;flex-direction:column;gap:10px">
+<div style="text-align:center;font:800 13px Arial,sans-serif;color:#6b5a8c">Or sign in as</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+<a href="TikBeli%20Admin.dc.html?role=hq" onClick="{{ asHq }}" style="display:flex;align-items:center;justify-content:center;height:52px;border-radius:16px;background:#5B33D0;color:#fff;text-decoration:none;font:800 15px Arial,sans-serif">HQ</a>
+<a href="TikBeli%20Admin.dc.html?role=staff" onClick="{{ asStaff }}" style="display:flex;align-items:center;justify-content:center;height:52px;border-radius:16px;background:#7C4DE8;color:#fff;text-decoration:none;font:800 15px Arial,sans-serif">Staff</a>
+<a href="POS.dc.html?role=staff" onClick="{{ asStaff }}" style="display:flex;align-items:center;justify-content:center;height:52px;border-radius:16px;background:#15803D;color:#fff;text-decoration:none;font:800 15px Arial,sans-serif">POS</a>
+<a href="Customer%20Home.dc.html" onClick="{{ asCustomer }}" style="display:flex;align-items:center;justify-content:center;height:52px;border-radius:16px;background:#E0327F;color:#fff;text-decoration:none;font:800 15px Arial,sans-serif">Customer</a>
+</div>
+</div>
+</div>
+<div data-m="desk" style="align-items:center;background:#f4edf1;display:flex;justify-content:center;min-height:100svh;overflow:auto">
+<div style="aspect-ratio:3/2;flex:none;isolation:isolate;position:relative;width:min(100vw,calc(100svh * 1.5))">
+
+<img src="brand/login-approved-canva.png" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;user-select:none;z-index:0">
+
+<div style="position:absolute;inset:0;z-index:1">
+
+<label class="lf" style="position:absolute;cursor:text;display:block;left:46.22396%;width:39.58334%;height:5.762%;top:51.26956%;background:transparent;border:0">
+<input value="{{ emailValue }}" onChange="{{ setEmail }}" type="email" autocomplete="email" placeholder=" " aria-label="Mobile Number">
+</label>
+
+<label class="lf" style="position:absolute;cursor:text;display:block;left:46.22396%;width:39.58334%;height:6.641%;top:60.25406%;background:transparent;border:0">
+<input value="{{ pwValue }}" onChange="{{ setPw }}" type="{{ pwType }}" autocomplete="current-password" placeholder=" " aria-label="Password">
+</label>
+
+<div data-hit="1" onClick="{{ togglePw }}" title="{{ toggleLabel }}" style="position:absolute;cursor:pointer;height:6.641%;left:80.664%;top:60.25406%;width:5.143%;background:transparent;border:0"></div>
+
+<div data-hit="1" onClick="{{ submit }}" title="Enter TikBeli Rewards" style="position:absolute;cursor:pointer;height:8.1055%;left:46.22396%;top:70.80106%;width:39.58334%;background:transparent;border:0"></div>
+
+<div style="{{ errorStyle }}">{{ errorText }}</div>
+
+
+</div>
+</div>
+</div>
+<div style="position:absolute;top:12px;right:12px;display:flex;align-items:center;gap:4px;padding:4px;border-radius:99px;background:rgba(255,255,255,.94);box-shadow:0 2px 10px rgba(91,51,208,.15);font:700 12.5px Arial,sans-serif;z-index:6">
+<span style="padding:0 4px 0 8px;color:#5b3d86">Language</span>
+<sc-for list="{{ langs }}" as="l" hint-placeholder-count="3">
+<div onClick="{{ l.pick }}" style="{{ l.style }}">{{ l.label }}</div>
+</sc-for>
+</div>
+<div data-m="quick" style="position:fixed;left:50%;bottom:12px;transform:translateX(-50%);display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;max-width:calc(100% - 24px);padding:7px 8px 7px 16px;border-radius:99px;background:rgba(255,255,255,.94);box-shadow:0 2px 10px rgba(91,51,208,.15);font:700 13px Arial,sans-serif;color:#5b3d86;z-index:5">
+<span>Quick enter (test):</span>
+<a href="TikBeli%20Admin.dc.html?role=hq" onClick="{{ asHq }}" style="padding:8px 16px;border-radius:99px;background:#5B33D0;color:#fff;text-decoration:none">HQ</a>
+<a href="TikBeli%20Admin.dc.html?role=staff" onClick="{{ asStaff }}" style="padding:8px 16px;border-radius:99px;background:#7C4DE8;color:#fff;text-decoration:none">Staff</a>
+<a href="POS.dc.html?role=staff" onClick="{{ asStaff }}" style="padding:8px 16px;border-radius:99px;background:#15803D;color:#fff;text-decoration:none">POS</a>
+<a href="Customer%20Home.dc.html" onClick="{{ asCustomer }}" style="padding:8px 16px;border-radius:99px;background:#E0327F;color:#fff;text-decoration:none">Customer</a>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1200,&quot;height&quot;:800},&quot;errorMessage&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Page state&quot;}}">
+class Component extends DCLogic {
+  state = { email: "", pw: "", showPw: false, error: "", lang: "en" };
+  componentDidMount() {
+    let lang = null; try { lang = localStorage.getItem("tikbeli_lang"); } catch (e) {}
+    if (!lang) { lang = "en"; try { localStorage.setItem("tikbeli_lang", "en"); } catch (e) {} }
+    this.setState({ lang });
+  }
+
+  renderVals() {
+    const s = this.state;
+    const forced = this.props.errorMessage ?? "";
+    const error = s.error || forced;
+
+    return {
+      langs: [["en", "EN"], ["zh", "中文"], ["ms", "BM"]].map(([k, label]) => ({ label,
+        pick: () => { try { localStorage.setItem("tikbeli_lang", k); } catch (e) {} this.setState({ lang: k }); },
+        style: "padding:6px 11px;border-radius:99px;cursor:pointer;" + (s.lang === k ? "background:#5B33D0;color:#fff" : "color:#5b3d86") })),
+      emailValue: s.email, pwValue: s.pw,
+      setEmail: (e) => this.setState({ email: e.target.value, error: "" }),
+      setPw: (e) => this.setState({ pw: e.target.value, error: "" }),
+      pwType: s.showPw ? "text" : "password",
+      toggleLabel: s.showPw ? "Hide password" : "Show password",
+      togglePw: () => this.setState({ showPw: !s.showPw }),
+      asHq: () => { try { localStorage.setItem("tikbeli_role", "hq"); localStorage.removeItem("tikbeli_staff"); } catch (e) {} },
+      asStaff: () => { try { localStorage.setItem("tikbeli_role", "staff"); localStorage.setItem("tikbeli_staff", "S01"); } catch (e) {} },
+      asCustomer: () => { try { localStorage.setItem("tikbeli_role", "customer"); localStorage.removeItem("tikbeli_staff"); } catch (e) {} },
+      toggleText: s.showPw ? "Hide" : "Show", hasError: !!error,
+      submitForm: (e) => { e.preventDefault(); this.renderVals().submit(); },
+      submit: () => {
+        if (!s.email.trim()) {
+          this.setState({ error: "Enter your mobile number." });
+        } else {
+          const id = s.email.replace(/\D/g, "");
+          const STAFF = { "0100000002": "S01", "0100000003": "S02", "0100000004": "S03" };
+          const role = id === "0100000001" ? "hq" : STAFF[id] ? "staff" : "customer";
+          try { localStorage.setItem("tikbeli_role", role); if (STAFF[id]) localStorage.setItem("tikbeli_staff", STAFF[id]); else localStorage.removeItem("tikbeli_staff"); } catch (e) {}
+          this.setState({ error: "" });
+          const next = new URLSearchParams(location.search).get("next");
+          location.href = role === "customer" ? "Customer%20Home.dc.html" : next === "pos" ? "POS.dc.html?role=" + role : "TikBeli%20Admin.dc.html?role=" + role;
+        }
+      },
+      errorText: error,
+      errorStyle: error
+        ? "position:absolute;background:#fff0f4;border:1px solid #f3aabd;border-radius:8px;color:#97234c;font:600 clamp(10px,.95vw,14px) Arial,sans-serif;left:46.224%;margin:0;padding:.6em .8em;text-align:center;top:80.4%;width:39.583%"
+        : "display:none"
+    };
+  }
+}
+</script>
+</body>
+</html>
