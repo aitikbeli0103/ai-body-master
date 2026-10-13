@@ -1,0 +1,201 @@
+{
+  "section": {
+    "id": "feet",
+    "codePrefix": "F",
+    "title": "Where do your feet hurt?",
+    "subtitle": "Select one or more areas to get a personalised plan.",
+    "gridImage": "F0_Main_Grid_Feet.png"
+  },
+  "disclaimer": "For education only, not a diagnosis.",
+  "references": "NHS UK, Mayo Clinic, American Academy of Orthopaedic Surgeons (AAOS)",
+  "lastUpdated": "[DATE]",
+  "reviewedBy": "[QUALIFIED REVIEWER]",
+  "symptoms": [
+    {
+      "code": "F1",
+      "gridLabel": "Heel Pain",
+      "title": "Plantar Fasciitis",
+      "image": "F1_Plantar_Fasciitis.png",
+      "hook": "First steps in the morning feel like stepping on glass?",
+      "painLocation": "Bottom of the heel, sometimes along the arch",
+      "definition": "Inflammation of the thick band of tissue under the foot that supports your arch.",
+      "didYouKnow": "About 1 in 10 people get plantar fasciitis at some point in life.",
+      "howItFeels": "A sharp, stabbing pain under the heel with your first steps after waking or after sitting. It usually eases after a few minutes of walking, then returns after long standing.",
+      "whoIsAtRisk": ["Age 40–60", "Standing jobs", "Overweight", "Flat feet or high arches", "Runners"],
+      "commonCauses": ["Long hours standing", "Flat slippers", "Sudden increase in walking", "Tight calves"],
+      "selfCheck": {
+        "steps": ["Sit down and cross one foot over your knee.", "Pull your big toe up towards your shin.", "Press your thumb into the inner part of your heel."],
+        "question": "Did you feel a sharp pain?",
+        "yesResult": "Your answer matches the typical pattern of plantar fasciitis. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "Your heel pain may have another cause. Check F2 (Back of Heel Pain) or F3 (Arch Pain)."
+      },
+      "reliefTips": ["Stretch your calves and toes before getting out of bed", "Roll your foot over a cold water bottle for 5–10 minutes", "Wear cushioned shoes with arch support, even at home"],
+      "avoid": "Walking barefoot on hard tiles, flat slippers, standing in one spot for hours, and suddenly increasing your walking or running distance.",
+      "seeDoctorIf": ["Pain lasts more than a few weeks despite rest and stretching", "Pain started after a fall or injury", "You can't put weight on the foot, or there is numbness or swelling"],
+      "warningLine": "Pain after a fall or can't put weight on it? See a doctor first."
+    },
+    {
+      "code": "F2",
+      "gridLabel": "Back of Heel Pain",
+      "title": "Achilles Tendinitis",
+      "image": "F2_Achilles_Tendinitis.png",
+      "hook": "Back of your heel stiff and sore after walking?",
+      "painLocation": "Back of the heel and the cord just above it",
+      "definition": "Irritation of the tendon connecting the calf muscle to the heel bone.",
+      "didYouKnow": "The Achilles is the strongest tendon in the body, yet one of the most often injured.",
+      "howItFeels": "Morning stiffness at the back of the heel, and aching that gets worse with walking, stairs or running. The tendon may feel thick or tender.",
+      "whoIsAtRisk": ["Runners and walkers", "Sudden increase in activity", "Switching between heels and flats", "Age 30–60"],
+      "commonCauses": ["Sudden increase in exercise", "Tight calves", "Worn-out shoes", "Switching heels and flats"],
+      "selfCheck": {
+        "steps": ["Sit with your leg relaxed.", "Gently squeeze the tendon about 2–6 cm above your heel.", "Feel along the tendon for tenderness or thickening."],
+        "question": "Was it tender, or did it feel thick?",
+        "yesResult": "This matches the typical pattern of Achilles tendinitis. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "Your heel pain may come from underneath instead. Check F1 (Heel Pain)."
+      },
+      "reliefTips": ["Rest from running and jumping", "Gentle calf stretches, twice a day", "Shoes with a slight heel lift"],
+      "avoid": "Running uphill, sudden sprints, and walking barefoot for long periods.",
+      "seeDoctorIf": ["You heard a \"pop\" or felt a kick at the heel", "You can't stand on tiptoe", "Pain and swelling keep getting worse"],
+      "warningLine": "Heard a pop or can't stand on tiptoe? Seek urgent care."
+    },
+    {
+      "code": "F3",
+      "gridLabel": "Arch Pain",
+      "title": "Flat Feet / Arch Strain",
+      "image": "F3_Flat_Feet_Arch_Strain.png",
+      "hook": "Arches ache after standing all day?",
+      "painLocation": "Middle of the sole, inner side of the foot",
+      "definition": "Strain on a low or poorly supported arch, overloading the tissue underneath.",
+      "didYouKnow": "A fallen arch can change how you walk and lead to knee and back pain.",
+      "howItFeels": "Tired, aching arches by evening. Feet may roll inward, and pain can spread to the ankles, knees or lower back.",
+      "whoIsAtRisk": ["Retail, F&B and nursing jobs", "Overweight", "Wearing flat slippers daily"],
+      "commonCauses": ["Flat feet from birth", "Weak foot muscles", "Unsupportive shoes", "Weight gain"],
+      "selfCheck": {
+        "steps": ["Wet the soles of your feet.", "Stand normally on dark paper or a dry tile.", "Step off and look at your footprint."],
+        "question": "Is your footprint full and wide, with no inward curve?",
+        "yesResult": "This suggests flat feet, which can strain the arch. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "Your arch looks normal. Your pain may come from the heel. Check F1 (Heel Pain)."
+      },
+      "reliefTips": ["Arch-support insoles", "Toe curls and towel-grab exercises", "Supportive shoes with a firm heel"],
+      "avoid": "Flat slippers all day, walking barefoot on hard floors, and old worn-out shoes.",
+      "seeDoctorIf": ["One arch is suddenly dropping", "There is pain and swelling on the inner ankle"],
+      "warningLine": "One arch suddenly dropping, with inner ankle swelling? See a doctor."
+    },
+    {
+      "code": "F4",
+      "gridLabel": "Ball of Foot Pain",
+      "title": "Metatarsalgia",
+      "image": "F4_Metatarsalgia.png",
+      "hook": "Feels like walking on a pebble under your toes?",
+      "painLocation": "Ball of the foot, just behind the toes",
+      "definition": "Pain and inflammation from too much pressure on the front of the foot.",
+      "didYouKnow": "The higher your heels, the more body weight shifts onto the ball of the foot.",
+      "howItFeels": "Burning or aching under the toes, worse when standing, walking barefoot or wearing heels. It can feel like a stone in your shoe.",
+      "whoIsAtRisk": ["Women wearing high heels", "Runners", "High arches or bunions", "Overweight"],
+      "commonCauses": ["High heels", "Narrow shoes", "High-impact sports", "Thin-soled shoes"],
+      "selfCheck": {
+        "steps": ["Sit and hold your foot.", "Press firmly under each toe joint, one by one.", "Note where it hurts most."],
+        "question": "Was the pain under your 2nd to 4th toes?",
+        "yesResult": "This matches the typical pattern of metatarsalgia. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If you feel tingling between the toes instead, it may be a pinched nerve. If the pain is at the big toe, check F5 or F6."
+      },
+      "reliefTips": ["Cushioned shoes with a wide toe box", "Gel pads for the ball of the foot", "Lower your heel height"],
+      "avoid": "High heels for long periods, narrow pointed shoes, and running on hard surfaces.",
+      "seeDoctorIf": ["Sharp pain at one exact spot that gets worse each day", "Swelling on the top of the foot"],
+      "warningLine": "Sharp pain at one spot that worsens daily? Could be a stress fracture."
+    },
+    {
+      "code": "F5",
+      "gridLabel": "Big Toe Joint Pain",
+      "title": "Gout",
+      "image": "F5_Gout.png",
+      "hook": "Big toe suddenly red, hot and too painful to touch?",
+      "painLocation": "Big toe joint, sometimes ankle or top of foot",
+      "definition": "Arthritis caused by high uric acid forming sharp crystals in the joint.",
+      "didYouKnow": "About half of first gout attacks start in the big toe.",
+      "howItFeels": "Sudden, severe pain, often starting at night. The joint is red, hot and swollen, and even a bedsheet touching it hurts.",
+      "whoIsAtRisk": ["Men over 30", "Women after menopause", "High uric acid", "Overweight", "High blood pressure"],
+      "commonCauses": ["Organ meat & seafood", "Beer & alcohol", "Sugary drinks", "Dehydration"],
+      "selfCheck": {
+        "steps": ["Think about when the pain started.", "Check whether the joint is red and hot.", "Remember what you ate or drank the day before."],
+        "question": "Did it start suddenly, with redness and heat, after a heavy meal or drinking?",
+        "yesResult": "This is a typical gout pattern. A uric acid blood test can confirm it. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If you have a bony bump instead, check F6 (Bunion)."
+      },
+      "reliefTips": ["Rest and raise the foot", "Cold compress on the joint", "Drink plenty of water", "Check uric acid levels regularly"],
+      "avoid": "Organ meat, beer, sweet drinks, crash dieting, and massaging or heating the joint during an attack.",
+      "seeDoctorIf": ["It is your first attack", "You have a fever", "Attacks keep coming back"],
+      "warningLine": "First attack or fever with a hot joint? See a doctor."
+    },
+    {
+      "code": "F6",
+      "gridLabel": "Bony Bump on Big Toe",
+      "title": "Bunion",
+      "image": "F6_Bunion.png",
+      "hook": "Bump on your big toe making shoes painful?",
+      "painLocation": "Inner side of the big toe joint",
+      "definition": "The big toe gradually leans inward, pushing the joint out into a bony bump.",
+      "didYouKnow": "About 1 in 4 adults has a bunion, and it is more common in women.",
+      "howItFeels": "A visible bump that gets red and sore from shoe rubbing. The big toe may lean towards or overlap the second toe.",
+      "whoIsAtRisk": ["Women", "Family history", "Narrow or pointed shoes", "Flat feet"],
+      "commonCauses": ["Family history", "Narrow pointed shoes", "High heels", "Flat feet"],
+      "selfCheck": {
+        "steps": ["Stand barefoot on a flat floor.", "Look down at your big toe.", "Check its angle and the joint at its base."],
+        "question": "Does your big toe angle towards the second toe, with a bump at its base?",
+        "yesResult": "A bunion may be forming. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the whole joint is red, hot and swollen instead, check F5 (Gout)."
+      },
+      "reliefTips": ["Wide toe-box shoes", "Bunion pads or toe spacers", "Toe stretches"],
+      "avoid": "Pointed shoes, high heels and tight socks.",
+      "seeDoctorIf": ["The bump is getting bigger quickly", "The toe is stiff", "Pain stops daily walking"],
+      "warningLine": "Bump growing fast or pain stops daily walking? See a doctor."
+    },
+    {
+      "code": "F7",
+      "gridLabel": "Numb / Burning Feet",
+      "title": "Peripheral Neuropathy",
+      "image": "F7_Peripheral_Neuropathy.png",
+      "hook": "Feet tingling, burning or numb like pins and needles?",
+      "painLocation": "Toes and soles, usually both feet",
+      "definition": "Damage to the nerves in the feet, often from diabetes, affecting feeling.",
+      "didYouKnow": "Up to half of people with diabetes develop nerve damage in their feet.",
+      "howItFeels": "Tingling, burning, or a \"walking on cotton\" numbness, often worse at night. You may not feel small cuts or hot water.",
+      "whoIsAtRisk": ["Diabetes or prediabetes", "Low vitamin B12", "Heavy alcohol use", "Age 50+"],
+      "commonCauses": ["Diabetes", "Vitamin B12 deficiency", "Poor circulation", "Alcohol"],
+      "selfCheck": {
+        "steps": ["Sit down and close your eyes.", "Ask someone to lightly touch your toes and soles with a cotton bud.", "Say each time you feel the touch."],
+        "question": "Were there spots where you couldn't feel the touch?",
+        "yesResult": "Please get your nerves and blood sugar checked by a doctor. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "Your feeling seems normal. If your feet are swollen instead, check F8."
+      },
+      "reliefTips": ["Control your blood sugar", "Check your feet daily with a mirror", "Wear well-fitting, closed shoes"],
+      "avoid": "Walking barefoot, very hot water or heat pads on the feet, and ignoring small cuts.",
+      "seeDoctorIf": ["Any wound is not healing", "Skin is turning dark", "Numbness is spreading upward"],
+      "warningLine": "Wound not healing or skin turning dark? See a doctor immediately.",
+      "deviceCaution": "Reduced feeling means heat or EMS may cause burns without being noticed. Ask the customer to consult a doctor before using the device."
+    },
+    {
+      "code": "F8",
+      "gridLabel": "Swollen Feet & Ankles",
+      "title": "Swollen Feet & Ankles",
+      "image": "F8_Swollen_Feet_Ankles.png",
+      "hook": "Shoes tight and deep sock marks by evening?",
+      "painLocation": "Ankles, tops of the feet, lower legs",
+      "definition": "Fluid collecting in the lower body, making feet puffy, heavy and tight.",
+      "didYouKnow": "Swelling in both feet can be an early sign of heart or kidney problems.",
+      "howItFeels": "Heavy, tight feet by evening with deep sock marks. Shoes that fit in the morning feel tight at night.",
+      "whoIsAtRisk": ["Long sitting or standing jobs", "Long flights", "Pregnancy", "High salt diet", "Heart, kidney or vein problems"],
+      "commonCauses": ["Long sitting", "High salt intake", "Hormonal changes", "Heart, kidney or vein issues"],
+      "selfCheck": {
+        "steps": ["Press your thumb firmly on your shin or ankle.", "Hold for 5 seconds.", "Let go and watch the skin."],
+        "question": "Did a dent stay after you let go?",
+        "yesResult": "This shows fluid build-up. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "No fluid build-up detected. If your feet tingle or feel numb, check F7."
+      },
+      "reliefTips": ["Raise your legs above heart level", "Ankle pumps every hour", "Cut down on salt"],
+      "avoid": "Sitting still for hours, salty processed food, and tight socks.",
+      "seeDoctorIf": ["Only one leg is suddenly swollen, red and warm (possible blood clot)", "Swelling comes with breathlessness"],
+      "warningLine": "One leg suddenly swollen and red, or swelling with breathlessness? Seek urgent care.",
+      "deviceCaution": "Do not massage or use the device on a suddenly swollen, red, warm leg."
+    }
+  ]
+}

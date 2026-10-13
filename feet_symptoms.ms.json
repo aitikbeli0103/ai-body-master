@@ -1,0 +1,377 @@
+{
+  "section": {
+    "id": "feet",
+    "codePrefix": "F",
+    "title": "Di mana kaki anda sakit?",
+    "subtitle": "Pilih satu atau lebih bahagian untuk mendapatkan pelan peribadi.",
+    "gridImage": "F0_Main_Grid_Feet.png"
+  },
+  "disclaimer": "Hanya untuk pendidikan, bukan diagnosis.",
+  "references": "NHS UK, Mayo Clinic, American Academy of Orthopaedic Surgeons (AAOS)",
+  "lastUpdated": "[DATE]",
+  "reviewedBy": "[QUALIFIED REVIEWER]",
+  "symptoms": [
+    {
+      "code": "F1",
+      "gridLabel": "Sakit Tumit",
+      "title": "Fasciitis Plantar",
+      "image": "F1_Plantar_Fasciitis.png",
+      "hook": "Langkah pertama pada waktu pagi terasa seperti memijak kaca?",
+      "painLocation": "Bahagian bawah tumit, kadangkala sepanjang lengkung kaki",
+      "definition": "Keradangan pada jalur tisu tebal di bawah kaki yang menyokong lengkung kaki anda.",
+      "didYouKnow": "Kira-kira 1 daripada 10 orang mengalami fasciitis plantar pada satu ketika dalam hidup mereka.",
+      "howItFeels": "Sakit tajam seperti ditikam di bawah tumit pada langkah pertama selepas bangun tidur atau selepas duduk. Biasanya reda selepas berjalan beberapa minit, kemudian kembali selepas berdiri lama.",
+      "whoIsAtRisk": [
+        "Umur 40–60 tahun",
+        "Kerja yang memerlukan berdiri",
+        "Berat badan berlebihan",
+        "Kaki pelat atau lengkung kaki tinggi",
+        "Pelari"
+      ],
+      "commonCauses": [
+        "Berdiri berjam-jam",
+        "Selipar rata",
+        "Peningkatan mendadak dalam berjalan",
+        "Otot betis tegang"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk dan silangkan satu kaki di atas lutut.",
+          "Tarik ibu jari kaki ke atas ke arah tulang kering.",
+          "Tekan ibu jari tangan pada bahagian dalam tumit."
+        ],
+        "question": "Adakah anda rasa sakit yang tajam?",
+        "yesResult": "Jawapan anda sepadan dengan corak tipikal fasciitis plantar. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Sakit tumit anda mungkin disebabkan oleh perkara lain. Semak F2 (Sakit Belakang Tumit) atau F3 (Sakit Lengkung Kaki)."
+      },
+      "reliefTips": [
+        "Regangkan betis dan jari kaki sebelum turun dari katil",
+        "Golekkan kaki anda di atas botol air sejuk selama 5–10 minit",
+        "Pakai kasut berkusyen dengan sokongan lengkung kaki, walaupun di rumah"
+      ],
+      "avoid": "Berjalan tanpa kasut di atas jubin keras, selipar rata, berdiri di satu tempat selama berjam-jam, dan meningkatkan jarak berjalan atau berlari secara mendadak.",
+      "seeDoctorIf": [
+        "Sakit berlarutan lebih daripada beberapa minggu walaupun sudah berehat dan meregang",
+        "Sakit bermula selepas terjatuh atau cedera",
+        "Anda tidak boleh menahan berat badan pada kaki, atau terdapat kebas atau bengkak"
+      ],
+      "warningLine": "Sakit selepas terjatuh atau tidak boleh menahan berat pada kaki? Sila jumpa doktor dahulu."
+    },
+    {
+      "code": "F2",
+      "gridLabel": "Sakit Belakang Tumit",
+      "title": "Tendinitis Achilles",
+      "image": "F2_Achilles_Tendinitis.png",
+      "hook": "Belakang tumit anda kaku dan sakit selepas berjalan?",
+      "painLocation": "Bahagian belakang tumit dan urat tepat di atasnya",
+      "definition": "Kerengsaan pada tendon yang menghubungkan otot betis ke tulang tumit.",
+      "didYouKnow": "Tendon Achilles ialah tendon paling kuat dalam badan, namun merupakan antara yang paling kerap cedera.",
+      "howItFeels": "Kekakuan di bahagian belakang tumit pada waktu pagi, dan sakit yang bertambah teruk apabila berjalan, menaiki tangga atau berlari. Tendon mungkin terasa tebal atau sakit apabila ditekan.",
+      "whoIsAtRisk": [
+        "Pelari dan pejalan kaki",
+        "Peningkatan aktiviti secara mendadak",
+        "Bertukar-tukar antara kasut tumit tinggi dan kasut rata",
+        "Umur 30–60 tahun"
+      ],
+      "commonCauses": [
+        "Peningkatan senaman secara mendadak",
+        "Otot betis tegang",
+        "Kasut yang sudah haus",
+        "Bertukar-tukar antara kasut tumit tinggi dan kasut rata"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk dengan kaki dilonggarkan.",
+          "Picit perlahan tendon kira-kira 2–6 cm di atas tumit anda.",
+          "Raba sepanjang tendon untuk mengesan rasa sakit atau penebalan."
+        ],
+        "question": "Adakah ia sakit apabila ditekan, atau terasa tebal?",
+        "yesResult": "Ini sepadan dengan corak tipikal tendinitis Achilles. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Sakit tumit anda mungkin berpunca dari bahagian bawah. Semak F1 (Sakit Tumit)."
+      },
+      "reliefTips": [
+        "Berehat daripada berlari dan melompat",
+        "Regangan betis yang lembut, dua kali sehari",
+        "Kasut dengan sedikit tumit terangkat"
+      ],
+      "avoid": "Berlari mendaki bukit, pecutan secara mengejut, dan berjalan tanpa kasut untuk tempoh yang lama.",
+      "seeDoctorIf": [
+        "Anda terdengar bunyi \"pop\" atau rasa seperti ditendang pada tumit",
+        "Anda tidak boleh berdiri di atas hujung jari kaki",
+        "Sakit dan bengkak terus bertambah teruk"
+      ],
+      "warningLine": "Terdengar bunyi \"pop\" atau tidak boleh berdiri di atas hujung jari kaki? Dapatkan rawatan segera."
+    },
+    {
+      "code": "F3",
+      "gridLabel": "Sakit Lengkung Kaki",
+      "title": "Kaki Pelat / Ketegangan Lengkung Kaki",
+      "image": "F3_Flat_Feet_Arch_Strain.png",
+      "hook": "Lengkung kaki sakit selepas berdiri sepanjang hari?",
+      "painLocation": "Bahagian tengah tapak kaki, sebelah dalam kaki",
+      "definition": "Ketegangan pada lengkung kaki yang rendah atau kurang sokongan, sehingga membebankan tisu di bawahnya.",
+      "didYouKnow": "Lengkung kaki yang jatuh boleh mengubah cara anda berjalan dan menyebabkan sakit lutut dan belakang.",
+      "howItFeels": "Lengkung kaki letih dan sakit menjelang petang. Kaki mungkin berguling ke dalam, dan sakit boleh merebak ke buku lali, lutut atau bahagian bawah belakang.",
+      "whoIsAtRisk": [
+        "Kerja runcit, F&B dan kejururawatan",
+        "Berat badan berlebihan",
+        "Memakai selipar rata setiap hari"
+      ],
+      "commonCauses": [
+        "Kaki pelat sejak lahir",
+        "Otot kaki lemah",
+        "Kasut tanpa sokongan",
+        "Pertambahan berat badan"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Basahkan tapak kaki anda.",
+          "Berdiri seperti biasa di atas kertas gelap atau jubin kering.",
+          "Melangkah turun dan lihat tapak kaki anda."
+        ],
+        "question": "Adakah tapak kaki anda penuh dan lebar, tanpa lengkungan ke dalam?",
+        "yesResult": "Ini menunjukkan kaki pelat, yang boleh menegangkan lengkung kaki. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Lengkung kaki anda kelihatan normal. Sakit anda mungkin berpunca dari tumit. Semak F1 (Sakit Tumit)."
+      },
+      "reliefTips": [
+        "Insol sokongan lengkung kaki",
+        "Senaman mencengkam jari kaki dan mengambil tuala",
+        "Kasut penyokong dengan tumit yang kukuh"
+      ],
+      "avoid": "Selipar rata sepanjang hari, berjalan tanpa kasut di atas lantai keras, dan kasut lama yang sudah haus.",
+      "seeDoctorIf": [
+        "Salah satu lengkung kaki tiba-tiba jatuh",
+        "Terdapat sakit dan bengkak pada bahagian dalam buku lali"
+      ],
+      "warningLine": "Satu lengkung kaki tiba-tiba jatuh, disertai bengkak pada bahagian dalam buku lali? Sila jumpa doktor."
+    },
+    {
+      "code": "F4",
+      "gridLabel": "Sakit Pangkal Jari Kaki",
+      "title": "Metatarsalgia",
+      "image": "F4_Metatarsalgia.png",
+      "hook": "Terasa seperti berjalan di atas batu kecil di bawah jari kaki anda?",
+      "painLocation": "Bahagian hadapan tapak kaki, tepat di belakang jari kaki",
+      "definition": "Sakit dan keradangan akibat tekanan berlebihan pada bahagian hadapan kaki.",
+      "didYouKnow": "Semakin tinggi tumit kasut anda, semakin banyak berat badan beralih ke bahagian hadapan tapak kaki.",
+      "howItFeels": "Rasa terbakar atau sakit di bawah jari kaki, bertambah teruk apabila berdiri, berjalan tanpa kasut atau memakai kasut tumit tinggi. Ia boleh terasa seperti ada batu dalam kasut anda.",
+      "whoIsAtRisk": [
+        "Wanita yang memakai kasut tumit tinggi",
+        "Pelari",
+        "Lengkung kaki tinggi atau bunion",
+        "Berat badan berlebihan"
+      ],
+      "commonCauses": [
+        "Kasut tumit tinggi",
+        "Kasut sempit",
+        "Sukan berimpak tinggi",
+        "Kasut bertapak nipis"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk dan pegang kaki anda.",
+          "Tekan dengan kuat di bawah setiap sendi jari kaki, satu demi satu.",
+          "Perhatikan di mana yang paling sakit."
+        ],
+        "question": "Adakah sakit itu di bawah jari kaki ke-2 hingga ke-4?",
+        "yesResult": "Ini sepadan dengan corak tipikal metatarsalgia. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika anda berasa kesemutan di antara jari kaki, ia mungkin saraf yang tersepit. Jika sakit di ibu jari kaki, semak F5 atau F6."
+      },
+      "reliefTips": [
+        "Kasut berkusyen dengan ruang jari kaki yang luas",
+        "Pad gel untuk bahagian hadapan tapak kaki",
+        "Rendahkan ketinggian tumit kasut"
+      ],
+      "avoid": "Memakai kasut tumit tinggi untuk tempoh yang lama, kasut sempit dan muncung, dan berlari di permukaan keras.",
+      "seeDoctorIf": [
+        "Sakit tajam pada satu titik tepat yang bertambah teruk setiap hari",
+        "Bengkak pada bahagian atas kaki"
+      ],
+      "warningLine": "Sakit tajam pada satu tempat yang bertambah teruk setiap hari? Mungkin patah tulang akibat tekanan (stress fracture)."
+    },
+    {
+      "code": "F5",
+      "gridLabel": "Sakit Sendi Ibu Jari Kaki",
+      "title": "Gout",
+      "image": "F5_Gout.png",
+      "hook": "Ibu jari kaki tiba-tiba merah, panas dan terlalu sakit untuk disentuh?",
+      "painLocation": "Sendi ibu jari kaki, kadangkala buku lali atau bahagian atas kaki",
+      "definition": "Artritis yang disebabkan oleh asid urik tinggi yang membentuk hablur tajam dalam sendi.",
+      "didYouKnow": "Kira-kira separuh daripada serangan gout pertama bermula di ibu jari kaki.",
+      "howItFeels": "Sakit teruk yang tiba-tiba, selalunya bermula pada waktu malam. Sendi merah, panas dan bengkak, malah sentuhan cadar pun menyakitkan.",
+      "whoIsAtRisk": [
+        "Lelaki berumur lebih 30 tahun",
+        "Wanita selepas menopaus",
+        "Asid urik tinggi",
+        "Berat badan berlebihan",
+        "Tekanan darah tinggi"
+      ],
+      "commonCauses": [
+        "Daging organ & makanan laut",
+        "Bir & alkohol",
+        "Minuman bergula",
+        "Dehidrasi"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Fikirkan bila sakit itu bermula.",
+          "Periksa sama ada sendi itu merah dan panas.",
+          "Ingat apa yang anda makan atau minum pada hari sebelumnya."
+        ],
+        "question": "Adakah ia bermula secara tiba-tiba, dengan kemerahan dan kepanasan, selepas makan besar atau minum alkohol?",
+        "yesResult": "Ini ialah corak gout yang tipikal. Ujian darah asid urik boleh mengesahkannya. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika anda sebaliknya mempunyai benjolan tulang, semak F6 (Bunion)."
+      },
+      "reliefTips": [
+        "Berehat dan angkat kaki",
+        "Tuam sejuk pada sendi",
+        "Minum banyak air",
+        "Periksa tahap asid urik secara berkala"
+      ],
+      "avoid": "Daging organ, bir, minuman manis, diet drastik, dan mengurut atau memanaskan sendi semasa serangan.",
+      "seeDoctorIf": [
+        "Ini serangan pertama anda",
+        "Anda demam",
+        "Serangan terus berulang"
+      ],
+      "warningLine": "Serangan pertama atau demam dengan sendi yang panas? Sila jumpa doktor."
+    },
+    {
+      "code": "F6",
+      "gridLabel": "Benjolan Tulang pada Ibu Jari Kaki",
+      "title": "Bunion",
+      "image": "F6_Bunion.png",
+      "hook": "Benjolan pada ibu jari kaki menyebabkan kasut terasa sakit?",
+      "painLocation": "Bahagian dalam sendi ibu jari kaki",
+      "definition": "Ibu jari kaki secara beransur-ansur condong ke dalam, menolak sendi keluar menjadi benjolan tulang.",
+      "didYouKnow": "Kira-kira 1 daripada 4 orang dewasa mempunyai bunion, dan ia lebih biasa dalam kalangan wanita.",
+      "howItFeels": "Benjolan yang kelihatan dan menjadi merah serta sakit akibat geseran kasut. Ibu jari kaki mungkin condong ke arah atau bertindih dengan jari kaki kedua.",
+      "whoIsAtRisk": [
+        "Wanita",
+        "Sejarah keluarga",
+        "Kasut sempit atau muncung",
+        "Kaki pelat"
+      ],
+      "commonCauses": [
+        "Sejarah keluarga",
+        "Kasut sempit dan muncung",
+        "Kasut tumit tinggi",
+        "Kaki pelat"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Berdiri tanpa kasut di atas lantai yang rata.",
+          "Lihat ke bawah pada ibu jari kaki anda.",
+          "Periksa sudutnya dan sendi di pangkalnya."
+        ],
+        "question": "Adakah ibu jari kaki anda condong ke arah jari kaki kedua, dengan benjolan di pangkalnya?",
+        "yesResult": "Bunion mungkin sedang terbentuk. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika seluruh sendi sebaliknya merah, panas dan bengkak, semak F5 (Gout)."
+      },
+      "reliefTips": [
+        "Kasut dengan ruang jari kaki yang luas",
+        "Pad bunion atau pemisah jari kaki",
+        "Regangan jari kaki"
+      ],
+      "avoid": "Kasut muncung, kasut tumit tinggi dan stoking yang ketat.",
+      "seeDoctorIf": [
+        "Benjolan membesar dengan cepat",
+        "Jari kaki kaku",
+        "Sakit menghalang berjalan harian"
+      ],
+      "warningLine": "Benjolan membesar dengan cepat atau sakit menghalang berjalan harian? Sila jumpa doktor."
+    },
+    {
+      "code": "F7",
+      "gridLabel": "Kaki Kebas / Terbakar",
+      "title": "Neuropati Periferal",
+      "image": "F7_Peripheral_Neuropathy.png",
+      "hook": "Kaki kesemutan, rasa terbakar atau kebas seperti ditusuk jarum?",
+      "painLocation": "Jari kaki dan tapak kaki, biasanya kedua-dua belah kaki",
+      "definition": "Kerosakan pada saraf di kaki, selalunya akibat diabetes, yang menjejaskan deria rasa.",
+      "didYouKnow": "Sehingga separuh daripada pesakit diabetes mengalami kerosakan saraf pada kaki mereka.",
+      "howItFeels": "Kesemutan, rasa terbakar, atau kebas seperti \"berjalan di atas kapas\", selalunya lebih teruk pada waktu malam. Anda mungkin tidak dapat merasakan luka kecil atau air panas.",
+      "whoIsAtRisk": [
+        "Diabetes atau pra-diabetes",
+        "Vitamin B12 rendah",
+        "Penggunaan alkohol berlebihan",
+        "Umur 50 tahun ke atas"
+      ],
+      "commonCauses": [
+        "Diabetes",
+        "Kekurangan vitamin B12",
+        "Peredaran darah yang lemah",
+        "Alkohol"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk dan pejamkan mata.",
+          "Minta seseorang menyentuh jari kaki dan tapak kaki anda dengan lembut menggunakan kapas lidi.",
+          "Katakan setiap kali anda merasakan sentuhan itu."
+        ],
+        "question": "Adakah terdapat bahagian yang anda tidak dapat rasa sentuhan itu?",
+        "yesResult": "Sila dapatkan doktor memeriksa saraf dan gula darah anda. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Deria rasa anda kelihatan normal. Jika kaki anda sebaliknya bengkak, semak F8."
+      },
+      "reliefTips": [
+        "Kawal gula darah anda",
+        "Periksa kaki anda setiap hari menggunakan cermin",
+        "Pakai kasut tertutup yang muat dengan baik"
+      ],
+      "avoid": "Berjalan tanpa kasut, air yang sangat panas atau pad pemanas pada kaki, dan mengabaikan luka kecil.",
+      "seeDoctorIf": [
+        "Sebarang luka tidak sembuh",
+        "Kulit menjadi gelap",
+        "Kebas merebak ke atas"
+      ],
+      "warningLine": "Luka tidak sembuh atau kulit menjadi gelap? Sila jumpa doktor dengan segera.",
+      "deviceCaution": "Deria rasa yang berkurangan bermakna haba atau EMS boleh menyebabkan melecur tanpa disedari. Minta pelanggan merujuk doktor sebelum menggunakan peranti ini."
+    },
+    {
+      "code": "F8",
+      "gridLabel": "Kaki & Buku Lali Bengkak",
+      "title": "Kaki dan Buku Lali Bengkak",
+      "image": "F8_Swollen_Feet_Ankles.png",
+      "hook": "Kasut terasa ketat dan stoking meninggalkan kesan dalam menjelang petang?",
+      "painLocation": "Buku lali, bahagian atas kaki, betis",
+      "definition": "Cecair terkumpul di bahagian bawah badan, menjadikan kaki bengkak, berat dan ketat.",
+      "didYouKnow": "Bengkak pada kedua-dua belah kaki boleh menjadi tanda awal masalah jantung atau buah pinggang.",
+      "howItFeels": "Kaki terasa berat dan ketat menjelang petang dengan kesan stoking yang dalam. Kasut yang muat pada waktu pagi terasa ketat pada waktu malam.",
+      "whoIsAtRisk": [
+        "Kerja yang memerlukan duduk atau berdiri lama",
+        "Penerbangan jarak jauh",
+        "Kehamilan",
+        "Diet tinggi garam",
+        "Masalah jantung, buah pinggang atau vena"
+      ],
+      "commonCauses": [
+        "Duduk lama",
+        "Pengambilan garam yang tinggi",
+        "Perubahan hormon",
+        "Masalah jantung, buah pinggang atau vena"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Tekan ibu jari tangan anda dengan kuat pada tulang kering atau buku lali.",
+          "Tahan selama 5 saat.",
+          "Lepaskan dan perhatikan kulit."
+        ],
+        "question": "Adakah lekukan kekal selepas anda melepaskannya?",
+        "yesResult": "Ini menunjukkan pengumpulan cecair. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Tiada pengumpulan cecair dikesan. Jika kaki anda kesemutan atau terasa kebas, semak F7."
+      },
+      "reliefTips": [
+        "Angkat kaki anda lebih tinggi daripada aras jantung",
+        "Senaman pam buku lali setiap jam",
+        "Kurangkan garam"
+      ],
+      "avoid": "Duduk tidak bergerak selama berjam-jam, makanan diproses yang masin, dan stoking yang ketat.",
+      "seeDoctorIf": [
+        "Hanya satu kaki yang tiba-tiba bengkak, merah dan panas (kemungkinan darah beku)",
+        "Bengkak disertai sesak nafas"
+      ],
+      "warningLine": "Satu kaki tiba-tiba bengkak dan merah, atau bengkak disertai sesak nafas? Dapatkan rawatan segera.",
+      "deviceCaution": "Jangan urut atau gunakan peranti pada kaki yang tiba-tiba bengkak, merah dan panas."
+    }
+  ]
+}
