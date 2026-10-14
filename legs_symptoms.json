@@ -1,0 +1,155 @@
+{
+  "section": {
+    "id": "legs",
+    "codePrefix": "L",
+    "title": "Where do your legs hurt?",
+    "subtitle": "Select one or more areas to get a personalised plan.",
+    "gridImage": "L0_Main_Grid_Legs.png"
+  },
+  "disclaimer": "For education only, not a diagnosis.",
+  "references": "NHS UK, Mayo Clinic, American Academy of Orthopaedic Surgeons (AAOS)",
+  "lastUpdated": "[DATE]",
+  "reviewedBy": "[QUALIFIED REVIEWER]",
+  "migrationNotes": "Old leg cards were renumbered when feet moved to their own section. Old L3 Shin Splints is now L6, old L4 Night Leg Cramps is now L7, old L5 Varicose Veins is now L8. Old L6 Swollen Ankles, L7 Peripheral Neuropathy and L8 Plantar Fasciitis moved to Feet (F8, F7, F1). Old L2 Knee Osteoarthritis is now L3. Foot cramps from the old feet options are covered by L7. 2026-10-14: L7 Night Leg Cramps and L8 Varicose Veins were removed from the legs section at the owner’s request (the owner considers these topics already covered by the Sole / Feet section). The codes L7 and L8 are retired and must not be reused. The L5 self-check 'No' line used to say check L7; it now says to consult a doctor.",
+  "symptoms": [
+    {
+      "code": "L1",
+      "gridLabel": "Buttock to Leg Pain",
+      "title": "Sciatica",
+      "image": "L1_Sciatica.png",
+      "hook": "Pain shooting from your buttock down one leg?",
+      "painLocation": "Buttock, travelling down the back of one leg",
+      "definition": "Irritation or compression of the sciatic nerve, sending pain down the leg.",
+      "didYouKnow": "Sciatica usually affects only one leg at a time.",
+      "howItFeels": "A sharp, burning or electric pain that travels from the lower back or buttock down the back of one leg, sometimes with tingling or numbness. Coughing, sneezing or long sitting can make it worse.",
+      "whoIsAtRisk": ["Office workers", "Drivers", "Age 30–50", "Heavy lifting jobs", "Overweight"],
+      "commonCauses": ["Herniated disc", "Prolonged sitting", "Spinal narrowing", "Tight hip muscles"],
+      "selfCheck": {
+        "steps": ["Lie flat on your back on the floor.", "Keep one knee straight and slowly lift that leg upward.", "Notice where you feel pain as the leg rises."],
+        "question": "Did pain shoot down the back of your leg, below the knee?",
+        "yesResult": "This matches the typical pattern of sciatica (nerve irritation). Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "Your pain may be muscle-related. If it is on the outer thigh, check L2."
+      },
+      "reliefTips": ["Stay gently active and walk short distances", "Hip and lower-back stretches", "Get up and move every 30 minutes when sitting"],
+      "avoid": "Sitting for long hours, heavy lifting, bending and twisting at the same time, and a wallet in your back pocket.",
+      "seeDoctorIf": ["Numbness around the groin or buttocks", "Loss of bladder or bowel control", "Leg weakness that is getting worse"],
+      "warningLine": "Numb groin or loss of bladder control? Seek urgent medical care."
+    },
+    {
+      "code": "L2",
+      "gridLabel": "Outer Thigh / Hip Pain",
+      "title": "IT Band Syndrome",
+      "image": "L2_IT_Band_Syndrome.png",
+      "hook": "Outer knee or thigh aches after running or walking?",
+      "painLocation": "Outside of the thigh, down to the outer knee",
+      "definition": "Irritation of the iliotibial (IT) band, a thick band of tissue running down the outside of the thigh to the knee.",
+      "didYouKnow": "IT band syndrome is one of the most common causes of outer knee pain in runners.",
+      "howItFeels": "An aching or burning pain on the outside of the knee or thigh that starts during a run or walk and gets worse with time, especially going downhill or down stairs.",
+      "whoIsAtRisk": ["Runners and cyclists", "Hikers", "Sudden increase in training", "Weak hip muscles"],
+      "commonCauses": ["Overuse from running", "Running downhill", "Weak hip muscles", "Worn-out shoes"],
+      "selfCheck": {
+        "steps": ["Stand and place your fingers on the outside of your knee, just above the joint.", "Press firmly.", "Slowly bend and straighten the knee while pressing."],
+        "question": "Did you feel pain on the outside of your knee?",
+        "yesResult": "This matches the typical pattern of IT band syndrome. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the pain is at the front of the knee, check L3. If it is on the inner side, check L4."
+      },
+      "reliefTips": ["Rest from running for a few days", "Hip strengthening exercises", "Gentle stretches for the outer thigh"],
+      "avoid": "Running downhill, running on cambered roads, and pushing through pain.",
+      "seeDoctorIf": ["Pain continues after 2–3 weeks of rest", "The knee is swollen or gives way"],
+      "warningLine": "Knee swollen or giving way? Please consult a doctor first."
+    },
+    {
+      "code": "L3",
+      "gridLabel": "Front Knee Pain",
+      "title": "Knee Osteoarthritis",
+      "image": "L3_Knee_Osteoarthritis.png",
+      "hook": "Knee aches climbing stairs or standing up?",
+      "painLocation": "Front and inner knee, around the kneecap",
+      "definition": "Gradual wear of knee cartilage, causing pain, stiffness and swelling.",
+      "didYouKnow": "Knee osteoarthritis is one of the most common causes of knee pain in adults over 50.",
+      "howItFeels": "Aching around the knee that is worse with stairs, squatting or getting up from a chair. The knee may feel stiff in the morning for a short while, and you may feel grinding or creaking.",
+      "whoIsAtRisk": ["Age 45+", "Overweight", "Past knee injury", "Women after menopause", "Weak thigh muscles"],
+      "commonCauses": ["Ageing", "Excess weight", "Past knee injury", "Weak thigh muscles"],
+      "selfCheck": {
+        "steps": ["Place your hand lightly over your kneecap.", "Slowly bend into a half squat, then stand up.", "Feel and listen while you move."],
+        "question": "Did you feel grinding or creaking, with aching around the kneecap?",
+        "yesResult": "This matches the typical pattern of knee osteoarthritis. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If your knee clicks or locks after a twist, check L4. If there is a lump behind the knee, check L5."
+      },
+      "reliefTips": ["Strengthen your thigh muscles", "Low-impact exercise like swimming or cycling", "Keep a healthy weight"],
+      "avoid": "Deep squatting, kneeling for long periods, and walking downhill or down many stairs.",
+      "seeDoctorIf": ["The knee is hot, red and very swollen", "You cannot bear weight", "Pain wakes you at night"],
+      "warningLine": "Hot, red, very swollen knee? Please consult a doctor first."
+    },
+    {
+      "code": "L4",
+      "gridLabel": "Inner Knee Pain",
+      "title": "Meniscus Injury",
+      "image": "L4_Meniscus_Injury.png",
+      "hook": "Knee clicks or locks after a twist?",
+      "painLocation": "Inner side of the knee, along the joint line",
+      "definition": "A tear in the C-shaped cartilage cushion (meniscus) between the thigh and shin bones.",
+      "didYouKnow": "Each knee has two C-shaped meniscus cushions that absorb shock between the thigh and shin bones.",
+      "howItFeels": "Pain on the inner side of the knee, swelling over a day or two, and a clicking, catching or locking feeling. The knee may feel like it gives way.",
+      "whoIsAtRisk": ["Sports with twisting (football, badminton, basketball)", "Age 40+", "Deep squatting jobs"],
+      "commonCauses": ["Twisting the knee while the foot is planted", "Deep squatting", "Age-related wear", "Sports injury"],
+      "selfCheck": {
+        "steps": ["Sit with your knee bent.", "Press along the inner edge of the knee joint, where the thigh and shin bones meet.", "Slowly straighten and bend the knee."],
+        "question": "Did you feel pain on the inner joint line, or a click or catch when moving?",
+        "yesResult": "This matches the typical pattern of a meniscus injury. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the pain is around the kneecap, check L3."
+      },
+      "reliefTips": ["Rest and avoid twisting movements", "Ice for 15 minutes a few times a day", "Gentle range-of-motion exercises"],
+      "avoid": "Deep squats, pivoting or twisting sports, and kneeling.",
+      "seeDoctorIf": ["The knee locks and won't straighten", "Swelling appears quickly after an injury", "The knee keeps giving way"],
+      "warningLine": "Knee locked or won't straighten? See a doctor."
+    },
+    {
+      "code": "L5",
+      "gridLabel": "Back of Knee Pain",
+      "title": "Baker's Cyst",
+      "image": "L5_Bakers_Cyst.png",
+      "hook": "Tight swelling or a lump behind your knee?",
+      "painLocation": "Back of the knee",
+      "definition": "A fluid-filled swelling behind the knee, usually caused by another knee problem.",
+      "didYouKnow": "A Baker's cyst is usually a sign of another knee problem, such as arthritis or a meniscus tear.",
+      "howItFeels": "A tight, full feeling or soft lump behind the knee, more noticeable when standing straight. The knee may feel stiff when fully bending or straightening.",
+      "whoIsAtRisk": ["Knee osteoarthritis", "Past meniscus tear", "Rheumatoid arthritis", "Age 40+"],
+      "commonCauses": ["Knee arthritis", "Meniscus tear", "Knee inflammation", "Overuse"],
+      "selfCheck": {
+        "steps": ["Stand up straight.", "Gently feel the back of your knee.", "Then bend the knee and feel again."],
+        "question": "Is there a soft lump that feels firmer when standing and softer when bent?",
+        "yesResult": "This matches the typical pattern of a Baker's cyst. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If you have calf pain without a lump, please consult a doctor."
+      },
+      "reliefTips": ["Rest the knee", "Ice pack for 15 minutes", "Treat the underlying knee problem"],
+      "avoid": "Deep squatting, high-impact exercise, and kneeling for long periods.",
+      "seeDoctorIf": ["Sudden calf swelling, redness or warmth (possible burst cyst or blood clot)", "The lump grows quickly", "Severe pain behind the knee"],
+      "warningLine": "Sudden calf swelling and redness? Seek urgent care.",
+      "deviceCaution": "Do not massage or use the device on the calf if it is suddenly swollen, red or warm."
+    },
+    {
+      "code": "L6",
+      "gridLabel": "Shin Pain",
+      "title": "Shin Splints",
+      "image": "L6_Shin_Splints.png",
+      "hook": "Shins ache after running or long walks?",
+      "painLocation": "Along the inner edge of the shin bone",
+      "definition": "Overuse strain of the muscles and tissue around the shin bone.",
+      "didYouKnow": "Shin splints are common in new runners who increase their distance too quickly.",
+      "howItFeels": "A dull ache along the inner edge of the shin during or after exercise. The area may feel tender to touch.",
+      "whoIsAtRisk": ["New runners", "Sudden increase in training", "Flat feet", "Hard surfaces"],
+      "commonCauses": ["Sudden increase in running", "Hard surfaces", "Flat feet", "Worn-out shoes"],
+      "selfCheck": {
+        "steps": ["Sit down and relax your leg.", "Run your fingers firmly down the inner edge of your shin bone.", "Note where it feels tender."],
+        "question": "Is the tenderness spread along a long stretch (5 cm or more)?",
+        "yesResult": "This matches the typical pattern of shin splints. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "Pain at one exact spot could be a stress fracture. Please see a doctor before exercising."
+      },
+      "reliefTips": ["Rest and ice", "Increase training gradually", "Supportive running shoes"],
+      "avoid": "Running through pain, hard concrete surfaces, and big jumps in distance.",
+      "seeDoctorIf": ["Sharp pain at one exact spot", "Pain even when resting", "Swelling that does not go down"],
+      "warningLine": "Sharp pain at one exact spot? Could be a stress fracture – see a doctor."
+    }
+  ]
+}

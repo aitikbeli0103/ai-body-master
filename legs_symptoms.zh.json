@@ -1,0 +1,287 @@
+{
+  "section": {
+    "id": "legs",
+    "codePrefix": "L",
+    "title": "你的腿哪里痛？",
+    "subtitle": "可选择一个或多个部位，获取专属方案。",
+    "gridImage": "L0_Main_Grid_Legs.png"
+  },
+  "disclaimer": "仅供健康教育参考，并非诊断。",
+  "references": "NHS UK（英国国家医疗服务体系）、Mayo Clinic（梅奥诊所）、American Academy of Orthopaedic Surgeons（AAOS，美国骨科医师学会）",
+  "lastUpdated": "[DATE]",
+  "reviewedBy": "[QUALIFIED REVIEWER]",
+  "migrationNotes": "Old leg cards were renumbered when feet moved to their own section. Old L3 Shin Splints is now L6, old L4 Night Leg Cramps is now L7, old L5 Varicose Veins is now L8. Old L6 Swollen Ankles, L7 Peripheral Neuropathy and L8 Plantar Fasciitis moved to Feet (F8, F7, F1). Old L2 Knee Osteoarthritis is now L3. Foot cramps from the old feet options are covered by L7. 2026-10-14: L7 Night Leg Cramps and L8 Varicose Veins were removed from the legs section at the owner’s request (the owner considers these topics already covered by the Sole / Feet section). The codes L7 and L8 are retired and must not be reused. The L5 self-check 'No' line used to say check L7; it now says to consult a doctor.",
+  "symptoms": [
+    {
+      "code": "L1",
+      "gridLabel": "臀部至腿部痛",
+      "title": "坐骨神经痛",
+      "image": "L1_Sciatica.png",
+      "hook": "疼痛从臀部一直放射到一条腿上？",
+      "painLocation": "臀部，沿着一条腿的后侧向下延伸",
+      "definition": "坐骨神经受到刺激或压迫，导致疼痛沿腿部向下传导。",
+      "didYouKnow": "坐骨神经痛通常一次只影响一条腿。",
+      "howItFeels": "尖锐、灼热或触电般的疼痛，从下背部或臀部沿着一条腿的后侧向下传导，有时伴有刺痛或麻木。咳嗽、打喷嚏或久坐会使疼痛加重。",
+      "whoIsAtRisk": [
+        "上班族",
+        "司机",
+        "30–50 岁",
+        "需要搬重物的工作",
+        "超重"
+      ],
+      "commonCauses": [
+        "椎间盘突出",
+        "久坐",
+        "椎管狭窄",
+        "髋部肌肉紧绷"
+      ],
+      "selfCheck": {
+        "steps": [
+          "平躺在地板上。",
+          "保持一侧膝盖伸直，缓慢将那条腿向上抬起。",
+          "留意腿抬起时哪里会感到疼痛。"
+        ],
+        "question": "疼痛是否沿着腿后侧一直放射到膝盖以下？",
+        "yesResult": "这符合坐骨神经痛（神经受刺激）的典型表现。点击“我有这个症状”将其加入你的方案。",
+        "noResult": "你的疼痛可能与肌肉有关。如果疼痛在大腿外侧，请查看 L2。"
+      },
+      "reliefTips": [
+        "保持轻柔活动，短距离步行",
+        "拉伸髋部和下背部",
+        "久坐时每 30 分钟起身活动一次"
+      ],
+      "avoid": "久坐、搬重物、同时弯腰和扭转身体，以及把钱包放在后裤袋里。",
+      "seeDoctorIf": [
+        "腹股沟或臀部周围麻木",
+        "大小便失控",
+        "腿部无力越来越严重"
+      ],
+      "warningLine": "腹股沟麻木或无法控制排尿？请立即就医。"
+    },
+    {
+      "code": "L2",
+      "gridLabel": "大腿外侧 / 髋部痛",
+      "title": "髂胫束综合征",
+      "image": "L2_IT_Band_Syndrome.png",
+      "hook": "跑步或走路后，膝盖外侧或大腿酸痛？",
+      "painLocation": "大腿外侧，一直到膝盖外侧",
+      "definition": "髂胫束（IT 带）受到刺激发炎，它是沿大腿外侧延伸至膝盖的一条厚实组织带。",
+      "didYouKnow": "髂胫束综合征是跑步者膝盖外侧疼痛最常见的原因之一。",
+      "howItFeels": "膝盖或大腿外侧出现酸痛或灼热感，在跑步或走路过程中开始，并随时间加重，下坡或下楼梯时尤其明显。",
+      "whoIsAtRisk": [
+        "跑步者和骑行者",
+        "徒步者",
+        "训练量突然增加",
+        "髋部肌肉无力"
+      ],
+      "commonCauses": [
+        "跑步过度使用",
+        "下坡跑",
+        "髋部肌肉无力",
+        "鞋子磨损"
+      ],
+      "selfCheck": {
+        "steps": [
+          "站立，将手指放在膝盖外侧，关节上方一点的位置。",
+          "用力按压。",
+          "按压的同时，缓慢弯曲和伸直膝盖。"
+        ],
+        "question": "你的膝盖外侧有疼痛感吗？",
+        "yesResult": "这符合髂胫束综合征的典型表现。点击“我有这个症状”将其加入你的方案。",
+        "noResult": "如果疼痛在膝盖前侧，请查看 L3；如果在内侧，请查看 L4。"
+      },
+      "reliefTips": [
+        "暂停跑步几天",
+        "髋部力量训练",
+        "轻柔拉伸大腿外侧"
+      ],
+      "avoid": "下坡跑、在倾斜路面上跑步，以及忍痛硬撑。",
+      "seeDoctorIf": [
+        "休息 2–3 周后疼痛仍持续",
+        "膝盖肿胀或感觉会突然打软"
+      ],
+      "warningLine": "膝盖肿胀或突然打软？请先咨询医生。"
+    },
+    {
+      "code": "L3",
+      "gridLabel": "膝盖前侧痛",
+      "title": "膝关节骨关节炎",
+      "image": "L3_Knee_Osteoarthritis.png",
+      "hook": "爬楼梯或从座位站起来时，膝盖酸痛？",
+      "painLocation": "膝盖前侧和内侧，髌骨周围",
+      "definition": "膝关节软骨逐渐磨损，导致疼痛、僵硬和肿胀。",
+      "didYouKnow": "膝关节骨关节炎是 50 岁以上成年人膝盖疼痛最常见的原因之一。",
+      "howItFeels": "膝盖周围酸痛，上下楼梯、深蹲或从椅子上站起来时更明显。早上膝盖可能会僵硬一小会儿，也可能感到摩擦或发出嘎吱声。",
+      "whoIsAtRisk": [
+        "45 岁以上",
+        "超重",
+        "曾有膝盖受伤史",
+        "绝经后女性",
+        "大腿肌肉无力"
+      ],
+      "commonCauses": [
+        "衰老",
+        "体重过重",
+        "曾有膝盖受伤史",
+        "大腿肌肉无力"
+      ],
+      "selfCheck": {
+        "steps": [
+          "将手轻轻放在髌骨上。",
+          "缓慢弯曲成半蹲，然后站起来。",
+          "活动时留意手感和声音。"
+        ],
+        "question": "你是否感觉到摩擦或嘎吱声，并伴有髌骨周围的酸痛？",
+        "yesResult": "这符合膝关节骨关节炎的典型表现。点击“我有这个症状”将其加入你的方案。",
+        "noResult": "如果扭转后膝盖弹响或卡住，请查看 L4；如果膝盖后方有肿块，请查看 L5。"
+      },
+      "reliefTips": [
+        "加强大腿肌肉力量",
+        "游泳或骑自行车等低冲击运动",
+        "保持健康体重"
+      ],
+      "avoid": "深蹲、长时间下跪，以及走下坡路或下很多级楼梯。",
+      "seeDoctorIf": [
+        "膝盖发热、发红且肿得很厉害",
+        "无法承重",
+        "疼痛在夜间将你痛醒"
+      ],
+      "warningLine": "膝盖发热、发红、肿得很厉害？请先咨询医生。"
+    },
+    {
+      "code": "L4",
+      "gridLabel": "膝盖内侧痛",
+      "title": "半月板损伤",
+      "image": "L4_Meniscus_Injury.png",
+      "hook": "扭转后膝盖弹响或卡住？",
+      "painLocation": "膝盖内侧，沿着关节线",
+      "definition": "大腿骨与小腿骨之间的 C 形软骨垫（半月板）发生撕裂。",
+      "didYouKnow": "每个膝盖都有两块 C 形半月板软骨垫，在大腿骨与小腿骨之间吸收冲击。",
+      "howItFeels": "膝盖内侧疼痛，一两天内逐渐肿胀，并有弹响、卡住或被锁住的感觉。膝盖可能会感觉突然打软。",
+      "whoIsAtRisk": [
+        "需要扭转的运动（足球、羽毛球、篮球）",
+        "40 岁以上",
+        "需要经常深蹲的工作"
+      ],
+      "commonCauses": [
+        "脚固定时扭转膝盖",
+        "深蹲",
+        "年龄相关的退化",
+        "运动损伤"
+      ],
+      "selfCheck": {
+        "steps": [
+          "坐下，膝盖弯曲。",
+          "沿着膝关节内侧边缘，大腿骨与小腿骨相接的地方按压。",
+          "缓慢伸直和弯曲膝盖。"
+        ],
+        "question": "你在活动时，内侧关节线有疼痛，或感觉到弹响、卡住吗？",
+        "yesResult": "这符合半月板损伤的典型表现。点击“我有这个症状”将其加入你的方案。",
+        "noResult": "如果疼痛在髌骨周围，请查看 L3。"
+      },
+      "reliefTips": [
+        "休息，避免扭转动作",
+        "每天冰敷几次，每次 15 分钟",
+        "轻柔的关节活动度练习"
+      ],
+      "avoid": "深蹲、需要转身或扭转的运动，以及下跪。",
+      "seeDoctorIf": [
+        "膝盖卡住，无法伸直",
+        "受伤后迅速出现肿胀",
+        "膝盖不断打软"
+      ],
+      "warningLine": "膝盖卡住或无法伸直？请看医生。"
+    },
+    {
+      "code": "L5",
+      "gridLabel": "膝盖后侧痛",
+      "title": "腘窝囊肿（贝克氏囊肿）",
+      "image": "L5_Bakers_Cyst.png",
+      "hook": "膝盖后面发紧肿胀，或有个肿块？",
+      "painLocation": "膝盖后侧",
+      "definition": "膝盖后方充满液体的肿胀，通常由其他膝关节问题引起。",
+      "didYouKnow": "贝克氏囊肿通常是其他膝关节问题的信号，例如关节炎或半月板撕裂。",
+      "howItFeels": "膝盖后方有紧绷、胀满感，或摸到柔软的肿块，站直时更明显。完全弯曲或伸直膝盖时可能感到僵硬。",
+      "whoIsAtRisk": [
+        "膝关节骨关节炎",
+        "曾有半月板撕裂",
+        "类风湿关节炎",
+        "40 岁以上"
+      ],
+      "commonCauses": [
+        "膝关节炎",
+        "半月板撕裂",
+        "膝关节发炎",
+        "过度使用"
+      ],
+      "selfCheck": {
+        "steps": [
+          "站直。",
+          "轻轻触摸膝盖后方。",
+          "然后弯曲膝盖，再触摸一次。"
+        ],
+        "question": "是否有一个柔软的肿块，站立时摸起来更硬，弯曲时更软？",
+        "yesResult": "这符合贝克氏囊肿的典型表现。点击“我有这个症状”将其加入你的方案。",
+        "noResult": "如果小腿疼痛但没有肿块，请咨询医生。"
+      },
+      "reliefTips": [
+        "让膝盖休息",
+        "冰敷 15 分钟",
+        "处理潜在的膝关节问题"
+      ],
+      "avoid": "深蹲、高冲击运动，以及长时间下跪。",
+      "seeDoctorIf": [
+        "小腿突然肿胀、发红或发热（可能是囊肿破裂或血栓）",
+        "肿块迅速变大",
+        "膝盖后方剧烈疼痛"
+      ],
+      "warningLine": "小腿突然肿胀发红？请立即就医。",
+      "deviceCaution": "如果小腿突然肿胀、发红或发热，请勿对小腿进行按摩或使用本仪器。"
+    },
+    {
+      "code": "L6",
+      "gridLabel": "小腿前侧痛",
+      "title": "胫骨内侧应力综合征（胫痛）",
+      "image": "L6_Shin_Splints.png",
+      "hook": "跑步或长时间步行后，小腿前侧酸痛？",
+      "painLocation": "沿着胫骨内侧边缘",
+      "definition": "胫骨周围的肌肉和组织因过度使用而劳损。",
+      "didYouKnow": "胫痛在刚开始跑步、又过快增加跑步距离的人中很常见。",
+      "howItFeels": "运动期间或运动后，沿着胫骨内侧边缘隐隐作痛，按压该处可能有压痛。",
+      "whoIsAtRisk": [
+        "刚开始跑步的人",
+        "训练量突然增加",
+        "扁平足",
+        "坚硬的地面"
+      ],
+      "commonCauses": [
+        "跑步量突然增加",
+        "坚硬的地面",
+        "扁平足",
+        "鞋子磨损"
+      ],
+      "selfCheck": {
+        "steps": [
+          "坐下，放松腿部。",
+          "用手指沿着胫骨内侧边缘用力向下滑动按压。",
+          "留意哪里有压痛。"
+        ],
+        "question": "压痛是否沿着一长段分布（5 厘米或以上）？",
+        "yesResult": "这符合胫痛的典型表现。点击“我有这个症状”将其加入你的方案。",
+        "noResult": "骨头上某一个固定点疼痛，可能是应力性骨折。运动前请先看医生。"
+      },
+      "reliefTips": [
+        "休息和冰敷",
+        "循序渐进地增加训练量",
+        "有支撑的跑鞋"
+      ],
+      "avoid": "忍痛继续跑步、坚硬的水泥地面，以及一下子大幅增加距离。",
+      "seeDoctorIf": [
+        "骨头上某一个固定点出现尖锐疼痛",
+        "休息时也疼痛",
+        "肿胀不消退"
+      ],
+      "warningLine": "某一个固定点尖锐疼痛？可能是应力性骨折，请看医生。"
+    }
+  ]
+}

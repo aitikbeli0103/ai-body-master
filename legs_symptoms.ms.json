@@ -1,0 +1,287 @@
+{
+  "section": {
+    "id": "legs",
+    "codePrefix": "L",
+    "title": "Di mana tungkai anda sakit?",
+    "subtitle": "Pilih satu atau lebih bahagian untuk mendapatkan pelan peribadi.",
+    "gridImage": "L0_Main_Grid_Legs.png"
+  },
+  "disclaimer": "Hanya untuk pendidikan, bukan diagnosis.",
+  "references": "NHS UK, Mayo Clinic, American Academy of Orthopaedic Surgeons (AAOS)",
+  "lastUpdated": "[DATE]",
+  "reviewedBy": "[QUALIFIED REVIEWER]",
+  "migrationNotes": "Old leg cards were renumbered when feet moved to their own section. Old L3 Shin Splints is now L6, old L4 Night Leg Cramps is now L7, old L5 Varicose Veins is now L8. Old L6 Swollen Ankles, L7 Peripheral Neuropathy and L8 Plantar Fasciitis moved to Feet (F8, F7, F1). Old L2 Knee Osteoarthritis is now L3. Foot cramps from the old feet options are covered by L7. 2026-10-14: L7 Night Leg Cramps and L8 Varicose Veins were removed from the legs section at the owner’s request (the owner considers these topics already covered by the Sole / Feet section). The codes L7 and L8 are retired and must not be reused. The L5 self-check 'No' line used to say check L7; it now says to consult a doctor.",
+  "symptoms": [
+    {
+      "code": "L1",
+      "gridLabel": "Sakit Pinggul ke Kaki",
+      "title": "Sciatica",
+      "image": "L1_Sciatica.png",
+      "hook": "Sakit menjalar dari pinggul ke bawah satu kaki anda?",
+      "painLocation": "Pinggul, menjalar ke bawah di bahagian belakang satu kaki",
+      "definition": "Kerengsaan atau tekanan pada saraf sciatic, menyebabkan sakit menjalar ke bawah kaki.",
+      "didYouKnow": "Sciatica biasanya hanya menjejaskan satu kaki pada satu masa.",
+      "howItFeels": "Sakit tajam, seperti terbakar atau seperti renjatan elektrik yang menjalar dari bahagian bawah belakang atau pinggul ke bawah di bahagian belakang satu kaki, kadangkala disertai kesemutan atau kebas. Batuk, bersin atau duduk lama boleh menjadikannya lebih teruk.",
+      "whoIsAtRisk": [
+        "Pekerja pejabat",
+        "Pemandu",
+        "Umur 30–50 tahun",
+        "Kerja mengangkat barang berat",
+        "Berat badan berlebihan"
+      ],
+      "commonCauses": [
+        "Cakera tulang belakang tergelincir",
+        "Duduk terlalu lama",
+        "Penyempitan tulang belakang",
+        "Otot pinggul tegang"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Baring telentang di atas lantai.",
+          "Luruskan satu lutut dan angkat kaki itu ke atas perlahan-lahan.",
+          "Perhatikan di mana anda rasa sakit semasa kaki diangkat."
+        ],
+        "question": "Adakah sakit menjalar ke bawah di belakang kaki anda, melepasi lutut?",
+        "yesResult": "Ini sepadan dengan corak tipikal sciatica (kerengsaan saraf). Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Sakit anda mungkin berkaitan dengan otot. Jika ia di bahagian luar paha, semak L2."
+      },
+      "reliefTips": [
+        "Kekal aktif secara lembut dan berjalan jarak dekat",
+        "Regangan pinggul dan bahagian bawah belakang",
+        "Bangun dan bergerak setiap 30 minit apabila duduk"
+      ],
+      "avoid": "Duduk berjam-jam, mengangkat barang berat, membongkok dan memusing badan pada masa yang sama, dan menyimpan dompet di poket belakang.",
+      "seeDoctorIf": [
+        "Kebas di sekitar lipat paha atau pinggul",
+        "Hilang kawalan pundi kencing atau usus",
+        "Kelemahan pada kaki semakin teruk"
+      ],
+      "warningLine": "Kebas pada lipat paha atau hilang kawalan pundi kencing? Dapatkan rawatan perubatan segera."
+    },
+    {
+      "code": "L2",
+      "gridLabel": "Sakit Paha Luar / Pinggul",
+      "title": "Sindrom Jalur Iliotibial (IT Band)",
+      "image": "L2_IT_Band_Syndrome.png",
+      "hook": "Lutut luar atau paha sakit selepas berlari atau berjalan?",
+      "painLocation": "Bahagian luar paha, hingga ke bahagian luar lutut",
+      "definition": "Kerengsaan pada jalur iliotibial (IT), iaitu jalur tisu tebal yang menurun di sebelah luar paha hingga ke lutut.",
+      "didYouKnow": "Sindrom jalur iliotibial ialah salah satu punca paling biasa sakit di bahagian luar lutut dalam kalangan pelari.",
+      "howItFeels": "Sakit lenguh atau seperti terbakar di bahagian luar lutut atau paha yang bermula semasa berlari atau berjalan dan bertambah teruk dari semasa ke semasa, terutamanya semasa menuruni cerun atau tangga.",
+      "whoIsAtRisk": [
+        "Pelari dan penunggang basikal",
+        "Pendaki",
+        "Peningkatan latihan secara mendadak",
+        "Otot pinggul lemah"
+      ],
+      "commonCauses": [
+        "Penggunaan berlebihan akibat berlari",
+        "Berlari menuruni cerun",
+        "Otot pinggul lemah",
+        "Kasut yang sudah haus"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Berdiri dan letakkan jari anda di bahagian luar lutut, sedikit di atas sendi.",
+          "Tekan dengan kuat.",
+          "Bengkokkan dan luruskan lutut perlahan-lahan sambil menekan."
+        ],
+        "question": "Adakah anda rasa sakit di bahagian luar lutut anda?",
+        "yesResult": "Ini sepadan dengan corak tipikal sindrom jalur iliotibial. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika sakit di bahagian depan lutut, semak L3. Jika di bahagian dalam, semak L4."
+      },
+      "reliefTips": [
+        "Berehat daripada berlari selama beberapa hari",
+        "Senaman menguatkan otot pinggul",
+        "Regangan lembut untuk paha luar"
+      ],
+      "avoid": "Berlari menuruni cerun, berlari di jalan yang condong, dan memaksa diri walaupun sakit.",
+      "seeDoctorIf": [
+        "Sakit berterusan selepas 2–3 minggu berehat",
+        "Lutut bengkak atau terasa lemah mendadak"
+      ],
+      "warningLine": "Lutut bengkak atau terasa lemah mendadak? Sila rujuk doktor dahulu."
+    },
+    {
+      "code": "L3",
+      "gridLabel": "Sakit Lutut Depan",
+      "title": "Osteoartritis Lutut",
+      "image": "L3_Knee_Osteoarthritis.png",
+      "hook": "Lutut sakit apabila menaiki tangga atau bangun berdiri?",
+      "painLocation": "Bahagian depan dan dalam lutut, sekitar tempurung lutut",
+      "definition": "Haus beransur-ansur pada rawan lutut, menyebabkan sakit, kekakuan dan bengkak.",
+      "didYouKnow": "Osteoartritis lutut ialah salah satu punca paling biasa sakit lutut dalam kalangan orang dewasa berumur lebih 50 tahun.",
+      "howItFeels": "Sakit lenguh di sekitar lutut yang bertambah teruk apabila menaiki tangga, mencangkung atau bangun dari kerusi. Lutut mungkin terasa kaku seketika pada waktu pagi, dan anda mungkin rasa bergesel atau berbunyi.",
+      "whoIsAtRisk": [
+        "Umur 45 tahun ke atas",
+        "Berat badan berlebihan",
+        "Pernah cedera lutut",
+        "Wanita selepas menopaus",
+        "Otot paha lemah"
+      ],
+      "commonCauses": [
+        "Penuaan",
+        "Berat badan berlebihan",
+        "Pernah cedera lutut",
+        "Otot paha lemah"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Letakkan tangan anda dengan lembut di atas tempurung lutut.",
+          "Bengkokkan badan perlahan-lahan ke posisi separuh mencangkung, kemudian berdiri.",
+          "Rasa dan dengar semasa anda bergerak."
+        ],
+        "question": "Adakah anda rasa bergesel atau terdengar bunyi, disertai sakit lenguh di sekitar tempurung lutut?",
+        "yesResult": "Ini sepadan dengan corak tipikal osteoartritis lutut. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika lutut berbunyi atau tersekat selepas terpusing, semak L4. Jika ada ketulan di belakang lutut, semak L5."
+      },
+      "reliefTips": [
+        "Kuatkan otot paha anda",
+        "Senaman berimpak rendah seperti berenang atau berbasikal",
+        "Kekalkan berat badan yang sihat"
+      ],
+      "avoid": "Mencangkung dalam, melutut lama, dan berjalan menuruni cerun atau banyak anak tangga.",
+      "seeDoctorIf": [
+        "Lutut panas, merah dan sangat bengkak",
+        "Anda tidak dapat menahan berat badan",
+        "Sakit membuatkan anda terjaga pada waktu malam"
+      ],
+      "warningLine": "Lutut panas, merah dan sangat bengkak? Sila rujuk doktor dahulu."
+    },
+    {
+      "code": "L4",
+      "gridLabel": "Sakit Lutut Dalam",
+      "title": "Kecederaan Meniskus",
+      "image": "L4_Meniscus_Injury.png",
+      "hook": "Lutut berbunyi atau tersekat selepas terpusing?",
+      "painLocation": "Bahagian dalam lutut, di sepanjang garis sendi",
+      "definition": "Koyakan pada kusyen rawan berbentuk C (meniskus) di antara tulang paha dan tulang kering.",
+      "didYouKnow": "Setiap lutut mempunyai dua kusyen meniskus berbentuk C yang menyerap hentakan di antara tulang paha dan tulang kering.",
+      "howItFeels": "Sakit di bahagian dalam lutut, bengkak dalam masa sehari dua, dan rasa berbunyi, tersangkut atau tersekat. Lutut mungkin terasa seperti hendak lemah.",
+      "whoIsAtRisk": [
+        "Sukan yang melibatkan pusingan (bola sepak, badminton, bola keranjang)",
+        "Umur 40 tahun ke atas",
+        "Kerja yang melibatkan mencangkung dalam"
+      ],
+      "commonCauses": [
+        "Memusingkan lutut ketika kaki terpacak",
+        "Mencangkung dalam",
+        "Haus akibat usia",
+        "Kecederaan sukan"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk dengan lutut bengkok.",
+          "Tekan di sepanjang tepi dalam sendi lutut, di tempat tulang paha dan tulang kering bertemu.",
+          "Luruskan dan bengkokkan lutut perlahan-lahan."
+        ],
+        "question": "Adakah anda rasa sakit pada garis sendi dalam, atau rasa berbunyi atau tersangkut semasa bergerak?",
+        "yesResult": "Ini sepadan dengan corak tipikal kecederaan meniskus. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika sakit di sekitar tempurung lutut, semak L3."
+      },
+      "reliefTips": [
+        "Berehat dan elakkan pergerakan memusing",
+        "Tuam sejuk selama 15 minit beberapa kali sehari",
+        "Senaman julat pergerakan yang lembut"
+      ],
+      "avoid": "Mencangkung dalam, sukan yang melibatkan pusingan atau memutar badan, dan melutut.",
+      "seeDoctorIf": [
+        "Lutut tersekat dan tidak dapat diluruskan",
+        "Bengkak muncul dengan cepat selepas kecederaan",
+        "Lutut terus-menerus lemah"
+      ],
+      "warningLine": "Lutut tersekat atau tidak boleh diluruskan? Sila jumpa doktor."
+    },
+    {
+      "code": "L5",
+      "gridLabel": "Sakit Belakang Lutut",
+      "title": "Sista Baker",
+      "image": "L5_Bakers_Cyst.png",
+      "hook": "Bengkak tegang atau ketulan di belakang lutut anda?",
+      "painLocation": "Bahagian belakang lutut",
+      "definition": "Bengkak berisi cecair di belakang lutut, biasanya disebabkan oleh masalah lutut yang lain.",
+      "didYouKnow": "Sista Baker biasanya petanda masalah lutut yang lain, seperti artritis atau koyakan meniskus.",
+      "howItFeels": "Rasa tegang dan penuh atau ketulan lembut di belakang lutut, lebih ketara apabila berdiri tegak. Lutut mungkin terasa kaku apabila dibengkokkan atau diluruskan sepenuhnya.",
+      "whoIsAtRisk": [
+        "Osteoartritis lutut",
+        "Pernah mengalami koyakan meniskus",
+        "Artritis reumatoid",
+        "Umur 40 tahun ke atas"
+      ],
+      "commonCauses": [
+        "Artritis lutut",
+        "Koyakan meniskus",
+        "Keradangan lutut",
+        "Penggunaan berlebihan"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Berdiri tegak.",
+          "Raba perlahan-lahan bahagian belakang lutut anda.",
+          "Kemudian bengkokkan lutut dan raba sekali lagi."
+        ],
+        "question": "Adakah terdapat ketulan lembut yang terasa lebih keras apabila berdiri dan lebih lembut apabila dibengkokkan?",
+        "yesResult": "Ini sepadan dengan corak tipikal sista Baker. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika anda sakit betis tanpa ketulan, sila rujuk doktor."
+      },
+      "reliefTips": [
+        "Rehatkan lutut",
+        "Tuam sejuk selama 15 minit",
+        "Rawat masalah lutut yang mendasarinya"
+      ],
+      "avoid": "Mencangkung dalam, senaman berimpak tinggi, dan melutut dalam tempoh yang lama.",
+      "seeDoctorIf": [
+        "Betis tiba-tiba bengkak, merah atau panas (mungkin sista pecah atau darah beku)",
+        "Ketulan membesar dengan cepat",
+        "Sakit teruk di belakang lutut"
+      ],
+      "warningLine": "Betis tiba-tiba bengkak dan merah? Dapatkan rawatan segera.",
+      "deviceCaution": "Jangan urut atau gunakan peranti pada betis jika ia tiba-tiba bengkak, merah atau panas."
+    },
+    {
+      "code": "L6",
+      "gridLabel": "Sakit Tulang Kering",
+      "title": "Shin Splints",
+      "image": "L6_Shin_Splints.png",
+      "hook": "Tulang kering sakit selepas berlari atau berjalan jauh?",
+      "painLocation": "Di sepanjang tepi dalam tulang kering",
+      "definition": "Tegangan akibat penggunaan berlebihan pada otot dan tisu di sekeliling tulang kering.",
+      "didYouKnow": "Shin splints biasa dialami oleh pelari baru yang meningkatkan jarak larian terlalu cepat.",
+      "howItFeels": "Sakit tumpul di sepanjang tepi dalam tulang kering semasa atau selepas bersenam. Kawasan itu mungkin terasa sakit apabila disentuh.",
+      "whoIsAtRisk": [
+        "Pelari baru",
+        "Peningkatan latihan secara mendadak",
+        "Kaki pelat",
+        "Permukaan keras"
+      ],
+      "commonCauses": [
+        "Peningkatan mendadak dalam berlari",
+        "Permukaan keras",
+        "Kaki pelat",
+        "Kasut yang sudah haus"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk dan kendurkan kaki anda.",
+          "Gerakkan jari anda dengan tekanan kuat di sepanjang tepi dalam tulang kering.",
+          "Perhatikan di mana terasa sakit apabila ditekan."
+        ],
+        "question": "Adakah rasa sakit apabila ditekan merebak di sepanjang bahagian yang panjang (5 cm atau lebih)?",
+        "yesResult": "Ini sepadan dengan corak tipikal shin splints. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Sakit pada satu titik tepat boleh jadi patah tulang akibat tekanan (stress fracture). Sila jumpa doktor sebelum bersenam."
+      },
+      "reliefTips": [
+        "Berehat dan tuam sejuk",
+        "Tingkatkan latihan secara beransur-ansur",
+        "Kasut lari yang menyokong"
+      ],
+      "avoid": "Terus berlari walaupun sakit, permukaan konkrit keras, dan lonjakan besar dalam jarak.",
+      "seeDoctorIf": [
+        "Sakit tajam pada satu titik tepat",
+        "Sakit walaupun ketika berehat",
+        "Bengkak yang tidak surut"
+      ],
+      "warningLine": "Sakit tajam pada satu titik tepat? Mungkin patah tulang akibat tekanan – sila jumpa doktor."
+    }
+  ]
+}
