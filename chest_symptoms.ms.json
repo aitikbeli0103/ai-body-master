@@ -1,0 +1,396 @@
+{
+  "section": {
+    "id": "chest",
+    "codePrefix": "T",
+    "title": "Di mana dada anda sakit?",
+    "subtitle": "Pilih satu atau lebih bahagian untuk mendapatkan pelan peribadi.",
+    "gridImage": "T0_Main_Grid_Chest.png",
+    "emergencyNote": "Sakit dada yang tiba-tiba, menghimpit atau teruk, sakit yang merebak ke lengan, rahang atau belakang, sukar bernafas, berpeluh sejuk atau pitam? Hubungi 999 sekarang. Jangan tunggu.",
+    "emergencyNumber": "999"
+  },
+  "disclaimer": "Hanya untuk pendidikan, bukan diagnosis.",
+  "references": "NHS UK, Mayo Clinic, American Heart Association (Persatuan Jantung Amerika)",
+  "lastUpdated": "[DATE]",
+  "reviewedBy": "[QUALIFIED REVIEWER]",
+  "symptoms": [
+    {
+      "code": "T1",
+      "gridLabel": "Dada Ketat di Tengah",
+      "title": "Dada Tengah Terasa Ketat",
+      "image": "T1_Center_Chest_Tightness.png",
+      "hook": "Dada tengah terasa ketat dan berat, terutamanya apabila anda tertekan?",
+      "painLocation": "Tengah dada, di belakang atau sekeliling tulang dada",
+      "definition": "Rasa ketat, tekanan atau berat di tengah dada, selalunya berkaitan dengan tekanan, refluks asid atau otot yang tegang.",
+      "didYouKnow": "Tekanan boleh mengetatkan dada dan mempercepatkan degupan jantung, tetapi masalah jantung boleh terasa sama, jadi dada ketat yang baru muncul sentiasa wajar diperiksa.",
+      "howItFeels": "Rasa ketat seperti diikat dengan tali, seperti ada beban berat atau tekanan tumpul di tengah dada. Ia mungkin disertai rasa masam, bersendawa, degupan jantung laju atau pernafasan laju apabila anda tertekan. Ia mungkin reda apabila anda berehat, menukar posisi atau bernafas perlahan-lahan.",
+      "whoIsAtRisk": [
+        "Tekanan tinggi",
+        "Postur tidak baik",
+        "Refluks asid",
+        "Tidur tidak cukup",
+        "Makan berat lewat malam"
+      ],
+      "commonCauses": [
+        "Tekanan dan kebimbangan",
+        "Refluks asid (pedih ulu hati)",
+        "Otot dada dan bahu yang tegang",
+        "Masalah jantung, yang hanya boleh disingkirkan oleh doktor"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk tegak dan kendurkan bahu anda.",
+          "Tarik nafas perlahan-lahan selama 4 kiraan dan hembus selama 6 kiraan, lima kali.",
+          "Perhatikan sama ada rasa ketat reda apabila anda berehat."
+        ],
+        "question": "Adakah rasa ketat reda apabila anda berehat, bernafas perlahan atau menukar posisi?",
+        "yesResult": "Ini lebih sesuai dengan ketegangan, tekanan atau refluks daripada masalah jantung, tetapi ia tidak menyingkirkan masalah jantung. Jika ia terus berulang, sila jumpa doktor. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika rasa ketat kekal, bertambah teruk atau disertai peluh, sesak nafas atau sakit yang merebak ke lengan atau rahang, hubungi 999 sekarang. Jika ia baru muncul, sila jumpa doktor tidak lama lagi."
+      },
+      "reliefTips": [
+        "Duduk, kendurkan bahu dan bernafas perlahan-lahan",
+        "Regangkan dada dan bahu dengan lembut",
+        "Makan lebih sedikit dan elakkan berbaring sejurus selepas makan"
+      ],
+      "avoid": "Makan berat lewat malam, merokok, terlalu banyak kopi atau alkohol, dan memaksa diri bersenam semasa dada terasa ketat.",
+      "seeDoctorIf": [
+        "Dada ketat yang baru, berulang atau berlangsung lebih beberapa minit",
+        "Dada ketat apabila berjalan atau mendaki tangga yang reda dengan berehat",
+        "Dada ketat disertai sesak nafas, peluh sejuk, loya atau pening"
+      ],
+      "warningLine": "Tekanan dada yang menghimpit, atau sakit yang merebak ke lengan atau rahang? Hubungi 999 sekarang.",
+      "deviceCaution": "Jangan gunakan peranti berhampiran jantung. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan. Sila tanya ahli terapi atau doktor anda dahulu."
+    },
+    {
+      "code": "T2",
+      "gridLabel": "Sakit Dada Kiri",
+      "title": "Sakit Dada Sebelah Kiri",
+      "image": "T2_Left_Side_Chest_Pain.png",
+      "hook": "Sakit di sebelah kiri dada anda, dan tertanya-tanya sama ada ia jantung anda?",
+      "painLocation": "Sebelah kiri dada, di bawah tulang selangka atau di atas tulang rusuk",
+      "definition": "Sakit yang dirasai di sebelah kiri dada. Ia selalunya datang daripada otot, tulang rusuk atau tekanan, tetapi jantung juga boleh menyebabkannya.",
+      "didYouKnow": "Sakit dada sebelah kiri selalunya daripada otot yang tegang, rusuk yang sakit atau tekanan, tetapi sakit jantung boleh terasa serupa, jadi apa-apa yang baru atau tidak dapat dijelaskan harus diperiksa.",
+      "howItFeels": "Sakit tikam, tajam atau lenguh di sebelah kiri. Sakit otot atau rusuk biasanya bertambah apabila anda menekan tempat itu, memusingkan badan atau menarik nafas dalam. Sakit berkaitan jantung lebih kerap berupa tekanan atau rasa dihimpit dan mungkin merebak ke lengan atau rahang.",
+      "whoIsAtRisk": [
+        "Postur tidak baik",
+        "Mengangkat barang berat",
+        "Tekanan tinggi",
+        "Perokok",
+        "Sejarah keluarga penyakit jantung"
+      ],
+      "commonCauses": [
+        "Otot dada tegang",
+        "Rawan rusuk yang sakit (kostokondritis)",
+        "Tekanan dan kebimbangan",
+        "Masalah jantung, yang hanya boleh disingkirkan oleh doktor"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk diam dan bernafas seperti biasa.",
+          "Tekan perlahan tempat yang sakit dengan jari anda.",
+          "Pusingkan badan atas anda, kemudian tarik satu nafas dalam yang perlahan."
+        ],
+        "question": "Adakah sakit bertambah apabila anda menekan tempat itu, memusingkan badan atau menarik nafas dalam?",
+        "yesResult": "Sakit yang berubah dengan tekanan atau pergerakan lebih kerap datang daripada otot atau rusuk, tetapi anda tetap perlu jumpa doktor jika ia baru atau tidak reda. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Sakit yang tidak berubah dengan tekanan atau pergerakan perlu diperiksa doktor tidak lama lagi. Jika ia disertai peluh atau sesak nafas, atau merebak ke lengan atau rahang, hubungi 999 sekarang."
+      },
+      "reliefTips": [
+        "Berehat dan elakkan mengangkat barang berat selama beberapa hari",
+        "Letakkan tuala suam pada tempat yang sakit",
+        "Putar bahu dan regangkan dada dengan lembut"
+      ],
+      "avoid": "Mengangkat barang berat, senaman yang berat dan menekan kuat pada tempat yang sakit.",
+      "seeDoctorIf": [
+        "Sakit dada sebelah kiri yang baru, berlangsung lebih beberapa minit atau berulang",
+        "Sakit selepas jatuh, terhantuk atau batuk yang lama",
+        "Sakit yang tidak bertambah baik selepas beberapa hari"
+      ],
+      "warningLine": "Sakit dengan tekanan atau rasa dihimpit, berpeluh, sesak nafas, atau merebak ke lengan atau rahang? Hubungi 999 sekarang.",
+      "deviceCaution": "Jangan gunakan peranti berhampiran jantung. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan. Sila tanya ahli terapi atau doktor anda dahulu."
+    },
+    {
+      "code": "T3",
+      "gridLabel": "Sakit Dada Kanan",
+      "title": "Sakit Dada Sebelah Kanan",
+      "image": "T3_Right_Side_Chest_Pain.png",
+      "hook": "Sakit di sebelah kanan dada atau tepat di bawah rusuk kanan anda?",
+      "painLocation": "Sebelah kanan dada, di atas rusuk atau tepat di bawahnya",
+      "definition": "Sakit di sebelah kanan dada, selalunya daripada otot atau rusuk yang tegang, tetapi kadangkala daripada paru-paru, pundi hempedu atau perut.",
+      "didYouKnow": "Sebelah kanan dada terletak berhampiran paru-paru, hati dan pundi hempedu, jadi sakit di sini boleh datang daripada lebih daripada satu tempat.",
+      "howItFeels": "Sakit tajam atau tumpul di sebelah kanan. Sakit otot atau rusuk bertambah apabila ditekan atau bergerak. Sakit paru-paru bertambah apabila menarik nafas dalam atau batuk. Sakit selepas makanan berlemak, dengan loya atau kembung, mungkin datang daripada pundi hempedu atau perut.",
+      "whoIsAtRisk": [
+        "Mengangkat barang berat",
+        "Batuk atau jangkitan dada baru-baru ini",
+        "Makanan berlemak",
+        "Perokok",
+        "Kecederaan baru-baru ini"
+      ],
+      "commonCauses": [
+        "Otot atau rusuk tegang",
+        "Kerengsaan atau jangkitan paru-paru",
+        "Pundi hempedu atau perut tidak selesa",
+        "Kayap (shingles) atau kerengsaan saraf yang lain"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk tegak dan bernafas seperti biasa.",
+          "Tekan perlahan di sepanjang rusuk di bahagian yang sakit.",
+          "Tarik satu nafas dalam yang perlahan dan batuk sekali."
+        ],
+        "question": "Adakah sakit bertambah apabila anda menekan rusuk atau menarik nafas dalam?",
+        "yesResult": "Corak ini lebih kerap daripada otot, rusuk atau lapisan paru-paru. Jumpa doktor jika ia berlarutan lebih beberapa hari atau anda demam atau batuk. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika sakit datang selepas makanan berlemak, dengan loya atau kembung, ia mungkin datang daripada sistem penghadaman. Jumpa doktor jika ia kerap berulang, atau jika kulit atau mata anda kelihatan kuning."
+      },
+      "reliefTips": [
+        "Berehat dan elakkan mengangkat barang berat",
+        "Gunakan kompres suam pada kawasan yang sakit",
+        "Makan lebih sedikit dan lebih ringan jika sakit datang selepas makan"
+      ],
+      "avoid": "Mengangkat barang berat, makanan berlemak atau bergoreng, dan merokok.",
+      "seeDoctorIf": [
+        "Sakit dada sebelah kanan yang berlangsung lebih beberapa hari",
+        "Demam, batuk berkahak, atau kulit atau mata kuning",
+        "Sakit selepas jatuh, terhantuk atau kecederaan"
+      ],
+      "warningLine": "Sakit teruk yang tiba-tiba dengan sesak nafas, atau sakit yang merebak ke lengan atau rahang? Hubungi 999 sekarang.",
+      "deviceCaution": "Jangan gunakan peranti berhampiran jantung. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan. Sila tanya ahli terapi atau doktor anda dahulu. Jangan gunakan pada kawasan yang sakit jika anda demam, ada ruam atau bengkak."
+    },
+    {
+      "code": "T4",
+      "gridLabel": "Sakit Tajam Bila Bernafas",
+      "title": "Sakit Tajam Semasa Bernafas",
+      "image": "T4_Sharp_Pain_When_Breathing.png",
+      "hook": "Sakit tajam seperti ditikam setiap kali anda menarik nafas dalam atau batuk?",
+      "painLocation": "Sisi atau depan dada, lebih sakit apabila menarik nafas dalam, batuk atau ketawa",
+      "definition": "Sakit tajam yang tersekat apabila anda menarik nafas atau batuk, selalunya daripada lapisan di sekeliling paru-paru, tulang rusuk atau jangkitan dada.",
+      "didYouKnow": "Sakit yang menjadi lebih tajam apabila anda menarik nafas dipanggil sakit pleuritik. Ia mempunyai beberapa punca yang mungkin, jadi ia harus diperiksa doktor.",
+      "howItFeels": "Sakit tajam seperti ditikam atau tersekat di satu sisi atau di depan dada, paling teruk apabila anda menarik nafas dalam, batuk, bersin atau ketawa. Anda mungkin juga batuk, demam atau berasa sesak nafas.",
+      "whoIsAtRisk": [
+        "Jangkitan dada baru-baru ini",
+        "Perokok",
+        "Penerbangan jauh atau berbaring lama",
+        "Kecederaan dada baru-baru ini"
+      ],
+      "commonCauses": [
+        "Lapisan paru-paru yang teriritasi (pleurisi)",
+        "Jangkitan dada atau radang paru-paru",
+        "Rusuk lebam atau tegang",
+        "Darah beku atau paru-paru kolaps (serius)"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk tegak dan bernafas perlahan.",
+          "Tarik satu nafas dalam yang lembut.",
+          "Perhatikan di mana sakit itu tersekat dan sama ada anda berasa sesak nafas."
+        ],
+        "question": "Adakah sakit itu tajam dan bertambah teruk apabila anda menarik nafas, batuk atau ketawa?",
+        "yesResult": "Ini sepadan dengan sakit daripada lapisan paru-paru, tulang rusuk atau jangkitan dada. Sila jumpa doktor tidak lama lagi, terutamanya jika anda batuk, demam atau sesak nafas. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika sakit berupa tekanan atau rasa berat yang tidak berubah dengan pernafasan, atau disertai peluh, hubungi 999 sekarang. Jika ia berubah apabila anda menekan tempat itu, semak T6 atau T7."
+      },
+      "reliefTips": [
+        "Berehat dan duduk tegak",
+        "Tekan bantal pada sisi yang sakit apabila anda batuk",
+        "Minum minuman suam dan bernafas perlahan-lahan"
+      ],
+      "avoid": "Merokok dan senaman yang berat sehingga doktor telah memeriksa sakit itu.",
+      "seeDoctorIf": [
+        "Sakit dada yang tajam dengan demam, batuk atau batuk berdarah",
+        "Sakit selepas penerbangan jauh atau berbaring lama, atau betis bengkak dan sakit",
+        "Pernafasan yang semakin sukar"
+      ],
+      "warningLine": "Sakit tajam yang tiba-tiba dengan sesak nafas yang teruk, bibir kebiruan atau batuk berdarah? Hubungi 999 sekarang.",
+      "deviceCaution": "Jangan gunakan peranti berhampiran jantung. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan. Sila tanya ahli terapi atau doktor anda dahulu. Jangan gunakan sehingga doktor memeriksa punca sakit."
+    },
+    {
+      "code": "T5",
+      "gridLabel": "Pedih Selepas Makan",
+      "title": "Pedih Selepas Makan (Refluks Asid)",
+      "image": "T5_Burning_After_Meals.png",
+      "hook": "Rasa pedih di belakang tulang dada selepas anda makan atau apabila anda berbaring?",
+      "painLocation": "Di belakang tulang dada, kadangkala naik ke tekak",
+      "definition": "Sakit pedih di tengah dada, disebabkan asid perut mengalir naik ke arah tekak (refluks asid atau pedih ulu hati).",
+      "didYouKnow": "Pedih ulu hati tiada kaitan dengan jantung: ia ialah asid perut yang merengsa saluran makanan. Ia masih boleh terasa seperti sakit jantung, jadi gejala yang baru atau luar biasa wajar diperiksa.",
+      "howItFeels": "Rasa pedih di belakang tulang dada yang sering bermula selepas makan atau apabila anda membongkok atau berbaring. Anda mungkin merasa asid atau cecair masam di mulut, bersendawa atau kembung. Ia mungkin reda apabila anda duduk tegak atau meneguk air.",
+      "whoIsAtRisk": [
+        "Makan lewat atau berat",
+        "Makanan pedas atau berlemak",
+        "Kopi dan alkohol",
+        "Berat badan berlebihan",
+        "Perokok",
+        "Kehamilan"
+      ],
+      "commonCauses": [
+        "Refluks asid (GERD)",
+        "Hernia hiatus",
+        "Kerengsaan perut atau ulser",
+        "Hidangan besar, lewat atau pedas"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Fikirkan bila rasa pedih bermula.",
+          "Perhatikan sama ada ia datang selepas makan atau berbaring.",
+          "Duduk tegak beberapa minit dan teguk sedikit air."
+        ],
+        "question": "Adakah rasa pedih bermula selepas makan atau berbaring, dan reda apabila anda duduk tegak?",
+        "yesResult": "Ini sepadan dengan corak tipikal refluks asid. Jumpa doktor jika ia kerap berlaku atau anda sukar menelan. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika sakit berupa tekanan atau rasa dihimpit yang datang dengan usaha, peluh atau sesak nafas, hubungi 999 sekarang. Jika ia sakit tajam apabila anda menekan tempat itu, semak T7."
+      },
+      "reliefTips": [
+        "Makan lebih sedikit dan tunggu beberapa jam sebelum berbaring",
+        "Tinggikan kepala katil sedikit",
+        "Duduk tegak selepas makan dan teguk sedikit air"
+      ],
+      "avoid": "Hidangan besar atau lewat, makanan berlemak atau pedas, kopi, alkohol, merokok dan tali pinggang yang ketat.",
+      "seeDoctorIf": [
+        "Rasa pedih hampir setiap hari atau lebih beberapa minggu",
+        "Sukar menelan, muntah atau berat badan turun tanpa sebab",
+        "Najis hitam atau muntah darah"
+      ],
+      "warningLine": "Rasa pedih dengan tekanan yang menghimpit, peluh, sesak nafas, atau sakit yang merebak ke lengan atau rahang? Hubungi 999 sekarang.",
+      "deviceCaution": "Jangan gunakan peranti berhampiran jantung. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan. Sila tanya ahli terapi atau doktor anda dahulu. Jangan gunakan pada perut atas jika anda rasa pedih, muntah atau najis hitam."
+    },
+    {
+      "code": "T6",
+      "gridLabel": "Sakit Otot Bila Bergerak",
+      "title": "Otot Dada Tegang",
+      "image": "T6_Muscle_Chest_Pain.png",
+      "hook": "Sakit dada bertambah apabila anda bergerak, mengangkat tangan atau menekan tempat itu?",
+      "painLocation": "Dada atas, sisi dada atau di bawah tulang selangka",
+      "definition": "Sakit daripada otot dada yang tegang atau ketat, selalunya selepas mengangkat barang berat, bersenam, batuk atau postur membongkok.",
+      "didYouKnow": "Berjam-jam di meja atau menggunakan telefon boleh menyebabkan otot dada tegang dan bahu terkehadapan, yang boleh terasa seperti dada ketat dan berat.",
+      "howItFeels": "Sakit lenguh, ketat atau tajam pada otot dada yang bertambah apabila anda menggerakkan lengan, memusing, meregang, menarik nafas dalam atau menekan tempat itu. Ia biasanya reda dengan berehat dan boleh terasa kaku selepas duduk atau tidur.",
+      "whoIsAtRisk": [
+        "Pekerja meja",
+        "Pengguna telefon yang kerap",
+        "Gimnasium dan angkat berat",
+        "Bahu bulat",
+        "Batuk baru-baru ini"
+      ],
+      "commonCauses": [
+        "Otot tegang akibat mengangkat barang berat atau bersenam",
+        "Postur membongkok dan bahu bulat",
+        "Batuk yang lama",
+        "Tidur dalam posisi yang janggal"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk tegak dan kendurkan bahu anda.",
+          "Angkat lengan perlahan-lahan dan capai ke seberang badan anda.",
+          "Tekan perlahan tempat yang sakit."
+        ],
+        "question": "Bolehkah anda menjadikan sakit lebih teruk atau lebih baik dengan menggerakkan lengan atau menekan tempat itu?",
+        "yesResult": "Sakit yang berubah dengan pergerakan atau tekanan adalah tipikal masalah otot. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika sakit tidak berubah dengan pergerakan, atau disertai peluh atau sesak nafas, sila jumpa doktor. Jika ia sakit pedih selepas makan, semak T5."
+      },
+      "reliefTips": [
+        "Berehat, kemudian lakukan regangan membuka dada yang lembut",
+        "Letakkan kompres suam pada otot yang sakit selama 10 minit",
+        "Duduk tegak dan letakkan skrin sejajar dengan mata"
+      ],
+      "avoid": "Mengangkat barang berat, memusing secara tiba-tiba, membongkok di atas telefon untuk tempoh yang lama dan menekan kuat pada tempat yang sakit.",
+      "seeDoctorIf": [
+        "Sakit yang tidak lega selepas seminggu",
+        "Sakit selepas jatuh atau hentakan pada dada",
+        "Bengkak, lebam atau ketulan pada dinding dada"
+      ],
+      "warningLine": "Sakit dengan peluh, sesak nafas, atau merebak ke lengan atau rahang? Hubungi 999 sekarang.",
+      "deviceCaution": "Jangan gunakan peranti berhampiran jantung. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan. Sila tanya ahli terapi atau doktor anda dahulu. Jangan gunakan pada kawasan lebam atau bengkak."
+    },
+    {
+      "code": "T7",
+      "gridLabel": "Sakit Rawan Rusuk",
+      "title": "Sakit Rusuk & Tulang Dada Bila Ditekan",
+      "image": "T7_Rib_Breastbone_Pain.png",
+      "hook": "Satu tempat sakit di tepi tulang dada anda yang sakit apabila ditekan?",
+      "painLocation": "Depan dada di tepi tulang dada, tempat rusuk bersambung dengannya",
+      "definition": "Keradangan rawan yang menyambung rusuk kepada tulang dada (kostokondritis), menyebabkan sakit yang sensitif, tajam atau lenguh.",
+      "didYouKnow": "Kostokondritis ialah punca sakit dada yang biasa dan tidak berbahaya yang sering reda sendiri, tetapi hanya doktor boleh mengesahkan bahawa ia bukan jantung.",
+      "howItFeels": "Sakit tajam, lenguh atau seperti tekanan di depan dada, biasanya di tepi tulang dada dan sering pada lebih daripada satu rusuk. Tempat itu sakit apabila ditekan, dan sakit bertambah apabila menarik nafas dalam, batuk atau memusing.",
+      "whoIsAtRisk": [
+        "Batuk atau jangkitan dada baru-baru ini",
+        "Mengangkat berat atau bersenam kuat",
+        "Tekanan dan postur tidak baik",
+        "Kecederaan dada baru-baru ini"
+      ],
+      "commonCauses": [
+        "Ketegangan akibat mengangkat berat, bersenam atau batuk",
+        "Hentakan atau kecederaan pada dada",
+        "Jangkitan virus baru-baru ini",
+        "Selalunya tiada punca yang jelas"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk tegak dan bernafas seperti biasa.",
+          "Tekan perlahan dengan hujung jari di sepanjang tepi tulang dada.",
+          "Tarik satu nafas dalam yang perlahan."
+        ],
+        "question": "Adakah terdapat tempat sakit di tepi tulang dada yang sakit apabila ditekan atau apabila anda menarik nafas dalam?",
+        "yesResult": "Ini sepadan dengan corak kostokondritis. Ia biasanya tidak serius, tetapi sila jumpa doktor untuk memastikan. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika tiada tempat sakit dan sakit terasa seperti tekanan atau datang dengan usaha, sila jumpa doktor. Hubungi 999 jika ia teruk atau disertai peluh atau sesak nafas."
+      },
+      "reliefTips": [
+        "Berehat dan elakkan mengangkat berat atau tekan tubi",
+        "Letakkan paket suam atau sejuk pada tempat itu selama 10 minit",
+        "Lakukan regangan dada yang perlahan dan lembut"
+      ],
+      "avoid": "Mengangkat berat, tekan tubi, batuk dengan kuat dan menekan kuat pada tempat yang sakit.",
+      "seeDoctorIf": [
+        "Sakit yang berlangsung lebih beberapa minggu",
+        "Kemerahan, bengkak atau rasa panas pada tempat yang sakit, atau demam",
+        "Sakit selepas jatuh atau kecederaan pada dada"
+      ],
+      "warningLine": "Sakit dengan tekanan, peluh, sesak nafas, atau merebak ke lengan atau rahang? Hubungi 999 sekarang.",
+      "deviceCaution": "Jangan gunakan peranti berhampiran jantung. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan. Sila tanya ahli terapi atau doktor anda dahulu. Jangan gunakan pada tempat yang merah, panas atau bengkak."
+    },
+    {
+      "code": "T8",
+      "gridLabel": "Sakit ke Lengan, Rahang",
+      "title": "Sakit Merebak ke Lengan, Rahang atau Belakang",
+      "image": "T8_Pain_Spreading_Arm_Jaw.png",
+      "hook": "Tekanan dada yang merebak ke lengan, rahang atau belakang anda?",
+      "painLocation": "Tengah atau kiri dada, merebak ke lengan, bahu, rahang, leher atau belakang",
+      "definition": "Sakit atau tekanan dada yang merebak ke lengan, rahang, leher atau belakang boleh menjadi tanda amaran serangan jantung. Ia memerlukan bantuan kecemasan, bukan penjagaan sendiri.",
+      "didYouKnow": "Tanda serangan jantung mungkin kelihatan berbeza pada wanita, warga emas dan penghidap diabetes. Mereka mungkin berasa sangat letih, sesak nafas atau loya, atau sakit rahang atau belakang tanpa sakit dada yang kuat.",
+      "howItFeels": "Tekanan, rasa dihimpit, rasa penuh atau berat di dada, kadangkala merebak ke satu atau kedua-dua lengan, bahu, leher, rahang atau belakang. Ia mungkin disertai peluh sejuk, sesak nafas, loya, pening atau perasaan bahawa sesuatu yang sangat tidak kena.",
+      "whoIsAtRisk": [
+        "Orang dewasa pertengahan umur dan warga emas",
+        "Tekanan darah tinggi",
+        "Diabetes",
+        "Kolesterol tinggi",
+        "Perokok",
+        "Sejarah keluarga penyakit jantung"
+      ],
+      "commonCauses": [
+        "Serangan jantung (bekalan darah ke jantung tersekat)",
+        "Angina (jantung bekerja keras)",
+        "Darah beku di paru-paru",
+        "Punca serius lain yang hanya boleh dibezakan oleh doktor"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Berhenti apa yang anda sedang buat dan duduk.",
+          "Perhatikan sama ada sakit itu berupa tekanan, rasa dihimpit atau berat.",
+          "Periksa sama ada ada peluh, sesak nafas, loya atau pening."
+        ],
+        "question": "Adakah sakit merebak ke lengan, rahang atau belakang, atau disertai peluh, sesak nafas atau loya?",
+        "yesResult": "Hubungi 999 sekarang. Jangan memandu sendiri dan jangan tunggu untuk melihat sama ada ia reda.",
+        "noResult": "Walaupun sakit telah reda atau hilang, sila jumpa doktor tidak lama lagi, kerana masalah jantung boleh datang dan pergi. Jika ia kembali atau bertambah teruk, hubungi 999."
+      },
+      "reliefTips": [
+        "Hubungi 999 sekarang dan beritahu ia mungkin serangan jantung",
+        "Duduk, bertenang dan longgarkan pakaian yang ketat",
+        "Jangan memandu sendiri. Minta seseorang menemani anda"
+      ],
+      "avoid": "Jangan teruskan berjalan, jangan memandu sendiri dan jangan gunakan sebarang urutan atau peranti pada dada, lengan atau rahang.",
+      "seeDoctorIf": [
+        "Tekanan atau sakit dada yang berlangsung lebih beberapa minit atau berulang",
+        "Sakit yang merebak ke lengan, bahu, leher, rahang atau belakang",
+        "Ketidakselesaan dada dengan peluh sejuk, sesak nafas, loya atau rasa hendak pitam"
+      ],
+      "warningLine": "Hubungi 999 sekarang. Setiap minit amat bernilai: jangan tunggu untuk melihat sama ada ia hilang.",
+      "deviceCaution": "Jangan gunakan peranti AI Body Master atau sebarang urutan pada dada, lengan, leher atau rahang untuk jenis sakit ini. Dapatkan bantuan perubatan kecemasan dahulu.",
+      "emergency": true,
+      "haveLabel": "Hubungi 999 sekarang",
+      "reliefLabel": "Sementara menunggu bantuan"
+    }
+  ]
+}

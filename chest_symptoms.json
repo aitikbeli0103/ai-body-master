@@ -1,0 +1,396 @@
+{
+  "section": {
+    "id": "chest",
+    "codePrefix": "T",
+    "title": "Where does your chest hurt?",
+    "subtitle": "Select one or more areas to get a personalised plan.",
+    "gridImage": "T0_Main_Grid_Chest.png",
+    "emergencyNote": "Sudden, crushing or severe chest pain, pain spreading to your arm, jaw or back, trouble breathing, a cold sweat or fainting? Call 999 now. Do not wait.",
+    "emergencyNumber": "999"
+  },
+  "disclaimer": "For education only, not a diagnosis.",
+  "references": "NHS UK, Mayo Clinic, American Heart Association",
+  "lastUpdated": "[DATE]",
+  "reviewedBy": "[QUALIFIED REVIEWER]",
+  "symptoms": [
+    {
+      "code": "T1",
+      "gridLabel": "Center-Chest Tightness",
+      "title": "Center-Chest Tightness",
+      "image": "T1_Center_Chest_Tightness.png",
+      "hook": "A tight, heavy feeling in the middle of your chest, especially when you are stressed?",
+      "painLocation": "Middle of the chest, behind or around the breastbone",
+      "definition": "A feeling of tightness, pressure or heaviness in the centre of the chest, often linked to stress, reflux or tense muscles.",
+      "didYouKnow": "Stress can tighten the chest and speed up the heartbeat, but heart problems can feel the same, so new chest tightness is always worth checking.",
+      "howItFeels": "A band of tightness, a heavy weight or a dull pressure in the middle of the chest. It may come with a sour taste, burping, a fast heartbeat or fast breathing when you are stressed. It may ease when you relax, change position or breathe slowly.",
+      "whoIsAtRisk": [
+        "High stress",
+        "Poor posture",
+        "Acid reflux",
+        "Poor sleep",
+        "Heavy late-night meals"
+      ],
+      "commonCauses": [
+        "Stress and anxiety",
+        "Acid reflux (heartburn)",
+        "Tense chest and shoulder muscles",
+        "A heart problem, which only a doctor can rule out"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Sit upright and drop your shoulders.",
+          "Breathe in slowly for 4 counts and out for 6 counts, five times.",
+          "Notice whether the tightness eases as you relax."
+        ],
+        "question": "Does the tightness ease when you relax, breathe slowly or change position?",
+        "yesResult": "This fits tension, stress or reflux more than a heart problem, but it does not rule one out. If it keeps coming back, see a doctor. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the tightness stays, gets worse or comes with sweating, breathlessness or pain spreading to the arm or jaw, call 999 now. If it is new, see a doctor soon."
+      },
+      "reliefTips": [
+        "Sit down, relax your shoulders and breathe slowly",
+        "Stretch the chest and shoulders gently",
+        "Eat smaller meals and avoid lying down right after eating"
+      ],
+      "avoid": "Heavy meals late at night, smoking, too much coffee or alcohol, and pushing through tightness during exercise.",
+      "seeDoctorIf": [
+        "Chest tightness that is new, keeps coming back or lasts more than a few minutes",
+        "Tightness when you walk or climb stairs that eases with rest",
+        "Tightness with breathlessness, a cold sweat, nausea or dizziness"
+      ],
+      "warningLine": "Crushing chest pressure, or pain spreading to the arm or jaw? Call 999 now.",
+      "deviceCaution": "Do not use the device near the heart. Never use it if you have a pacemaker or any implanted electronic device. Please ask your therapist or a doctor first."
+    },
+    {
+      "code": "T2",
+      "gridLabel": "Left Chest Pain",
+      "title": "Left-Side Chest Pain",
+      "image": "T2_Left_Side_Chest_Pain.png",
+      "hook": "Pain on the left side of your chest, and you wonder if it is your heart?",
+      "painLocation": "Left side of the chest, under the collarbone or over the ribs",
+      "definition": "Pain felt on the left side of the chest. It is often from a muscle, a rib or stress, but the heart can cause it too.",
+      "didYouKnow": "Left-sided chest pain is often from strained muscles, tender ribs or stress, but heart pain can feel similar, so anything new or unexplained should be checked.",
+      "howItFeels": "A sharp, stabbing or aching pain on the left side. Muscle or rib pain is usually worse when you press the spot, twist or take a deep breath. Heart-related pain is more often pressure or squeezing and may spread to the arm or jaw.",
+      "whoIsAtRisk": [
+        "Poor posture",
+        "Heavy lifting",
+        "High stress",
+        "Smokers",
+        "Family history of heart disease"
+      ],
+      "commonCauses": [
+        "Strained chest muscle",
+        "Tender rib cartilage (costochondritis)",
+        "Stress and anxiety",
+        "A heart problem, which only a doctor can rule out"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Sit still and breathe normally.",
+          "Gently press on the painful spot with your fingers.",
+          "Twist your upper body, then take one slow, deep breath."
+        ],
+        "question": "Does the pain get worse when you press the spot, twist or breathe in deeply?",
+        "yesResult": "Pain that changes with pressing or movement is more often from the muscles or ribs, but it still needs a doctor if it is new or does not settle. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "Pain that does not change with pressing or movement needs a doctor's check soon. If it comes with sweating or breathlessness, or spreads to the arm or jaw, call 999 now."
+      },
+      "reliefTips": [
+        "Rest and avoid heavy lifting for a few days",
+        "Hold a warm towel on the sore spot",
+        "Roll your shoulders and stretch the chest gently"
+      ],
+      "avoid": "Heavy lifting, strenuous exercise and pressing hard on the sore spot.",
+      "seeDoctorIf": [
+        "Left-sided chest pain that is new, lasts more than a few minutes or keeps coming back",
+        "Pain after a fall, a knock or a long bout of coughing",
+        "Pain that does not improve after a few days"
+      ],
+      "warningLine": "Pain with pressure or squeezing, sweating, breathlessness, or spreading to the arm or jaw? Call 999 now.",
+      "deviceCaution": "Do not use the device near the heart. Never use it if you have a pacemaker or any implanted electronic device. Please ask your therapist or a doctor first."
+    },
+    {
+      "code": "T3",
+      "gridLabel": "Right Chest Pain",
+      "title": "Right-Side Chest Pain",
+      "image": "T3_Right_Side_Chest_Pain.png",
+      "hook": "Pain on the right side of your chest or just under your right ribs?",
+      "painLocation": "Right side of the chest, over the ribs or just below them",
+      "definition": "Pain on the right side of the chest, often from a strained muscle or rib, but sometimes from the lung, gallbladder or stomach.",
+      "didYouKnow": "The right side of the chest sits close to the lung, the liver and the gallbladder, so pain here can come from more than one place.",
+      "howItFeels": "A sharp or dull ache on the right side. Muscle or rib pain is worse when you press or move. Lung pain is worse when you breathe in deeply or cough. Pain after fatty meals, with nausea or bloating, may come from the gallbladder or stomach.",
+      "whoIsAtRisk": [
+        "Heavy lifting",
+        "Recent cough or chest infection",
+        "Fatty meals",
+        "Smokers",
+        "Recent injury"
+      ],
+      "commonCauses": [
+        "Strained muscle or rib",
+        "Lung irritation or infection",
+        "Gallbladder or stomach upset",
+        "Shingles or other nerve irritation"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Sit upright and breathe normally.",
+          "Press gently along the ribs on the painful side.",
+          "Take one slow, deep breath and cough once."
+        ],
+        "question": "Does the pain get worse when you press on the ribs or breathe in deeply?",
+        "yesResult": "This pattern is more often from the muscles, the ribs or the lining of the lungs. See a doctor if it lasts more than a few days or you have a fever or cough. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the pain comes after fatty meals, with nausea or bloating, it may come from the digestive system. See a doctor if it keeps coming back, or if your skin or eyes look yellow."
+      },
+      "reliefTips": [
+        "Rest and avoid heavy lifting",
+        "Use a warm compress on the sore area",
+        "Eat smaller, lighter meals if the pain follows eating"
+      ],
+      "avoid": "Heavy lifting, fatty or fried meals, and smoking.",
+      "seeDoctorIf": [
+        "Right-sided chest pain that lasts more than a few days",
+        "Fever, cough with mucus, or yellow skin or eyes",
+        "Pain after a fall, a knock or an injury"
+      ],
+      "warningLine": "Sudden severe pain with breathlessness, or pain spreading to the arm or jaw? Call 999 now.",
+      "deviceCaution": "Do not use the device near the heart. Never use it if you have a pacemaker or any implanted electronic device. Please ask your therapist or a doctor first. Do not use it over a painful area if you have a fever, a rash or swelling."
+    },
+    {
+      "code": "T4",
+      "gridLabel": "Sharp Pain When Breathing",
+      "title": "Sharp Pain When Breathing",
+      "image": "T4_Sharp_Pain_When_Breathing.png",
+      "hook": "A sharp, stabbing pain every time you breathe in deeply or cough?",
+      "painLocation": "Side or front of the chest, worse on a deep breath, cough or laugh",
+      "definition": "A sharp pain that catches when you breathe in or cough, often from the lining around the lungs, a rib or a chest infection.",
+      "didYouKnow": "Pain that gets sharper when you breathe in is called pleuritic pain. It has several possible causes, so it should be checked by a doctor.",
+      "howItFeels": "A sharp, stabbing or catching pain on one side or at the front of the chest, worst when you take a deep breath, cough, sneeze or laugh. You may also have a cough or fever, or feel short of breath.",
+      "whoIsAtRisk": [
+        "Recent chest infection",
+        "Smokers",
+        "Long flights or bed rest",
+        "Recent chest injury"
+      ],
+      "commonCauses": [
+        "Irritated lining of the lungs (pleurisy)",
+        "Chest infection or pneumonia",
+        "Bruised or strained ribs",
+        "A blood clot or collapsed lung (serious)"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Sit upright and breathe slowly.",
+          "Take one gentle deep breath.",
+          "Notice where the pain catches and whether you feel short of breath."
+        ],
+        "question": "Is the pain sharp and worse when you breathe in, cough or laugh?",
+        "yesResult": "This matches pain from the lining of the lungs, the ribs or a chest infection. Please see a doctor soon, especially if you have a cough, fever or breathlessness. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the pain is a pressure or heaviness that does not change with breathing, or comes with sweating, call 999 now. If it changes when you press the spot, check T6 or T7."
+      },
+      "reliefTips": [
+        "Rest and sit upright",
+        "Hold a pillow against the sore side when you cough",
+        "Sip warm drinks and breathe slowly"
+      ],
+      "avoid": "Smoking and strenuous exercise until a doctor has checked the pain.",
+      "seeDoctorIf": [
+        "Sharp chest pain with fever, a cough or coughing up blood",
+        "Pain after a long flight or bed rest, or a swollen, painful calf",
+        "Breathing that is getting harder"
+      ],
+      "warningLine": "Sudden sharp pain with severe breathlessness, blue lips or coughing up blood? Call 999 now.",
+      "deviceCaution": "Do not use the device near the heart. Never use it if you have a pacemaker or any implanted electronic device. Please ask your therapist or a doctor first. Do not use it until a doctor has checked the cause of the pain."
+    },
+    {
+      "code": "T5",
+      "gridLabel": "Burning After Meals",
+      "title": "Burning After Meals (Acid Reflux)",
+      "image": "T5_Burning_After_Meals.png",
+      "hook": "A burning feeling behind your breastbone after you eat or when you lie down?",
+      "painLocation": "Behind the breastbone, sometimes rising up to the throat",
+      "definition": "A burning pain in the centre of the chest, caused when stomach acid flows back up towards the throat (acid reflux or heartburn).",
+      "didYouKnow": "Heartburn has nothing to do with the heart: it is stomach acid irritating the food pipe. It can still feel like heart pain, so new or unusual symptoms are worth checking.",
+      "howItFeels": "A burning feeling behind the breastbone that often starts after a meal or when you bend over or lie down. You may taste acid or sour liquid in your mouth, burp or feel bloated. It may ease when you sit up or sip water.",
+      "whoIsAtRisk": [
+        "Late or heavy meals",
+        "Spicy or fatty food",
+        "Coffee and alcohol",
+        "Overweight",
+        "Smokers",
+        "Pregnancy"
+      ],
+      "commonCauses": [
+        "Acid reflux (GERD)",
+        "Hiatal hernia",
+        "Stomach irritation or an ulcer",
+        "Large, late or spicy meals"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Think about when the burning starts.",
+          "Notice whether it follows a meal or lying down.",
+          "Sit upright for a few minutes and sip some water."
+        ],
+        "question": "Does the burning start after eating or lying down, and ease when you sit up?",
+        "yesResult": "This matches the typical pattern of acid reflux. See a doctor if it happens often or you have trouble swallowing. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the pain is a pressure or squeezing that comes with effort, sweating or breathlessness, call 999 now. If it is a sharp pain when you press the spot, check T7."
+      },
+      "reliefTips": [
+        "Eat smaller meals and leave a few hours before lying down",
+        "Raise the head of your bed a little",
+        "Sit upright after eating and sip water"
+      ],
+      "avoid": "Large or late meals, fatty or spicy food, coffee, alcohol, smoking and tight belts.",
+      "seeDoctorIf": [
+        "Burning most days or for more than a couple of weeks",
+        "Trouble swallowing, vomiting or weight loss without trying",
+        "Black stools or vomiting blood"
+      ],
+      "warningLine": "Burning with crushing pressure, sweating, breathlessness, or pain spreading to the arm or jaw? Call 999 now.",
+      "deviceCaution": "Do not use the device near the heart. Never use it if you have a pacemaker or any implanted electronic device. Please ask your therapist or a doctor first. Do not use it on the upper belly if you have burning, vomiting or black stools."
+    },
+    {
+      "code": "T6",
+      "gridLabel": "Muscle Pain When Moving",
+      "title": "Chest Muscle Strain",
+      "image": "T6_Muscle_Chest_Pain.png",
+      "hook": "Chest pain that gets worse when you move, lift your arm or press the spot?",
+      "painLocation": "Upper chest, side of the chest or under the collarbone",
+      "definition": "Pain from a strained or tight chest muscle, often after lifting, exercise, coughing or a hunched posture.",
+      "didYouKnow": "Hours at a desk or on a phone can leave the chest muscles tight and the shoulders rounded forward, which can feel like a tight, heavy chest.",
+      "howItFeels": "A sore, tight or sharp ache in the chest muscle that is worse when you move your arm, twist, stretch, take a deep breath or press the spot. It usually eases with rest and can feel stiff after sitting or sleeping.",
+      "whoIsAtRisk": [
+        "Desk workers",
+        "Heavy phone users",
+        "Gym and lifting",
+        "Rounded shoulders",
+        "Recent cough"
+      ],
+      "commonCauses": [
+        "Muscle strain from lifting or exercise",
+        "Hunched posture and rounded shoulders",
+        "A long bout of coughing",
+        "Sleeping in an awkward position"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Sit upright and relax your shoulders.",
+          "Raise your arm slowly and reach across your body.",
+          "Gently press on the sore spot."
+        ],
+        "question": "Can you make the pain worse or better by moving your arm or pressing the spot?",
+        "yesResult": "Pain that changes with movement or pressing is typical of a muscle problem. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the pain does not change with movement, or comes with sweating or breathlessness, see a doctor. If it is a burning pain after meals, check T5."
+      },
+      "reliefTips": [
+        "Rest, then do gentle chest-opening stretches",
+        "Hold a warm compress on the sore muscle for 10 minutes",
+        "Sit tall and keep your screen at eye level"
+      ],
+      "avoid": "Heavy lifting, sudden twisting, hunching over a phone for long periods and pressing hard on the sore spot.",
+      "seeDoctorIf": [
+        "Pain that is not better after a week",
+        "Pain after a fall or a blow to the chest",
+        "Swelling, bruising or a lump on the chest wall"
+      ],
+      "warningLine": "Pain with sweating, breathlessness, or spreading to the arm or jaw? Call 999 now.",
+      "deviceCaution": "Do not use the device near the heart. Never use it if you have a pacemaker or any implanted electronic device. Please ask your therapist or a doctor first. Do not use it over bruising or swelling."
+    },
+    {
+      "code": "T7",
+      "gridLabel": "Rib Cartilage Pain",
+      "title": "Tender Rib & Breastbone Pain",
+      "image": "T7_Rib_Breastbone_Pain.png",
+      "hook": "A sore, tender spot beside your breastbone that hurts when you press it?",
+      "painLocation": "Front of the chest beside the breastbone, where the ribs join it",
+      "definition": "Inflammation of the cartilage that joins the ribs to the breastbone (costochondritis), causing a tender, sharp or aching pain.",
+      "didYouKnow": "Costochondritis is a common, harmless cause of chest pain that often settles by itself, but only a doctor can confirm that it is not the heart.",
+      "howItFeels": "A sharp, aching or pressure-like pain at the front of the chest, usually beside the breastbone and often over more than one rib. The spot is tender to press, and the pain is worse with deep breaths, coughing or twisting.",
+      "whoIsAtRisk": [
+        "Recent cough or chest infection",
+        "Heavy lifting or workouts",
+        "Stress and poor posture",
+        "Recent chest injury"
+      ],
+      "commonCauses": [
+        "Strain from lifting, exercise or coughing",
+        "A knock or injury to the chest",
+        "A recent viral infection",
+        "Often no clear cause"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Sit upright and breathe normally.",
+          "Press gently with your fingertips along the edge of the breastbone.",
+          "Take one slow, deep breath."
+        ],
+        "question": "Is there a tender spot beside the breastbone that hurts when you press it or breathe deeply?",
+        "yesResult": "This matches the pattern of costochondritis. It is usually not serious, but please see a doctor to make sure. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If there is no tender spot and the pain feels like pressure or comes on with effort, see a doctor. Call 999 if it is severe or comes with sweating or breathlessness."
+      },
+      "reliefTips": [
+        "Rest and avoid heavy lifting or push-ups",
+        "Hold a warm or cool pack on the spot for 10 minutes",
+        "Do slow, gentle chest stretches"
+      ],
+      "avoid": "Heavy lifting, push-ups, forceful coughing and pressing hard on the tender spot.",
+      "seeDoctorIf": [
+        "Pain that lasts more than a few weeks",
+        "Redness, swelling or warmth over the sore spot, or a fever",
+        "Pain after a fall or an injury to the chest"
+      ],
+      "warningLine": "Pain with pressure, sweating, breathlessness, or spreading to the arm or jaw? Call 999 now.",
+      "deviceCaution": "Do not use the device near the heart. Never use it if you have a pacemaker or any implanted electronic device. Please ask your therapist or a doctor first. Do not use it over a red, warm or swollen spot."
+    },
+    {
+      "code": "T8",
+      "gridLabel": "Pain to Arm, Jaw or Back",
+      "title": "Pain Spreading to Arm, Jaw or Back",
+      "image": "T8_Pain_Spreading_Arm_Jaw.png",
+      "hook": "Chest pressure that spreads to your arm, jaw or back?",
+      "painLocation": "Centre or left chest, spreading to the arm, shoulder, jaw, neck or back",
+      "definition": "Chest pain or pressure that spreads to the arm, jaw, neck or back can be a warning sign of a heart attack. It needs emergency help, not self-care.",
+      "didYouKnow": "Heart attack signs can look different in women, older adults and people with diabetes. They may feel very tired, breathless or sick, or have jaw or back pain without strong chest pain.",
+      "howItFeels": "Pressure, squeezing, fullness or heaviness in the chest, sometimes spreading to one or both arms, the shoulder, neck, jaw or back. It may come with a cold sweat, breathlessness, nausea, dizziness or a sense that something is very wrong.",
+      "whoIsAtRisk": [
+        "Middle-aged and older adults",
+        "High blood pressure",
+        "Diabetes",
+        "High cholesterol",
+        "Smokers",
+        "Family history of heart disease"
+      ],
+      "commonCauses": [
+        "Heart attack (blocked blood supply to the heart)",
+        "Angina (the heart straining)",
+        "A blood clot in the lung",
+        "Other serious causes that only a doctor can tell apart"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Stop what you are doing and sit down.",
+          "Notice whether the pain feels like pressure, squeezing or heaviness.",
+          "Check for sweating, breathlessness, nausea or dizziness."
+        ],
+        "question": "Does the pain spread to your arm, jaw or back, or come with sweating, breathlessness or nausea?",
+        "yesResult": "Call 999 now. Do not drive yourself and do not wait to see if it passes.",
+        "noResult": "Even if the pain has eased or gone, see a doctor soon, because heart problems can come and go. If it comes back or gets worse, call 999."
+      },
+      "reliefTips": [
+        "Call 999 now and say it may be a heart attack",
+        "Sit down, stay calm and loosen tight clothing",
+        "Do not drive yourself. Ask someone to stay with you"
+      ],
+      "avoid": "Do not walk it off, do not drive yourself, and do not use any massage or device on the chest, arm or jaw.",
+      "seeDoctorIf": [
+        "Chest pressure or pain that lasts more than a few minutes or comes back",
+        "Pain spreading to the arm, shoulder, neck, jaw or back",
+        "Chest discomfort with a cold sweat, breathlessness, nausea or feeling faint"
+      ],
+      "warningLine": "Call 999 now. Every minute counts: do not wait to see if it goes away.",
+      "deviceCaution": "Do not use the AI Body Master device or any massage on the chest, arm, neck or jaw for this kind of pain. Get emergency medical help first.",
+      "emergency": true,
+      "haveLabel": "Call 999 now",
+      "reliefLabel": "While you wait for help"
+    }
+  ]
+}
