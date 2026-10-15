@@ -1,0 +1,385 @@
+{
+  "section": {
+    "id": "face",
+    "codePrefix": "C",
+    "title": "Di mana muka anda sakit?",
+    "subtitle": "Pilih satu atau lebih bahagian untuk mendapatkan pelan peribadi.",
+    "gridImage": "C0_Main_Grid_Face.png"
+  },
+  "disclaimer": "Hanya untuk pendidikan, bukan diagnosis.",
+  "references": "NHS UK, Mayo Clinic, NINDS (Institut Kebangsaan Gangguan Neurologi dan Strok, AS)",
+  "lastUpdated": "[DATE]",
+  "reviewedBy": "[QUALIFIED REVIEWER]",
+  "symptoms": [
+    {
+      "code": "C1",
+      "gridLabel": "Sakit Kejutan Elektrik",
+      "title": "Neuralgia Trigeminal",
+      "image": "C1_Trigeminal_Neuralgia.png",
+      "hook": "Sakit seperti renjatan elektrik tiba-tiba di sebelah muka anda?",
+      "painLocation": "Satu sebelah muka — pipi, rahang atau sekeliling mulut",
+      "definition": "Sejenis sakit saraf yang menyebabkan sakit tiba-tiba, teruk dan seperti renjatan elektrik di sepanjang saraf trigeminal.",
+      "didYouKnow": "Sentuhan ringan, mengunyah, bercakap atau memberus gigi pun boleh mencetuskan serangan.",
+      "howItFeels": "Sakit tikam atau seperti renjatan elektrik yang datang tiba-tiba di sebelah muka, berlangsung beberapa saat hingga kira-kira dua minit. Serangan boleh datang berturut-turut dan boleh dicetuskan oleh sentuhan ringan, angin sejuk, mengunyah, bercakap atau memberus gigi.",
+      "whoIsAtRisk": [
+        "Umur 50 tahun ke atas",
+        "Wanita",
+        "Sklerosis berbilang",
+        "Tekanan pada saraf"
+      ],
+      "commonCauses": [
+        "Saluran darah menekan saraf",
+        "Sklerosis berbilang",
+        "Kerosakan saraf",
+        "Kadangkala tiada punca yang jelas"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk selesa dan kendurkan muka anda.",
+          "Fikirkan beberapa serangan terakhir anda.",
+          "Perhatikan apa yang mencetuskannya dan berapa lama setiap serangan berlangsung."
+        ],
+        "question": "Adakah sakit datang secara tiba-tiba dalam kejutan pendek, selalunya dicetuskan oleh sentuhan, mengunyah atau bercakap?",
+        "yesResult": "Ini sepadan dengan corak tipikal neuralgia trigeminal. Sila jumpa doktor untuk pemeriksaan yang betul. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika sakit berterusan, tumpul atau berdenyut, semak C2 atau C5."
+      },
+      "reliefTips": [
+        "Elakkan pencetus yang diketahui seperti angin sejuk",
+        "Makan makanan lembut dan kunyah di sebelah yang tidak sakit",
+        "Basuh dan memberus gigi dengan lembut menggunakan air suam"
+      ],
+      "avoid": "Menyentuh kawasan yang sakit, minuman yang terlalu panas atau sejuk, dan mengunyah makanan keras atau rangup.",
+      "seeDoctorIf": [
+        "Sakit teruk yang tiba-tiba di sebelah muka",
+        "Kebas, lemah atau muka senget",
+        "Serangan yang semakin kerap atau semakin teruk"
+      ],
+      "warningLine": "Sakit muka yang teruk dan tiba-tiba disertai kelemahan atau muka senget? Dapatkan rawatan perubatan segera.",
+      "deviceCaution": "Jangan gunakan peranti pada muka jika sentuhan mencetuskan sakit yang tajam. Sila jumpa doktor dahulu."
+    },
+    {
+      "code": "C2",
+      "gridLabel": "Sakit Dahi & Pelipis",
+      "title": "Sakit Kepala Tegang",
+      "image": "C2_Tension_Headache.png",
+      "hook": "Tekanan ketat seperti tali di sekeliling dahi dan pelipis anda?",
+      "painLocation": "Dahi dan pelipis, kadangkala di belakang kepala",
+      "definition": "Sakit tumpul, ketat dan seperti dihimpit di sekeliling kepala, berkaitan dengan ketegangan otot dan tekanan.",
+      "didYouKnow": "Sakit kepala jenis tegang ialah jenis sakit kepala yang paling biasa.",
+      "howItFeels": "Tekanan tumpul yang berterusan seperti tali ketat di sekeliling dahi dan pelipis, biasanya di kedua-dua belah. Sakitnya ringan hingga sederhana dan tidak berdenyut. Ia sering bertambah pada hari yang penuh tekanan, dan leher serta bahu anda mungkin terasa tegang.",
+      "whoIsAtRisk": [
+        "Pekerja meja",
+        "Tekanan tinggi",
+        "Tidur tidak cukup",
+        "Ketegangan leher dan bahu",
+        "Lama menghadap skrin"
+      ],
+      "commonCauses": [
+        "Tekanan dan keletihan",
+        "Otot leher dan bahu yang tegang",
+        "Postur badan yang tidak betul",
+        "Tidak makan atau kurang minum air"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk dan turunkan bahu anda.",
+          "Tekan perlahan otot di pelipis anda.",
+          "Kemudian urut perlahan bahagian belakang leher anda."
+        ],
+        "question": "Adakah sakitnya tumpul dan ketat di kedua-dua belah, tanpa berdenyut?",
+        "yesResult": "Ini sepadan dengan corak tipikal sakit kepala jenis tegang. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika sakit berdenyut di satu sebelah, disertai loya atau sensitif kepada cahaya, sila jumpa doktor. Jika sakit terutamanya di sekitar pipi dan hidung, semak C3."
+      },
+      "reliefTips": [
+        "Berehat di bilik yang senyap dan malap",
+        "Regangan leher dan bahu yang lembut",
+        "Minum air dan berehat daripada skrin"
+      ],
+      "avoid": "Melangkau makan, lama menghadap skrin tanpa rehat, dan terlalu banyak kafein.",
+      "seeDoctorIf": [
+        "Sakit kepala yang teruk dan tiba-tiba, tidak seperti sebelumnya",
+        "Sakit kepala selepas kecederaan kepala",
+        "Sakit kepala disertai demam, leher kaku, keliru atau kelemahan"
+      ],
+      "warningLine": "Sakit kepala paling teruk yang tiba-tiba, atau sakit kepala dengan kelemahan atau keliru? Dapatkan rawatan perubatan segera."
+    },
+    {
+      "code": "C3",
+      "gridLabel": "Tekanan Pipi & Hidung",
+      "title": "Sakit Sinus",
+      "image": "C3_Sinus_Pain.png",
+      "hook": "Tekanan di sekitar pipi dan hidung yang bertambah teruk apabila anda membongkok?",
+      "painLocation": "Pipi, sekeliling hidung, di belakang mata dan dahi",
+      "definition": "Sakit dan tekanan akibat sinus yang bengkak dan tersumbat di belakang pipi, hidung dan dahi.",
+      "didYouKnow": "Sakit sinus selalunya bertambah teruk apabila anda membongkok atau berbaring.",
+      "howItFeels": "Tekanan atau sakit yang tumpul dan berat di pipi, hidung, kening atau dahi, sering disertai hidung tersumbat atau berair. Ia biasanya bertambah teruk apabila membongkok, dan gigi atas anda mungkin turut sakit.",
+      "whoIsAtRisk": [
+        "Kerap selsema",
+        "Alahan",
+        "Perokok",
+        "Jerebu atau habuk"
+      ],
+      "commonCauses": [
+        "Selsema atau influenza",
+        "Alahan",
+        "Hidung tersumbat",
+        "Habuk, jerebu atau asap"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk tegak dan bertenang.",
+          "Tekan perlahan di sebelah hidung dan di bawah mata anda.",
+          "Kemudian tundukkan kepala ke hadapan beberapa saat."
+        ],
+        "question": "Adakah tekanan terasa lebih berat apabila anda membongkok atau menekan pipi dengan perlahan?",
+        "yesResult": "Ini sepadan dengan corak tipikal sakit sinus. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika sakit seperti kejutan tajam di satu sebelah, semak C1. Jika di rahang atau satu gigi, semak C5 atau C6."
+      },
+      "reliefTips": [
+        "Hirup wap suam dari pancuran air atau mangkuk",
+        "Minum banyak cecair suam",
+        "Gunakan semburan hidung salina"
+      ],
+      "avoid": "Asap, habuk dan jerebu, udara yang terlalu kering, dan menaiki kapal terbang semasa hidung tersumbat.",
+      "seeDoctorIf": [
+        "Gejala berlarutan lebih daripada 10 hari atau berulang",
+        "Demam, atau hingus pekat hijau-kuning dengan sakit yang bertambah teruk",
+        "Bengkak atau kemerahan di sekeliling mata"
+      ],
+      "warningLine": "Mata bengkak dan merah, sakit kepala teruk atau leher kaku? Dapatkan rawatan perubatan segera.",
+      "deviceCaution": "Jangan gunakan peranti pada muka jika anda demam atau ada bengkak di sekeliling mata atau pipi."
+    },
+    {
+      "code": "C4",
+      "gridLabel": "Mata Letih & Sakit",
+      "title": "Ketegangan Mata",
+      "image": "C4_Eye_Strain.png",
+      "hook": "Mata letih, kering dan sakit selepas berjam-jam menggunakan telefon atau skrin?",
+      "painLocation": "Sekeliling dan di belakang mata, kadangkala di kening dan pelipis",
+      "definition": "Mata letih dan sakit akibat tumpuan jarak dekat yang lama, seperti menggunakan telefon dan komputer.",
+      "didYouKnow": "Kita berkelip jauh lebih kurang apabila melihat skrin, dan ini mengeringkan mata.",
+      "howItFeels": "Mata letih, pedih atau terasa berpasir, sakit tumpul di sekeliling atau di belakang mata, dan penglihatan kabur yang reda selepas berehat. Anda juga mungkin sakit kepala atau leher kaku kerana membongkok ke arah skrin.",
+      "whoIsAtRisk": [
+        "Pekerja pejabat",
+        "Pelajar",
+        "Pengguna telefon tegar",
+        "Pemakai kanta lekap",
+        "Penglihatan tidak dibetulkan"
+      ],
+      "commonCauses": [
+        "Lama menghadap skrin",
+        "Kurang berkelip",
+        "Cahaya malap atau menyilaukan",
+        "Penglihatan tidak dibetulkan"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Pandang sesuatu yang jauh, kira-kira 6 meter, selama 20 saat.",
+          "Berkelip perlahan 10 kali.",
+          "Perhatikan sama ada keletihan atau kekaburan reda."
+        ],
+        "question": "Adakah mata anda terasa lebih baik selepas direhatkan daripada skrin?",
+        "yesResult": "Ini sepadan dengan corak tipikal ketegangan mata. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika sakit tajam, disertai kemerahan atau perubahan penglihatan, sila jumpa doktor mata. Jika sakit terutamanya di dahi dan pelipis, semak C2."
+      },
+      "reliefTips": [
+        "Rehat mata setiap 20 minit (peraturan 20-20-20)",
+        "Berkelip kerap dan gunakan tuam suam",
+        "Letakkan skrin sejauh lengan, sedikit di bawah paras mata"
+      ],
+      "avoid": "Membaca dalam gelap, menggosok mata, dan lama menghadap skrin tanpa rehat.",
+      "seeDoctorIf": [
+        "Penglihatan tiba-tiba kabur atau hilang",
+        "Sakit mata dengan kemerahan, atau sensitif kepada cahaya",
+        "Ketegangan mata yang tidak bertambah baik dengan rehat"
+      ],
+      "warningLine": "Hilang penglihatan tiba-tiba, atau sakit mata teruk dengan kemerahan? Dapatkan rawatan perubatan segera.",
+      "deviceCaution": "Jangan gunakan peranti pada atau berhampiran mata."
+    },
+    {
+      "code": "C5",
+      "gridLabel": "Sakit Sendi Rahang",
+      "title": "TMJ & Rahang Terketap",
+      "image": "C5_TMJ_Jaw_Clenching.png",
+      "hook": "Rahang sakit, berbunyi klik atau tegang apabila anda bangun tidur atau mengunyah?",
+      "painLocation": "Sendi rahang di hadapan telinga, otot rahang dan pelipis",
+      "definition": "Sakit dan kekakuan pada sendi rahang dan otot mengunyah, selalunya berkaitan dengan mengetap atau mengerat gigi.",
+      "didYouKnow": "Ramai orang mengetap atau mengerat gigi semasa tidur tanpa menyedarinya.",
+      "howItFeels": "Sakit tumpul di rahang atau di hadapan telinga, bunyi klik atau pop apabila anda membuka mulut, dan otot rahang yang tegang. Sakitnya sering bertambah pada waktu pagi atau semasa mengunyah, dan boleh merebak ke pelipis atau telinga.",
+      "whoIsAtRisk": [
+        "Tekanan tinggi",
+        "Mengerat gigi",
+        "Kerap mengunyah gula-gula getah",
+        "Pernah cedera rahang",
+        "Tidur tidak lena"
+      ],
+      "commonCauses": [
+        "Tekanan dan mengetap gigi",
+        "Mengerat gigi pada waktu malam",
+        "Mengunyah gula-gula getah atau makanan keras",
+        "Kecederaan rahang atau artritis"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Letakkan hujung jari anda di hadapan telinga.",
+          "Buka dan tutup mulut anda perlahan-lahan.",
+          "Perhatikan sebarang bunyi klik, ketegangan atau sakit."
+        ],
+        "question": "Adakah anda rasa bunyi klik atau sakit di hadapan telinga apabila membuka mulut luas?",
+        "yesResult": "Ini sepadan dengan corak tipikal masalah sendi rahang (TMJ). Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika sakit seperti kejutan tajam yang tiba-tiba di satu sebelah, semak C1. Jika di satu gigi, semak C6."
+      },
+      "reliefTips": [
+        "Rehatkan rahang: bibir rapat, gigi tidak bertemu",
+        "Tuam dengan kain suam selama 10 minit",
+        "Makan makanan lembut selama beberapa hari"
+      ],
+      "avoid": "Mengunyah gula-gula getah, menggigit kuku atau pen, menguap luas, dan makanan keras atau kenyal.",
+      "seeDoctorIf": [
+        "Rahang terkunci terbuka atau tertutup",
+        "Sakit yang tidak reda selepas beberapa minggu",
+        "Gigi anda tidak lagi bertemu seperti biasa"
+      ],
+      "warningLine": "Sakit rahang dengan sakit dada, sesak nafas atau berpeluh? Dapatkan rawatan perubatan segera – ia mungkin berpunca daripada jantung anda."
+    },
+    {
+      "code": "C6",
+      "gridLabel": "Sakit Gigi & Gusi",
+      "title": "Sakit Gigi & Gusi",
+      "image": "C6_Toothache_Gum_Pain.png",
+      "hook": "Gigi berdenyut-denyut, atau gusi sakit dan bengkak?",
+      "painLocation": "Satu gigi, gusi, atau rahang dan pipi di sebelahnya",
+      "definition": "Sakit pada gigi atau gusi, biasanya disebabkan oleh karies, gigi retak atau penyakit gusi.",
+      "didYouKnow": "Sakit daripada satu gigi boleh terasa seperti datang dari pipi, rahang atau telinga.",
+      "howItFeels": "Sakit berdenyut atau tajam di dalam atau di sekeliling gigi, selalunya bertambah teruk dengan makanan panas, sejuk atau manis atau apabila menggigit. Gusi mungkin merah, bengkak atau berdarah, dan sakit boleh merebak ke rahang, pipi atau telinga.",
+      "whoIsAtRisk": [
+        "Diet bergula",
+        "Perokok",
+        "Tabiat memberus gigi yang kurang baik",
+        "Mengerat gigi",
+        "Mulut kering"
+      ],
+      "commonCauses": [
+        "Karies gigi",
+        "Penyakit gusi",
+        "Gigi retak atau haus",
+        "Jangkitan (abses)"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Kumur mulut anda perlahan-lahan dengan air suam.",
+          "Hirup sesuatu yang sejuk, kemudian sesuatu yang suam.",
+          "Perhatikan gigi mana yang sakit dan apa yang mencetuskannya."
+        ],
+        "question": "Adakah satu gigi sakit dengan makanan panas, sejuk atau manis, atau apabila menggigit?",
+        "yesResult": "Ini sepadan dengan corak tipikal sakit gigi. Sila buat temu janji dengan doktor gigi anda. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika sakit seperti kejutan elektrik tiba-tiba yang tidak berkaitan dengan satu gigi, semak C1. Jika sakit rahang yang tumpul, semak C5."
+      },
+      "reliefTips": [
+        "Kumur dengan air garam suam",
+        "Gunakan berus lembut dan flos dengan perlahan",
+        "Letakkan pek sejuk di pipi selama 10 minit"
+      ],
+      "avoid": "Makanan dan minuman yang terlalu panas, sejuk atau bergula, mengunyah di sebelah yang sakit, dan merokok.",
+      "seeDoctorIf": [
+        "Sakit yang berlarutan lebih daripada sehari dua",
+        "Rasa tidak enak, nanah atau benjolan pada gusi",
+        "Demam atau bengkak pada muka"
+      ],
+      "warningLine": "Muka bengkak, demam atau sukar menelan atau bernafas? Dapatkan rawatan perubatan segera.",
+      "deviceCaution": "Jangan gunakan peranti pada pipi, rahang atau gusi yang bengkak atau berjangkit."
+    },
+    {
+      "code": "C7",
+      "gridLabel": "Kedutan Mata & Pipi",
+      "title": "Kedutan Muka",
+      "image": "C7_Facial_Twitching.png",
+      "hook": "Kelopak mata atau pipi anda sentiasa berkedut dengan sendirinya?",
+      "painLocation": "Kelopak mata, pipi atau sudut mulut, biasanya di satu sebelah",
+      "definition": "Kedutan otot muka yang kecil dan tidak disengajakan, selalunya berkaitan dengan keletihan, tekanan atau terlalu banyak kafein.",
+      "didYouKnow": "Kelopak mata berkedut adalah biasa, biasanya tidak berbahaya, dan sering berhenti dengan sendirinya.",
+      "howItFeels": "Kelipan atau kedutan halus pada kelopak mata, pipi atau sudut mulut yang tidak dapat anda kawal. Ia datang dan pergi, berlangsung beberapa saat hingga beberapa minit setiap kali, dan biasanya tidak sakit. Ia cenderung kembali apabila anda letih atau tertekan.",
+      "whoIsAtRisk": [
+        "Tidur tidak cukup",
+        "Tekanan tinggi",
+        "Banyak kafein",
+        "Ketegangan mata",
+        "Mata kering"
+      ],
+      "commonCauses": [
+        "Keletihan dan kurang tidur",
+        "Tekanan",
+        "Terlalu banyak kafein",
+        "Ketegangan mata atau mata kering"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk diam dan kendurkan muka anda.",
+          "Lihat dalam cermin selama satu minit.",
+          "Perhatikan di mana kedutan itu dan sama ada ia datang dan pergi."
+        ],
+        "question": "Adakah ia kedutan kecil di satu tempat yang datang dan pergi dan tidak sakit?",
+        "yesResult": "Ini sepadan dengan corak tipikal kedutan yang tidak berbahaya. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika muka anda senget, atau kedutan merebak ke bahagian lain muka anda, sila jumpa doktor. Jika mata anda sakit, semak C4."
+      },
+      "reliefTips": [
+        "Tidur lena sepanjang malam",
+        "Kurangkan kopi dan teh",
+        "Rehatkan mata anda dan gunakan tuam suam"
+      ],
+      "avoid": "Berjaga malam, terlalu banyak kafein, menggosok mata, dan lama menghadap skrin tanpa rehat.",
+      "seeDoctorIf": [
+        "Kedutan berlarutan selama beberapa minggu",
+        "Kelopak mata tertutup sepenuhnya atau jatuh",
+        "Kedutan merebak ke bahagian lain muka anda"
+      ],
+      "warningLine": "Kedutan dengan muka senget, kelemahan atau pertuturan pelat? Dapatkan rawatan perubatan segera.",
+      "deviceCaution": "Jangan gunakan peranti pada atau berhampiran mata."
+    },
+    {
+      "code": "C8",
+      "gridLabel": "Muka Senget Sebelah",
+      "title": "Lumpuh Bell (Bell's Palsy)",
+      "image": "C8_Bells_Palsy.png",
+      "hook": "Satu sebelah muka anda tiba-tiba senget atau sukar digerakkan?",
+      "painLocation": "Satu sebelah muka, kadangkala dengan sakit di belakang telinga",
+      "definition": "Kelemahan otot yang tiba-tiba di satu sebelah muka, biasanya disebabkan oleh saraf muka yang bengkak.",
+      "didYouKnow": "Ramai orang dengan lumpuh Bell mula pulih dalam masa beberapa minggu.",
+      "howItFeels": "Kelemahan atau kejatuhan yang tiba-tiba di satu sebelah muka, sukar menutup mata, senyuman yang senget, meleleh air liur atau perubahan rasa. Sesetengah orang berasa sakit di belakang telinga dahulu. Ia biasanya muncul dalam beberapa jam hingga sehari dua.",
+      "whoIsAtRisk": [
+        "Jangkitan virus baru-baru ini",
+        "Kehamilan",
+        "Diabetes"
+      ],
+      "commonCauses": [
+        "Saraf muka yang bengkak",
+        "Jangkitan virus baru-baru ini",
+        "Tekanan pada saraf",
+        "Kadangkala tiada punca yang jelas"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Lihat dalam cermin dan kendurkan muka anda.",
+          "Angkat kedua-dua kening dan pejamkan kedua-dua mata.",
+          "Senyum lebar dan tunjukkan gigi anda."
+        ],
+        "question": "Adakah satu sebelah muka anda bergerak kurang daripada sebelah lagi?",
+        "yesResult": "Ini sepadan dengan corak kelemahan muka yang tiba-tiba. Sila jumpa doktor hari ini, kerana ia juga mungkin tanda strok. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika kedua-dua belah bergerak seperti biasa, masalahnya mungkin ketegangan otot. Semak C2 atau C5."
+      },
+      "reliefTips": [
+        "Pastikan mata lembap dengan titis pelincir",
+        "Lindungi mata pada waktu malam seperti yang dinasihatkan doktor anda",
+        "Makan makanan lembut dan kunyah di sebelah yang lebih kuat"
+      ],
+      "avoid": "Menggosok mata, angin sejuk pada muka, dan menunggu terlalu lama untuk berjumpa doktor.",
+      "seeDoctorIf": [
+        "Kelemahan atau kejatuhan muka yang tiba-tiba",
+        "Sukar menutup mata, atau mata sakit atau merah",
+        "Tiada pemulihan selepas beberapa minggu"
+      ],
+      "warningLine": "Muka senget dengan kelemahan lengan, pertuturan pelat atau keliru? Hubungi perkhidmatan kecemasan sekarang – ia mungkin strok.",
+      "deviceCaution": "Jangan gunakan peranti pada muka semasa ia senget atau lemah. Sila jumpa doktor dahulu."
+    }
+  ]
+}

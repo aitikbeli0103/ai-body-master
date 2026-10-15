@@ -1,0 +1,385 @@
+{
+  "section": {
+    "id": "face",
+    "codePrefix": "C",
+    "title": "Where does your face hurt?",
+    "subtitle": "Select one or more areas to get a personalised plan.",
+    "gridImage": "C0_Main_Grid_Face.png"
+  },
+  "disclaimer": "For education only, not a diagnosis.",
+  "references": "NHS UK, Mayo Clinic, NINDS (US National Institute of Neurological Disorders and Stroke)",
+  "lastUpdated": "[DATE]",
+  "reviewedBy": "[QUALIFIED REVIEWER]",
+  "symptoms": [
+    {
+      "code": "C1",
+      "gridLabel": "Sudden Shock Pain",
+      "title": "Trigeminal Neuralgia",
+      "image": "C1_Trigeminal_Neuralgia.png",
+      "hook": "Sudden electric-shock pain on one side of your face?",
+      "painLocation": "One side of the face — cheek, jaw or around the mouth",
+      "definition": "A nerve pain condition causing sudden, severe, electric-shock-like pain along the trigeminal nerve.",
+      "didYouKnow": "Even light touch, chewing, talking or brushing your teeth can trigger an attack.",
+      "howItFeels": "Brief, sudden jolts of stabbing or electric-shock pain on one side of the face, lasting from a few seconds to a couple of minutes. Attacks can come in bursts and may be set off by light touch, a cool breeze, chewing, talking or brushing your teeth.",
+      "whoIsAtRisk": [
+        "Age 50+",
+        "Women",
+        "Multiple sclerosis",
+        "Pressure on the nerve"
+      ],
+      "commonCauses": [
+        "Blood vessel pressing on the nerve",
+        "Multiple sclerosis",
+        "Nerve damage",
+        "Sometimes no clear cause"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Sit comfortably and relax your face.",
+          "Think about your last few attacks.",
+          "Notice what set them off and how long each one lasted."
+        ],
+        "question": "Does the pain come in sudden, short jolts, often set off by touch, chewing or talking?",
+        "yesResult": "This matches the typical pattern of trigeminal neuralgia. Please see a doctor for a proper check. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the pain is constant, dull or throbbing, check C2 or C5."
+      },
+      "reliefTips": [
+        "Avoid known triggers such as cold wind",
+        "Eat soft foods and chew on the other side",
+        "Wash and brush gently with lukewarm water"
+      ],
+      "avoid": "Touching the painful area, very hot or cold drinks, and chewing hard or crunchy food.",
+      "seeDoctorIf": [
+        "Sudden, severe pain on one side of the face",
+        "Numbness, weakness or a drooping face",
+        "Attacks that are getting more frequent or more severe"
+      ],
+      "warningLine": "Sudden severe face pain with weakness or a drooping face? Seek urgent medical care.",
+      "deviceCaution": "Do not use the device on the face if touch triggers sharp pain. Please see a doctor first."
+    },
+    {
+      "code": "C2",
+      "gridLabel": "Forehead & Temple Pain",
+      "title": "Tension Headache",
+      "image": "C2_Tension_Headache.png",
+      "hook": "A tight band of pressure around your forehead and temples?",
+      "painLocation": "Forehead and temples, sometimes the back of the head",
+      "definition": "A dull, tight, squeezing ache around the head, linked to muscle tension and stress.",
+      "didYouKnow": "Tension headache is the most common type of headache.",
+      "howItFeels": "A dull, steady pressure like a tight band around the forehead and temples, usually on both sides. It is mild to moderate and does not throb. It often builds up during a stressful day, and your neck and shoulders may feel tight.",
+      "whoIsAtRisk": [
+        "Desk workers",
+        "High stress",
+        "Poor sleep",
+        "Neck and shoulder tension",
+        "Long screen time"
+      ],
+      "commonCauses": [
+        "Stress and tiredness",
+        "Tight neck and shoulder muscles",
+        "Poor posture",
+        "Skipping meals or water"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Sit down and drop your shoulders.",
+          "Gently press the muscles at your temples.",
+          "Then gently rub the back of your neck."
+        ],
+        "question": "Is the ache dull and tight on both sides, without throbbing?",
+        "yesResult": "This matches the typical pattern of a tension headache. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the pain throbs on one side, with nausea or sensitivity to light, please see a doctor. If it is mainly around the cheeks and nose, check C3."
+      },
+      "reliefTips": [
+        "Rest in a quiet, dim room",
+        "Gentle neck and shoulder stretches",
+        "Drink water and take screen breaks"
+      ],
+      "avoid": "Skipping meals, long stretches at a screen without breaks, and too much caffeine.",
+      "seeDoctorIf": [
+        "A sudden, severe headache unlike any before",
+        "Headache after a head injury",
+        "Headache with fever, a stiff neck, confusion or weakness"
+      ],
+      "warningLine": "Sudden, worst-ever headache, or headache with weakness or confusion? Seek urgent medical care."
+    },
+    {
+      "code": "C3",
+      "gridLabel": "Cheek & Nose Pressure",
+      "title": "Sinus Pain",
+      "image": "C3_Sinus_Pain.png",
+      "hook": "Pressure around your cheeks and nose that gets worse when you bend forward?",
+      "painLocation": "Cheeks, around the nose, behind the eyes and forehead",
+      "definition": "Pain and pressure from swollen, blocked sinuses behind the cheeks, nose and forehead.",
+      "didYouKnow": "Sinus pain often feels worse when you bend forward or lie down.",
+      "howItFeels": "A dull, heavy pressure or ache over the cheeks, nose, eyebrows or forehead, often with a blocked or runny nose. It usually feels worse when you bend forward, and your upper teeth may ache too.",
+      "whoIsAtRisk": [
+        "Frequent colds",
+        "Allergies",
+        "Smokers",
+        "Haze or dust"
+      ],
+      "commonCauses": [
+        "Cold or flu",
+        "Allergies",
+        "Blocked nose",
+        "Dust, haze or smoke"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Sit upright and relax.",
+          "Gently press beside your nose and under your eyes.",
+          "Then bend your head forward for a few seconds."
+        ],
+        "question": "Does the pressure feel heavier when you bend forward or press gently on your cheeks?",
+        "yesResult": "This matches the typical pattern of sinus pain. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the pain is a sharp jolt on one side, check C1. If it is in the jaw or one tooth, check C5 or C6."
+      },
+      "reliefTips": [
+        "Breathe warm steam from a shower or bowl",
+        "Drink plenty of warm fluids",
+        "Use a saline nasal spray"
+      ],
+      "avoid": "Smoke, dust and haze, very dry air, and flying while your nose is blocked.",
+      "seeDoctorIf": [
+        "Symptoms last more than 10 days or keep returning",
+        "Fever, or thick green-yellow discharge with worsening pain",
+        "Swelling or redness around an eye"
+      ],
+      "warningLine": "Swollen red eye, severe headache or a stiff neck? Seek urgent medical care.",
+      "deviceCaution": "Do not use the device on the face if you have a fever or swelling around the eye or cheek."
+    },
+    {
+      "code": "C4",
+      "gridLabel": "Tired, Aching Eyes",
+      "title": "Eye Strain",
+      "image": "C4_Eye_Strain.png",
+      "hook": "Eyes tired, dry and aching after hours on your phone or screen?",
+      "painLocation": "Around and behind the eyes, sometimes the brow and temples",
+      "definition": "Tired, sore eyes caused by long periods of close-up focus, such as phone and computer use.",
+      "didYouKnow": "We blink much less when we look at a screen, which dries out the eyes.",
+      "howItFeels": "Tired, burning or gritty eyes, a dull ache around or behind the eyes, and blurry vision that settles after a rest. You may also get a headache or a stiff neck from leaning towards the screen.",
+      "whoIsAtRisk": [
+        "Office workers",
+        "Students",
+        "Heavy phone users",
+        "Contact lens wearers",
+        "Uncorrected eyesight"
+      ],
+      "commonCauses": [
+        "Long screen time",
+        "Not blinking enough",
+        "Dim or glaring light",
+        "Uncorrected eyesight"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Look at something far away, about 6 metres, for 20 seconds.",
+          "Blink slowly 10 times.",
+          "Notice whether the tiredness or blur eases."
+        ],
+        "question": "Do your eyes feel better after resting them from the screen?",
+        "yesResult": "This matches the typical pattern of eye strain. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the pain is sharp, with redness or changes in your vision, please see an eye doctor. If the ache is mainly in the forehead and temples, check C2."
+      },
+      "reliefTips": [
+        "Look away every 20 minutes (the 20-20-20 rule)",
+        "Blink often and use a warm compress",
+        "Keep the screen at arm's length, slightly below eye level"
+      ],
+      "avoid": "Reading in the dark, rubbing your eyes, and long stretches on a screen without breaks.",
+      "seeDoctorIf": [
+        "Sudden blurred vision or loss of sight",
+        "Eye pain with redness, or sensitivity to light",
+        "Eye strain that does not improve with rest"
+      ],
+      "warningLine": "Sudden vision loss or severe eye pain with redness? Seek urgent medical care.",
+      "deviceCaution": "Do not use the device on or close to the eyes."
+    },
+    {
+      "code": "C5",
+      "gridLabel": "Jaw Joint Pain",
+      "title": "TMJ & Jaw Clenching",
+      "image": "C5_TMJ_Jaw_Clenching.png",
+      "hook": "Jaw aching, clicking or tight when you wake up or chew?",
+      "painLocation": "Jaw joint in front of the ear, jaw muscles and temples",
+      "definition": "Pain and stiffness in the jaw joint and chewing muscles, often linked to clenching or grinding the teeth.",
+      "didYouKnow": "Many people clench or grind their teeth in their sleep without knowing it.",
+      "howItFeels": "A dull ache in the jaw or in front of the ear, a clicking or popping sound when you open your mouth, and tight jaw muscles. Pain is often worse in the morning or when chewing, and may spread to the temples or ear.",
+      "whoIsAtRisk": [
+        "High stress",
+        "Teeth grinding",
+        "Chewing gum a lot",
+        "Past jaw injury",
+        "Poor sleep"
+      ],
+      "commonCauses": [
+        "Stress and clenching",
+        "Grinding teeth at night",
+        "Chewing gum or hard food",
+        "Jaw injury or arthritis"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Place your fingertips just in front of your ears.",
+          "Slowly open and close your mouth.",
+          "Notice any clicking, tightness or pain."
+        ],
+        "question": "Do you feel clicking or pain in front of the ear when you open your mouth wide?",
+        "yesResult": "This matches the typical pattern of a jaw joint problem (TMJ). Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the pain is a sudden sharp jolt on one side, check C1. If it is in one tooth, check C6."
+      },
+      "reliefTips": [
+        "Rest your jaw: lips together, teeth apart",
+        "Apply a warm cloth for 10 minutes",
+        "Eat soft foods for a few days"
+      ],
+      "avoid": "Chewing gum, biting nails or pens, wide yawning, and hard or chewy food.",
+      "seeDoctorIf": [
+        "Your jaw locks open or closed",
+        "Pain that does not settle after a few weeks",
+        "Your teeth no longer fit together as before"
+      ],
+      "warningLine": "Jaw pain with chest pain, breathlessness or sweating? Seek urgent medical care – it could be your heart."
+    },
+    {
+      "code": "C6",
+      "gridLabel": "Tooth & Gum Pain",
+      "title": "Toothache & Gum Pain",
+      "image": "C6_Toothache_Gum_Pain.png",
+      "hook": "A throbbing tooth, or gums that are sore and swollen?",
+      "painLocation": "One tooth, the gums, or the jaw and cheek beside it",
+      "definition": "Pain from a tooth or the gums, usually caused by decay, a cracked tooth or gum disease.",
+      "didYouKnow": "Pain from one tooth can feel like it is coming from the cheek, jaw or ear.",
+      "howItFeels": "A throbbing or sharp pain in or around a tooth, often worse with hot, cold or sweet food or when you bite down. The gums may be red, swollen or bleed, and the pain can spread to the jaw, cheek or ear.",
+      "whoIsAtRisk": [
+        "Sugary diet",
+        "Smokers",
+        "Poor brushing habits",
+        "Grinding teeth",
+        "Dry mouth"
+      ],
+      "commonCauses": [
+        "Tooth decay",
+        "Gum disease",
+        "A cracked or worn tooth",
+        "Infection (abscess)"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Rinse your mouth gently with lukewarm water.",
+          "Sip something cool, then something warm.",
+          "Notice which tooth hurts and what sets it off."
+        ],
+        "question": "Does one tooth hurt with hot, cold or sweet food, or when you bite?",
+        "yesResult": "This matches the typical pattern of tooth pain. Please book a visit with your dentist. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the pain is a sudden electric jolt that is not linked to one tooth, check C1. If it is a dull jaw ache, check C5."
+      },
+      "reliefTips": [
+        "Rinse with warm salt water",
+        "Use a soft brush and floss gently",
+        "Hold a cold pack on the cheek for 10 minutes"
+      ],
+      "avoid": "Very hot, cold or sugary food and drink, chewing on the sore side, and smoking.",
+      "seeDoctorIf": [
+        "Pain that lasts more than a day or two",
+        "A bad taste, pus or a bump on the gum",
+        "Fever or swelling in the face"
+      ],
+      "warningLine": "Facial swelling, fever or trouble swallowing or breathing? Seek urgent medical care.",
+      "deviceCaution": "Do not use the device on a swollen or infected cheek, jaw or gum."
+    },
+    {
+      "code": "C7",
+      "gridLabel": "Eyelid & Cheek Twitching",
+      "title": "Facial Twitching",
+      "image": "C7_Facial_Twitching.png",
+      "hook": "An eyelid or cheek that keeps twitching on its own?",
+      "painLocation": "Eyelid, cheek or the corner of the mouth, usually on one side",
+      "definition": "Small, involuntary muscle twitches in the face, often linked to tiredness, stress or too much caffeine.",
+      "didYouKnow": "Eyelid twitching is common, usually harmless, and often stops by itself.",
+      "howItFeels": "A fine flicker or fluttering in the eyelid, cheek or corner of the mouth that you cannot control. It comes and goes, lasts seconds to minutes at a time, and is usually painless. It tends to return when you are tired or stressed.",
+      "whoIsAtRisk": [
+        "Poor sleep",
+        "High stress",
+        "Lots of caffeine",
+        "Eye strain",
+        "Dry eyes"
+      ],
+      "commonCauses": [
+        "Tiredness and lack of sleep",
+        "Stress",
+        "Too much caffeine",
+        "Eye strain or dry eyes"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Sit quietly and relax your face.",
+          "Look in a mirror for one minute.",
+          "Notice where the twitch is and whether it comes and goes."
+        ],
+        "question": "Is it a small flutter in one spot that comes and goes and does not hurt?",
+        "yesResult": "This matches the typical pattern of a harmless twitch. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If your face droops, or the twitching spreads to other parts of your face, please see a doctor. If your eyes ache, check C4."
+      },
+      "reliefTips": [
+        "Get a full night's sleep",
+        "Cut back on coffee and tea",
+        "Rest your eyes and use a warm compress"
+      ],
+      "avoid": "Late nights, too much caffeine, rubbing your eyes, and long periods at a screen without a break.",
+      "seeDoctorIf": [
+        "The twitch lasts for weeks",
+        "Your eyelid closes completely or droops",
+        "The twitching spreads to other parts of your face"
+      ],
+      "warningLine": "Twitching with a drooping face, weakness or slurred speech? Seek urgent medical care.",
+      "deviceCaution": "Do not use the device on or close to the eyes."
+    },
+    {
+      "code": "C8",
+      "gridLabel": "One-Side Face Droop",
+      "title": "Bell's Palsy",
+      "image": "C8_Bells_Palsy.png",
+      "hook": "One side of your face suddenly drooping or hard to move?",
+      "painLocation": "One side of the face, sometimes with pain behind the ear",
+      "definition": "A sudden weakness of the muscles on one side of the face, usually from a swollen facial nerve.",
+      "didYouKnow": "Many people with Bell's palsy start to improve within a few weeks.",
+      "howItFeels": "Sudden weakness or drooping on one side of the face, trouble closing the eye, a crooked smile, drooling or a change in taste. Some people feel pain behind the ear first. It usually appears over a few hours to a day or two.",
+      "whoIsAtRisk": [
+        "Recent viral illness",
+        "Pregnancy",
+        "Diabetes"
+      ],
+      "commonCauses": [
+        "A swollen facial nerve",
+        "A recent viral infection",
+        "Pressure on the nerve",
+        "Sometimes no clear cause"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Look in a mirror and relax your face.",
+          "Raise both eyebrows and close both eyes.",
+          "Smile widely and show your teeth."
+        ],
+        "question": "Does one side of your face move less than the other?",
+        "yesResult": "This matches a pattern of sudden facial weakness. Please see a doctor today, because it can also be a sign of a stroke. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If both sides move normally, the problem may be muscle tension. Check C2 or C5."
+      },
+      "reliefTips": [
+        "Keep the eye moist with lubricating drops",
+        "Protect the eye at night as your doctor advises",
+        "Eat soft foods and chew on the stronger side"
+      ],
+      "avoid": "Rubbing the eye, cold wind on the face, and waiting to see a doctor.",
+      "seeDoctorIf": [
+        "Sudden weakness or drooping of the face",
+        "Trouble closing the eye, or eye pain or redness",
+        "No improvement after a few weeks"
+      ],
+      "warningLine": "Face droop with arm weakness, slurred speech or confusion? Call emergency services now – it could be a stroke.",
+      "deviceCaution": "Do not use the device on the face while it is drooping or weak. Please see a doctor first."
+    }
+  ]
+}
