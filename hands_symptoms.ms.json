@@ -1,0 +1,393 @@
+{
+  "section": {
+    "id": "hands",
+    "codePrefix": "W",
+    "title": "Di mana tangan atau lengan anda sakit?",
+    "subtitle": "Pilih satu atau lebih bahagian untuk mendapatkan pelan peribadi.",
+    "gridImage": "W0_Main_Grid_Hands.png",
+    "emergencyNote": "Kebas atau lemah secara tiba-tiba di satu sebelah badan, muka senget, pelat, atau sakit lengan dengan tekanan di dada? Hubungi 999 sekarang.",
+    "emergencyNumber": "999"
+  },
+  "disclaimer": "Hanya untuk pendidikan, bukan diagnosis.",
+  "references": "NHS UK, Mayo Clinic, American Academy of Orthopaedic Surgeons (Akademi Pakar Bedah Ortopedik Amerika)",
+  "lastUpdated": "[DATE]",
+  "reviewedBy": "[QUALIFIED REVIEWER]",
+  "symptoms": [
+    {
+      "code": "W1",
+      "gridLabel": "Sakit Pangkal Ibu Jari",
+      "title": "Sakit Pergelangan Tangan di Sebelah Ibu Jari",
+      "image": "W1_Thumb_Side_Wrist_Pain.png",
+      "hook": "Sakit di sebelah ibu jari pada pergelangan tangan anda apabila anda menggenggam, mengangkat atau memusingkan tangan?",
+      "painLocation": "Sebelah ibu jari pada pergelangan tangan, memanjang ke pangkal ibu jari",
+      "definition": "Sakit di sepanjang sebelah ibu jari pada pergelangan tangan, selalunya daripada tendon yang digunakan berlebihan selepas menggenggam berulang kali, mendukung bayi, menaip mesej atau memutar pergelangan tangan.",
+      "didYouKnow": "Tendon ibu jari anda menyelinap melalui terowong sempit di pergelangan tangan, jadi menggenggam, mencubit dan menggunakan telefon berulang kali boleh menjadikannya sakit dan teriritasi.",
+      "howItFeels": "Sakit lenguh atau tajam di sebelah ibu jari pada pergelangan tangan yang bertambah apabila anda menggenggam, mencubit, mengangkat sesuatu atau memusingkan pergelangan tangan. Tempat itu mungkin terasa sakit apabila disentuh, sedikit bengkak atau kaku, dan ibu jari mungkin terasa lemah.",
+      "whoIsAtRisk": [
+        "Ibu bapa baru yang mendukung bayi",
+        "Pengguna telefon dan tablet yang kerap",
+        "Menggenggam atau memutar berulang kali",
+        "Kerja papan kekunci dan tetikus",
+        "Memasak dan berkebun"
+      ],
+      "commonCauses": [
+        "Tendon ibu jari yang digunakan berlebihan",
+        "Menggenggam, mencubit atau menaip mesej berulang kali",
+        "Mengangkat dengan pergelangan tangan yang bengkok",
+        "Kecederaan pergelangan tangan baru-baru ini, yang perlu diperiksa doktor"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Letakkan lengan bawah anda di atas meja dengan ibu jari menghala ke atas.",
+          "Selitkan ibu jari anda ke dalam penumbuk.",
+          "Condongkan pergelangan tangan anda perlahan-lahan ke arah sebelah jari kelingking dan berhenti jika sakitnya tajam."
+        ],
+        "question": "Adakah gerakan ini menyebabkan sakit di sebelah ibu jari pada pergelangan tangan?",
+        "yesResult": "Sakit dengan gerakan ini sepadan dengan tendon sebelah ibu jari yang teriritasi. Rehatkan pergelangan tangan, dan jumpa doktor atau ahli fisioterapi jika ia berlarutan lebih beberapa minggu. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika sakit di bahagian lain pergelangan tangan, semak W2, W3 atau W4. Selepas jatuh atau terhantuk, jumpa doktor untuk memeriksa kemungkinan patah tulang."
+      },
+      "reliefTips": [
+        "Rehatkan pergelangan tangan dan elakkan menggenggam serta mencubit berulang kali",
+        "Pastikan pergelangan tangan lurus dan gunakan kedua-dua tangan untuk mengangkat",
+        "Letakkan tuala suam pada tempat yang sakit selama 10 minit"
+      ],
+      "avoid": "Mencubit berulang kali, menggenggam kuat, memerah kain dan sesi telefon yang lama menggunakan ibu jari.",
+      "seeDoctorIf": [
+        "Sakit pergelangan tangan selepas jatuh atau terhantuk",
+        "Bengkak, kemerahan atau rasa panas, atau ketulan di pergelangan tangan",
+        "Sakit yang tidak bertambah baik selepas beberapa minggu berehat"
+      ],
+      "warningLine": "Sakit pergelangan tangan yang teruk secara tiba-tiba selepas jatuh, atau tangan yang kelihatan bengkok, bengkak atau kebas? Jumpa doktor hari ini.",
+      "deviceCaution": "Jangan gunakan peranti pada kawasan yang bengkak, merah, panas atau cedera, kulit yang luka atau implan logam. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan, atau jika anda mengandung. Tanggalkan cincin dan gelang dahulu. Sila tanya ahli terapi atau doktor anda dahulu. Jangan gunakan selepas jatuh atau terhantuk baru-baru ini sehingga doktor memeriksa pergelangan tangan."
+    },
+    {
+      "code": "W2",
+      "gridLabel": "Tapak Tangan Kebas",
+      "title": "Tapak Tangan Kesemutan & Kebas",
+      "image": "W2_Palm_Tingling_Numbness.png",
+      "hook": "Jari kesemutan atau kebas, terutamanya pada waktu malam atau apabila anda memegang telefon?",
+      "painLocation": "Tapak tangan, ibu jari, jari telunjuk dan jari hantu, kadangkala sampai ke lengan bawah",
+      "definition": "Rasa kesemutan, kebas atau terbakar pada tapak tangan serta ibu jari, jari telunjuk dan jari hantu, selalunya berkaitan dengan tekanan pada saraf yang melalui pergelangan tangan (gejala jenis terowong karpal).",
+      "didYouKnow": "Saraf ke ibu jari, jari telunjuk dan jari hantu melalui terowong kecil di pergelangan tangan, jadi pergelangan tangan yang bengkok berjam-jam pada telefon atau papan kekunci boleh menekannya dan menyebabkan rasa kesemutan.",
+      "howItFeels": "Rasa seperti ditusuk jarum, kebas atau terbakar pada tapak tangan dan tiga jari pertama. Ia mungkin mengejutkan anda pada waktu malam, datang apabila anda memegang telefon, memandu atau menaip, dan reda apabila anda menggoncang tangan. Genggaman anda mungkin terasa lemah dan anda mungkin menjatuhkan barang.",
+      "whoIsAtRisk": [
+        "Berjam-jam di papan kekunci, tetikus atau telefon",
+        "Kerja tangan yang berulang",
+        "Kehamilan",
+        "Diabetes atau masalah tiroid",
+        "Tidur dengan pergelangan tangan bengkok"
+      ],
+      "commonCauses": [
+        "Tekanan pada saraf di pergelangan tangan (jenis terowong karpal)",
+        "Memegang pergelangan tangan dalam keadaan bengkok untuk tempoh yang lama",
+        "Bengkak atau pengumpulan cecair, contohnya semasa kehamilan",
+        "Kerengsaan saraf daripada leher, yang boleh diperiksa doktor"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Hulurkan kedua-dua lengan ke hadapan dengan siku lurus.",
+          "Biarkan pergelangan tangan terkulai dan letakkan belakang tangan bersama selama seminit.",
+          "Perhatikan sama ada rasa kesemutan atau kebas bermula di jari anda."
+        ],
+        "question": "Adakah kedudukan ini menyebabkan kesemutan atau kebas pada ibu jari, jari telunjuk atau jari hantu anda?",
+        "yesResult": "Corak ini tipikal tekanan pada saraf di pergelangan tangan. Elakkan memegang pergelangan tangan bengkok untuk tempoh yang lama, dan jumpa doktor jika ia kerap berulang atau mengejutkan anda pada waktu malam. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika kesemutan di jari manis dan jari kelingking, semak W8. Jika ia disertai sakit leher atau lengan yang lemah, jumpa doktor."
+      },
+      "reliefTips": [
+        "Pastikan pergelangan tangan lurus apabila anda menaip, menatal telefon atau tidur",
+        "Berehat sebentar setiap setengah jam dan goncangkan tangan dengan lembut",
+        "Lakukan regangan pergelangan tangan dan jari yang perlahan"
+      ],
+      "avoid": "Tempoh yang lama dengan pergelangan tangan bengkok, menggenggam telefon dengan kuat dan tidur menindih tangan.",
+      "seeDoctorIf": [
+        "Kebas yang mengejutkan anda pada waktu malam atau kerap berulang",
+        "Genggaman lemah atau kerap menjatuhkan barang",
+        "Otot pangkal ibu jari kelihatan lebih nipis, atau tangan terasa kekok"
+      ],
+      "warningLine": "Kebas atau lemah secara tiba-tiba di satu sebelah badan, muka senget atau pelat? Hubungi 999 sekarang.",
+      "deviceCaution": "Jangan gunakan peranti pada kawasan yang bengkak, merah, panas atau cedera, kulit yang luka atau implan logam. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan, atau jika anda mengandung. Tanggalkan cincin dan gelang dahulu. Sila tanya ahli terapi atau doktor anda dahulu. Jangan gunakan jika kebas itu baru, merebak atau disertai kelemahan."
+    },
+    {
+      "code": "W3",
+      "gridLabel": "Sakit Tepi Kelingking",
+      "title": "Sakit Pergelangan Tangan di Sebelah Jari Kelingking",
+      "image": "W3_Pinky_Side_Wrist_Pain.png",
+      "hook": "Sakit di sebelah jari kelingking pada pergelangan tangan anda apabila anda memusing, menyandar atau menolak badan ke atas?",
+      "painLocation": "Sebelah jari kelingking pada pergelangan tangan, tepat di bawah tulang pergelangan",
+      "definition": "Sakit di tepi luar pergelangan tangan di bawah jari kelingking, selalunya daripada tendon yang tegang atau pad rawan pergelangan tangan selepas memusing, menyandar pada pergelangan tangan atau menanggung berat berulang kali.",
+      "didYouKnow": "Satu pad rawan kecil dan beberapa tendon berkongsi sebelah jari kelingking pada pergelangan tangan, jadi memusing dan menanggung berat, seperti tekan tubi atau memegang raket, boleh merengsakannya.",
+      "howItFeels": "Sakit lenguh atau tajam di sebelah jari kelingking pada pergelangan tangan yang bertambah apabila anda memusing (seperti membuka balang), menolak badan dari meja, menggenggam atau menyandar pada tangan. Anda mungkin merasa sakit apabila disentuh atau bunyi klik, dan pergelangan tangan boleh terasa lemah.",
+      "whoIsAtRisk": [
+        "Sukan raket dan golf",
+        "Tekan tubi, yoga dan menanggung berat pada tangan",
+        "Memusing berulang kali",
+        "Kecederaan pergelangan tangan sebelum ini",
+        "Pekerja pejabat yang menyandar pada pergelangan tangan"
+      ],
+      "commonCauses": [
+        "Tendon di sebelah jari kelingking yang tegang",
+        "Kerengsaan pad rawan di pergelangan tangan",
+        "Menyandar pada pergelangan tangan atau memusing berulang kali",
+        "Kecederaan pergelangan tangan sebelum ini"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Letakkan lengan bawah anda di atas meja dengan tapak tangan menghadap ke bawah.",
+          "Putar tangan anda perlahan-lahan supaya tapak tangan menghadap ke atas, kemudian kembali ke bawah.",
+          "Tekan perlahan tepat di bawah sebelah jari kelingking pada pergelangan tangan."
+        ],
+        "question": "Adakah memusing tangan atau menekan tempat ini menyebabkan sakit?",
+        "yesResult": "Sakit apabila memusing atau menekan di sini sepadan dengan tendon yang tegang atau pad rawan pergelangan tangan. Rehatkan pergelangan tangan, dan jumpa doktor jika ia berbunyi klik, tersekat atau tidak reda. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika sakit di sebelah ibu jari, semak W1. Jika di belakang pergelangan tangan, semak W4. Selepas jatuh, jumpa doktor."
+      },
+      "reliefTips": [
+        "Rehatkan pergelangan tangan dan elakkan tekan tubi, memusing dan menggenggam kuat",
+        "Sokong pergelangan tangan dengan balutan lembut semasa ia pulih",
+        "Letakkan tuala suam pada tepi yang sakit selama 10 minit"
+      ],
+      "avoid": "Tekan tubi, plank, hayunan raket, memerah kain dan membuka balang yang ketat sehingga sakit reda.",
+      "seeDoctorIf": [
+        "Sakit pergelangan tangan selepas jatuh atau terseliuh teruk",
+        "Bunyi klik yang menyakitkan, tersekat atau pergelangan tangan tiba-tiba lemah",
+        "Bengkak, atau sakit yang tidak bertambah baik selepas beberapa minggu"
+      ],
+      "warningLine": "Sakit pergelangan tangan yang teruk secara tiba-tiba selepas jatuh, atau tangan yang kelihatan bengkok, bengkak atau kebas? Jumpa doktor hari ini.",
+      "deviceCaution": "Jangan gunakan peranti pada kawasan yang bengkak, merah, panas atau cedera, kulit yang luka atau implan logam. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan, atau jika anda mengandung. Tanggalkan cincin dan gelang dahulu. Sila tanya ahli terapi atau doktor anda dahulu. Jangan gunakan selepas jatuh atau terseliuh baru-baru ini sehingga doktor memeriksa pergelangan tangan."
+    },
+    {
+      "code": "W4",
+      "gridLabel": "Sakit Belakang Tangan",
+      "title": "Sakit Belakang Tangan & Pergelangan",
+      "image": "W4_Back_of_Hand_Wrist_Pain.png",
+      "hook": "Sakit lenguh di sepanjang belakang tangan atau pergelangan tangan selepas menaip, menggunakan tetikus atau mengangkat barang?",
+      "painLocation": "Belakang pergelangan tangan dan tangan, di belakang buku jari",
+      "definition": "Sakit di sepanjang belakang pergelangan tangan atau tangan, selalunya daripada tendon yang letih atau teriritasi selepas menaip lama, menggunakan tetikus, mengangkat barang atau menggenggam.",
+      "didYouKnow": "Tendon yang mengangkat jari anda melintasi belakang pergelangan tangan, jadi berjam-jam menaip dan menggunakan tetikus boleh menjadikannya tegang dan sakit.",
+      "howItFeels": "Sakit lenguh atau rasa ketat dan sakit di sepanjang belakang pergelangan tangan atau tangan yang bertambah apabila anda membengkokkan pergelangan tangan ke belakang, menaip, menggenggam atau mengangkat. Ia boleh terasa kaku selepas berehat, dan mungkin sedikit bengkak atau sakit apabila ditekan.",
+      "whoIsAtRisk": [
+        "Pekerja papan kekunci dan tetikus",
+        "Pengguna telefon yang kerap",
+        "Gimnasium dan angkat berat",
+        "Pelukis dan tukang kraf",
+        "Sukan raket"
+      ],
+      "commonCauses": [
+        "Tendon di belakang pergelangan tangan yang digunakan berlebihan",
+        "Sesi menaip atau tetikus yang lama dengan pergelangan tangan terdongak",
+        "Menggenggam atau mengangkat terlalu banyak",
+        "Ketulan kecil atau kerengsaan sendi, yang boleh diperiksa doktor"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Letakkan lengan bawah anda di atas meja dengan tapak tangan menghadap ke bawah.",
+          "Angkat tangan anda ke atas pada pergelangan tangan dengan perlahan, kemudian turunkan.",
+          "Tekan perlahan pada belakang pergelangan tangan."
+        ],
+        "question": "Adakah mengangkat tangan atau menekan belakang pergelangan tangan menyebabkan sakit?",
+        "yesResult": "Sakit dengan gerakan ini sepadan dengan tendon yang letih di belakang pergelangan tangan. Laraskan susunan meja anda dan rehatkan pergelangan tangan. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika sakit kebanyakannya di tapak tangan atau disertai kesemutan, semak W2. Jika di sendi jari, semak W5."
+      },
+      "reliefTips": [
+        "Pastikan pergelangan tangan sama paras dengan lengan bawah semasa menaip atau menggunakan tetikus",
+        "Berehat setiap setengah jam dan regangkan pergelangan tangan dengan lembut",
+        "Letakkan tuala suam pada kawasan yang sakit selama 10 minit"
+      ],
+      "avoid": "Menaip dengan pergelangan tangan terdongak, menyandarkan pergelangan tangan pada tepi yang keras dan menggenggam kuat untuk tempoh yang lama.",
+      "seeDoctorIf": [
+        "Sakit yang tidak bertambah baik selepas beberapa minggu",
+        "Ketulan di belakang pergelangan tangan, atau bengkak dan kemerahan",
+        "Sakit selepas jatuh atau terhantuk"
+      ],
+      "warningLine": "Sakit atau bengkak yang teruk secara tiba-tiba selepas jatuh, atau tangan yang kelihatan bengkok atau kebas? Jumpa doktor hari ini.",
+      "deviceCaution": "Jangan gunakan peranti pada kawasan yang bengkak, merah, panas atau cedera, kulit yang luka atau implan logam. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan, atau jika anda mengandung. Tanggalkan cincin dan gelang dahulu. Sila tanya ahli terapi atau doktor anda dahulu. Jangan gunakan pada ketulan di pergelangan tangan."
+    },
+    {
+      "code": "W5",
+      "gridLabel": "Sendi Jari Kaku",
+      "title": "Jari Kaku & Sakit Sendi",
+      "image": "W5_Finger_Stiffness_Joint_Pain.png",
+      "hook": "Sendi jari kaku dan sakit pada waktu pagi atau selepas banyak menggunakan tangan?",
+      "painLocation": "Sendi jari, buku jari dan pangkal ibu jari",
+      "definition": "Kekakuan, sakit lenguh atau bengkak pada sendi jari, selalunya lebih teruk pada waktu pagi atau selepas berehat, berkaitan dengan kehausan sendi, penggunaan berlebihan atau keradangan.",
+      "didYouKnow": "Sendi jari selalunya paling kaku pada awal pagi kerana ia tidak bergerak sepanjang malam, dan pergerakan lembut biasanya membantu melonggarkannya.",
+      "howItFeels": "Rasa kaku, lenguh atau sakit apabila disentuh pada sendi jari atau pangkal ibu jari. Sendi mungkin kelihatan bengkak atau terasa panas, dan sukar untuk menumbuk atau memegang benda kecil seperti butang dan penutup balang. Kekakuan selalunya paling teruk pada waktu pagi.",
+      "whoIsAtRisk": [
+        "Orang dewasa pertengahan umur dan ke atas",
+        "Sejarah keluarga radang sendi",
+        "Kerja tangan yang berulang",
+        "Kecederaan jari sebelum ini",
+        "Wanita selepas putus haid"
+      ],
+      "commonCauses": [
+        "Kehausan sendi jari (osteoartritis)",
+        "Masalah sendi berkeradangan, yang boleh diperiksa doktor",
+        "Penggunaan berlebihan daripada kerja tangan yang berulang",
+        "Kecederaan jari sebelum ini"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Letakkan kedua-dua tangan di atas meja dan buka serta tutup perlahan-lahan.",
+          "Buat penumbuk yang lembut, kemudian kembangkan jari anda luas-luas.",
+          "Perhatikan sendi mana yang kaku atau sakit, dan berapa lama."
+        ],
+        "question": "Adakah sendi jari anda kaku atau sakit apabila anda bangun tidur, dan menjadi longgar apabila anda menggerakkannya?",
+        "yesResult": "Kekakuan pagi yang reda dengan pergerakan adalah biasa dengan kehausan sendi. Senaman tangan yang lembut membantu, dan doktor boleh menyiasat puncanya jika ia terus berlaku. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika sendi panas, merah atau sangat bengkak, atau kekakuan berlangsung lebih sejam, jumpa doktor tidak lama lagi."
+      },
+      "reliefTips": [
+        "Rendam tangan dalam air suam beberapa minit, kemudian gerakkannya dengan lembut",
+        "Lakukan lenturan jari yang perlahan dan senaman genggam-dan-regang",
+        "Gunakan pemegang yang lebih tebal pada pen, perkakas dan alatan"
+      ],
+      "avoid": "Memaksa sendi yang sakit, menggenggam kuat untuk tempoh yang lama dan membiarkan tangan sejuk dan tidak bergerak.",
+      "seeDoctorIf": [
+        "Sendi jari yang panas, merah atau sangat bengkak",
+        "Kekakuan pagi yang berlangsung lebih sejam",
+        "Sendi yang kelihatan berubah bentuk atau tidak boleh diluruskan"
+      ],
+      "warningLine": "Sendi yang tiba-tiba panas, merah dan sangat bengkak dengan demam? Jumpa doktor hari ini.",
+      "deviceCaution": "Jangan gunakan peranti pada kawasan yang bengkak, merah, panas atau cedera, kulit yang luka atau implan logam. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan, atau jika anda mengandung. Tanggalkan cincin dan gelang dahulu. Sila tanya ahli terapi atau doktor anda dahulu. Jangan gunakan pada sendi yang panas, merah atau bengkak."
+    },
+    {
+      "code": "W6",
+      "gridLabel": "Sakit Lengan Bawah",
+      "title": "Otot Lengan Bawah Tegang",
+      "image": "W6_Forearm_Strain.png",
+      "hook": "Lengan bawah sakit dan tegang selepas menaip, menggenggam, mengangkat atau menggunakan telefon?",
+      "painLocation": "Lengan bawah, di antara siku dan pergelangan tangan",
+      "definition": "Sakit lenguh yang tegang, letih atau pedih pada otot lengan bawah, selalunya daripada penggunaan berlebihan, genggaman yang terlalu kuat, atau berjam-jam menaip, menggunakan tetikus dan telefon.",
+      "didYouKnow": "Otot yang membengkok dan meluruskan jari anda terletak di lengan bawah, jadi hampir setiap tugas tangan menggunakannya, dan ia menjadi tegang apabila kita tidak merehatkannya.",
+      "howItFeels": "Sakit lenguh yang dalam, tegang atau seperti terbakar di sepanjang lengan bawah yang bertambah dengan menaip, menggenggam atau mengangkat dan reda dengan berehat. Otot mungkin terasa keras atau sakit apabila ditekan, dan genggaman anda boleh terasa letih.",
+      "whoIsAtRisk": [
+        "Pekerja papan kekunci dan tetikus",
+        "Gimnasium dan angkat berat",
+        "Tukang dan pengusaha kraf",
+        "Pengguna telefon yang kerap",
+        "Pemuzik"
+      ],
+      "commonCauses": [
+        "Otot lengan bawah yang terlalu bekerja",
+        "Menggenggam kuat atau mengangkat berulang kali",
+        "Sesi menaip atau tetikus yang lama",
+        "Kerengsaan tendon berhampiran siku atau pergelangan tangan"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Letakkan lengan bawah anda di atas meja dengan tapak tangan menghadap ke atas.",
+          "Tekan perlahan di sepanjang otot lengan bawah dengan ibu jari tangan yang sebelah lagi.",
+          "Buka dan tutup tangan anda perlahan-lahan dan perhatikan di mana ia menjadi tegang."
+        ],
+        "question": "Adakah terdapat jalur otot yang tegang dan sakit apabila ditekan, yang reda apabila anda merehatkan lengan?",
+        "yesResult": "Otot yang tegang dan sakit apabila ditekan yang reda dengan berehat sepadan dengan penggunaan otot yang berlebihan. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika anda juga mengalami kesemutan atau kebas, semak W8. Jika sakit kebanyakannya di siku, semak W7."
+      },
+      "reliefTips": [
+        "Berehat dan ambil rehat tetap daripada menggenggam dan menaip",
+        "Regangkan lengan bawah dengan lembut: luruskan lengan dan bengkokkan pergelangan tangan ke belakang, kemudian ke bawah",
+        "Letakkan tuala suam pada lengan bawah selama 10 minit"
+      ],
+      "avoid": "Menggenggam kuat untuk tempoh yang lama, mengangkat beban berat dan menaip tanpa berehat.",
+      "seeDoctorIf": [
+        "Sakit lengan bawah yang tidak bertambah baik selepas beberapa minggu",
+        "Bengkak, kemerahan, rasa panas atau ketulan pada lengan bawah",
+        "Sakit disertai kesemutan, kebas atau kelemahan"
+      ],
+      "warningLine": "Sakit lengan bawah yang teruk dengan lengan yang tegang dan bengkak, atau sakit selepas jatuh? Jumpa doktor hari ini.",
+      "deviceCaution": "Jangan gunakan peranti pada kawasan yang bengkak, merah, panas atau cedera, kulit yang luka atau implan logam. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan, atau jika anda mengandung. Tanggalkan cincin dan gelang dahulu. Sila tanya ahli terapi atau doktor anda dahulu. Jangan gunakan jika lengan bengkak, panas atau sangat sakit apabila ditekan."
+    },
+    {
+      "code": "W7",
+      "gridLabel": "Sakit Siku, Lengan Atas",
+      "title": "Sakit Siku & Lengan Atas",
+      "image": "W7_Elbow_Upper_Arm_Pain.png",
+      "hook": "Sakit di siku atau lengan atas apabila anda mengangkat, mencapai, membawa atau membengkokkan lengan?",
+      "painLocation": "Siku dan lengan atas: bahagian depan, sisi luar atau belakang, dari bahu ke siku",
+      "definition": "Sakit di siku atau lengan atas yang mungkin datang daripada otot, tendon atau bahu, selalunya selepas mengangkat, mencapai, pergerakan lengan yang berulang atau penggunaan berlebihan.",
+      "didYouKnow": "Sakit yang dirasai di lengan atas boleh bermula di bahu atau leher, itulah sebabnya tempat tepat dan pergerakan yang mencetuskannya kedua-duanya penting.",
+      "howItFeels": "Sakit lenguh atau tajam di siku atau di sepanjang lengan atas. Sakit di bahagian depan bertambah apabila anda mengangkat atau membengkokkan lengan, sakit di sisi luar apabila anda mengangkatnya, dan sakit di bahagian belakang apabila anda menolak atau meluruskannya. Tonjolan tulang siku mungkin sakit apabila ditekan.",
+      "whoIsAtRisk": [
+        "Sukan raket dan golf",
+        "Gimnasium dan angkat berat",
+        "Kerja lengan yang berulang",
+        "Pekerja pejabat dengan postur tidak baik",
+        "Pelukis dan tukang"
+      ],
+      "commonCauses": [
+        "Otot bisep, trisep atau bahu yang tegang",
+        "Penggunaan tendon yang berlebihan di siku (siku tenis atau siku golf)",
+        "Sakit yang datang dari bahu atau leher",
+        "Kecederaan baru-baru ini, yang perlu diperiksa doktor"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk tegak dan biarkan lengan anda tergantung dengan longgar.",
+          "Bengkokkan dan luruskan siku perlahan-lahan, kemudian angkat lengan ke sisi.",
+          "Tekan perlahan di sepanjang lengan atas dan sekeliling siku."
+        ],
+        "question": "Adakah sakit itu di satu tempat, dan bertambah teruk dengan pergerakan tertentu atau apabila anda menekan di situ?",
+        "yesResult": "Sakit yang berubah dengan pergerakan atau tekanan lebih kerap daripada otot atau tendon. Rehatkan lengan, dan jumpa doktor jika ia tidak reda. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika sakit menjalar dari leher atau disertai kesemutan, semak W8. Jika ia disertai tekanan di dada, semak T8 dan hubungi 999."
+      },
+      "reliefTips": [
+        "Rehatkan lengan dan elakkan mengangkat barang berat serta mencapai berulang kali",
+        "Bawa dan angkat dengan kedua-dua tangan dan siku dekat dengan badan",
+        "Letakkan tuala suam pada kawasan yang sakit selama 10 minit"
+      ],
+      "avoid": "Mengangkat barang berat, mencapai ke atas kepala berulang kali, menggenggam kuat dan menekan kuat pada tempat yang sakit.",
+      "seeDoctorIf": [
+        "Sakit lengan selepas jatuh, terhantuk atau bunyi \"pop\" secara tiba-tiba",
+        "Sakit pada waktu malam, atau sakit yang tidak bertambah baik selepas beberapa minggu",
+        "Benjolan di lengan atas, lebam atau bengkak"
+      ],
+      "warningLine": "Sakit lengan dengan tekanan di dada, berpeluh atau sesak nafas? Hubungi 999 sekarang.",
+      "deviceCaution": "Jangan gunakan peranti pada kawasan yang bengkak, merah, panas atau cedera, kulit yang luka atau implan logam. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan, atau jika anda mengandung. Tanggalkan cincin dan gelang dahulu. Sila tanya ahli terapi atau doktor anda dahulu. Jangan gunakan selepas jatuh atau bunyi \"pop\" secara tiba-tiba sehingga doktor memeriksa lengan. Jika sakit disertai tekanan di dada, jangan gunakan langsung dan semak T8."
+    },
+    {
+      "code": "W8",
+      "gridLabel": "Lengan Kebas",
+      "title": "Lengan Kebas atau Kesemutan",
+      "image": "W8_Arm_Numbness_Tingling.png",
+      "hook": "Kebas, kesemutan atau genggaman lemah yang menjalar dari lengan ke tangan anda?",
+      "painLocation": "Leher, bahu, siku, lengan bawah atau tangan, selalunya sampai ke jari manis dan jari kelingking",
+      "definition": "Rasa kesemutan, kebas, terbakar atau lemah yang menjalar di sepanjang lengan, yang mungkin datang daripada saraf yang tertekan di leher, siku atau pergelangan tangan.",
+      "didYouKnow": "Saraf boleh tertekan di lebih daripada satu tempat di sepanjang lengan, jadi kesemutan di tangan mungkin bermula di leher, siku atau pergelangan tangan.",
+      "howItFeels": "Rasa kesemutan, kebas atau terbakar yang menjalar ke bawah lengan, selalunya sampai ke jari manis dan jari kelingking atau seluruh tangan. Ia mungkin disertai leher atau bahu yang kaku, genggaman lemah, kekok atau menjatuhkan barang, dan selalunya lebih teruk apabila siku dibengkokkan lama, seperti semasa panggilan telefon atau tidur.",
+      "whoIsAtRisk": [
+        "Ketegangan leher dan bahu",
+        "Panggilan telefon yang lama dengan siku bengkok",
+        "Menyandar pada siku",
+        "Pekerja pejabat dengan postur tidak baik",
+        "Diabetes"
+      ],
+      "commonCauses": [
+        "Saraf yang tertekan di leher",
+        "Tekanan pada saraf di siku",
+        "Tekanan pada saraf di pergelangan tangan",
+        "Kerengsaan saraf yang berkaitan dengan keadaan kesihatan lain, yang boleh diperiksa doktor"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk tegak dengan kepala dalam kedudukan neutral.",
+          "Bengkokkan siku sepenuhnya dan tahan selama seminit.",
+          "Perhatikan sama ada kesemutan atau kebas sampai ke jari manis dan jari kelingking."
+        ],
+        "question": "Adakah membengkokkan siku, atau kedudukan leher tertentu, menyebabkan kesemutan atau kebas?",
+        "yesResult": "Gejala yang berubah dengan kedudukan siku atau leher menunjukkan saraf yang tertekan. Elakkan kedudukan itu, dan jumpa doktor jika ia kerap berulang. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Kesemutan yang berterusan, merebak atau disertai kelemahan perlu diperiksa doktor tidak lama lagi."
+      },
+      "reliefTips": [
+        "Elakkan menyiku bengkok untuk tempoh yang lama, dan gunakan fon kepala untuk panggilan",
+        "Putar bahu dan regangkan leher dengan lembut",
+        "Tukar posisi dengan kerap dan ambil rehat singkat daripada kerja meja"
+      ],
+      "avoid": "Menyandar pada siku, tidur dengan lengan yang dibengkokkan ketat dan mengepit telefon pada bahu.",
+      "seeDoctorIf": [
+        "Kebas atau kesemutan yang berterusan atau kerap berulang",
+        "Genggaman lemah, kekok atau otot tangan yang kelihatan lebih nipis",
+        "Sakit leher dengan kebas yang menjalar ke bawah lengan"
+      ],
+      "warningLine": "Kebas atau lemah secara tiba-tiba di satu sebelah badan, muka senget, pelat, atau sakit lengan dengan tekanan di dada? Hubungi 999 sekarang.",
+      "deviceCaution": "Jangan gunakan peranti pada kawasan yang bengkak, merah, panas atau cedera, kulit yang luka atau implan logam. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan, atau jika anda mengandung. Tanggalkan cincin dan gelang dahulu. Sila tanya ahli terapi atau doktor anda dahulu. Jangan gunakan semasa kebas itu baru, merebak atau disertai kelemahan."
+    }
+  ]
+}

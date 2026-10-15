@@ -1,0 +1,393 @@
+{
+  "section": {
+    "id": "abdomen",
+    "codePrefix": "A",
+    "title": "Where does your belly hurt?",
+    "subtitle": "Select one or more areas to get a personalised plan.",
+    "gridImage": "A0_Main_Grid_Abdomen.png",
+    "emergencyNote": "Sudden, severe belly pain, a hard rigid belly, vomiting blood, black or bloody stools, or belly pain with a fever, fainting or pregnancy? Call 999 or go to the nearest emergency department now.",
+    "emergencyNumber": "999"
+  },
+  "disclaimer": "For education only, not a diagnosis.",
+  "references": "NHS UK, Mayo Clinic, American College of Gastroenterology",
+  "lastUpdated": "[DATE]",
+  "reviewedBy": "[QUALIFIED REVIEWER]",
+  "symptoms": [
+    {
+      "code": "A1",
+      "gridLabel": "Upper Belly Pain",
+      "title": "Upper-Middle Belly Pain",
+      "image": "A1_Upper_Middle_Belly_Pain.png",
+      "hook": "A burning or gnawing pain in the upper middle of your belly, just below the ribs?",
+      "painLocation": "Upper middle of the belly, just below the breastbone",
+      "definition": "A burning, gnawing or aching pain in the upper middle belly, often linked to stomach irritation, acid reflux or indigestion.",
+      "didYouKnow": "The stomach sits in the upper middle belly, so irritation from food, stress, medicines or too much acid is often felt right there.",
+      "howItFeels": "A burning, gnawing or aching pain in the upper middle belly that may come with bloating, burping, nausea or a sour taste. It may get better or worse after eating, and can sometimes wake you at night.",
+      "whoIsAtRisk": [
+        "Irregular or late meals",
+        "Spicy, fatty or sour food",
+        "Stress and poor sleep",
+        "Regular painkiller use",
+        "Smoking and alcohol"
+      ],
+      "commonCauses": [
+        "Stomach irritation (gastritis)",
+        "Acid reflux or indigestion",
+        "A stomach ulcer, which a doctor can check",
+        "Stress and irregular eating"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Sit upright and breathe slowly.",
+          "Think about when the pain starts: before meals, after meals or at night.",
+          "Notice whether sitting upright or a sip of water eases it."
+        ],
+        "question": "Does the pain start or change with meals, and ease when you sit upright or sip water?",
+        "yesResult": "This pattern fits stomach irritation or acid reflux. Eat smaller, regular meals, and see a doctor if it keeps coming back. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the pain is sharp and constant, spreads to your back or comes with vomiting, see a doctor soon. If it is under the right ribs, check A2."
+      },
+      "reliefTips": [
+        "Eat small, regular meals and chew slowly",
+        "Sit upright after eating and sip warm water",
+        "Rest and take slow, deep breaths"
+      ],
+      "avoid": "Spicy, fatty or very sour food, coffee, alcohol, smoking and lying down right after eating.",
+      "seeDoctorIf": [
+        "Pain that keeps coming back or lasts more than a couple of weeks",
+        "Vomiting, black stools or weight loss without trying",
+        "Trouble swallowing, or pain that wakes you at night"
+      ],
+      "warningLine": "Vomiting blood, black stools or sudden severe pain? Call 999 now.",
+      "deviceCaution": "Do not use the device on the belly if you are pregnant or may be pregnant. Never use it if you have a pacemaker or any implanted electronic device. Do not use it over broken skin, a scar, a hernia or a swollen or red area, or right after a heavy meal or on an empty stomach. Take off metal belts and jewellery first. Please ask your therapist or a doctor first. Do not use it if you have vomiting, black stools or burning pain that has not been checked."
+    },
+    {
+      "code": "A2",
+      "gridLabel": "Upper-Right Pain",
+      "title": "Upper-Right Belly Pain",
+      "image": "A2_Upper_Right_Belly_Pain.png",
+      "hook": "Pain under your right ribs, especially after a fatty meal?",
+      "painLocation": "Upper right of the belly, under the right ribs",
+      "definition": "Pain in the upper right belly, often linked to the gallbladder, the liver or digestion, and sometimes after a fatty meal.",
+      "didYouKnow": "The gallbladder and liver sit under the right ribs, and a fatty meal can trigger gallbladder pain that may spread to the back or the right shoulder.",
+      "howItFeels": "A dull, cramping or sharp pain under the right ribs that may spread to the back or the right shoulder blade. It may come after a fatty meal, with nausea, bloating or burping, and can last from minutes to a few hours.",
+      "whoIsAtRisk": [
+        "Fatty or fried meals",
+        "Overweight",
+        "Women in middle age",
+        "Rapid weight loss",
+        "Family history of gallstones"
+      ],
+      "commonCauses": [
+        "Gallbladder irritation or gallstones",
+        "Indigestion after fatty food",
+        "Liver or bile duct problems, which a doctor can check",
+        "Strain of the lower rib muscles"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Sit upright and breathe slowly.",
+          "Think about whether the pain started after a fatty or large meal.",
+          "Press gently under the right ribs and take one slow, deep breath."
+        ],
+        "question": "Did the pain start after a fatty meal, and does it spread to your back or right shoulder?",
+        "yesResult": "This pattern fits gallbladder-type pain. Avoid fatty food and see a doctor soon. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the pain is worse when you press the ribs or twist, it may be a muscle strain. If it is constant or comes with a fever, see a doctor today."
+      },
+      "reliefTips": [
+        "Eat small, light, low-fat meals",
+        "Rest and sip warm water",
+        "Hold a warm towel on the sore area"
+      ],
+      "avoid": "Fatty and fried food, large meals, alcohol and skipping meals.",
+      "seeDoctorIf": [
+        "Pain after fatty meals that keeps coming back",
+        "Yellow skin or eyes, dark urine or pale stools",
+        "Pain that lasts more than a few hours"
+      ],
+      "warningLine": "Severe pain that does not ease, with fever, yellow skin or repeated vomiting? Go to the emergency department now.",
+      "deviceCaution": "Do not use the device on the belly if you are pregnant or may be pregnant. Never use it if you have a pacemaker or any implanted electronic device. Do not use it over broken skin, a scar, a hernia or a swollen or red area, or right after a heavy meal or on an empty stomach. Take off metal belts and jewellery first. Please ask your therapist or a doctor first. Do not use it while the cause of the pain is unclear."
+    },
+    {
+      "code": "A3",
+      "gridLabel": "Upper-Left Pain",
+      "title": "Upper-Left Belly Pain",
+      "image": "A3_Upper_Left_Belly_Pain.png",
+      "hook": "Pain or a full, tight feeling in the upper left of your belly?",
+      "painLocation": "Upper left of the belly, under the left ribs",
+      "definition": "Pain or fullness in the upper left belly, often from gas, indigestion or stomach irritation, and less often from the spleen, the pancreas or the left kidney.",
+      "didYouKnow": "Gas can collect in the bend of the bowel under the left ribs and cause sharp or cramping pain that eases when you pass wind or move around.",
+      "howItFeels": "A sharp, cramping or full feeling under the left ribs that may come with bloating or burping. It may be worse after meals and often eases when you pass wind or change position.",
+      "whoIsAtRisk": [
+        "Fizzy drinks",
+        "Eating too fast",
+        "Stress",
+        "Constipation",
+        "Large meals"
+      ],
+      "commonCauses": [
+        "Trapped gas",
+        "Indigestion or stomach irritation",
+        "Constipation",
+        "Rarely, a problem with the spleen, pancreas or kidney, which a doctor can check"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Sit upright and relax your shoulders.",
+          "Gently press under the left ribs.",
+          "Walk slowly for a minute or two."
+        ],
+        "question": "Does the pain ease when you pass wind, walk around or change position?",
+        "yesResult": "Pain that eases with wind or movement usually points to gas or indigestion. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the pain is constant or severe, spreads to your back or comes with a fever, see a doctor soon."
+      },
+      "reliefTips": [
+        "Walk slowly and rub the belly gently in clockwise circles",
+        "Eat slowly and avoid fizzy drinks",
+        "Sip warm water and rest"
+      ],
+      "avoid": "Fizzy drinks, eating too fast, chewing gum and lying down right after meals.",
+      "seeDoctorIf": [
+        "Pain that keeps coming back or lasts more than a couple of days",
+        "Pain after a knock or a fall on the left side",
+        "Pain with a fever, vomiting or spreading to the back"
+      ],
+      "warningLine": "Sudden severe pain after a hit to the left side, with dizziness or fainting? Call 999 now.",
+      "deviceCaution": "Do not use the device on the belly if you are pregnant or may be pregnant. Never use it if you have a pacemaker or any implanted electronic device. Do not use it over broken skin, a scar, a hernia or a swollen or red area, or right after a heavy meal or on an empty stomach. Take off metal belts and jewellery first. Please ask your therapist or a doctor first. Do not use it after a knock or fall on the left side."
+    },
+    {
+      "code": "A4",
+      "gridLabel": "Around the Navel",
+      "title": "Pain Around the Belly Button",
+      "image": "A4_Around_Belly_Button_Pain.png",
+      "hook": "Cramping or aching pain around your belly button?",
+      "painLocation": "Around and just below the belly button",
+      "definition": "Cramping or aching pain around the belly button, often from gas, bowel cramps or a stomach bug, and sometimes an early sign of other problems.",
+      "didYouKnow": "Pain from the bowel is often felt around the belly button, and a pain that starts there and then moves to the lower right should be checked quickly.",
+      "howItFeels": "A cramping, twisting or aching pain around the belly button that often comes and goes in waves. It may come with bloating, loose stools, constipation or nausea.",
+      "whoIsAtRisk": [
+        "Stomach bugs or food poisoning",
+        "Constipation",
+        "Eating too fast",
+        "Stress",
+        "Food intolerance"
+      ],
+      "commonCauses": [
+        "Gas and bowel cramps",
+        "A stomach bug or food upset",
+        "Constipation or an irritable bowel",
+        "Early appendix trouble, which a doctor must rule out"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Lie on your back with your knees bent.",
+          "Gently press around the belly button.",
+          "Notice whether the pain comes in waves or stays in one place and gets worse."
+        ],
+        "question": "Does the pain come and go in waves, and ease after you pass wind or a stool?",
+        "yesResult": "Pain that comes in waves and eases with wind or a stool fits bowel cramps or gas. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "Pain that stays in one place, gets worse or moves to the lower right needs a doctor the same day."
+      },
+      "reliefTips": [
+        "Sip warm water and rest",
+        "Hold a warm towel on the belly",
+        "Eat light, plain food until it settles"
+      ],
+      "avoid": "Heavy, greasy or spicy food, alcohol and large meals.",
+      "seeDoctorIf": [
+        "Pain that lasts more than a day or keeps coming back",
+        "Pain that moves to the lower right belly",
+        "Diarrhoea with blood, a high fever or repeated vomiting"
+      ],
+      "warningLine": "Pain that is getting worse with a hard, tender belly, fever or repeated vomiting? Go to the emergency department now.",
+      "deviceCaution": "Do not use the device on the belly if you are pregnant or may be pregnant. Never use it if you have a pacemaker or any implanted electronic device. Do not use it over broken skin, a scar, a hernia or a swollen or red area, or right after a heavy meal or on an empty stomach. Take off metal belts and jewellery first. Please ask your therapist or a doctor first. Do not use it while the pain is getting worse or the cause is unclear."
+    },
+    {
+      "code": "A5",
+      "gridLabel": "Lower-Right Pain",
+      "title": "Lower-Right Belly Pain",
+      "image": "A5_Lower_Right_Belly_Pain.png",
+      "hook": "Pain in the lower right of your belly that is getting worse?",
+      "painLocation": "Lower right of the belly, above the right hip bone",
+      "definition": "Pain in the lower right belly, which can come from gas, the bowel, the right ovary or the groin, and sometimes from the appendix.",
+      "didYouKnow": "Appendix pain often starts around the belly button and then moves to the lower right, so a pain that travels there should be checked quickly.",
+      "howItFeels": "A dull ache or sharp pain in the lower right belly that may get worse when you cough, walk or press and let go. It may come with loss of appetite, nausea, a fever or a swollen belly.",
+      "whoIsAtRisk": [
+        "Teenagers and young adults",
+        "Constipation",
+        "Women with period or ovary pain",
+        "Heavy lifting (groin)",
+        "A recent stomach bug"
+      ],
+      "commonCauses": [
+        "Gas or constipation",
+        "Appendix inflammation, which needs urgent care",
+        "Period or ovary pain",
+        "A groin hernia or muscle strain"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Lie on your back with your knees bent.",
+          "Press gently on the lower right belly, then let go.",
+          "Cough once and notice whether the pain jumps."
+        ],
+        "question": "Is the pain getting worse, or sharper when you cough or walk, or with a fever or no appetite?",
+        "yesResult": "These signs can point to the appendix. Please see a doctor today and do not wait to see if it passes.",
+        "noResult": "If the pain is mild and eases with wind, a stool or rest, it is more likely gas or constipation. See a doctor if it keeps coming back. Tap \"I have this symptom\" to add it to your plan."
+      },
+      "reliefTips": [
+        "Rest and sip warm water",
+        "Eat light, plain food",
+        "Walk slowly to help gas move"
+      ],
+      "avoid": "Heavy meals, and do not use heat pads or laxatives if the pain is getting worse.",
+      "seeDoctorIf": [
+        "Pain that is getting worse over a few hours",
+        "Fever, loss of appetite, nausea or vomiting",
+        "A lump in the groin, or pain with a missed period"
+      ],
+      "warningLine": "Severe pain that is getting worse with fever or vomiting, or a hard belly? Go to the emergency department now.",
+      "deviceCaution": "Do not use the device on the belly if you are pregnant or may be pregnant. Never use it if you have a pacemaker or any implanted electronic device. Do not use it over broken skin, a scar, a hernia or a swollen or red area, or right after a heavy meal or on an empty stomach. Take off metal belts and jewellery first. Please ask your therapist or a doctor first. Do not use it while the pain is getting worse or the cause is unclear."
+    },
+    {
+      "code": "A6",
+      "gridLabel": "Lower-Left Pain",
+      "title": "Lower-Left Belly Pain",
+      "image": "A6_Lower_Left_Belly_Pain.png",
+      "hook": "Pain or cramping in the lower left of your belly?",
+      "painLocation": "Lower left of the belly, above the left hip bone",
+      "definition": "Pain or cramping in the lower left belly, often from constipation, gas or bowel irritation, and sometimes from the left ovary or small pouches in the bowel wall.",
+      "didYouKnow": "The last part of the large bowel sits on the lower left, so constipation and hard stools are a very common cause of pain there.",
+      "howItFeels": "A cramping or aching pain in the lower left belly, often with constipation, bloating or a change in bowel habit. It may ease after a bowel movement, or feel tender when you press.",
+      "whoIsAtRisk": [
+        "A low-fibre diet",
+        "Not drinking enough water",
+        "Little exercise",
+        "Stress",
+        "Older age"
+      ],
+      "commonCauses": [
+        "Constipation",
+        "Trapped gas or an irritable bowel",
+        "Inflamed pouches in the bowel wall, which a doctor can check",
+        "Period or ovary pain"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Sit upright and relax your belly.",
+          "Think about your last bowel movement and how hard it was.",
+          "Press gently on the lower left belly."
+        ],
+        "question": "Have you been constipated or bloated, and does the pain ease after passing wind or a stool?",
+        "yesResult": "This pattern fits constipation or gas. Drink more water, eat more fibre, and see a doctor if it keeps coming back. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "Pain that is constant or severe, or with a fever or blood in the stool, needs a doctor soon."
+      },
+      "reliefTips": [
+        "Drink plenty of water and eat fibre-rich food",
+        "Walk gently and rub the belly in clockwise circles",
+        "Do not strain; give yourself time on the toilet"
+      ],
+      "avoid": "Straining, skipping meals, very low-fibre food and holding in a bowel movement.",
+      "seeDoctorIf": [
+        "Pain that lasts more than a few days",
+        "Blood in the stool, or a change in bowel habit that lasts",
+        "A fever with pain in the lower left belly"
+      ],
+      "warningLine": "Severe pain with a fever, a hard belly or vomiting? Go to the emergency department now.",
+      "deviceCaution": "Do not use the device on the belly if you are pregnant or may be pregnant. Never use it if you have a pacemaker or any implanted electronic device. Do not use it over broken skin, a scar, a hernia or a swollen or red area, or right after a heavy meal or on an empty stomach. Take off metal belts and jewellery first. Please ask your therapist or a doctor first. Do not use it if there is blood in the stool or a fever."
+    },
+    {
+      "code": "A7",
+      "gridLabel": "Lower Belly & Pelvis",
+      "title": "Lower Belly & Pelvic Pain",
+      "image": "A7_Lower_Belly_Pelvic_Pain.png",
+      "hook": "Aching or cramping low in your belly, around the bladder or pelvis?",
+      "painLocation": "Lower middle of the belly, above the pubic bone and around the pelvis",
+      "definition": "Aching or cramping pain low in the belly, often linked to the bladder, period cramps or tight pelvic muscles.",
+      "didYouKnow": "Period cramps, a full bladder and tight pelvic muscles can all feel like a dragging, aching pain low in the belly.",
+      "howItFeels": "A dull, dragging or cramping pain low in the belly that may come with period pain, a frequent or burning need to pass urine, a back ache or a heavy feeling in the pelvis.",
+      "whoIsAtRisk": [
+        "Women during their periods",
+        "Urine infections",
+        "Long hours of sitting",
+        "Constipation",
+        "Stress and tight pelvic muscles"
+      ],
+      "commonCauses": [
+        "Period cramps",
+        "Bladder irritation or a urine infection",
+        "Constipation",
+        "Tight pelvic muscles"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Think about where you are in your period cycle.",
+          "Notice whether you pass urine often or it burns.",
+          "Rest with a warm towel on the lower belly."
+        ],
+        "question": "Does the pain follow your period, or come with a frequent or burning need to pass urine?",
+        "yesResult": "Pain with your period fits period cramps, and pain with burning or frequent urine fits a urine infection. See a doctor if the urine symptoms continue. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "Pain that is new, severe or on one side, or comes with a missed period, needs a doctor today."
+      },
+      "reliefTips": [
+        "Rest and hold a warm towel on the lower belly",
+        "Drink water regularly and empty your bladder when you need to",
+        "Do slow breathing and gentle hip stretches"
+      ],
+      "avoid": "Holding urine for a long time, sitting for hours without a break and heavy lifting on painful days.",
+      "seeDoctorIf": [
+        "Burning when you pass urine, blood in the urine or a fever",
+        "Very painful or heavy periods that disrupt your life",
+        "Pain that lasts more than a few days or keeps coming back"
+      ],
+      "warningLine": "Sudden severe low belly pain, especially with a missed period, heavy bleeding or fainting? Call 999 now.",
+      "deviceCaution": "Do not use the device on the belly if you are pregnant or may be pregnant. Never use it if you have a pacemaker or any implanted electronic device. Do not use it over broken skin, a scar, a hernia or a swollen or red area, or right after a heavy meal or on an empty stomach. Take off metal belts and jewellery first. Please ask your therapist or a doctor first. Do not use it on the lower belly or pelvis if you have a fever, burning urine or unexplained bleeding."
+    },
+    {
+      "code": "A8",
+      "gridLabel": "Bloating & Gas",
+      "title": "Bloating & Gas",
+      "image": "A8_Bloating_Gas.png",
+      "hook": "A tight, swollen belly that feels full of gas?",
+      "painLocation": "All over the belly, often worse towards the end of the day",
+      "definition": "A full, tight or swollen feeling in the belly from trapped gas, slow digestion or constipation, sometimes with cramps.",
+      "didYouKnow": "The belly often looks and feels bigger by the evening, because gas builds up through the day as you eat, drink and swallow air.",
+      "howItFeels": "A tight, swollen, stretched feeling across the belly, with burping, passing wind, rumbling or cramps. Your clothes may feel tight, and it often eases after passing wind or a bowel movement.",
+      "whoIsAtRisk": [
+        "Eating or drinking too fast",
+        "Fizzy drinks",
+        "Constipation",
+        "Stress",
+        "Foods like beans, onions and dairy"
+      ],
+      "commonCauses": [
+        "Swallowed air and fizzy drinks",
+        "Slow digestion or constipation",
+        "Foods that make gas",
+        "An irritable bowel or a food intolerance, which a doctor can check"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Sit upright and loosen tight clothes.",
+          "Think about which foods or drinks came before the bloating.",
+          "Walk slowly for a few minutes."
+        ],
+        "question": "Does the bloating ease when you pass wind, walk around or after a bowel movement?",
+        "yesResult": "Bloating that eases with wind or movement usually points to gas or slow digestion. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "Bloating that is constant, getting worse or comes with weight loss, vomiting or blood in the stool needs a doctor soon."
+      },
+      "reliefTips": [
+        "Walk gently after meals",
+        "Eat slowly and chew well",
+        "Sip warm water and rub the belly gently in clockwise circles"
+      ],
+      "avoid": "Fizzy drinks, chewing gum, eating too fast and very large meals.",
+      "seeDoctorIf": [
+        "Bloating that lasts more than a few weeks",
+        "Weight loss, vomiting or blood in the stool",
+        "Bloating with a hard, swollen or very painful belly"
+      ],
+      "warningLine": "A swollen, hard belly with severe pain, vomiting and no wind or stool? Go to the emergency department now.",
+      "deviceCaution": "Do not use the device on the belly if you are pregnant or may be pregnant. Never use it if you have a pacemaker or any implanted electronic device. Do not use it over broken skin, a scar, a hernia or a swollen or red area, or right after a heavy meal or on an empty stomach. Take off metal belts and jewellery first. Please ask your therapist or a doctor first. Do not use it if the belly is hard, very swollen or painful."
+    }
+  ]
+}

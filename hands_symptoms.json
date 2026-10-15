@@ -1,0 +1,393 @@
+{
+  "section": {
+    "id": "hands",
+    "codePrefix": "W",
+    "title": "Where do your hands or arms hurt?",
+    "subtitle": "Select one or more areas to get a personalised plan.",
+    "gridImage": "W0_Main_Grid_Hands.png",
+    "emergencyNote": "Sudden numbness or weakness on one side, a drooping face, slurred speech, or arm pain with chest pressure? Call 999 now.",
+    "emergencyNumber": "999"
+  },
+  "disclaimer": "For education only, not a diagnosis.",
+  "references": "NHS UK, Mayo Clinic, American Academy of Orthopaedic Surgeons",
+  "lastUpdated": "[DATE]",
+  "reviewedBy": "[QUALIFIED REVIEWER]",
+  "symptoms": [
+    {
+      "code": "W1",
+      "gridLabel": "Thumb-Side Wrist Pain",
+      "title": "Thumb-Side Wrist Pain",
+      "image": "W1_Thumb_Side_Wrist_Pain.png",
+      "hook": "Pain at the thumb side of your wrist when you grip, lift or turn your hand?",
+      "painLocation": "Thumb side of the wrist, running into the base of the thumb",
+      "definition": "Pain along the thumb side of the wrist, often from overused tendons after repeated gripping, lifting a baby, texting or twisting the wrist.",
+      "didYouKnow": "Your thumb tendons slide through a narrow tunnel at the wrist, so repeated gripping, pinching and phone use can leave them sore and irritated.",
+      "howItFeels": "An ache or sharp pain on the thumb side of the wrist that is worse when you grip, pinch, lift something or turn the wrist. The spot may feel tender, a little swollen or stiff, and the thumb may feel weak.",
+      "whoIsAtRisk": [
+        "New parents who lift a baby",
+        "Heavy phone and tablet users",
+        "Repetitive gripping or twisting",
+        "Keyboard and mouse work",
+        "Cooking and gardening"
+      ],
+      "commonCauses": [
+        "Overused thumb tendons",
+        "Repeated gripping, pinching or texting",
+        "Lifting with the wrist bent",
+        "A recent wrist injury, which a doctor should check"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Rest your forearm on a table with your thumb pointing up.",
+          "Tuck your thumb into your fist.",
+          "Gently tilt your wrist towards the little finger side and stop if the pain is sharp."
+        ],
+        "question": "Does this movement bring on pain at the thumb side of the wrist?",
+        "yesResult": "Pain with this movement fits irritated thumb-side tendons. Rest the wrist, and see a doctor or physiotherapist if it lasts more than a couple of weeks. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the pain is in another part of the wrist, check W2, W3 or W4. After a fall or a knock, see a doctor to check for a fracture."
+      },
+      "reliefTips": [
+        "Rest the wrist and avoid repeated gripping and pinching",
+        "Keep the wrist straight and use both hands to lift",
+        "Hold a warm towel on the sore spot for 10 minutes"
+      ],
+      "avoid": "Repeated pinching, heavy gripping, wringing cloths and long phone sessions with the thumb.",
+      "seeDoctorIf": [
+        "Wrist pain after a fall or a knock",
+        "Swelling, redness or warmth, or a lump at the wrist",
+        "Pain that is not better after a couple of weeks of rest"
+      ],
+      "warningLine": "Sudden severe wrist pain after a fall, or a hand that looks bent, swollen or numb? See a doctor today.",
+      "deviceCaution": "Do not use the device over a swollen, red, warm or injured area, broken skin or a metal implant. Never use it if you have a pacemaker or any implanted electronic device, or if you are pregnant. Take off rings and bracelets first. Please ask your therapist or a doctor first. Do not use it after a recent fall or knock until a doctor has checked the wrist."
+    },
+    {
+      "code": "W2",
+      "gridLabel": "Palm Tingling",
+      "title": "Palm Tingling & Numbness",
+      "image": "W2_Palm_Tingling_Numbness.png",
+      "hook": "Tingling or numb fingers, especially at night or when you hold your phone?",
+      "painLocation": "Palm, thumb, index and middle fingers, sometimes up the forearm",
+      "definition": "Tingling, numbness or burning in the palm and the thumb, index and middle fingers, often linked to pressure on the nerve that runs through the wrist (carpal tunnel type symptoms).",
+      "didYouKnow": "The nerve to your thumb, index and middle fingers passes through a small tunnel at the wrist, so a bent wrist for hours on a phone or keyboard can squeeze it and cause pins and needles.",
+      "howItFeels": "Pins and needles, numbness or a burning feeling in the palm and the first three fingers. It may wake you at night, come on when you hold a phone, drive or type, and ease when you shake your hand. Your grip may feel weak and you may drop things.",
+      "whoIsAtRisk": [
+        "Long hours on a keyboard, mouse or phone",
+        "Repetitive hand work",
+        "Pregnancy",
+        "Diabetes or thyroid conditions",
+        "Sleeping with the wrists bent"
+      ],
+      "commonCauses": [
+        "Pressure on the nerve at the wrist (carpal tunnel type)",
+        "Holding the wrist bent for long periods",
+        "Swelling or fluid build-up, for example in pregnancy",
+        "Nerve irritation from the neck, which a doctor can check"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Hold both arms out in front of you with your elbows straight.",
+          "Let your wrists drop and rest the backs of your hands together for a minute.",
+          "Notice whether tingling or numbness starts in your fingers."
+        ],
+        "question": "Does this position bring on tingling or numbness in your thumb, index or middle finger?",
+        "yesResult": "This pattern is typical of pressure on the nerve at the wrist. Avoid keeping the wrist bent for long periods, and see a doctor if it keeps coming back or wakes you at night. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the tingling is in the ring and little fingers, check W8. If it comes with neck pain or a weak arm, see a doctor."
+      },
+      "reliefTips": [
+        "Keep your wrists straight when you type, scroll or sleep",
+        "Take a short break every half hour and gently shake out your hands",
+        "Do slow wrist and finger stretches"
+      ],
+      "avoid": "Long periods with the wrist bent, gripping a phone tightly and sleeping on your hands.",
+      "seeDoctorIf": [
+        "Numbness that wakes you at night or keeps coming back",
+        "A weak grip, or dropping things",
+        "A thumb muscle that looks thinner, or a hand that feels clumsy"
+      ],
+      "warningLine": "Sudden numbness or weakness on one side, a drooping face or slurred speech? Call 999 now.",
+      "deviceCaution": "Do not use the device over a swollen, red, warm or injured area, broken skin or a metal implant. Never use it if you have a pacemaker or any implanted electronic device, or if you are pregnant. Take off rings and bracelets first. Please ask your therapist or a doctor first. Do not use it if the numbness is new, spreading or comes with weakness."
+    },
+    {
+      "code": "W3",
+      "gridLabel": "Pinky-Side Wrist Pain",
+      "title": "Little-Finger-Side Wrist Pain",
+      "image": "W3_Pinky_Side_Wrist_Pain.png",
+      "hook": "Pain on the little-finger side of your wrist when you twist, lean or push up?",
+      "painLocation": "Little-finger side of the wrist, just below the wrist bone",
+      "definition": "Pain on the outer edge of the wrist below the little finger, often from strained tendons or the cartilage pad of the wrist after twisting, leaning on the wrist or repeated weight-bearing.",
+      "didYouKnow": "A small pad of cartilage and several tendons share the little-finger side of the wrist, so twisting and weight-bearing, such as push-ups or gripping a racket, can irritate them.",
+      "howItFeels": "An ache or sharp pain on the little-finger side of the wrist that is worse when you twist (like opening a jar), push up from a table, grip or lean on your hand. You may feel tenderness or a click, and the wrist can feel weak.",
+      "whoIsAtRisk": [
+        "Racket sports and golf",
+        "Push-ups, yoga and weight-bearing on the hands",
+        "Repetitive twisting",
+        "A previous wrist injury",
+        "Desk workers resting on their wrists"
+      ],
+      "commonCauses": [
+        "A strained tendon on the little-finger side",
+        "Irritation of the cartilage pad in the wrist",
+        "Leaning on the wrist or repeated twisting",
+        "A previous wrist injury"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Rest your forearm on a table with your palm facing down.",
+          "Gently turn your hand so the palm faces up, then back down.",
+          "Press lightly just below the little-finger side of the wrist."
+        ],
+        "question": "Does twisting your hand or pressing this spot bring on the pain?",
+        "yesResult": "Pain with twisting or pressing here fits a strained tendon or the cartilage pad of the wrist. Rest the wrist, and see a doctor if it clicks, locks or does not settle. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the pain is on the thumb side, check W1. If it is on the back of the wrist, check W4. After a fall, see a doctor."
+      },
+      "reliefTips": [
+        "Rest the wrist and avoid push-ups, twisting and heavy gripping",
+        "Support the wrist with a soft wrap while it settles",
+        "Hold a warm towel on the sore edge for 10 minutes"
+      ],
+      "avoid": "Push-ups, planks, racket swings, wringing cloths and opening tight jars until the pain settles.",
+      "seeDoctorIf": [
+        "Wrist pain after a fall or a hard twist",
+        "A painful click, locking, or the wrist giving way",
+        "Swelling, or pain that is not better after a couple of weeks"
+      ],
+      "warningLine": "Sudden severe wrist pain after a fall, or a hand that looks bent, swollen or numb? See a doctor today.",
+      "deviceCaution": "Do not use the device over a swollen, red, warm or injured area, broken skin or a metal implant. Never use it if you have a pacemaker or any implanted electronic device, or if you are pregnant. Take off rings and bracelets first. Please ask your therapist or a doctor first. Do not use it after a recent fall or twist until a doctor has checked the wrist."
+    },
+    {
+      "code": "W4",
+      "gridLabel": "Back of Wrist Pain",
+      "title": "Back-of-Hand & Wrist Pain",
+      "image": "W4_Back_of_Hand_Wrist_Pain.png",
+      "hook": "An ache across the back of your hand or wrist after typing, mouse work or lifting?",
+      "painLocation": "Back of the wrist and the hand, behind the knuckles",
+      "definition": "Pain across the back of the wrist or hand, often from tired or irritated tendons after long typing, mouse use, lifting or gripping.",
+      "didYouKnow": "The tendons that lift your fingers run across the back of the wrist, so long hours of typing and mouse use can leave them tight and sore.",
+      "howItFeels": "A dull ache or tight, sore feeling across the back of the wrist or hand that is worse when you bend the wrist back, type, grip or lift. It can feel stiff after rest, and may be slightly swollen or tender to press.",
+      "whoIsAtRisk": [
+        "Keyboard and mouse workers",
+        "Heavy phone users",
+        "Gym and lifting",
+        "Painters and craftspeople",
+        "Racket sports"
+      ],
+      "commonCauses": [
+        "Overused tendons at the back of the wrist",
+        "Long typing or mouse sessions with the wrist bent up",
+        "Gripping or lifting too much",
+        "A small lump or joint irritation, which a doctor can check"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Rest your forearm on a table with your palm facing down.",
+          "Slowly lift your hand upwards at the wrist, then lower it.",
+          "Press gently on the back of the wrist."
+        ],
+        "question": "Does lifting the hand or pressing the back of the wrist bring on the pain?",
+        "yesResult": "Pain with this movement fits tired tendons at the back of the wrist. Adjust your desk set-up and rest the wrist. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the pain is mostly in the palm or comes with tingling, check W2. If it is in the finger joints, check W5."
+      },
+      "reliefTips": [
+        "Keep the wrist level with the forearm when you type or use the mouse",
+        "Take a break every half hour and gently stretch the wrist",
+        "Hold a warm towel on the sore area for 10 minutes"
+      ],
+      "avoid": "Typing with the wrist bent up, resting the wrist on a hard edge and gripping tightly for long periods.",
+      "seeDoctorIf": [
+        "Pain that is not better after a couple of weeks",
+        "A lump on the back of the wrist, or swelling and redness",
+        "Pain after a fall or a knock"
+      ],
+      "warningLine": "Sudden severe pain or swelling after a fall, or a hand that looks bent or numb? See a doctor today.",
+      "deviceCaution": "Do not use the device over a swollen, red, warm or injured area, broken skin or a metal implant. Never use it if you have a pacemaker or any implanted electronic device, or if you are pregnant. Take off rings and bracelets first. Please ask your therapist or a doctor first. Do not use it over a lump on the wrist."
+    },
+    {
+      "code": "W5",
+      "gridLabel": "Stiff Finger Joints",
+      "title": "Finger Stiffness & Joint Pain",
+      "image": "W5_Finger_Stiffness_Joint_Pain.png",
+      "hook": "Stiff, achy finger joints in the morning or after using your hands a lot?",
+      "painLocation": "Finger joints, the knuckles and the base of the thumb",
+      "definition": "Stiffness, aching or swelling in the finger joints, often worse in the morning or after rest, linked to joint wear, overuse or inflammation.",
+      "didYouKnow": "Finger joints often feel stiffest first thing in the morning because they have not moved all night, and gentle movement usually helps them loosen up.",
+      "howItFeels": "A stiff, achy or tender feeling in the finger joints or at the base of the thumb. The joints may look swollen or feel warm, and it can be hard to make a fist or grip small things like buttons and jar lids. Stiffness is often worst in the morning.",
+      "whoIsAtRisk": [
+        "Adults in middle age and older",
+        "Family history of arthritis",
+        "Repetitive hand work",
+        "A previous finger injury",
+        "Women after menopause"
+      ],
+      "commonCauses": [
+        "Wear of the finger joints (osteoarthritis)",
+        "Inflammatory joint conditions, which a doctor can check",
+        "Overuse from repetitive hand work",
+        "A previous finger injury"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Rest your hands on a table and open and close them slowly.",
+          "Make a gentle fist, then spread your fingers wide.",
+          "Notice which joints are stiff or sore, and for how long."
+        ],
+        "question": "Are your finger joints stiff or sore when you wake up, and do they loosen up as you move them?",
+        "yesResult": "Morning stiffness that eases with movement is common with joint wear. Gentle hand exercises help, and a doctor can look into the cause if it keeps happening. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the joints are hot, red or very swollen, or the stiffness lasts more than an hour, see a doctor soon."
+      },
+      "reliefTips": [
+        "Soak your hands in warm water for a few minutes, then move them gently",
+        "Do slow finger bends and fist-and-stretch exercises",
+        "Use thicker grips on pens, utensils and tools"
+      ],
+      "avoid": "Forcing painful joints, gripping tightly for long periods and keeping your hands cold and idle.",
+      "seeDoctorIf": [
+        "Hot, red or very swollen finger joints",
+        "Morning stiffness that lasts more than an hour",
+        "Joints that look bent out of shape or that you cannot straighten"
+      ],
+      "warningLine": "A sudden hot, red, very swollen joint with a fever? See a doctor today.",
+      "deviceCaution": "Do not use the device over a swollen, red, warm or injured area, broken skin or a metal implant. Never use it if you have a pacemaker or any implanted electronic device, or if you are pregnant. Take off rings and bracelets first. Please ask your therapist or a doctor first. Do not use it over hot, red or swollen joints."
+    },
+    {
+      "code": "W6",
+      "gridLabel": "Forearm Strain",
+      "title": "Forearm Muscle Strain",
+      "image": "W6_Forearm_Strain.png",
+      "hook": "Sore, tight forearms after typing, gripping, lifting or using your phone?",
+      "painLocation": "Forearm, between the elbow and the wrist",
+      "definition": "A tight, tired or sore ache in the forearm muscles, often from overuse, a tight grip, or long hours of typing, mouse use and phone use.",
+      "didYouKnow": "The muscles that bend and straighten your fingers sit in the forearm, so almost every hand task makes them work, and they get tight when we do not rest them.",
+      "howItFeels": "A deep, tight or burning ache along the forearm that builds up with typing, gripping or lifting and eases with rest. The muscle may feel hard or tender when you press it, and your grip can feel tired.",
+      "whoIsAtRisk": [
+        "Keyboard and mouse workers",
+        "Gym and heavy lifting",
+        "Tradespeople and craftspeople",
+        "Heavy phone users",
+        "Musicians"
+      ],
+      "commonCauses": [
+        "Overworked forearm muscles",
+        "Gripping tightly or lifting repeatedly",
+        "Long typing or mouse sessions",
+        "Tendon irritation near the elbow or wrist"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Rest your forearm on a table with your palm facing up.",
+          "Gently press along the forearm muscles with your other thumb.",
+          "Open and close your hand slowly and notice where it tightens."
+        ],
+        "question": "Is there a tight, tender band of muscle that eases when you rest the arm?",
+        "yesResult": "A tender, tight muscle that eases with rest fits muscle overuse. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If you also have tingling or numbness, check W8. If the pain is mostly at the elbow, check W7."
+      },
+      "reliefTips": [
+        "Rest and take regular breaks from gripping and typing",
+        "Gently stretch the forearm: straighten the arm and bend the wrist back, then down",
+        "Hold a warm towel on the forearm for 10 minutes"
+      ],
+      "avoid": "Gripping tightly for long periods, lifting heavy weights and typing without breaks.",
+      "seeDoctorIf": [
+        "Forearm pain that is not better after a couple of weeks",
+        "Swelling, redness, warmth or a lump in the forearm",
+        "Pain with tingling, numbness or weakness"
+      ],
+      "warningLine": "Severe forearm pain with a tight, swollen arm, or pain after a fall? See a doctor today.",
+      "deviceCaution": "Do not use the device over a swollen, red, warm or injured area, broken skin or a metal implant. Never use it if you have a pacemaker or any implanted electronic device, or if you are pregnant. Take off rings and bracelets first. Please ask your therapist or a doctor first. Do not use it if the arm is swollen, hot or very tender."
+    },
+    {
+      "code": "W7",
+      "gridLabel": "Elbow & Upper Arm",
+      "title": "Elbow & Upper-Arm Pain",
+      "image": "W7_Elbow_Upper_Arm_Pain.png",
+      "hook": "Pain in your elbow or upper arm when you lift, reach, carry or bend your arm?",
+      "painLocation": "Elbow and upper arm: front, outer side or back, from the shoulder to the elbow",
+      "definition": "Pain in the elbow or upper arm that may come from the muscles, the tendons or the shoulder, often after lifting, reaching, repeated arm movements or overuse.",
+      "didYouKnow": "Pain felt in the upper arm can start in the shoulder or the neck, which is why the exact spot and the movement that brings it on both matter.",
+      "howItFeels": "An ache or sharp pain at the elbow or along the upper arm. Pain at the front is worse when you lift or bend the arm, pain on the outer side when you raise it, and pain at the back when you push or straighten it. The bony bumps of the elbow may be tender.",
+      "whoIsAtRisk": [
+        "Racket sports and golf",
+        "Gym and lifting",
+        "Repetitive arm work",
+        "Desk workers with poor posture",
+        "Painters and tradespeople"
+      ],
+      "commonCauses": [
+        "Strained biceps, triceps or shoulder muscles",
+        "Tendon overuse at the elbow (tennis or golfer's elbow)",
+        "Pain coming from the shoulder or neck",
+        "A recent injury, which a doctor should check"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Sit upright and let your arm hang loosely.",
+          "Slowly bend and straighten the elbow, then raise the arm out to the side.",
+          "Press gently along the upper arm and around the elbow."
+        ],
+        "question": "Is the pain at one spot, and does it get worse with a certain movement or when you press there?",
+        "yesResult": "Pain that changes with movement or pressing is more often from a muscle or a tendon. Rest the arm, and see a doctor if it does not settle. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "If the pain runs down from the neck or comes with tingling, check W8. If it comes with chest pressure, check T8 and call 999."
+      },
+      "reliefTips": [
+        "Rest the arm and avoid heavy lifting and repeated reaching",
+        "Carry and lift with both hands and your elbows close to your body",
+        "Hold a warm towel on the sore area for 10 minutes"
+      ],
+      "avoid": "Heavy lifting, repeated overhead reaching, gripping tightly and pressing hard on the sore spot.",
+      "seeDoctorIf": [
+        "Arm pain after a fall, a knock or a sudden pop",
+        "Pain at night, or pain that is not better after a couple of weeks",
+        "A bulge in the upper arm, bruising or swelling"
+      ],
+      "warningLine": "Arm pain with chest pressure, sweating or breathlessness? Call 999 now.",
+      "deviceCaution": "Do not use the device over a swollen, red, warm or injured area, broken skin or a metal implant. Never use it if you have a pacemaker or any implanted electronic device, or if you are pregnant. Take off rings and bracelets first. Please ask your therapist or a doctor first. Do not use it after a fall or a sudden pop until a doctor has checked the arm. If the pain comes with chest pressure, do not use it at all and check T8."
+    },
+    {
+      "code": "W8",
+      "gridLabel": "Numb Arm",
+      "title": "Arm Numbness or Tingling",
+      "image": "W8_Arm_Numbness_Tingling.png",
+      "hook": "Numbness, tingling or a weak grip that runs down your arm into your hand?",
+      "painLocation": "Neck, shoulder, elbow, forearm or hand, often reaching the ring and little fingers",
+      "definition": "Pins and needles, numbness, burning or weakness running down the arm, which may come from a nerve that is squeezed at the neck, the elbow or the wrist.",
+      "didYouKnow": "A nerve can be squeezed in more than one place along the arm, so tingling in the hand may start at the neck, the elbow or the wrist.",
+      "howItFeels": "Tingling, numbness or burning that runs down the arm, often into the ring and little fingers or the whole hand. It may come with neck or shoulder stiffness, a weak grip, clumsiness or dropping things, and is often worse when the elbow stays bent for long, such as on a phone call or while sleeping.",
+      "whoIsAtRisk": [
+        "Neck and shoulder tension",
+        "Long phone calls with a bent elbow",
+        "Leaning on the elbow",
+        "Poor desk posture",
+        "Diabetes"
+      ],
+      "commonCauses": [
+        "A squeezed nerve at the neck",
+        "Pressure on the nerve at the elbow",
+        "Pressure on the nerve at the wrist",
+        "Nerve irritation linked to other health conditions, which a doctor can check"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Sit upright with your head in a neutral position.",
+          "Bend your elbow fully and hold it for one minute.",
+          "Notice whether tingling or numbness reaches the ring and little fingers."
+        ],
+        "question": "Does bending the elbow, or a certain neck position, bring on the tingling or numbness?",
+        "yesResult": "Symptoms that change with the position of the elbow or neck point to a squeezed nerve. Avoid that position, and see a doctor if it keeps coming back. Tap \"I have this symptom\" to add it to your plan.",
+        "noResult": "Tingling that is constant, spreading or comes with weakness needs a doctor's check soon."
+      },
+      "reliefTips": [
+        "Avoid keeping the elbow bent for long, and use a headset for calls",
+        "Roll your shoulders and gently stretch the neck",
+        "Change position often and take short breaks from desk work"
+      ],
+      "avoid": "Leaning on the elbow, sleeping with the arm tightly bent and holding the phone against your shoulder.",
+      "seeDoctorIf": [
+        "Numbness or tingling that is constant or keeps coming back",
+        "A weak grip, clumsiness or a thinner-looking hand muscle",
+        "Neck pain with numbness running down the arm"
+      ],
+      "warningLine": "Sudden numbness or weakness on one side, a drooping face, slurred speech, or arm pain with chest pressure? Call 999 now.",
+      "deviceCaution": "Do not use the device over a swollen, red, warm or injured area, broken skin or a metal implant. Never use it if you have a pacemaker or any implanted electronic device, or if you are pregnant. Take off rings and bracelets first. Please ask your therapist or a doctor first. Do not use it while the numbness is new, spreading or comes with weakness."
+    }
+  ]
+}

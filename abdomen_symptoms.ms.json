@@ -1,0 +1,393 @@
+{
+  "section": {
+    "id": "abdomen",
+    "codePrefix": "A",
+    "title": "Di mana perut anda sakit?",
+    "subtitle": "Pilih satu atau lebih bahagian untuk mendapatkan pelan peribadi.",
+    "gridImage": "A0_Main_Grid_Abdomen.png",
+    "emergencyNote": "Sakit perut yang tiba-tiba dan teruk, perut keras seperti papan, muntah darah, najis hitam atau berdarah, atau sakit perut dengan demam, pitam atau kehamilan? Hubungi 999 atau pergi ke jabatan kecemasan terdekat sekarang.",
+    "emergencyNumber": "999"
+  },
+  "disclaimer": "Hanya untuk pendidikan, bukan diagnosis.",
+  "references": "NHS UK, Mayo Clinic, American College of Gastroenterology (Kolej Gastroenterologi Amerika)",
+  "lastUpdated": "[DATE]",
+  "reviewedBy": "[QUALIFIED REVIEWER]",
+  "symptoms": [
+    {
+      "code": "A1",
+      "gridLabel": "Sakit Perut Atas",
+      "title": "Sakit Perut Bahagian Atas Tengah",
+      "image": "A1_Upper_Middle_Belly_Pain.png",
+      "hook": "Rasa pedih atau seperti dikerat di bahagian atas tengah perut anda, tepat di bawah tulang rusuk?",
+      "painLocation": "Bahagian atas tengah perut, tepat di bawah tulang dada",
+      "definition": "Sakit pedih, seperti dikerat atau lenguh di bahagian atas tengah perut, selalunya berkaitan dengan kerengsaan perut, refluks asid atau senak.",
+      "didYouKnow": "Perut (gaster) terletak di bahagian atas tengah perut, jadi kerengsaan akibat makanan, tekanan, ubat atau asid yang berlebihan sering dirasai di situ.",
+      "howItFeels": "Sakit pedih, seperti dikerat atau lenguh di bahagian atas tengah perut yang mungkin disertai kembung, sendawa, loya atau rasa masam di mulut. Ia mungkin bertambah baik atau teruk selepas makan, dan kadangkala boleh mengejutkan anda pada waktu malam.",
+      "whoIsAtRisk": [
+        "Makan tidak teratur atau lewat",
+        "Makanan pedas, berlemak atau masam",
+        "Tekanan dan tidur yang kurang",
+        "Kerap mengambil ubat tahan sakit",
+        "Merokok dan minum alkohol"
+      ],
+      "commonCauses": [
+        "Kerengsaan perut (gastritis)",
+        "Refluks asid atau senak",
+        "Ulser perut, yang boleh diperiksa doktor",
+        "Tekanan dan pemakanan yang tidak teratur"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk tegak dan bernafas perlahan-lahan.",
+          "Fikirkan bila sakit itu bermula: sebelum makan, selepas makan atau pada waktu malam.",
+          "Perhatikan sama ada duduk tegak atau meneguk sedikit air meredakannya."
+        ],
+        "question": "Adakah sakit bermula atau berubah dengan waktu makan, dan reda apabila anda duduk tegak atau meneguk air?",
+        "yesResult": "Corak ini sepadan dengan kerengsaan perut atau refluks asid. Makan lebih sedikit tetapi kerap dan teratur, dan jumpa doktor jika ia kerap berulang. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika sakit itu tajam dan berterusan, merebak ke belakang atau disertai muntah, jumpa doktor tidak lama lagi. Jika ia di bawah rusuk kanan, semak A2."
+      },
+      "reliefTips": [
+        "Makan sedikit-sedikit tetapi kerap dan kunyah perlahan-lahan",
+        "Duduk tegak selepas makan dan teguk air suam",
+        "Berehat dan tarik nafas dalam yang perlahan"
+      ],
+      "avoid": "Makanan pedas, berlemak atau sangat masam, kopi, alkohol, merokok dan berbaring sejurus selepas makan.",
+      "seeDoctorIf": [
+        "Sakit yang kerap berulang atau berlangsung lebih beberapa minggu",
+        "Muntah, najis hitam atau berat badan turun tanpa sebab",
+        "Sukar menelan, atau sakit yang mengejutkan anda pada waktu malam"
+      ],
+      "warningLine": "Muntah darah, najis hitam atau sakit teruk secara tiba-tiba? Hubungi 999 sekarang.",
+      "deviceCaution": "Jangan gunakan peranti pada perut jika anda mengandung atau mungkin mengandung. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan. Jangan gunakan pada kulit yang luka, parut, hernia atau kawasan yang bengkak atau merah, atau sejurus selepas makan besar atau semasa perut kosong. Tanggalkan tali pinggang logam dan barang kemas dahulu. Sila tanya ahli terapi atau doktor anda dahulu. Jangan gunakan jika anda muntah, najis hitam atau sakit pedih yang belum diperiksa."
+    },
+    {
+      "code": "A2",
+      "gridLabel": "Sakit Atas Kanan",
+      "title": "Sakit Perut Bahagian Atas Kanan",
+      "image": "A2_Upper_Right_Belly_Pain.png",
+      "hook": "Sakit di bawah rusuk kanan anda, terutamanya selepas makan hidangan berlemak?",
+      "painLocation": "Bahagian atas kanan perut, di bawah rusuk kanan",
+      "definition": "Sakit di bahagian atas kanan perut, selalunya berkaitan dengan pundi hempedu, hati atau penghadaman, dan kadangkala selepas makan makanan berlemak.",
+      "didYouKnow": "Pundi hempedu dan hati terletak di bawah rusuk kanan, dan hidangan berlemak boleh mencetuskan sakit pundi hempedu yang mungkin merebak ke belakang atau bahu kanan.",
+      "howItFeels": "Sakit tumpul, mencengkam atau tajam di bawah rusuk kanan yang mungkin merebak ke belakang atau tulang belikat kanan. Ia mungkin datang selepas makan makanan berlemak, dengan loya, kembung atau sendawa, dan boleh berlangsung dari beberapa minit hingga beberapa jam.",
+      "whoIsAtRisk": [
+        "Makanan berlemak atau bergoreng",
+        "Berat badan berlebihan",
+        "Wanita pertengahan umur",
+        "Berat badan turun dengan cepat",
+        "Sejarah keluarga batu hempedu"
+      ],
+      "commonCauses": [
+        "Kerengsaan pundi hempedu atau batu hempedu",
+        "Senak selepas makanan berlemak",
+        "Masalah hati atau saluran hempedu, yang boleh diperiksa doktor",
+        "Otot rusuk bawah yang tegang"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk tegak dan bernafas perlahan-lahan.",
+          "Fikirkan sama ada sakit itu bermula selepas makan makanan berlemak atau hidangan besar.",
+          "Tekan perlahan di bawah rusuk kanan dan tarik satu nafas dalam yang perlahan."
+        ],
+        "question": "Adakah sakit bermula selepas makanan berlemak, dan merebak ke belakang atau bahu kanan anda?",
+        "yesResult": "Corak ini sepadan dengan sakit jenis pundi hempedu. Elakkan makanan berlemak dan jumpa doktor tidak lama lagi. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika sakit bertambah apabila anda menekan rusuk atau memusing badan, ia mungkin ketegangan otot. Jika ia berterusan atau disertai demam, jumpa doktor hari ini."
+      },
+      "reliefTips": [
+        "Makan hidangan kecil, ringan dan rendah lemak",
+        "Berehat dan teguk air suam",
+        "Letakkan tuala suam pada kawasan yang sakit"
+      ],
+      "avoid": "Makanan berlemak dan bergoreng, hidangan besar, alkohol dan melangkau waktu makan.",
+      "seeDoctorIf": [
+        "Sakit selepas makan makanan berlemak yang kerap berulang",
+        "Kulit atau mata kuning, air kencing gelap atau najis pucat",
+        "Sakit yang berlangsung lebih beberapa jam"
+      ],
+      "warningLine": "Sakit teruk yang tidak reda, dengan demam, kulit kuning atau muntah berulang? Pergi ke jabatan kecemasan sekarang.",
+      "deviceCaution": "Jangan gunakan peranti pada perut jika anda mengandung atau mungkin mengandung. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan. Jangan gunakan pada kulit yang luka, parut, hernia atau kawasan yang bengkak atau merah, atau sejurus selepas makan besar atau semasa perut kosong. Tanggalkan tali pinggang logam dan barang kemas dahulu. Sila tanya ahli terapi atau doktor anda dahulu. Jangan gunakan sehingga punca sakit diketahui."
+    },
+    {
+      "code": "A3",
+      "gridLabel": "Sakit Atas Kiri",
+      "title": "Sakit Perut Bahagian Atas Kiri",
+      "image": "A3_Upper_Left_Belly_Pain.png",
+      "hook": "Sakit atau rasa penuh dan ketat di bahagian atas kiri perut anda?",
+      "painLocation": "Bahagian atas kiri perut, di bawah rusuk kiri",
+      "definition": "Sakit atau rasa penuh di bahagian atas kiri perut, selalunya daripada angin, senak atau kerengsaan perut, dan kurang kerap daripada limpa, pankreas atau buah pinggang kiri.",
+      "didYouKnow": "Angin boleh terkumpul di selekoh usus di bawah rusuk kiri dan menyebabkan sakit tajam atau mencengkam yang reda apabila anda melepaskan angin atau bergerak.",
+      "howItFeels": "Sakit tajam, mencengkam atau rasa penuh di bawah rusuk kiri yang mungkin disertai kembung atau sendawa. Ia mungkin lebih teruk selepas makan dan selalunya reda apabila anda melepaskan angin atau menukar posisi.",
+      "whoIsAtRisk": [
+        "Minuman berkarbonat",
+        "Makan terlalu cepat",
+        "Tekanan",
+        "Sembelit",
+        "Hidangan besar"
+      ],
+      "commonCauses": [
+        "Angin yang terperangkap",
+        "Senak atau kerengsaan perut",
+        "Sembelit",
+        "Jarang sekali, masalah limpa, pankreas atau buah pinggang, yang boleh diperiksa doktor"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk tegak dan kendurkan bahu anda.",
+          "Tekan perlahan di bawah rusuk kiri.",
+          "Berjalan perlahan-lahan selama satu atau dua minit."
+        ],
+        "question": "Adakah sakit reda apabila anda melepaskan angin, berjalan atau menukar posisi?",
+        "yesResult": "Sakit yang reda dengan angin atau pergerakan biasanya menunjukkan angin atau senak. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Jika sakit berterusan atau teruk, merebak ke belakang atau disertai demam, jumpa doktor tidak lama lagi."
+      },
+      "reliefTips": [
+        "Berjalan perlahan-lahan dan urut perut dengan lembut mengikut arah jam",
+        "Makan perlahan-lahan dan elakkan minuman berkarbonat",
+        "Teguk air suam dan berehat"
+      ],
+      "avoid": "Minuman berkarbonat, makan terlalu cepat, mengunyah gula-gula getah dan berbaring sejurus selepas makan.",
+      "seeDoctorIf": [
+        "Sakit yang kerap berulang atau berlangsung lebih beberapa hari",
+        "Sakit selepas terhantuk atau jatuh di sebelah kiri",
+        "Sakit dengan demam, muntah atau merebak ke belakang"
+      ],
+      "warningLine": "Sakit teruk secara tiba-tiba selepas dihentam di sebelah kiri, dengan pening atau pitam? Hubungi 999 sekarang.",
+      "deviceCaution": "Jangan gunakan peranti pada perut jika anda mengandung atau mungkin mengandung. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan. Jangan gunakan pada kulit yang luka, parut, hernia atau kawasan yang bengkak atau merah, atau sejurus selepas makan besar atau semasa perut kosong. Tanggalkan tali pinggang logam dan barang kemas dahulu. Sila tanya ahli terapi atau doktor anda dahulu. Jangan gunakan selepas terhantuk atau jatuh di sebelah kiri."
+    },
+    {
+      "code": "A4",
+      "gridLabel": "Sekitar Pusat",
+      "title": "Sakit di Sekitar Pusat",
+      "image": "A4_Around_Belly_Button_Pain.png",
+      "hook": "Sakit mencengkam atau lenguh di sekitar pusat perut anda?",
+      "painLocation": "Sekitar dan tepat di bawah pusat",
+      "definition": "Sakit mencengkam atau lenguh di sekitar pusat, selalunya daripada angin, kejang usus atau gastroenteritis, dan kadangkala tanda awal masalah lain.",
+      "didYouKnow": "Sakit daripada usus sering dirasai di sekitar pusat, dan sakit yang bermula di situ dan kemudian berpindah ke bahagian bawah kanan perlu diperiksa dengan segera.",
+      "howItFeels": "Sakit mencengkam, memulas atau lenguh di sekitar pusat yang selalunya datang dan pergi seperti ombak. Ia mungkin disertai kembung, najis cair, sembelit atau loya.",
+      "whoIsAtRisk": [
+        "Gastroenteritis atau keracunan makanan",
+        "Sembelit",
+        "Makan terlalu cepat",
+        "Tekanan",
+        "Intoleransi makanan"
+      ],
+      "commonCauses": [
+        "Angin dan kejang usus",
+        "Gastroenteritis atau makanan yang tidak sesuai",
+        "Sembelit atau usus mudah terangsang",
+        "Masalah awal apendiks, yang mesti disingkirkan doktor"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Baring telentang dengan lutut bengkok.",
+          "Tekan perlahan di sekitar pusat.",
+          "Perhatikan sama ada sakit datang seperti ombak, atau kekal di satu tempat dan bertambah teruk."
+        ],
+        "question": "Adakah sakit datang dan pergi seperti ombak, dan reda selepas anda melepaskan angin atau buang air besar?",
+        "yesResult": "Sakit yang datang seperti ombak dan reda dengan angin atau buang air besar sepadan dengan kejang usus atau angin. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Sakit yang kekal di satu tempat, bertambah teruk atau berpindah ke bahagian bawah kanan perlu jumpa doktor pada hari yang sama."
+      },
+      "reliefTips": [
+        "Teguk air suam dan berehat",
+        "Letakkan tuala suam pada perut",
+        "Makan makanan ringan dan ringkas sehingga reda"
+      ],
+      "avoid": "Makanan berminyak atau pedas, alkohol dan hidangan besar.",
+      "seeDoctorIf": [
+        "Sakit yang berlangsung lebih sehari atau kerap berulang",
+        "Sakit yang berpindah ke bahagian bawah kanan perut",
+        "Cirit-birit berdarah, demam tinggi atau muntah berulang"
+      ],
+      "warningLine": "Sakit yang bertambah teruk dengan perut yang keras dan sakit apabila ditekan, demam atau muntah berulang? Pergi ke jabatan kecemasan sekarang.",
+      "deviceCaution": "Jangan gunakan peranti pada perut jika anda mengandung atau mungkin mengandung. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan. Jangan gunakan pada kulit yang luka, parut, hernia atau kawasan yang bengkak atau merah, atau sejurus selepas makan besar atau semasa perut kosong. Tanggalkan tali pinggang logam dan barang kemas dahulu. Sila tanya ahli terapi atau doktor anda dahulu. Jangan gunakan semasa sakit bertambah teruk atau puncanya tidak jelas."
+    },
+    {
+      "code": "A5",
+      "gridLabel": "Sakit Bawah Kanan",
+      "title": "Sakit Perut Bahagian Bawah Kanan",
+      "image": "A5_Lower_Right_Belly_Pain.png",
+      "hook": "Sakit di bahagian bawah kanan perut anda yang semakin teruk?",
+      "painLocation": "Bahagian bawah kanan perut, di atas tulang pinggul kanan",
+      "definition": "Sakit di bahagian bawah kanan perut, yang boleh datang daripada angin, usus, ovari kanan atau lipatan paha, dan kadangkala daripada apendiks.",
+      "didYouKnow": "Sakit apendiks sering bermula di sekitar pusat dan kemudian berpindah ke bahagian bawah kanan, jadi sakit yang berpindah ke situ perlu diperiksa dengan segera.",
+      "howItFeels": "Sakit lenguh atau tajam di bahagian bawah kanan perut yang mungkin bertambah apabila anda batuk, berjalan atau menekan dan melepaskan. Ia mungkin disertai hilang selera makan, loya, demam atau perut yang bengkak.",
+      "whoIsAtRisk": [
+        "Remaja dan dewasa muda",
+        "Sembelit",
+        "Wanita dengan sakit haid atau masalah ovari",
+        "Mengangkat barang berat (lipatan paha)",
+        "Gastroenteritis baru-baru ini"
+      ],
+      "commonCauses": [
+        "Angin atau sembelit",
+        "Keradangan apendiks, yang memerlukan rawatan segera",
+        "Sakit haid atau sakit ovari",
+        "Hernia lipatan paha atau otot tegang"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Baring telentang dengan lutut bengkok.",
+          "Tekan perlahan di bahagian bawah kanan perut, kemudian lepaskan.",
+          "Batuk sekali dan perhatikan sama ada sakit itu melonjak."
+        ],
+        "question": "Adakah sakit semakin teruk, atau lebih tajam apabila anda batuk atau berjalan, atau dengan demam atau tiada selera makan?",
+        "yesResult": "Tanda-tanda ini boleh menunjukkan masalah apendiks. Sila jumpa doktor hari ini dan jangan tunggu untuk melihat sama ada ia reda.",
+        "noResult": "Jika sakit ringan dan reda dengan angin, buang air besar atau rehat, ia lebih berkemungkinan angin atau sembelit. Jumpa doktor jika ia kerap berulang. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda."
+      },
+      "reliefTips": [
+        "Berehat dan teguk air suam",
+        "Makan makanan ringan dan ringkas",
+        "Berjalan perlahan-lahan untuk membantu angin keluar"
+      ],
+      "avoid": "Hidangan besar, dan jangan gunakan pad panas atau julap jika sakit semakin teruk.",
+      "seeDoctorIf": [
+        "Sakit yang semakin teruk dalam beberapa jam",
+        "Demam, hilang selera makan, loya atau muntah",
+        "Benjolan di lipatan paha, atau sakit dengan haid yang terlewat"
+      ],
+      "warningLine": "Sakit teruk yang semakin bertambah dengan demam atau muntah, atau perut yang keras? Pergi ke jabatan kecemasan sekarang.",
+      "deviceCaution": "Jangan gunakan peranti pada perut jika anda mengandung atau mungkin mengandung. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan. Jangan gunakan pada kulit yang luka, parut, hernia atau kawasan yang bengkak atau merah, atau sejurus selepas makan besar atau semasa perut kosong. Tanggalkan tali pinggang logam dan barang kemas dahulu. Sila tanya ahli terapi atau doktor anda dahulu. Jangan gunakan semasa sakit bertambah teruk atau puncanya tidak jelas."
+    },
+    {
+      "code": "A6",
+      "gridLabel": "Sakit Bawah Kiri",
+      "title": "Sakit Perut Bahagian Bawah Kiri",
+      "image": "A6_Lower_Left_Belly_Pain.png",
+      "hook": "Sakit atau kejang di bahagian bawah kiri perut anda?",
+      "painLocation": "Bahagian bawah kiri perut, di atas tulang pinggul kiri",
+      "definition": "Sakit atau kejang di bahagian bawah kiri perut, selalunya daripada sembelit, angin atau kerengsaan usus, dan kadangkala daripada ovari kiri atau kantung kecil pada dinding usus.",
+      "didYouKnow": "Bahagian akhir usus besar terletak di bahagian bawah kiri, jadi sembelit dan najis keras adalah punca yang sangat biasa sakit di situ.",
+      "howItFeels": "Sakit mencengkam atau lenguh di bahagian bawah kiri perut, selalunya dengan sembelit, kembung atau perubahan tabiat buang air besar. Ia mungkin reda selepas buang air besar, atau terasa sakit apabila ditekan.",
+      "whoIsAtRisk": [
+        "Diet rendah serat",
+        "Tidak minum air yang cukup",
+        "Kurang bersenam",
+        "Tekanan",
+        "Usia yang lebih tua"
+      ],
+      "commonCauses": [
+        "Sembelit",
+        "Angin yang terperangkap atau usus mudah terangsang",
+        "Kantung pada dinding usus yang meradang, yang boleh diperiksa doktor",
+        "Sakit haid atau sakit ovari"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk tegak dan kendurkan perut anda.",
+          "Fikirkan buang air besar terakhir anda dan betapa kerasnya.",
+          "Tekan perlahan di bahagian bawah kiri perut."
+        ],
+        "question": "Adakah anda sembelit atau kembung, dan sakit reda selepas melepaskan angin atau buang air besar?",
+        "yesResult": "Corak ini sepadan dengan sembelit atau angin. Minum lebih banyak air, makan lebih banyak serat, dan jumpa doktor jika ia kerap berulang. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Sakit yang berterusan atau teruk, atau dengan demam atau darah dalam najis, perlu jumpa doktor tidak lama lagi."
+      },
+      "reliefTips": [
+        "Minum banyak air dan makan makanan kaya serat",
+        "Berjalan perlahan-lahan dan urut perut mengikut arah jam",
+        "Jangan meneran; beri masa yang cukup di tandas"
+      ],
+      "avoid": "Meneran, melangkau makan, makanan yang sangat rendah serat dan menahan buang air besar.",
+      "seeDoctorIf": [
+        "Sakit yang berlangsung lebih beberapa hari",
+        "Darah dalam najis, atau perubahan tabiat buang air besar yang berterusan",
+        "Demam dengan sakit di bahagian bawah kiri perut"
+      ],
+      "warningLine": "Sakit teruk dengan demam, perut yang keras atau muntah? Pergi ke jabatan kecemasan sekarang.",
+      "deviceCaution": "Jangan gunakan peranti pada perut jika anda mengandung atau mungkin mengandung. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan. Jangan gunakan pada kulit yang luka, parut, hernia atau kawasan yang bengkak atau merah, atau sejurus selepas makan besar atau semasa perut kosong. Tanggalkan tali pinggang logam dan barang kemas dahulu. Sila tanya ahli terapi atau doktor anda dahulu. Jangan gunakan jika terdapat darah dalam najis atau demam."
+    },
+    {
+      "code": "A7",
+      "gridLabel": "Perut Bawah & Pelvis",
+      "title": "Sakit Perut Bawah & Pelvis",
+      "image": "A7_Lower_Belly_Pelvic_Pain.png",
+      "hook": "Sakit lenguh atau kejang di bawah perut anda, di sekitar pundi kencing atau pelvis?",
+      "painLocation": "Bahagian bawah tengah perut, di atas tulang kemaluan dan sekitar pelvis",
+      "definition": "Sakit lenguh atau kejang di bahagian bawah perut, selalunya berkaitan dengan pundi kencing, sakit haid atau otot pelvis yang tegang.",
+      "didYouKnow": "Sakit haid, pundi kencing yang penuh dan otot pelvis yang tegang semuanya boleh terasa seperti sakit lenguh yang menarik ke bawah di bahagian bawah perut.",
+      "howItFeels": "Sakit tumpul, menarik ke bawah atau kejang di bahagian bawah perut yang mungkin disertai sakit haid, kerap atau pedih apabila kencing, sakit belakang atau rasa berat di pelvis.",
+      "whoIsAtRisk": [
+        "Wanita semasa haid",
+        "Jangkitan saluran kencing",
+        "Duduk lama",
+        "Sembelit",
+        "Tekanan dan otot pelvis yang tegang"
+      ],
+      "commonCauses": [
+        "Sakit haid",
+        "Kerengsaan pundi kencing atau jangkitan saluran kencing",
+        "Sembelit",
+        "Otot pelvis yang tegang"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Fikirkan di mana anda dalam kitaran haid anda.",
+          "Perhatikan sama ada anda kerap kencing atau terasa pedih.",
+          "Berehat dengan tuala suam pada bahagian bawah perut."
+        ],
+        "question": "Adakah sakit mengikut haid anda, atau datang dengan kerap atau pedih apabila kencing?",
+        "yesResult": "Sakit semasa haid sepadan dengan sakit haid, dan sakit dengan rasa pedih atau kerap kencing sepadan dengan jangkitan saluran kencing. Jumpa doktor jika gejala kencing berterusan. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Sakit yang baru, teruk atau di satu sebelah, atau dengan haid yang terlewat, perlu jumpa doktor hari ini."
+      },
+      "reliefTips": [
+        "Berehat dan letakkan tuala suam pada bahagian bawah perut",
+        "Minum air dengan kerap dan kosongkan pundi kencing apabila perlu",
+        "Lakukan pernafasan perlahan dan regangan pinggul yang lembut"
+      ],
+      "avoid": "Menahan kencing terlalu lama, duduk berjam-jam tanpa rehat dan mengangkat barang berat pada hari sakit.",
+      "seeDoctorIf": [
+        "Pedih apabila kencing, darah dalam air kencing atau demam",
+        "Haid yang sangat sakit atau banyak sehingga mengganggu kehidupan anda",
+        "Sakit yang berlangsung lebih beberapa hari atau kerap berulang"
+      ],
+      "warningLine": "Sakit teruk secara tiba-tiba di bahagian bawah perut, terutamanya dengan haid yang terlewat, pendarahan banyak atau pitam? Hubungi 999 sekarang.",
+      "deviceCaution": "Jangan gunakan peranti pada perut jika anda mengandung atau mungkin mengandung. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan. Jangan gunakan pada kulit yang luka, parut, hernia atau kawasan yang bengkak atau merah, atau sejurus selepas makan besar atau semasa perut kosong. Tanggalkan tali pinggang logam dan barang kemas dahulu. Sila tanya ahli terapi atau doktor anda dahulu. Jangan gunakan pada bahagian bawah perut atau pelvis jika anda demam, pedih apabila kencing atau berdarah tanpa sebab."
+    },
+    {
+      "code": "A8",
+      "gridLabel": "Kembung & Angin",
+      "title": "Kembung & Angin",
+      "image": "A8_Bloating_Gas.png",
+      "hook": "Perut yang ketat dan bengkak, terasa penuh dengan angin?",
+      "painLocation": "Seluruh perut, selalunya lebih teruk menjelang akhir hari",
+      "definition": "Rasa penuh, ketat atau bengkak di perut daripada angin yang terperangkap, penghadaman yang perlahan atau sembelit, kadangkala dengan kejang.",
+      "didYouKnow": "Perut sering kelihatan dan terasa lebih besar menjelang petang, kerana angin terkumpul sepanjang hari apabila anda makan, minum dan menelan udara.",
+      "howItFeels": "Rasa ketat, bengkak dan tertarik di seluruh perut, dengan sendawa, melepaskan angin, perut berbunyi atau kejang. Pakaian anda mungkin terasa ketat, dan ia selalunya reda selepas melepaskan angin atau buang air besar.",
+      "whoIsAtRisk": [
+        "Makan atau minum terlalu cepat",
+        "Minuman berkarbonat",
+        "Sembelit",
+        "Tekanan",
+        "Makanan seperti kacang, bawang dan produk tenusu"
+      ],
+      "commonCauses": [
+        "Udara yang ditelan dan minuman berkarbonat",
+        "Penghadaman yang perlahan atau sembelit",
+        "Makanan yang menghasilkan angin",
+        "Usus mudah terangsang atau intoleransi makanan, yang boleh diperiksa doktor"
+      ],
+      "selfCheck": {
+        "steps": [
+          "Duduk tegak dan longgarkan pakaian yang ketat.",
+          "Fikirkan makanan atau minuman apa yang datang sebelum kembung.",
+          "Berjalan perlahan-lahan selama beberapa minit."
+        ],
+        "question": "Adakah kembung reda apabila anda melepaskan angin, berjalan atau selepas buang air besar?",
+        "yesResult": "Kembung yang reda dengan angin atau pergerakan biasanya menunjukkan angin atau penghadaman yang perlahan. Ketik \"Saya ada simptom ini\" untuk menambahnya ke dalam pelan anda.",
+        "noResult": "Kembung yang berterusan, semakin teruk atau disertai berat badan turun, muntah atau darah dalam najis perlu jumpa doktor tidak lama lagi."
+      },
+      "reliefTips": [
+        "Berjalan perlahan-lahan selepas makan",
+        "Makan perlahan-lahan dan kunyah dengan baik",
+        "Teguk air suam dan urut perut dengan lembut mengikut arah jam"
+      ],
+      "avoid": "Minuman berkarbonat, mengunyah gula-gula getah, makan terlalu cepat dan hidangan yang sangat besar.",
+      "seeDoctorIf": [
+        "Kembung yang berlangsung lebih beberapa minggu",
+        "Berat badan turun, muntah atau darah dalam najis",
+        "Kembung dengan perut yang keras, bengkak atau sangat sakit"
+      ],
+      "warningLine": "Perut yang bengkak dan keras dengan sakit teruk, muntah dan tiada angin atau najis? Pergi ke jabatan kecemasan sekarang.",
+      "deviceCaution": "Jangan gunakan peranti pada perut jika anda mengandung atau mungkin mengandung. Jangan sekali-kali menggunakannya jika anda mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik yang ditanam dalam badan. Jangan gunakan pada kulit yang luka, parut, hernia atau kawasan yang bengkak atau merah, atau sejurus selepas makan besar atau semasa perut kosong. Tanggalkan tali pinggang logam dan barang kemas dahulu. Sila tanya ahli terapi atau doktor anda dahulu. Jangan gunakan jika perut keras, sangat bengkak atau sakit."
+    }
+  ]
+}
