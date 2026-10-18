@@ -1,0 +1,776 @@
+{
+  "section": "knowledge",
+  "ui": {
+    "back": "Back",
+    "backHub": "Back to Knowledge",
+    "backTo": "Back to",
+    "soon": "Coming soon",
+    "where": "Where",
+    "uses": "Often stimulated with the probe for",
+    "close": "Close",
+    "prev": "Previous",
+    "next": "Next",
+    "list": "All of them",
+    "footR": "Right foot",
+    "footL": "Left foot",
+    "sideR": "Right foot only",
+    "sideL": "Left foot only",
+    "sideRL": "Both feet",
+    "pairs": "Comes in a pair: both sides are stimulated",
+    "probeHere": "Apply the probe here",
+    "probeSlide": "Slide to see where the probe goes",
+    "viewPoints": "Meridian points",
+    "viewOrgans": "Organ areas",
+    "viewProbe": "Probe positions",
+    "viewProbeFor": "for therapists"
+  },
+  "hub": {
+    "title": "Knowledge",
+    "intro": "Simple guides to the points, maps and marks you may meet in your sessions.",
+    "topics": [
+      {
+        "id": "points",
+        "title": "Meridians & Acupoints",
+        "sub": "Learn the traditional way: names, places and uses"
+      },
+      {
+        "id": "reflex",
+        "title": "Organ Reflex Areas",
+        "sub": "Quick answer: which area is linked to my problem?"
+      },
+      {
+        "id": "cupping",
+        "title": "Cupping marks",
+        "sub": "Colour guide and aftercare"
+      }
+    ],
+    "disc": "For education only, not a diagnosis."
+  },
+  "cats": {
+    "points": {
+      "title": "Meridians & Acupoints",
+      "intro": "Pick a part of the body to see its points: their names, where to find them and what they are often stimulated for.",
+      "items": [
+        {
+          "id": "back",
+          "title": "Back and shoulders",
+          "sub": "Along the spine and shoulder blades"
+        },
+        {
+          "id": "head",
+          "title": "Head, face and neck",
+          "sub": "Points around the head and neck"
+        },
+        {
+          "id": "front",
+          "title": "Chest and belly",
+          "sub": "Points on the front of the body"
+        },
+        {
+          "id": "arms",
+          "title": "Arms and hands",
+          "sub": "Points from the shoulder to the fingers"
+        },
+        {
+          "id": "legs",
+          "title": "Legs and feet",
+          "sub": "Points from the hip to the toes"
+        }
+      ]
+    },
+    "reflex": {
+      "title": "Organ Reflex Areas",
+      "intro": "Find the reflex area for your problem. Pick a map, then tap a number to see where the area is.",
+      "items": [
+        {
+          "id": "foot",
+          "title": "Foot map",
+          "sub": "The sole of the right and left foot"
+        },
+        {
+          "id": "hand",
+          "title": "Hand map",
+          "sub": "The palm of the hand"
+        },
+        {
+          "id": "backzones",
+          "title": "Back zones",
+          "sub": "Organ areas on the back"
+        },
+        {
+          "id": "face",
+          "title": "Face zones",
+          "sub": "Areas on the face"
+        },
+        {
+          "id": "ear",
+          "title": "Ear map",
+          "sub": "Points on the ear"
+        }
+      ]
+    }
+  },
+  "charts": {
+    "back": {
+      "title": "Back and shoulders",
+      "intro": "Tap a number on the picture, or a name in the list, to see where the point is and what it is often stimulated for.",
+      "note": "Most points come in pairs, one on each side of the spine. Both sides are stimulated.",
+      "items": [
+        {
+          "id": "dazhui",
+          "name": "Dazhui",
+          "alt": "大椎 · GV14",
+          "where": "On the middle of the spine, in the dip just below the bump at the base of the neck. The bump is easy to feel when you bend your head forward.",
+          "uses": "Often stimulated with the probe for a stiff neck and tension in the upper back."
+        },
+        {
+          "id": "jianjing",
+          "name": "Jianjing",
+          "alt": "肩井 · GB21",
+          "where": "On the top of the shoulder, halfway between the base of the neck and the tip of the shoulder.",
+          "uses": "Often stimulated with the probe for tight, aching shoulders."
+        },
+        {
+          "id": "fengmen",
+          "name": "Fengmen",
+          "alt": "风门 · BL12",
+          "where": "On the upper back, about two finger-widths either side of the spine, level with the top edge of the shoulder blades.",
+          "uses": "Often stimulated with the probe for tension in the upper back and shoulders."
+        },
+        {
+          "id": "feishu",
+          "name": "Feishu",
+          "alt": "肺俞 · BL13",
+          "where": "On the upper back, two finger-widths either side of the spine, between the shoulder blades, a little below Fengmen.",
+          "uses": "Often stimulated with the probe for tightness between the shoulder blades."
+        },
+        {
+          "id": "tianzong",
+          "name": "Tianzong",
+          "alt": "天宗 · SI11",
+          "where": "In the middle of the shoulder blade, in the hollow below the ridge that runs across it.",
+          "uses": "Often stimulated with the probe for an aching shoulder blade and a stiff shoulder."
+        },
+        {
+          "id": "xinshu",
+          "name": "Xinshu",
+          "alt": "心俞 · BL15",
+          "where": "Two finger-widths either side of the spine, level with the middle of the shoulder blades.",
+          "uses": "Often stimulated with the probe for an achy, tight mid-upper back."
+        },
+        {
+          "id": "geshu",
+          "name": "Geshu",
+          "alt": "膈俞 · BL17",
+          "where": "Two finger-widths either side of the spine, level with the bottom tip of the shoulder blades.",
+          "uses": "Often stimulated with the probe for a tight mid-back."
+        },
+        {
+          "id": "ganshu",
+          "name": "Ganshu",
+          "alt": "肝俞 · BL18",
+          "where": "Two finger-widths either side of the spine, a little below the bottom tip of the shoulder blades.",
+          "uses": "Often stimulated with the probe for an achy mid-to-lower back after sitting for long."
+        },
+        {
+          "id": "pishu",
+          "name": "Pishu",
+          "alt": "脾俞 · BL20",
+          "where": "Two finger-widths either side of the spine, just above the waist.",
+          "uses": "Often stimulated with the probe for stiffness just above the waist."
+        },
+        {
+          "id": "shenshu",
+          "name": "Shenshu",
+          "alt": "肾俞 · BL23",
+          "where": "At waist level, two finger-widths either side of the spine, level with the navel.",
+          "uses": "Often stimulated with the probe for a tired, aching lower back."
+        },
+        {
+          "id": "mingmen",
+          "name": "Mingmen",
+          "alt": "命门 · GV4",
+          "where": "On the middle of the spine at waist level, in the dip between the two Shenshu points.",
+          "uses": "Often stimulated with the probe for a stiff, cold or tired lower back."
+        }
+      ],
+      "linesTitle": "Two lines to know",
+      "lines": [
+        {
+          "id": "du",
+          "label": "Governor line (督脉)",
+          "text": "Runs up the middle of the spine, from the tailbone to the head."
+        },
+        {
+          "id": "bl",
+          "label": "Bladder line (膀胱经)",
+          "text": "Two lines about two finger-widths either side of the spine. Most of the points here sit on them."
+        }
+      ],
+      "pressTitle": "How the probe is used",
+      "press": [
+        "Your therapist first guides the device along the meridian, then rests the probe on each key point.",
+        "The probe gives gentle pulses and warmth. Most people feel a light tingle or a comfortable warmth.",
+        "The strength is raised slowly. Tell your therapist right away if anything feels uncomfortable.",
+        "A little soreness or warmth afterwards is normal. Rest and drink some water."
+      ],
+      "cautionTitle": "Take extra care",
+      "cautionIntro": "Ask your therapist or doctor first, and do not use the device, if you:",
+      "caution": [
+        "are pregnant or may be pregnant",
+        "have a pacemaker or any implanted electronic device, or a metal implant in the area",
+        "take blood-thinning medicine or bruise easily",
+        "have a recent injury, fracture, surgery or swelling in the area",
+        "have osteoporosis, a spine problem or nerve pain",
+        "have a skin problem, wound or sunburn on the area"
+      ],
+      "cautionNote": "Never use the device on broken skin, a lump or a swollen, red or painful area.",
+      "doctorTitle": "When to see a doctor",
+      "doctor": [
+        "Sudden, severe back pain, or pain after a fall or injury",
+        "Numbness, tingling or weakness in the arms or legs",
+        "Back pain with a fever, or trouble controlling your bladder or bowels",
+        "Pain that wakes you at night, or that has not eased after 2 weeks"
+      ],
+      "warnLine": "Pain spreading to the chest, arm or jaw, trouble breathing, or sudden weakness on one side? Call 999 now.",
+      "refLabel": "References",
+      "refs": "WHO Standard Acupuncture Point Locations (2008), Healthline, Cleveland Clinic",
+      "disc": "Positions are a guide only. Your therapist will find the exact spot. For education only, not a diagnosis."
+    },
+    "back_organs": {
+      "title": "Back and shoulders",
+      "pressTitle": "How the probe is used",
+      "press": [
+        "Your therapist first guides the device along the meridian, then rests the probe on each key point.",
+        "The probe gives gentle pulses and warmth. Most people feel a light tingle or a comfortable warmth.",
+        "The strength is raised slowly. Tell your therapist right away if anything feels uncomfortable.",
+        "A little soreness or warmth afterwards is normal. Rest and drink some water."
+      ],
+      "cautionTitle": "Take extra care",
+      "cautionIntro": "Ask your therapist or doctor first, and do not use the device, if you:",
+      "caution": [
+        "are pregnant or may be pregnant",
+        "have a pacemaker or any implanted electronic device, or a metal implant in the area",
+        "take blood-thinning medicine or bruise easily",
+        "have a recent injury, fracture, surgery or swelling in the area",
+        "have osteoporosis, a spine problem or nerve pain",
+        "have a skin problem, wound or sunburn on the area"
+      ],
+      "cautionNote": "Never use the device on broken skin, a lump or a swollen, red or painful area.",
+      "doctorTitle": "When to see a doctor",
+      "doctor": [
+        "Sudden, severe back pain, or pain after a fall or injury",
+        "Numbness, tingling or weakness in the arms or legs",
+        "Back pain with a fever, or trouble controlling your bladder or bowels",
+        "Pain that wakes you at night, or that has not eased after 2 weeks"
+      ],
+      "warnLine": "Pain spreading to the chest, arm or jaw, trouble breathing, or sudden weakness on one side? Call 999 now.",
+      "refLabel": "References",
+      "refs": "WHO Standard Acupuncture Point Locations (2008), Healthline, Cleveland Clinic",
+      "disc": "Positions are a guide only. Your therapist will find the exact spot. For education only, not a diagnosis.",
+      "intro": "These are the areas on the back that match the organs. Slide, or tap a number, to see where each one is.",
+      "note": "The picture is seen from behind, so the left of the picture is your left side and the right is your right side. The organs are drawn as if your back were see-through.",
+      "items": [
+        {
+          "id": "lungs",
+          "name": "Lungs and chest",
+          "alt": "",
+          "where": "Upper back, across both shoulder blades, one lung area on each side of the spine.",
+          "uses": "Often stimulated with the probe for a tight chest and shallow breathing from stress."
+        },
+        {
+          "id": "heart",
+          "name": "Heart",
+          "alt": "",
+          "where": "Middle of the upper back, just to the left of the spine, between the shoulder blades.",
+          "uses": "Often stimulated with the probe to feel calm and relaxed."
+        },
+        {
+          "id": "liver",
+          "name": "Liver and gallbladder",
+          "alt": "",
+          "where": "Right side of the mid-back, just below the shoulder blade, over the lower ribs.",
+          "uses": "Often stimulated with the probe for tiredness and a heavy feeling after rich meals."
+        },
+        {
+          "id": "stomach",
+          "name": "Stomach, spleen and pancreas",
+          "alt": "",
+          "where": "Left side of the mid-back, below the shoulder blade, over the lower ribs.",
+          "uses": "Often stimulated with the probe for a bloated or unsettled stomach after meals."
+        },
+        {
+          "id": "kidneys",
+          "name": "Kidneys and adrenals",
+          "alt": "",
+          "where": "Lower back, one on each side of the spine, just above the waist.",
+          "uses": "Often stimulated with the probe for a tired lower back and heavy, tired legs."
+        },
+        {
+          "id": "intestines",
+          "name": "Intestines",
+          "alt": "",
+          "where": "The lowest part of the back, across the middle just above the hips.",
+          "uses": "Often stimulated with the probe for bloating and digestion comfort."
+        }
+      ]
+    },
+    "back_probe": {
+      "title": "Back and shoulders",
+      "pressTitle": "How the probe is used",
+      "press": [
+        "Your therapist first guides the device along the meridian, then rests the probe on each key point.",
+        "The probe gives gentle pulses and warmth. Most people feel a light tingle or a comfortable warmth.",
+        "The strength is raised slowly. Tell your therapist right away if anything feels uncomfortable.",
+        "A little soreness or warmth afterwards is normal. Rest and drink some water."
+      ],
+      "cautionTitle": "Take extra care",
+      "cautionIntro": "Ask your therapist or doctor first, and do not use the device, if you:",
+      "caution": [
+        "are pregnant or may be pregnant",
+        "have a pacemaker or any implanted electronic device, or a metal implant in the area",
+        "take blood-thinning medicine or bruise easily",
+        "have a recent injury, fracture, surgery or swelling in the area",
+        "have osteoporosis, a spine problem or nerve pain",
+        "have a skin problem, wound or sunburn on the area"
+      ],
+      "cautionNote": "Never use the device on broken skin, a lump or a swollen, red or painful area.",
+      "doctorTitle": "When to see a doctor",
+      "doctor": [
+        "Sudden, severe back pain, or pain after a fall or injury",
+        "Numbness, tingling or weakness in the arms or legs",
+        "Back pain with a fever, or trouble controlling your bladder or bowels",
+        "Pain that wakes you at night, or that has not eased after 2 weeks"
+      ],
+      "warnLine": "Pain spreading to the chest, arm or jaw, trouble breathing, or sudden weakness on one side? Call 999 now.",
+      "refLabel": "Source",
+      "refs": "The clinic's standard treatment routines, in general terms",
+      "disc": "Your therapist adjusts every session to you. For education only, not a diagnosis.",
+      "intro": "For therapists: the steps of a neck, shoulder and back session. Slide to follow where the probe goes, one step at a time.",
+      "note": "Steps 1 to 5 follow a neck and shoulder routine and steps 6 and 7 a lower back routine. Hands, arms, buttocks and legs are not on this picture.",
+      "items": [
+        {
+          "id": "shoulders",
+          "name": "Shoulder tops",
+          "alt": "",
+          "where": "On the top of both shoulders, around Jianjing, along the edge of the shoulder.",
+          "uses": "Glide the probe slowly along the edge of the shoulder, forward and back, then repeat on the other side."
+        },
+        {
+          "id": "blades",
+          "name": "Shoulder blades",
+          "alt": "",
+          "where": "Along the inner edge of each shoulder blade, around Tianzong.",
+          "uses": "Rest the probe on the sore spots along the inner edge of each shoulder blade, one spot at a time."
+        },
+        {
+          "id": "dazhui",
+          "name": "Base of the neck",
+          "alt": "",
+          "where": "On the spine, in the dip just below the bump at the base of the neck (Dazhui).",
+          "uses": "Rest the probe here for a short hold."
+        },
+        {
+          "id": "gv_upper",
+          "name": "Spine, upper back",
+          "alt": "",
+          "where": "Down the middle of the spine, from the base of the neck to between the shoulder blades.",
+          "uses": "Glide slowly down the middle of the spine from the base of the neck, then back up, and repeat."
+        },
+        {
+          "id": "bl_upper",
+          "name": "Upper back, beside the spine",
+          "alt": "",
+          "where": "On both sides of the spine, around Fengmen and Feishu.",
+          "uses": "Rest the probe on each of these points in turn, left and right."
+        },
+        {
+          "id": "gv_lower",
+          "name": "Lower back",
+          "alt": "",
+          "where": "The lower back: down the middle of the spine, then down the lines on each side of it.",
+          "uses": "Glide slowly down the middle of the spine, then down each line beside it, from the top and from the inside outward."
+        },
+        {
+          "id": "waist",
+          "name": "Sides of the waist",
+          "alt": "",
+          "where": "Around the waist on both sides, along the belt line.",
+          "uses": "Glide the probe around the waist from front to back and back again, and rest it for a moment on any tight knots."
+        }
+      ]
+    },
+    "foot_points": {
+      "title": "Foot map",
+      "pressTitle": "How the probe is used",
+      "press": [
+        "Your therapist applies the device probe to these areas of the sole, one after another.",
+        "The probe gives gentle pulses and warmth. Most people feel a light tingle or a comfortable warmth.",
+        "The strength is raised slowly. Tell your therapist right away if anything feels uncomfortable.",
+        "Your therapist usually works on both feet. Rest and drink some water afterwards."
+      ],
+      "cautionTitle": "Take extra care",
+      "cautionIntro": "Ask your therapist or doctor first, and do not use the device, if you:",
+      "caution": [
+        "are pregnant or may be pregnant",
+        "have a pacemaker or any implanted electronic device, or a metal implant in the area",
+        "have reduced feeling in your feet (for example with diabetes), because heat may cause a burn you do not notice",
+        "have a blood clot, poor circulation or gout, or take blood-thinning medicine",
+        "have a foot injury, swelling, blisters or a skin infection such as athlete's foot, or severe eczema or psoriasis on the feet"
+      ],
+      "cautionNote": "Never use the device on broken skin or a swollen, red or painful area.",
+      "doctorTitle": "When to see a doctor",
+      "doctor": [
+        "A painful, red, warm or swollen foot or calf",
+        "Foot pain that keeps coming back or does not ease after 2 weeks",
+        "A sore on your foot that is not healing",
+        "Feeling dizzy, very unwell or short of breath after a session"
+      ],
+      "warnLine": "Chest pain, trouble breathing or sudden weakness on one side? Call 999 now.",
+      "refLabel": "References",
+      "refs": "Healthline, WebMD",
+      "disc": "A sensitive spot is not a diagnosis. For education only.",
+      "intro": "Points on the sole and toes that lie on the meridians. Slide, or tap a number, to see where each one is.",
+      "note": "The toe points sit beside the corners of the toenails and the heel points just below the ankle bones, so they are drawn at the edges of the foot. Your therapist finds the exact spot.",
+      "items": [
+        {
+          "id": "yinbai",
+          "name": "Yinbai",
+          "alt": "隐白 · SP1",
+          "where": "On the inner side of the big toe, right beside the corner of the toenail.",
+          "uses": "Often stimulated with the probe for cold, tired toes."
+        },
+        {
+          "id": "dadun",
+          "name": "Dadun",
+          "alt": "大敦 · LR1",
+          "where": "On the outer side of the big toe (the side facing the second toe), right beside the corner of the toenail.",
+          "uses": "Often stimulated with the probe for an achy, tired big toe."
+        },
+        {
+          "id": "zhiyin",
+          "name": "Zhiyin",
+          "alt": "至阴 · BL67",
+          "where": "On the outer side of the little toe, right beside the corner of the toenail.",
+          "uses": "Often stimulated with the probe for tired, achy little toes and the outer edge of the foot."
+        },
+        {
+          "id": "yongquan",
+          "name": "Yongquan",
+          "alt": "涌泉 · KI1",
+          "where": "On the sole, about a third of the way back from the toes, in the dip between the pads below the second and third toes (the dip shows when you curl your toes).",
+          "uses": "Often stimulated with the probe for tired, aching soles and heavy legs."
+        },
+        {
+          "id": "rangu",
+          "name": "Rangu",
+          "alt": "然谷 · KI2",
+          "where": "On the inner edge of the foot, in the arch, just in front of and below the bony bump on the inner side of the foot.",
+          "uses": "Often stimulated with the probe for an aching, tired arch."
+        },
+        {
+          "id": "zhaohai",
+          "name": "Zhaohai",
+          "alt": "照海 · KI6",
+          "where": "On the inner side of the heel, in the dip just below the inner ankle bone.",
+          "uses": "Often stimulated with the probe for tired ankles and heavy legs."
+        },
+        {
+          "id": "shenmai",
+          "name": "Shenmai",
+          "alt": "申脉 · BL62",
+          "where": "On the outer side of the heel, in the dip just below the outer ankle bone.",
+          "uses": "Often stimulated with the probe for tired ankles and a stiff lower back."
+        }
+      ]
+    },
+    "foot": {
+      "title": "Foot map",
+      "intro": "Reflexology is a traditional idea that the sole of the foot is a map of the body. Tap a number to see where that organ area is on the foot.",
+      "note": "The heart area matters most on the left foot, and the liver area on the right foot. Your therapist usually works on both feet.",
+      "items": [
+        {
+          "id": "head",
+          "name": "Head and brain",
+          "alt": "",
+          "where": "The pad of the big toe.",
+          "uses": "Often stimulated with the probe for a tired head, tension headaches and a busy mind."
+        },
+        {
+          "id": "sinus",
+          "name": "Sinuses",
+          "alt": "",
+          "where": "The tips of all the toes.",
+          "uses": "Often stimulated with the probe for a blocked or heavy feeling around the nose and forehead."
+        },
+        {
+          "id": "eyes",
+          "name": "Eyes",
+          "alt": "",
+          "where": "The base of the middle toes, where they meet the ball of the foot.",
+          "uses": "Often stimulated with the probe for tired, strained eyes after screen time."
+        },
+        {
+          "id": "ears",
+          "name": "Ears",
+          "alt": "",
+          "where": "The little toe, towards its base.",
+          "uses": "Often stimulated with the probe for a blocked-ear feeling and tension around the ears."
+        },
+        {
+          "id": "neck",
+          "name": "Neck and thyroid",
+          "alt": "",
+          "where": "The base of the big toe, just below the toe pad.",
+          "uses": "Often stimulated with the probe for a stiff neck and a tight throat."
+        },
+        {
+          "id": "lungs",
+          "name": "Lungs and chest",
+          "alt": "",
+          "where": "The ball of the foot, on both sides of the heart area.",
+          "uses": "Often stimulated with the probe for a tight chest and shallow breathing from stress."
+        },
+        {
+          "id": "heart",
+          "name": "Heart",
+          "alt": "",
+          "where": "The middle of the ball of the foot, between the lungs. It matters most on the left foot.",
+          "uses": "Often stimulated with the probe to feel calm and relaxed."
+        },
+        {
+          "id": "liver",
+          "name": "Liver and gallbladder",
+          "alt": "",
+          "where": "Just below the ball of the foot, on the outer side. It matters most on the right foot.",
+          "uses": "Often stimulated with the probe for tiredness and a heavy feeling after rich meals."
+        },
+        {
+          "id": "stomach",
+          "name": "Stomach",
+          "alt": "",
+          "where": "Just below the ball of the foot, on the inner (big-toe) side.",
+          "uses": "Often stimulated with the probe for a bloated or unsettled stomach after meals."
+        },
+        {
+          "id": "pancreas",
+          "name": "Pancreas",
+          "alt": "",
+          "where": "Just below the stomach area, on the inner side.",
+          "uses": "Often stimulated together with the stomach area for digestion comfort."
+        },
+        {
+          "id": "intestines",
+          "name": "Intestines",
+          "alt": "",
+          "where": "The lower arch, from just below the liver and stomach areas down to the heel. The large intestine runs around the small intestine.",
+          "uses": "Often stimulated with the probe for bloating and digestion comfort."
+        },
+        {
+          "id": "kidneys",
+          "name": "Kidneys and adrenals",
+          "alt": "",
+          "where": "The heel, on the outer (little-toe) side, with the adrenal gland on top.",
+          "uses": "Often stimulated with the probe for a tired lower back and heavy, tired legs."
+        },
+        {
+          "id": "bladder",
+          "name": "Bladder",
+          "alt": "",
+          "where": "The heel, on the inner (big-toe) side, next to the kidney area.",
+          "uses": "Often stimulated with the probe for a heavy or uncomfortable lower belly."
+        },
+        {
+          "id": "spine",
+          "name": "Spine",
+          "alt": "",
+          "where": "The whole inner edge of the foot, from the big toe (neck) to the heel (lower back).",
+          "uses": "Often stimulated with the probe for a stiff, tired back."
+        }
+      ],
+      "quick": [
+        {
+          "item": "kidneys",
+          "title": "For back pain and sciatica"
+        },
+        {
+          "item": "intestines",
+          "title": "For digestion and bloating"
+        }
+      ],
+      "lines": [],
+      "goodTitle": "Good to know",
+      "good": [
+        "This is a traditional map. Studies have not proven that foot areas are linked to organs, and most people use reflexology to relax.",
+        "A sensitive spot does not mean there is a problem with that organ.",
+        "Feeling relaxed or a little sleepy afterwards is common."
+      ],
+      "pressTitle": "How the probe is used",
+      "press": [
+        "Your therapist applies the device probe to these areas of the sole, one after another.",
+        "The probe gives gentle pulses and warmth. Most people feel a light tingle or a comfortable warmth.",
+        "The strength is raised slowly. Tell your therapist right away if anything feels uncomfortable.",
+        "Your therapist usually works on both feet. Rest and drink some water afterwards."
+      ],
+      "cautionTitle": "Take extra care",
+      "cautionIntro": "Ask your therapist or doctor first, and do not use the device, if you:",
+      "caution": [
+        "are pregnant or may be pregnant",
+        "have a pacemaker or any implanted electronic device, or a metal implant in the area",
+        "have reduced feeling in your feet (for example with diabetes), because heat may cause a burn you do not notice",
+        "have a blood clot, poor circulation or gout, or take blood-thinning medicine",
+        "have a foot injury, swelling, blisters or a skin infection such as athlete's foot, or severe eczema or psoriasis on the feet"
+      ],
+      "cautionNote": "Never use the device on broken skin or a swollen, red or painful area.",
+      "doctorTitle": "When to see a doctor",
+      "doctor": [
+        "A painful, red, warm or swollen foot or calf",
+        "Foot pain that keeps coming back or does not ease after 2 weeks",
+        "A sore on your foot that is not healing",
+        "Feeling dizzy, very unwell or short of breath after a session"
+      ],
+      "warnLine": "Chest pain, trouble breathing or sudden weakness on one side? Call 999 now.",
+      "refLabel": "References",
+      "refs": "Healthline, WebMD",
+      "disc": "A sensitive spot is not a diagnosis. For education only."
+    },
+    "foot_probe": {
+      "title": "Foot map",
+      "pressTitle": "How the probe is used",
+      "press": [
+        "Your therapist applies the device probe to these areas of the sole, one after another.",
+        "The probe gives gentle pulses and warmth. Most people feel a light tingle or a comfortable warmth.",
+        "The strength is raised slowly. Tell your therapist right away if anything feels uncomfortable.",
+        "Your therapist usually works on both feet. Rest and drink some water afterwards."
+      ],
+      "cautionTitle": "Take extra care",
+      "cautionIntro": "Ask your therapist or doctor first, and do not use the device, if you:",
+      "caution": [
+        "are pregnant or may be pregnant",
+        "have a pacemaker or any implanted electronic device, or a metal implant in the area",
+        "have reduced feeling in your feet (for example with diabetes), because heat may cause a burn you do not notice",
+        "have a blood clot, poor circulation or gout, or take blood-thinning medicine",
+        "have a foot injury, swelling, blisters or a skin infection such as athlete's foot, or severe eczema or psoriasis on the feet"
+      ],
+      "cautionNote": "Never use the device on broken skin or a swollen, red or painful area.",
+      "doctorTitle": "When to see a doctor",
+      "doctor": [
+        "A painful, red, warm or swollen foot or calf",
+        "Foot pain that keeps coming back or does not ease after 2 weeks",
+        "A sore on your foot that is not healing",
+        "Feeling dizzy, very unwell or short of breath after a session"
+      ],
+      "warnLine": "Chest pain, trouble breathing or sudden weakness on one side? Call 999 now.",
+      "refLabel": "Source",
+      "refs": "The clinic's standard treatment routines, in general terms",
+      "disc": "Your therapist adjusts every session to you. For education only, not a diagnosis.",
+      "intro": "For therapists: the steps of a sole session. Slide to follow where the probe goes, one step at a time.",
+      "note": "These are the sole steps of the leg routine. The calf, buttock and lower back steps are on other pictures.",
+      "items": [
+        {
+          "id": "yongquan",
+          "name": "Centre of the sole",
+          "alt": "",
+          "where": "The dip in the front part of the sole, below the second and third toes (Yongquan).",
+          "uses": "Start here: rest the probe flat on the sole with light contact and make small circles."
+        },
+        {
+          "id": "toejoints",
+          "name": "Toe joints",
+          "alt": "",
+          "where": "Along the row of joints at the base of the toes, across the ball of the foot.",
+          "uses": "Glide the probe in short straight strokes and small circles along the toe joints, gently, a few passes on each foot."
+        },
+        {
+          "id": "closing",
+          "name": "Closing stroke toward the heel",
+          "alt": "",
+          "where": "Down the middle of the sole, from the toes to the heel.",
+          "uses": "To finish, glide slowly from the toes toward the heel and ankle, in the direction of the heart."
+        }
+      ]
+    }
+  },
+  "cupping": {
+    "title": "Cupping marks",
+    "intro": "Cupping uses gentle suction on the skin. It leaves round marks where the cups sat. They look like bruises, but they come from the suction drawing blood to the skin surface, not from an injury to the muscle. Most marks fade within 1 to 2 weeks.",
+    "guideTitle": "What the colours can look like",
+    "guideSub": "Your marks may be lighter or darker than these. Every person's skin reacts differently.",
+    "stages": [
+      {
+        "tone": "pink",
+        "name": "Light pink",
+        "look": "A faint, pale mark. The suction was gentle or short, or your skin does not mark easily.",
+        "tip": "Usually gone within a few days."
+      },
+      {
+        "tone": "lightRed",
+        "name": "Light red",
+        "look": "A mild, even mark. A very common result.",
+        "tip": "Usually fades within a few days to a week."
+      },
+      {
+        "tone": "red",
+        "name": "Red to dark pink",
+        "look": "A clear, medium mark. The suction was firmer, or the cups stayed on a little longer.",
+        "tip": "Usually fades in about a week."
+      },
+      {
+        "tone": "deepRed",
+        "name": "Deep red to purple",
+        "look": "A strong mark. Firm suction, a longer time, or skin that bruises easily.",
+        "tip": "Can take 1 to 2 weeks. Tell your therapist so the next session can be gentler."
+      },
+      {
+        "tone": "dark",
+        "name": "Dark purple to black",
+        "look": "A very deep mark. It may feel tender to touch.",
+        "tip": "Can take 2 weeks or more. Tell your therapist right away and ask for lighter suction or a shorter time next time. See a doctor if it is very painful or is not fading after 2 weeks."
+      },
+      {
+        "tone": "fading",
+        "name": "Fading yellow, green or brown",
+        "look": "The healing stage. The mark is fading, just like an ordinary bruise does.",
+        "tip": "Be gentle with the skin until it is back to normal."
+      }
+    ],
+    "goodTitle": "Good to know",
+    "good": [
+      "The colour is not a health test. It mostly shows how strong the suction was, how long the cups stayed on, and how easily your skin marks.",
+      "Some people mark more easily than others. Light marks, or very few, are normal too.",
+      "You may feel a little tight or slightly sore for a day or two. It should not be severe."
+    ],
+    "careTitle": "Looking after your skin",
+    "care": [
+      "Keep the area clean and dry. Do not scrub, scratch or pick at it.",
+      "Skip very hot showers, saunas and hard workouts for the rest of the day.",
+      "Keep the marks out of strong sun until they fade.",
+      "Drink water and rest if you feel tired, dizzy or light-headed.",
+      "If the skin feels dry or tight, a gentle fragrance-free moisturiser is fine.",
+      "Wait until the marks have faded before the same spot is cupped again, and ask your therapist how long to leave it."
+    ],
+    "cautionTitle": "Take extra care",
+    "cautionIntro": "Tell your therapist, and check with your doctor first, if you:",
+    "caution": [
+      "are pregnant, under 18, or older and frail",
+      "take blood-thinning medicine, or have a bleeding or blood-clotting problem",
+      "have anaemia, heart disease or a pacemaker",
+      "have epilepsy",
+      "have eczema, psoriasis or another skin problem",
+      "have sunburn, a wound, a burn, thin or inflamed skin, or varicose veins in the area"
+    ],
+    "cautionNote": "Cups should never be placed on broken, burnt or infected skin.",
+    "doctorTitle": "When to tell your therapist or see a doctor",
+    "doctor": [
+      "Blisters, a burn, or skin that is broken or oozing",
+      "Fever, spreading redness, warmth, or yellow discharge (signs of infection)",
+      "Severe pain or swelling that gets worse instead of better",
+      "Marks that are not fading after 2 weeks, or you bruise easily or often for no reason",
+      "Feeling faint, dizzy or sick, and it does not settle after lying down"
+    ],
+    "warnLine": "Feeling very unwell, fainting, or chest pain or trouble breathing? Call 999 or go to the nearest emergency department now.",
+    "refLabel": "References",
+    "refs": "Cleveland Clinic, Healthline, WebMD, NCBI StatPearls",
+    "disc": "For education only, not a diagnosis."
+  }
+}

@@ -1,0 +1,776 @@
+{
+  "section": "knowledge",
+  "ui": {
+    "back": "Kembali",
+    "backHub": "Kembali ke Pengetahuan",
+    "backTo": "Kembali ke",
+    "soon": "Akan datang",
+    "where": "Lokasi",
+    "uses": "Selalunya dirangsang dengan probe untuk",
+    "close": "Tutup",
+    "prev": "Sebelumnya",
+    "next": "Seterusnya",
+    "list": "Senarai penuh",
+    "footR": "Kaki kanan",
+    "footL": "Kaki kiri",
+    "sideR": "Kaki kanan sahaja",
+    "sideL": "Kaki kiri sahaja",
+    "sideRL": "Kedua-dua kaki",
+    "pairs": "Berpasangan: kedua-dua belah dirangsang",
+    "probeHere": "Letak probe di sini",
+    "probeSlide": "Gelongsor untuk lihat di mana probe diletakkan",
+    "viewPoints": "Titik meridian",
+    "viewOrgans": "Zon organ",
+    "viewProbe": "Posisi probe",
+    "viewProbeFor": "untuk ahli terapi"
+  },
+  "hub": {
+    "title": "Pengetahuan",
+    "intro": "Panduan ringkas tentang titik, peta dan tanda yang mungkin anda temui dalam sesi anda.",
+    "topics": [
+      {
+        "id": "points",
+        "title": "Meridian & Titik Akupresur",
+        "sub": "Belajar cara tradisional: nama, lokasi dan kegunaan"
+      },
+      {
+        "id": "reflex",
+        "title": "Zon Refleks Organ",
+        "sub": "Jawapan pantas: zon mana berkait dengan masalah saya?"
+      },
+      {
+        "id": "cupping",
+        "title": "Tanda bekam",
+        "sub": "Panduan warna dan penjagaan"
+      }
+    ],
+    "disc": "Hanya untuk pendidikan, bukan diagnosis."
+  },
+  "cats": {
+    "points": {
+      "title": "Meridian & Titik Akupresur",
+      "intro": "Pilih bahagian badan untuk melihat titiknya: nama, lokasi dan kegunaan rangsangan yang lazim.",
+      "items": [
+        {
+          "id": "back",
+          "title": "Belakang dan bahu",
+          "sub": "Sepanjang tulang belakang dan tulang belikat"
+        },
+        {
+          "id": "head",
+          "title": "Kepala, muka dan leher",
+          "sub": "Titik di sekitar kepala dan leher"
+        },
+        {
+          "id": "front",
+          "title": "Dada dan perut",
+          "sub": "Titik di bahagian hadapan badan"
+        },
+        {
+          "id": "arms",
+          "title": "Lengan dan tangan",
+          "sub": "Titik dari bahu hingga jari"
+        },
+        {
+          "id": "legs",
+          "title": "Kaki dan tapak kaki",
+          "sub": "Titik dari pinggul hingga jari kaki"
+        }
+      ]
+    },
+    "reflex": {
+      "title": "Zon Refleks Organ",
+      "intro": "Cari zon refleks untuk masalah anda. Pilih satu peta, kemudian ketik nombor untuk melihat lokasi zon.",
+      "items": [
+        {
+          "id": "foot",
+          "title": "Peta kaki",
+          "sub": "Tapak kaki kanan dan kiri"
+        },
+        {
+          "id": "hand",
+          "title": "Peta tangan",
+          "sub": "Tapak tangan"
+        },
+        {
+          "id": "backzones",
+          "title": "Zon belakang",
+          "sub": "Kawasan organ di belakang"
+        },
+        {
+          "id": "face",
+          "title": "Zon muka",
+          "sub": "Kawasan pada muka"
+        },
+        {
+          "id": "ear",
+          "title": "Peta telinga",
+          "sub": "Titik pada telinga"
+        }
+      ]
+    }
+  },
+  "charts": {
+    "back": {
+      "title": "Belakang dan bahu",
+      "intro": "Ketik nombor pada gambar atau nama dalam senarai untuk melihat lokasi titik dan kegunaan rangsangan yang lazim.",
+      "note": "Kebanyakan titik berpasangan, satu di setiap sisi tulang belakang. Kedua-dua belah dirangsang.",
+      "items": [
+        {
+          "id": "dazhui",
+          "name": "Dazhui",
+          "alt": "大椎 · GV14",
+          "where": "Di garisan tengah tulang belakang, dalam lekukan tepat di bawah tonjolan di pangkal leher. Tonjolan itu mudah dirasa apabila anda menundukkan kepala.",
+          "uses": "Selalunya dirangsang dengan probe untuk leher yang tegang dan ketegangan di belakang atas."
+        },
+        {
+          "id": "jianjing",
+          "name": "Jianjing",
+          "alt": "肩井 · GB21",
+          "where": "Di bahagian atas bahu, di pertengahan antara pangkal leher dan hujung bahu.",
+          "uses": "Selalunya dirangsang dengan probe untuk bahu yang tegang dan lenguh."
+        },
+        {
+          "id": "fengmen",
+          "name": "Fengmen",
+          "alt": "风门 · BL12",
+          "where": "Di belakang atas, kira-kira dua lebar jari di kiri dan kanan tulang belakang, sama paras dengan tepi atas tulang belikat.",
+          "uses": "Selalunya dirangsang dengan probe untuk ketegangan di belakang atas dan bahu."
+        },
+        {
+          "id": "feishu",
+          "name": "Feishu",
+          "alt": "肺俞 · BL13",
+          "where": "Di belakang atas, dua lebar jari di kiri dan kanan tulang belakang, di antara tulang belikat, sedikit di bawah Fengmen.",
+          "uses": "Selalunya dirangsang dengan probe untuk rasa tegang di antara tulang belikat."
+        },
+        {
+          "id": "tianzong",
+          "name": "Tianzong",
+          "alt": "天宗 · SI11",
+          "where": "Di tengah tulang belikat, dalam lekuk di bawah rabung yang melintasinya.",
+          "uses": "Selalunya dirangsang dengan probe untuk tulang belikat yang lenguh dan bahu yang kaku."
+        },
+        {
+          "id": "xinshu",
+          "name": "Xinshu",
+          "alt": "心俞 · BL15",
+          "where": "Dua lebar jari di kiri dan kanan tulang belakang, sama paras dengan bahagian tengah tulang belikat.",
+          "uses": "Selalunya dirangsang dengan probe untuk bahagian tengah-atas belakang yang lenguh dan tegang."
+        },
+        {
+          "id": "geshu",
+          "name": "Geshu",
+          "alt": "膈俞 · BL17",
+          "where": "Dua lebar jari di kiri dan kanan tulang belakang, sama paras dengan hujung bawah tulang belikat.",
+          "uses": "Selalunya dirangsang dengan probe untuk bahagian tengah belakang yang tegang."
+        },
+        {
+          "id": "ganshu",
+          "name": "Ganshu",
+          "alt": "肝俞 · BL18",
+          "where": "Dua lebar jari di kiri dan kanan tulang belakang, sedikit di bawah hujung bawah tulang belikat.",
+          "uses": "Selalunya dirangsang dengan probe untuk belakang tengah-bawah yang lenguh selepas duduk lama."
+        },
+        {
+          "id": "pishu",
+          "name": "Pishu",
+          "alt": "脾俞 · BL20",
+          "where": "Dua lebar jari di kiri dan kanan tulang belakang, tepat di atas pinggang.",
+          "uses": "Selalunya dirangsang dengan probe untuk kekakuan tepat di atas pinggang."
+        },
+        {
+          "id": "shenshu",
+          "name": "Shenshu",
+          "alt": "肾俞 · BL23",
+          "where": "Pada paras pinggang, dua lebar jari di kiri dan kanan tulang belakang, sama paras dengan pusat.",
+          "uses": "Selalunya dirangsang dengan probe untuk pinggang yang letih dan lenguh."
+        },
+        {
+          "id": "mingmen",
+          "name": "Mingmen",
+          "alt": "命门 · GV4",
+          "where": "Di garisan tengah tulang belakang pada paras pinggang, dalam lekuk di antara dua titik Shenshu.",
+          "uses": "Selalunya dirangsang dengan probe untuk pinggang yang kaku, sejuk atau letih."
+        }
+      ],
+      "linesTitle": "Dua garisan yang perlu diketahui",
+      "lines": [
+        {
+          "id": "du",
+          "label": "Garisan Du (督脉)",
+          "text": "Mengikut garisan tengah tulang belakang, dari tulang ekor hingga ke kepala."
+        },
+        {
+          "id": "bl",
+          "label": "Garisan Pundi Kencing (膀胱经)",
+          "text": "Dua garisan kira-kira dua lebar jari di kiri dan kanan tulang belakang. Kebanyakan titik di sini terletak di atasnya."
+        }
+      ],
+      "pressTitle": "Cara probe digunakan",
+      "press": [
+        "Ahli terapi anda akan menggerakkan peranti di sepanjang meridian dahulu, kemudian meletakkan probe pada setiap titik utama.",
+        "Probe memberikan denyutan lembut dan kehangatan. Kebanyakan orang berasa kesemutan ringan atau kehangatan yang selesa.",
+        "Kekuatan dinaikkan perlahan-lahan. Beritahu ahli terapi anda serta-merta jika ada yang terasa tidak selesa.",
+        "Sedikit lenguh atau rasa hangat selepas itu adalah normal. Berehat dan minum sedikit air."
+      ],
+      "cautionTitle": "Ambil perhatian lebih",
+      "cautionIntro": "Tanya ahli terapi atau doktor anda dahulu, dan jangan gunakan peranti, jika anda:",
+      "caution": [
+        "mengandung atau mungkin mengandung",
+        "mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik tertanam, atau implan logam di kawasan itu",
+        "mengambil ubat pencair darah atau mudah lebam",
+        "mengalami kecederaan, patah tulang, pembedahan atau bengkak baru-baru ini di kawasan itu",
+        "mempunyai osteoporosis, masalah tulang belakang atau sakit saraf",
+        "mempunyai masalah kulit, luka atau selaran matahari di kawasan itu"
+      ],
+      "cautionNote": "Jangan gunakan peranti pada kulit yang luka, ketulan atau kawasan yang bengkak, merah atau sakit.",
+      "doctorTitle": "Bila perlu jumpa doktor",
+      "doctor": [
+        "Sakit belakang yang teruk secara tiba-tiba, atau sakit selepas jatuh atau kecederaan",
+        "Kebas, rasa tergigit atau lemah pada lengan atau kaki",
+        "Sakit belakang disertai demam, atau sukar mengawal pundi kencing atau usus",
+        "Sakit yang mengejutkan anda pada waktu malam, atau tidak reda selepas 2 minggu"
+      ],
+      "warnLine": "Sakit merebak ke dada, lengan atau rahang, sukar bernafas, atau lemah tiba-tiba di satu sebelah badan? Hubungi 999 sekarang.",
+      "refLabel": "Rujukan",
+      "refs": "WHO Standard Acupuncture Point Locations (2008), Healthline, Cleveland Clinic",
+      "disc": "Lokasi hanyalah panduan. Ahli terapi anda akan mencari tempat yang tepat. Hanya untuk pendidikan, bukan diagnosis."
+    },
+    "back_organs": {
+      "title": "Belakang dan bahu",
+      "pressTitle": "Cara probe digunakan",
+      "press": [
+        "Ahli terapi anda akan menggerakkan peranti di sepanjang meridian dahulu, kemudian meletakkan probe pada setiap titik utama.",
+        "Probe memberikan denyutan lembut dan kehangatan. Kebanyakan orang berasa kesemutan ringan atau kehangatan yang selesa.",
+        "Kekuatan dinaikkan perlahan-lahan. Beritahu ahli terapi anda serta-merta jika ada yang terasa tidak selesa.",
+        "Sedikit lenguh atau rasa hangat selepas itu adalah normal. Berehat dan minum sedikit air."
+      ],
+      "cautionTitle": "Ambil perhatian lebih",
+      "cautionIntro": "Tanya ahli terapi atau doktor anda dahulu, dan jangan gunakan peranti, jika anda:",
+      "caution": [
+        "mengandung atau mungkin mengandung",
+        "mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik tertanam, atau implan logam di kawasan itu",
+        "mengambil ubat pencair darah atau mudah lebam",
+        "mengalami kecederaan, patah tulang, pembedahan atau bengkak baru-baru ini di kawasan itu",
+        "mempunyai osteoporosis, masalah tulang belakang atau sakit saraf",
+        "mempunyai masalah kulit, luka atau selaran matahari di kawasan itu"
+      ],
+      "cautionNote": "Jangan gunakan peranti pada kulit yang luka, ketulan atau kawasan yang bengkak, merah atau sakit.",
+      "doctorTitle": "Bila perlu jumpa doktor",
+      "doctor": [
+        "Sakit belakang yang teruk secara tiba-tiba, atau sakit selepas jatuh atau kecederaan",
+        "Kebas, rasa tergigit atau lemah pada lengan atau kaki",
+        "Sakit belakang disertai demam, atau sukar mengawal pundi kencing atau usus",
+        "Sakit yang mengejutkan anda pada waktu malam, atau tidak reda selepas 2 minggu"
+      ],
+      "warnLine": "Sakit merebak ke dada, lengan atau rahang, sukar bernafas, atau lemah tiba-tiba di satu sebelah badan? Hubungi 999 sekarang.",
+      "refLabel": "Rujukan",
+      "refs": "WHO Standard Acupuncture Point Locations (2008), Healthline, Cleveland Clinic",
+      "disc": "Lokasi hanyalah panduan. Ahli terapi anda akan mencari tempat yang tepat. Hanya untuk pendidikan, bukan diagnosis.",
+      "intro": "Ini ialah kawasan di belakang yang sepadan dengan organ. Gelongsor atau ketik nombor untuk melihat lokasi setiap kawasan.",
+      "note": "Gambar ini dilihat dari belakang, jadi sebelah kiri gambar ialah sebelah kiri anda dan sebelah kanan ialah sebelah kanan anda. Organ dilukis seolah-olah belakang badan anda lutsinar.",
+      "items": [
+        {
+          "id": "lungs",
+          "name": "Paru-paru & dada",
+          "alt": "",
+          "where": "Belakang atas, merentasi kedua-dua tulang belikat, satu zon paru-paru di setiap sisi tulang belakang.",
+          "uses": "Selalunya dirangsang dengan probe untuk dada yang sesak dan pernafasan cetek akibat tekanan."
+        },
+        {
+          "id": "heart",
+          "name": "Jantung",
+          "alt": "",
+          "where": "Tengah belakang atas, sedikit ke kiri tulang belakang, di antara tulang belikat.",
+          "uses": "Selalunya dirangsang dengan probe untuk berasa tenang dan santai."
+        },
+        {
+          "id": "liver",
+          "name": "Hati & pundi hempedu",
+          "alt": "",
+          "where": "Sebelah kanan belakang tengah, tepat di bawah tulang belikat, di atas tulang rusuk bawah.",
+          "uses": "Selalunya dirangsang dengan probe untuk keletihan dan rasa berat selepas makan makanan berlemak."
+        },
+        {
+          "id": "stomach",
+          "name": "Perut, limpa & pankreas",
+          "alt": "",
+          "where": "Sebelah kiri belakang tengah, di bawah tulang belikat, di atas tulang rusuk bawah.",
+          "uses": "Selalunya dirangsang dengan probe untuk perut yang kembung atau tidak selesa selepas makan."
+        },
+        {
+          "id": "kidneys",
+          "name": "Buah pinggang & adrenal",
+          "alt": "",
+          "where": "Belakang bawah, satu di setiap sisi tulang belakang, tepat di atas pinggang.",
+          "uses": "Selalunya dirangsang dengan probe untuk pinggang yang letih dan kaki yang berat dan letih."
+        },
+        {
+          "id": "intestines",
+          "name": "Usus",
+          "alt": "",
+          "where": "Bahagian paling bawah belakang, merentasi bahagian tengah tepat di atas pinggul.",
+          "uses": "Selalunya dirangsang dengan probe untuk kembung dan keselesaan penghadaman."
+        }
+      ]
+    },
+    "back_probe": {
+      "title": "Belakang dan bahu",
+      "pressTitle": "Cara probe digunakan",
+      "press": [
+        "Ahli terapi anda akan menggerakkan peranti di sepanjang meridian dahulu, kemudian meletakkan probe pada setiap titik utama.",
+        "Probe memberikan denyutan lembut dan kehangatan. Kebanyakan orang berasa kesemutan ringan atau kehangatan yang selesa.",
+        "Kekuatan dinaikkan perlahan-lahan. Beritahu ahli terapi anda serta-merta jika ada yang terasa tidak selesa.",
+        "Sedikit lenguh atau rasa hangat selepas itu adalah normal. Berehat dan minum sedikit air."
+      ],
+      "cautionTitle": "Ambil perhatian lebih",
+      "cautionIntro": "Tanya ahli terapi atau doktor anda dahulu, dan jangan gunakan peranti, jika anda:",
+      "caution": [
+        "mengandung atau mungkin mengandung",
+        "mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik tertanam, atau implan logam di kawasan itu",
+        "mengambil ubat pencair darah atau mudah lebam",
+        "mengalami kecederaan, patah tulang, pembedahan atau bengkak baru-baru ini di kawasan itu",
+        "mempunyai osteoporosis, masalah tulang belakang atau sakit saraf",
+        "mempunyai masalah kulit, luka atau selaran matahari di kawasan itu"
+      ],
+      "cautionNote": "Jangan gunakan peranti pada kulit yang luka, ketulan atau kawasan yang bengkak, merah atau sakit.",
+      "doctorTitle": "Bila perlu jumpa doktor",
+      "doctor": [
+        "Sakit belakang yang teruk secara tiba-tiba, atau sakit selepas jatuh atau kecederaan",
+        "Kebas, rasa tergigit atau lemah pada lengan atau kaki",
+        "Sakit belakang disertai demam, atau sukar mengawal pundi kencing atau usus",
+        "Sakit yang mengejutkan anda pada waktu malam, atau tidak reda selepas 2 minggu"
+      ],
+      "warnLine": "Sakit merebak ke dada, lengan atau rahang, sukar bernafas, atau lemah tiba-tiba di satu sebelah badan? Hubungi 999 sekarang.",
+      "refLabel": "Sumber",
+      "refs": "Rutin terapi standard klinik, dalam istilah umum",
+      "disc": "Ahli terapi anda menyesuaikan setiap sesi dengan anda. Hanya untuk pendidikan, bukan diagnosis.",
+      "intro": "Untuk ahli terapi: langkah-langkah sesi leher, bahu dan belakang. Gelongsor untuk mengikuti di mana probe diletakkan, satu langkah demi satu langkah.",
+      "note": "Langkah 1 hingga 5 mengikut rutin leher dan bahu, langkah 6 dan 7 mengikut rutin belakang bawah. Tangan, lengan, punggung dan kaki tidak ada pada gambar ini.",
+      "items": [
+        {
+          "id": "shoulders",
+          "name": "Bahagian atas bahu",
+          "alt": "",
+          "where": "Di bahagian atas kedua-dua bahu, sekitar Jianjing, di sepanjang tepi bahu.",
+          "uses": "Gelongsorkan probe perlahan-lahan di sepanjang tepi bahu, ke depan dan ke belakang, kemudian ulang di sebelah lagi."
+        },
+        {
+          "id": "blades",
+          "name": "Tulang belikat",
+          "alt": "",
+          "where": "Di sepanjang tepi dalam setiap tulang belikat, sekitar Tianzong.",
+          "uses": "Letakkan probe pada tempat yang lenguh di sepanjang tepi dalam setiap tulang belikat, satu tempat demi satu tempat."
+        },
+        {
+          "id": "dazhui",
+          "name": "Pangkal leher",
+          "alt": "",
+          "where": "Pada tulang belakang, dalam lekukan tepat di bawah tonjolan di pangkal leher (Dazhui).",
+          "uses": "Letakkan probe di sini dan tahan seketika."
+        },
+        {
+          "id": "gv_upper",
+          "name": "Tulang belakang, belakang atas",
+          "alt": "",
+          "where": "Di sepanjang tengah tulang belakang, dari pangkal leher hingga di antara tulang belikat.",
+          "uses": "Gelongsorkan probe perlahan-lahan ke bawah di tengah tulang belakang dari pangkal leher, kemudian naik semula, dan ulang."
+        },
+        {
+          "id": "bl_upper",
+          "name": "Belakang atas, di tepi tulang belakang",
+          "alt": "",
+          "where": "Di kedua-dua sisi tulang belakang, sekitar Fengmen dan Feishu.",
+          "uses": "Letakkan probe pada setiap titik ini secara bergilir, kiri dan kanan."
+        },
+        {
+          "id": "gv_lower",
+          "name": "Belakang bawah",
+          "alt": "",
+          "where": "Belakang bawah: di sepanjang tengah tulang belakang, kemudian di sepanjang garisan di kedua-dua sisinya.",
+          "uses": "Gelongsorkan probe perlahan-lahan ke bawah di tengah tulang belakang, kemudian di sepanjang setiap garisan di sebelahnya, dari atas dan dari dalam ke luar."
+        },
+        {
+          "id": "waist",
+          "name": "Sisi pinggang",
+          "alt": "",
+          "where": "Di sekeliling pinggang di kedua-dua sisi, di sepanjang garisan tali pinggang (belt line).",
+          "uses": "Gelongsorkan probe mengelilingi pinggang dari depan ke belakang dan kembali semula, dan letakkan seketika pada mana-mana simpulan yang tegang."
+        }
+      ]
+    },
+    "foot_points": {
+      "title": "Peta kaki",
+      "pressTitle": "Cara probe digunakan",
+      "press": [
+        "Ahli terapi anda meletakkan probe peranti pada zon-zon di tapak kaki ini, satu demi satu.",
+        "Probe memberikan denyutan lembut dan kehangatan. Kebanyakan orang berasa kesemutan ringan atau kehangatan yang selesa.",
+        "Kekuatan dinaikkan perlahan-lahan. Beritahu ahli terapi anda serta-merta jika ada yang terasa tidak selesa.",
+        "Biasanya kedua-dua kaki diberi terapi. Berehat dan minum sedikit air selepas itu."
+      ],
+      "cautionTitle": "Ambil perhatian lebih",
+      "cautionIntro": "Tanya ahli terapi atau doktor anda dahulu, dan jangan gunakan peranti, jika anda:",
+      "caution": [
+        "mengandung atau mungkin mengandung",
+        "mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik tertanam, atau implan logam di kawasan itu",
+        "mempunyai deria rasa yang berkurangan pada kaki (contohnya diabetes), kerana haba boleh menyebabkan melecur tanpa disedari",
+        "mempunyai darah beku, peredaran darah lemah, gout, atau mengambil ubat pencair darah",
+        "mempunyai kecederaan kaki, bengkak, lepuh atau jangkitan kulit seperti kurap kaki, atau ekzema atau psoriasis yang teruk pada kaki"
+      ],
+      "cautionNote": "Jangan gunakan peranti pada kulit yang luka atau kawasan yang bengkak, merah atau sakit.",
+      "doctorTitle": "Bila perlu jumpa doktor",
+      "doctor": [
+        "Kaki atau betis yang sakit, merah, panas atau bengkak",
+        "Sakit kaki yang berulang atau tidak reda selepas 2 minggu",
+        "Luka pada kaki yang tidak sembuh",
+        "Berasa pening, sangat tidak sihat atau semput selepas sesi"
+      ],
+      "warnLine": "Sakit dada, sukar bernafas, atau lemah tiba-tiba di satu sebelah badan? Hubungi 999 sekarang.",
+      "refLabel": "Rujukan",
+      "refs": "Healthline, WebMD",
+      "disc": "Tempat yang terasa sensitif bukan diagnosis. Hanya untuk pendidikan.",
+      "intro": "Titik di tapak kaki dan jari kaki yang terletak pada meridian. Gelongsor atau ketik nombor untuk melihat lokasi setiap titik.",
+      "note": "Titik jari kaki terletak di tepi sudut kuku dan titik tumit tepat di bawah buku lali, jadi ia dilukis di tepi kaki. Ahli terapi anda akan mencari tempat yang tepat.",
+      "items": [
+        {
+          "id": "yinbai",
+          "name": "Yinbai",
+          "alt": "隐白 · SP1",
+          "where": "Di bahagian dalam ibu jari kaki, tepat di tepi sudut kuku.",
+          "uses": "Selalunya dirangsang dengan probe untuk jari kaki yang sejuk dan letih."
+        },
+        {
+          "id": "dadun",
+          "name": "Dadun",
+          "alt": "大敦 · LR1",
+          "where": "Di bahagian luar ibu jari kaki (sebelah yang menghadap jari kedua), tepat di tepi sudut kuku.",
+          "uses": "Selalunya dirangsang dengan probe untuk ibu jari kaki yang lenguh dan letih."
+        },
+        {
+          "id": "zhiyin",
+          "name": "Zhiyin",
+          "alt": "至阴 · BL67",
+          "where": "Di bahagian luar jari kelingking kaki, tepat di tepi sudut kuku.",
+          "uses": "Selalunya dirangsang dengan probe untuk jari kelingking kaki dan tepi luar kaki yang letih dan lenguh."
+        },
+        {
+          "id": "yongquan",
+          "name": "Yongquan",
+          "alt": "涌泉 · KI1",
+          "where": "Di tapak kaki, kira-kira sepertiga dari jari kaki ke belakang, dalam lekukan di antara bantalan di bawah jari kedua dan ketiga (lekukan ini kelihatan apabila anda mengerutkan jari kaki).",
+          "uses": "Selalunya dirangsang dengan probe untuk tapak kaki yang letih dan lenguh serta kaki yang berat."
+        },
+        {
+          "id": "rangu",
+          "name": "Rangu",
+          "alt": "然谷 · KI2",
+          "where": "Di tepi dalam kaki, pada lengkung kaki, tepat di hadapan dan di bawah tonjolan tulang di sebelah dalam kaki.",
+          "uses": "Selalunya dirangsang dengan probe untuk lengkung kaki yang lenguh dan letih."
+        },
+        {
+          "id": "zhaohai",
+          "name": "Zhaohai",
+          "alt": "照海 · KI6",
+          "where": "Di bahagian dalam tumit, dalam lekukan tepat di bawah buku lali dalam.",
+          "uses": "Selalunya dirangsang dengan probe untuk buku lali yang letih dan kaki yang berat."
+        },
+        {
+          "id": "shenmai",
+          "name": "Shenmai",
+          "alt": "申脉 · BL62",
+          "where": "Di bahagian luar tumit, dalam lekukan tepat di bawah buku lali luar.",
+          "uses": "Selalunya dirangsang dengan probe untuk buku lali yang letih dan pinggang yang kaku."
+        }
+      ]
+    },
+    "foot": {
+      "title": "Peta kaki",
+      "intro": "Refleksologi ialah idea tradisional bahawa tapak kaki ialah peta badan. Ketik nombor untuk melihat lokasi zon organ itu pada kaki.",
+      "note": "Zon jantung paling penting pada kaki kiri, dan zon hati pada kaki kanan. Biasanya kedua-dua kaki diberi terapi.",
+      "items": [
+        {
+          "id": "head",
+          "name": "Kepala & otak",
+          "alt": "",
+          "where": "Bantalan ibu jari kaki.",
+          "uses": "Selalunya dirangsang dengan probe untuk kepala yang letih, sakit kepala tegang dan fikiran yang sibuk."
+        },
+        {
+          "id": "sinus",
+          "name": "Sinus",
+          "alt": "",
+          "where": "Hujung semua jari kaki.",
+          "uses": "Selalunya dirangsang dengan probe untuk rasa tersumbat atau berat di sekitar hidung dan dahi."
+        },
+        {
+          "id": "eyes",
+          "name": "Mata",
+          "alt": "",
+          "where": "Pangkal jari kaki tengah, tempat ia bertemu bahagian depan tapak kaki.",
+          "uses": "Selalunya dirangsang dengan probe untuk mata yang letih dan tegang selepas melihat skrin."
+        },
+        {
+          "id": "ears",
+          "name": "Telinga",
+          "alt": "",
+          "where": "Jari kelingking kaki, dekat pangkalnya.",
+          "uses": "Selalunya dirangsang dengan probe untuk rasa telinga tersumbat dan ketegangan di sekitar telinga."
+        },
+        {
+          "id": "neck",
+          "name": "Leher & tiroid",
+          "alt": "",
+          "where": "Pangkal ibu jari kaki, tepat di bawah bantalan jari.",
+          "uses": "Selalunya dirangsang dengan probe untuk leher yang kaku dan tekak yang tegang."
+        },
+        {
+          "id": "lungs",
+          "name": "Paru-paru & dada",
+          "alt": "",
+          "where": "Bahagian depan tapak kaki, di kedua-dua sisi zon jantung.",
+          "uses": "Selalunya dirangsang dengan probe untuk dada yang sesak dan pernafasan cetek akibat tekanan."
+        },
+        {
+          "id": "heart",
+          "name": "Jantung",
+          "alt": "",
+          "where": "Tengah bahagian depan tapak kaki, di antara paru-paru. Paling penting pada kaki kiri.",
+          "uses": "Selalunya dirangsang dengan probe untuk berasa tenang dan santai."
+        },
+        {
+          "id": "liver",
+          "name": "Hati & pundi hempedu",
+          "alt": "",
+          "where": "Tepat di bawah bahagian depan tapak kaki, di sebelah luar. Paling penting pada kaki kanan.",
+          "uses": "Selalunya dirangsang dengan probe untuk keletihan dan rasa berat selepas makan makanan berlemak."
+        },
+        {
+          "id": "stomach",
+          "name": "Perut (gaster)",
+          "alt": "",
+          "where": "Tepat di bawah bahagian depan tapak kaki, di sebelah dalam (sebelah ibu jari kaki).",
+          "uses": "Selalunya dirangsang dengan probe untuk perut yang kembung atau tidak selesa selepas makan."
+        },
+        {
+          "id": "pancreas",
+          "name": "Pankreas",
+          "alt": "",
+          "where": "Tepat di bawah zon perut, di sebelah dalam.",
+          "uses": "Selalunya dirangsang bersama zon perut untuk keselesaan penghadaman."
+        },
+        {
+          "id": "intestines",
+          "name": "Usus",
+          "alt": "",
+          "where": "Bahagian bawah lengkung kaki, dari bawah zon hati dan perut hingga ke atas tumit. Usus besar mengelilingi usus kecil.",
+          "uses": "Selalunya dirangsang dengan probe untuk kembung dan keselesaan penghadaman."
+        },
+        {
+          "id": "kidneys",
+          "name": "Buah pinggang & adrenal",
+          "alt": "",
+          "where": "Tumit, di sebelah luar (sebelah jari kelingking), dengan kelenjar adrenal di atasnya.",
+          "uses": "Selalunya dirangsang dengan probe untuk pinggang yang letih dan kaki yang berat dan letih."
+        },
+        {
+          "id": "bladder",
+          "name": "Pundi kencing",
+          "alt": "",
+          "where": "Tumit, di sebelah dalam (sebelah ibu jari kaki), bersebelahan zon buah pinggang.",
+          "uses": "Selalunya dirangsang dengan probe untuk perut bawah yang berat atau tidak selesa."
+        },
+        {
+          "id": "spine",
+          "name": "Tulang belakang",
+          "alt": "",
+          "where": "Seluruh tepi dalam kaki, dari ibu jari kaki (leher) hingga tumit (pinggang).",
+          "uses": "Selalunya dirangsang dengan probe untuk belakang yang kaku dan letih."
+        }
+      ],
+      "quick": [
+        {
+          "item": "kidneys",
+          "title": "Untuk sakit belakang dan sciatica"
+        },
+        {
+          "item": "intestines",
+          "title": "Untuk penghadaman dan kembung"
+        }
+      ],
+      "lines": [],
+      "goodTitle": "Perlu anda tahu",
+      "good": [
+        "Ini ialah peta tradisional. Kajian belum membuktikan bahawa kawasan kaki berkait dengan organ, dan kebanyakan orang menggunakan refleksologi untuk berehat.",
+        "Tempat yang terasa sensitif tidak bermakna organ itu bermasalah.",
+        "Berasa santai atau sedikit mengantuk selepas itu adalah perkara biasa."
+      ],
+      "pressTitle": "Cara probe digunakan",
+      "press": [
+        "Ahli terapi anda meletakkan probe peranti pada zon-zon di tapak kaki ini, satu demi satu.",
+        "Probe memberikan denyutan lembut dan kehangatan. Kebanyakan orang berasa kesemutan ringan atau kehangatan yang selesa.",
+        "Kekuatan dinaikkan perlahan-lahan. Beritahu ahli terapi anda serta-merta jika ada yang terasa tidak selesa.",
+        "Biasanya kedua-dua kaki diberi terapi. Berehat dan minum sedikit air selepas itu."
+      ],
+      "cautionTitle": "Ambil perhatian lebih",
+      "cautionIntro": "Tanya ahli terapi atau doktor anda dahulu, dan jangan gunakan peranti, jika anda:",
+      "caution": [
+        "mengandung atau mungkin mengandung",
+        "mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik tertanam, atau implan logam di kawasan itu",
+        "mempunyai deria rasa yang berkurangan pada kaki (contohnya diabetes), kerana haba boleh menyebabkan melecur tanpa disedari",
+        "mempunyai darah beku, peredaran darah lemah, gout, atau mengambil ubat pencair darah",
+        "mempunyai kecederaan kaki, bengkak, lepuh atau jangkitan kulit seperti kurap kaki, atau ekzema atau psoriasis yang teruk pada kaki"
+      ],
+      "cautionNote": "Jangan gunakan peranti pada kulit yang luka atau kawasan yang bengkak, merah atau sakit.",
+      "doctorTitle": "Bila perlu jumpa doktor",
+      "doctor": [
+        "Kaki atau betis yang sakit, merah, panas atau bengkak",
+        "Sakit kaki yang berulang atau tidak reda selepas 2 minggu",
+        "Luka pada kaki yang tidak sembuh",
+        "Berasa pening, sangat tidak sihat atau semput selepas sesi"
+      ],
+      "warnLine": "Sakit dada, sukar bernafas, atau lemah tiba-tiba di satu sebelah badan? Hubungi 999 sekarang.",
+      "refLabel": "Rujukan",
+      "refs": "Healthline, WebMD",
+      "disc": "Tempat yang terasa sensitif bukan diagnosis. Hanya untuk pendidikan."
+    },
+    "foot_probe": {
+      "title": "Peta kaki",
+      "pressTitle": "Cara probe digunakan",
+      "press": [
+        "Ahli terapi anda meletakkan probe peranti pada zon-zon di tapak kaki ini, satu demi satu.",
+        "Probe memberikan denyutan lembut dan kehangatan. Kebanyakan orang berasa kesemutan ringan atau kehangatan yang selesa.",
+        "Kekuatan dinaikkan perlahan-lahan. Beritahu ahli terapi anda serta-merta jika ada yang terasa tidak selesa.",
+        "Biasanya kedua-dua kaki diberi terapi. Berehat dan minum sedikit air selepas itu."
+      ],
+      "cautionTitle": "Ambil perhatian lebih",
+      "cautionIntro": "Tanya ahli terapi atau doktor anda dahulu, dan jangan gunakan peranti, jika anda:",
+      "caution": [
+        "mengandung atau mungkin mengandung",
+        "mempunyai perentak jantung (pacemaker) atau sebarang peranti elektronik tertanam, atau implan logam di kawasan itu",
+        "mempunyai deria rasa yang berkurangan pada kaki (contohnya diabetes), kerana haba boleh menyebabkan melecur tanpa disedari",
+        "mempunyai darah beku, peredaran darah lemah, gout, atau mengambil ubat pencair darah",
+        "mempunyai kecederaan kaki, bengkak, lepuh atau jangkitan kulit seperti kurap kaki, atau ekzema atau psoriasis yang teruk pada kaki"
+      ],
+      "cautionNote": "Jangan gunakan peranti pada kulit yang luka atau kawasan yang bengkak, merah atau sakit.",
+      "doctorTitle": "Bila perlu jumpa doktor",
+      "doctor": [
+        "Kaki atau betis yang sakit, merah, panas atau bengkak",
+        "Sakit kaki yang berulang atau tidak reda selepas 2 minggu",
+        "Luka pada kaki yang tidak sembuh",
+        "Berasa pening, sangat tidak sihat atau semput selepas sesi"
+      ],
+      "warnLine": "Sakit dada, sukar bernafas, atau lemah tiba-tiba di satu sebelah badan? Hubungi 999 sekarang.",
+      "refLabel": "Sumber",
+      "refs": "Rutin terapi standard klinik, dalam istilah umum",
+      "disc": "Ahli terapi anda menyesuaikan setiap sesi dengan anda. Hanya untuk pendidikan, bukan diagnosis.",
+      "intro": "Untuk ahli terapi: langkah-langkah sesi tapak kaki. Gelongsor untuk mengikuti di mana probe diletakkan, satu langkah demi satu langkah.",
+      "note": "Ini ialah langkah tapak kaki dalam rutin kaki. Langkah betis, punggung dan belakang bawah ada pada gambar lain.",
+      "items": [
+        {
+          "id": "yongquan",
+          "name": "Tengah tapak kaki (Yongquan)",
+          "alt": "",
+          "where": "Lekukan di bahagian depan tapak kaki, di bawah jari kedua dan ketiga (Yongquan).",
+          "uses": "Mulakan di sini: letakkan probe rata pada tapak kaki dengan sentuhan ringan dan buat bulatan kecil."
+        },
+        {
+          "id": "toejoints",
+          "name": "Sendi jari kaki",
+          "alt": "",
+          "where": "Di sepanjang barisan sendi di pangkal jari kaki, merentasi bahagian depan tapak kaki.",
+          "uses": "Gelongsorkan probe dengan sapuan lurus yang pendek dan bulatan kecil di sepanjang sendi jari kaki, dengan lembut, beberapa kali pada setiap kaki."
+        },
+        {
+          "id": "closing",
+          "name": "Sapuan penutup ke arah tumit",
+          "alt": "",
+          "where": "Di sepanjang tengah tapak kaki, dari jari kaki ke tumit.",
+          "uses": "Untuk menamatkan, gelongsorkan probe perlahan-lahan dari jari kaki ke arah tumit dan buku lali, ke arah jantung."
+        }
+      ]
+    }
+  },
+  "cupping": {
+    "title": "Tanda bekam",
+    "intro": "Bekam (cupping) menggunakan sedutan lembut pada kulit. Ia meninggalkan tanda bulat di tempat cawan diletakkan. Tanda itu kelihatan seperti lebam, tetapi ia berpunca daripada sedutan yang menarik darah ke permukaan kulit, bukan kecederaan pada otot. Kebanyakan tanda pudar dalam 1 hingga 2 minggu.",
+    "guideTitle": "Warna yang mungkin anda lihat",
+    "guideSub": "Tanda anda mungkin lebih cerah atau lebih gelap daripada ini. Kulit setiap orang bertindak balas secara berbeza.",
+    "stages": [
+      {
+        "tone": "pink",
+        "name": "Merah jambu cair",
+        "look": "Tanda yang samar dan pucat. Sedutan lembut atau singkat, atau kulit anda tidak mudah meninggalkan tanda.",
+        "tip": "Biasanya hilang dalam beberapa hari."
+      },
+      {
+        "tone": "lightRed",
+        "name": "Merah cair",
+        "look": "Tanda ringan dan sekata. Ini hasil yang sangat biasa.",
+        "tip": "Biasanya pudar dalam beberapa hari hingga seminggu."
+      },
+      {
+        "tone": "red",
+        "name": "Merah hingga merah jambu tua",
+        "look": "Tanda sederhana yang jelas. Sedutan lebih kuat, atau cawan diletakkan sedikit lebih lama.",
+        "tip": "Biasanya pudar dalam kira-kira seminggu."
+      },
+      {
+        "tone": "deepRed",
+        "name": "Merah tua hingga ungu",
+        "look": "Tanda yang kuat. Sedutan kuat, masa lebih lama, atau kulit yang mudah lebam.",
+        "tip": "Boleh mengambil masa 1 hingga 2 minggu. Beritahu ahli terapi anda supaya sesi seterusnya lebih lembut."
+      },
+      {
+        "tone": "dark",
+        "name": "Ungu tua hingga hitam",
+        "look": "Tanda yang sangat dalam. Ia mungkin terasa sakit apabila disentuh.",
+        "tip": "Boleh mengambil masa 2 minggu atau lebih. Beritahu ahli terapi anda segera dan minta sedutan yang lebih lembut atau masa yang lebih singkat pada kali berikutnya. Jumpa doktor jika ia sangat sakit atau tidak pudar selepas 2 minggu."
+      },
+      {
+        "tone": "fading",
+        "name": "Pudar: kuning, hijau atau perang",
+        "look": "Peringkat pemulihan. Tanda sedang pudar, sama seperti lebam biasa.",
+        "tip": "Layan kulit dengan lembut sehingga pulih seperti biasa."
+      }
+    ],
+    "goodTitle": "Perlu anda tahu",
+    "good": [
+      "Warna bukan ujian kesihatan. Ia kebanyakannya menunjukkan sekuat mana sedutan, berapa lama cawan diletakkan, dan betapa mudahnya kulit anda meninggalkan tanda.",
+      "Sesetengah orang lebih mudah meninggalkan tanda. Tanda yang cerah atau sangat sedikit juga adalah normal.",
+      "Anda mungkin rasa sedikit tegang atau sedikit lenguh selama sehari dua. Ia tidak sepatutnya teruk."
+    ],
+    "careTitle": "Menjaga kulit anda",
+    "care": [
+      "Pastikan kawasan itu bersih dan kering. Jangan gosok, garu atau kopek.",
+      "Elakkan mandi air yang sangat panas, sauna dan senaman berat pada hari yang sama.",
+      "Jauhkan tanda daripada cahaya matahari yang terik sehingga ia pudar.",
+      "Minum air dan berehat jika anda rasa letih, pening atau berasa hendak pitam.",
+      "Jika kulit terasa kering atau tegang, pelembap lembut tanpa wangian tidak mengapa.",
+      "Tunggu sehingga tanda pudar sebelum tempat yang sama dibekam semula, dan tanya ahli terapi anda berapa lama perlu menunggu."
+    ],
+    "cautionTitle": "Ambil perhatian lebih",
+    "cautionIntro": "Beritahu ahli terapi anda, dan semak dengan doktor anda dahulu, jika anda:",
+    "caution": [
+      "mengandung, berumur bawah 18 tahun, atau warga emas yang lemah",
+      "mengambil ubat pencair darah, atau mempunyai masalah pendarahan atau pembekuan darah",
+      "mempunyai anemia, penyakit jantung atau perentak jantung (pacemaker)",
+      "mempunyai epilepsi",
+      "mempunyai ekzema, psoriasis atau masalah kulit lain",
+      "mempunyai selaran matahari, luka, melecur, kulit nipis atau meradang, atau urat varikos di kawasan itu"
+    ],
+    "cautionNote": "Cawan tidak boleh diletakkan pada kulit yang luka, melecur atau dijangkiti.",
+    "doctorTitle": "Bila perlu beritahu ahli terapi atau jumpa doktor",
+    "doctor": [
+      "Lepuh, melecur, atau kulit yang luka atau berair",
+      "Demam, kemerahan yang merebak, kulit panas, atau nanah kuning (tanda jangkitan)",
+      "Sakit teruk atau bengkak yang bertambah teruk, bukan semakin baik",
+      "Tanda yang tidak pudar selepas 2 minggu, atau anda mudah lebam atau kerap lebam tanpa sebab",
+      "Rasa hendak pitam, pening atau mual yang tidak reda selepas berbaring"
+    ],
+    "warnLine": "Rasa sangat tidak sihat, pitam, atau sakit dada atau sukar bernafas? Hubungi 999 atau pergi ke jabatan kecemasan terdekat sekarang.",
+    "refLabel": "Rujukan",
+    "refs": "Cleveland Clinic, Healthline, WebMD, NCBI StatPearls (Perpustakaan Perubatan Kebangsaan AS)",
+    "disc": "Hanya untuk pendidikan, bukan diagnosis."
+  }
+}
