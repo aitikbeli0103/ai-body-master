@@ -11,18 +11,17 @@
     "prev": "Sebelumnya",
     "next": "Seterusnya",
     "list": "Senarai penuh",
-    "footR": "Kaki kanan",
-    "footL": "Kaki kiri",
-    "sideR": "Kaki kanan sahaja",
-    "sideL": "Kaki kiri sahaja",
-    "sideRL": "Kedua-dua kaki",
     "pairs": "Berpasangan: kedua-dua belah dirangsang",
     "probeHere": "Letak probe di sini",
-    "probeSlide": "Gelongsor untuk lihat di mana probe diletakkan",
     "viewPoints": "Titik meridian",
     "viewOrgans": "Zon organ",
     "viewProbe": "Posisi probe",
-    "viewProbeFor": "untuk ahli terapi"
+    "viewProbeFor": "untuk ahli terapi",
+    "slideAria": "Gelongsor untuk tukar paparan",
+    "figHint": "Gelongsor tukar paparan  ·  Cubit untuk zum  ·  Ketik nama",
+    "zoomIn": "Zum masuk",
+    "zoomOut": "Zum keluar",
+    "zoomReset": "Set semula zum"
   },
   "hub": {
     "title": "Pengetahuan",
@@ -80,7 +79,7 @@
     },
     "reflex": {
       "title": "Zon Refleks Organ",
-      "intro": "Cari zon refleks untuk masalah anda. Pilih satu peta, kemudian ketik nombor untuk melihat lokasi zon.",
+      "intro": "Cari zon refleks untuk masalah anda. Pilih satu peta, kemudian ketik organ untuk melihat lokasi zonnya.",
       "items": [
         {
           "id": "foot",
@@ -113,7 +112,7 @@
   "charts": {
     "back": {
       "title": "Belakang dan bahu",
-      "intro": "Ketik nombor pada gambar atau nama dalam senarai untuk melihat lokasi titik dan kegunaan rangsangan yang lazim.",
+      "intro": "Titik akupresur ditandakan pada gambar bersama namanya. Ketik nama untuk melihat lokasi titik dan kegunaan rangsangan yang lazim.",
       "note": "Kebanyakan titik berpasangan, satu di setiap sisi tulang belakang. Kedua-dua belah dirangsang.",
       "items": [
         {
@@ -268,7 +267,7 @@
       "refLabel": "Rujukan",
       "refs": "WHO Standard Acupuncture Point Locations (2008), Healthline, Cleveland Clinic",
       "disc": "Lokasi hanyalah panduan. Ahli terapi anda akan mencari tempat yang tepat. Hanya untuk pendidikan, bukan diagnosis.",
-      "intro": "Ini ialah kawasan di belakang yang sepadan dengan organ. Gelongsor atau ketik nombor untuk melihat lokasi setiap kawasan.",
+      "intro": "Ini ialah kawasan di belakang yang sepadan dengan organ. Ketik organ untuk melihat lokasi kawasannya.",
       "note": "Gambar ini dilihat dari belakang, jadi sebelah kiri gambar ialah sebelah kiri anda dan sebelah kanan ialah sebelah kanan anda. Organ dilukis seolah-olah belakang badan anda lutsinar.",
       "items": [
         {
@@ -276,7 +275,8 @@
           "name": "Paru-paru & dada",
           "alt": "",
           "where": "Belakang atas, merentasi kedua-dua tulang belikat, satu zon paru-paru di setiap sisi tulang belakang.",
-          "uses": "Selalunya dirangsang dengan probe untuk dada yang sesak dan pernafasan cetek akibat tekanan."
+          "uses": "Selalunya dirangsang dengan probe untuk dada yang sesak dan pernafasan cetek akibat tekanan.",
+          "short": "Paru-paru"
         },
         {
           "id": "heart",
@@ -290,21 +290,24 @@
           "name": "Hati & pundi hempedu",
           "alt": "",
           "where": "Sebelah kanan belakang tengah, tepat di bawah tulang belikat, di atas tulang rusuk bawah.",
-          "uses": "Selalunya dirangsang dengan probe untuk keletihan dan rasa berat selepas makan makanan berlemak."
+          "uses": "Selalunya dirangsang dengan probe untuk keletihan dan rasa berat selepas makan makanan berlemak.",
+          "short": "Hati"
         },
         {
           "id": "stomach",
           "name": "Perut, limpa & pankreas",
           "alt": "",
           "where": "Sebelah kiri belakang tengah, di bawah tulang belikat, di atas tulang rusuk bawah.",
-          "uses": "Selalunya dirangsang dengan probe untuk perut yang kembung atau tidak selesa selepas makan."
+          "uses": "Selalunya dirangsang dengan probe untuk perut yang kembung atau tidak selesa selepas makan.",
+          "short": "Perut"
         },
         {
           "id": "kidneys",
           "name": "Buah pinggang & adrenal",
           "alt": "",
           "where": "Belakang bawah, satu di setiap sisi tulang belakang, tepat di atas pinggang.",
-          "uses": "Selalunya dirangsang dengan probe untuk pinggang yang letih dan kaki yang berat dan letih."
+          "uses": "Selalunya dirangsang dengan probe untuk pinggang yang letih dan kaki yang berat dan letih.",
+          "short": "Buah pinggang"
         },
         {
           "id": "intestines",
@@ -346,7 +349,7 @@
       "refLabel": "Sumber",
       "refs": "Rutin terapi standard klinik, dalam istilah umum",
       "disc": "Ahli terapi anda menyesuaikan setiap sesi dengan anda. Hanya untuk pendidikan, bukan diagnosis.",
-      "intro": "Untuk ahli terapi: langkah-langkah sesi leher, bahu dan belakang. Gelongsor untuk mengikuti di mana probe diletakkan, satu langkah demi satu langkah.",
+      "intro": "Untuk ahli terapi: langkah-langkah sesi leher, bahu dan belakang mengikut turutan. Ketik satu langkah untuk melihat di mana probe diletakkan.",
       "note": "Langkah 1 hingga 5 mengikut rutin leher dan bahu, langkah 6 dan 7 mengikut rutin belakang bawah. Tangan, lengan, punggung dan kaki tidak ada pada gambar ini.",
       "items": [
         {
@@ -354,7 +357,8 @@
           "name": "Bahagian atas bahu",
           "alt": "",
           "where": "Di bahagian atas kedua-dua bahu, sekitar Jianjing, di sepanjang tepi bahu.",
-          "uses": "Gelongsorkan probe perlahan-lahan di sepanjang tepi bahu, ke depan dan ke belakang, kemudian ulang di sebelah lagi."
+          "uses": "Gelongsorkan probe perlahan-lahan di sepanjang tepi bahu, ke depan dan ke belakang, kemudian ulang di sebelah lagi.",
+          "short": "Bahu"
         },
         {
           "id": "blades",
@@ -368,21 +372,24 @@
           "name": "Pangkal leher",
           "alt": "",
           "where": "Pada tulang belakang, dalam lekukan tepat di bawah tonjolan di pangkal leher (Dazhui).",
-          "uses": "Letakkan probe di sini dan tahan seketika."
+          "uses": "Letakkan probe di sini dan tahan seketika.",
+          "short": "Pangkal leher"
         },
         {
           "id": "gv_upper",
           "name": "Tulang belakang, belakang atas",
           "alt": "",
           "where": "Di sepanjang tengah tulang belakang, dari pangkal leher hingga di antara tulang belikat.",
-          "uses": "Gelongsorkan probe perlahan-lahan ke bawah di tengah tulang belakang dari pangkal leher, kemudian naik semula, dan ulang."
+          "uses": "Gelongsorkan probe perlahan-lahan ke bawah di tengah tulang belakang dari pangkal leher, kemudian naik semula, dan ulang.",
+          "short": "Tulang belakang atas"
         },
         {
           "id": "bl_upper",
           "name": "Belakang atas, di tepi tulang belakang",
           "alt": "",
           "where": "Di kedua-dua sisi tulang belakang, sekitar Fengmen dan Feishu.",
-          "uses": "Letakkan probe pada setiap titik ini secara bergilir, kiri dan kanan."
+          "uses": "Letakkan probe pada setiap titik ini secara bergilir, kiri dan kanan.",
+          "short": "Tepi tulang belakang"
         },
         {
           "id": "gv_lower",
@@ -396,7 +403,8 @@
           "name": "Sisi pinggang",
           "alt": "",
           "where": "Di sekeliling pinggang di kedua-dua sisi, di sepanjang garisan tali pinggang (belt line).",
-          "uses": "Gelongsorkan probe mengelilingi pinggang dari depan ke belakang dan kembali semula, dan letakkan seketika pada mana-mana simpulan yang tegang."
+          "uses": "Gelongsorkan probe mengelilingi pinggang dari depan ke belakang dan kembali semula, dan letakkan seketika pada mana-mana simpulan yang tegang.",
+          "short": "Pinggang"
         }
       ]
     },
@@ -430,7 +438,7 @@
       "refLabel": "Rujukan",
       "refs": "Healthline, WebMD",
       "disc": "Tempat yang terasa sensitif bukan diagnosis. Hanya untuk pendidikan.",
-      "intro": "Titik di tapak kaki dan jari kaki yang terletak pada meridian. Gelongsor atau ketik nombor untuk melihat lokasi setiap titik.",
+      "intro": "Titik di tapak kaki dan jari kaki yang terletak pada meridian. Ketik nama untuk melihat lokasinya.",
       "note": "Titik jari kaki terletak di tepi sudut kuku dan titik tumit tepat di bawah buku lali, jadi ia dilukis di tepi kaki. Ahli terapi anda akan mencari tempat yang tepat.",
       "items": [
         {
@@ -486,7 +494,7 @@
     },
     "foot": {
       "title": "Peta kaki",
-      "intro": "Refleksologi ialah idea tradisional bahawa tapak kaki ialah peta badan. Ketik nombor untuk melihat lokasi zon organ itu pada kaki.",
+      "intro": "Refleksologi ialah idea tradisional bahawa tapak kaki ialah peta badan. Ketik organ untuk melihat lokasi zonnya pada kaki.",
       "note": "Zon jantung paling penting pada kaki kiri, dan zon hati pada kaki kanan. Biasanya kedua-dua kaki diberi terapi.",
       "items": [
         {
@@ -494,7 +502,8 @@
           "name": "Kepala & otak",
           "alt": "",
           "where": "Bantalan ibu jari kaki.",
-          "uses": "Selalunya dirangsang dengan probe untuk kepala yang letih, sakit kepala tegang dan fikiran yang sibuk."
+          "uses": "Selalunya dirangsang dengan probe untuk kepala yang letih, sakit kepala tegang dan fikiran yang sibuk.",
+          "short": "Kepala"
         },
         {
           "id": "sinus",
@@ -522,14 +531,16 @@
           "name": "Leher & tiroid",
           "alt": "",
           "where": "Pangkal ibu jari kaki, tepat di bawah bantalan jari.",
-          "uses": "Selalunya dirangsang dengan probe untuk leher yang kaku dan tekak yang tegang."
+          "uses": "Selalunya dirangsang dengan probe untuk leher yang kaku dan tekak yang tegang.",
+          "short": "Leher"
         },
         {
           "id": "lungs",
           "name": "Paru-paru & dada",
           "alt": "",
           "where": "Bahagian depan tapak kaki, di kedua-dua sisi zon jantung.",
-          "uses": "Selalunya dirangsang dengan probe untuk dada yang sesak dan pernafasan cetek akibat tekanan."
+          "uses": "Selalunya dirangsang dengan probe untuk dada yang sesak dan pernafasan cetek akibat tekanan.",
+          "short": "Paru-paru"
         },
         {
           "id": "heart",
@@ -543,14 +554,16 @@
           "name": "Hati & pundi hempedu",
           "alt": "",
           "where": "Tepat di bawah bahagian depan tapak kaki, di sebelah luar. Paling penting pada kaki kanan.",
-          "uses": "Selalunya dirangsang dengan probe untuk keletihan dan rasa berat selepas makan makanan berlemak."
+          "uses": "Selalunya dirangsang dengan probe untuk keletihan dan rasa berat selepas makan makanan berlemak.",
+          "short": "Hati"
         },
         {
           "id": "stomach",
           "name": "Perut (gaster)",
           "alt": "",
           "where": "Tepat di bawah bahagian depan tapak kaki, di sebelah dalam (sebelah ibu jari kaki).",
-          "uses": "Selalunya dirangsang dengan probe untuk perut yang kembung atau tidak selesa selepas makan."
+          "uses": "Selalunya dirangsang dengan probe untuk perut yang kembung atau tidak selesa selepas makan.",
+          "short": "Perut"
         },
         {
           "id": "pancreas",
@@ -571,7 +584,8 @@
           "name": "Buah pinggang & adrenal",
           "alt": "",
           "where": "Tumit, di sebelah luar (sebelah jari kelingking), dengan kelenjar adrenal di atasnya.",
-          "uses": "Selalunya dirangsang dengan probe untuk pinggang yang letih dan kaki yang berat dan letih."
+          "uses": "Selalunya dirangsang dengan probe untuk pinggang yang letih dan kaki yang berat dan letih.",
+          "short": "Buah pinggang"
         },
         {
           "id": "bladder",
@@ -664,7 +678,7 @@
       "refLabel": "Sumber",
       "refs": "Rutin terapi standard klinik, dalam istilah umum",
       "disc": "Ahli terapi anda menyesuaikan setiap sesi dengan anda. Hanya untuk pendidikan, bukan diagnosis.",
-      "intro": "Untuk ahli terapi: langkah-langkah sesi tapak kaki. Gelongsor untuk mengikuti di mana probe diletakkan, satu langkah demi satu langkah.",
+      "intro": "Untuk ahli terapi: langkah-langkah sesi tapak kaki mengikut turutan. Ketik satu langkah untuk melihat di mana probe diletakkan.",
       "note": "Ini ialah langkah tapak kaki dalam rutin kaki. Langkah betis, punggung dan belakang bawah ada pada gambar lain.",
       "items": [
         {
@@ -672,7 +686,8 @@
           "name": "Tengah tapak kaki (Yongquan)",
           "alt": "",
           "where": "Lekukan di bahagian depan tapak kaki, di bawah jari kedua dan ketiga (Yongquan).",
-          "uses": "Mulakan di sini: letakkan probe rata pada tapak kaki dengan sentuhan ringan dan buat bulatan kecil."
+          "uses": "Mulakan di sini: letakkan probe rata pada tapak kaki dengan sentuhan ringan dan buat bulatan kecil.",
+          "short": "Tengah tapak"
         },
         {
           "id": "toejoints",
@@ -686,7 +701,8 @@
           "name": "Sapuan penutup ke arah tumit",
           "alt": "",
           "where": "Di sepanjang tengah tapak kaki, dari jari kaki ke tumit.",
-          "uses": "Untuk menamatkan, gelongsorkan probe perlahan-lahan dari jari kaki ke arah tumit dan buku lali, ke arah jantung."
+          "uses": "Untuk menamatkan, gelongsorkan probe perlahan-lahan dari jari kaki ke arah tumit dan buku lali, ke arah jantung.",
+          "short": "Sapuan penutup"
         }
       ]
     }

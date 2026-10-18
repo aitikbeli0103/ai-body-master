@@ -11,18 +11,17 @@
     "prev": "Previous",
     "next": "Next",
     "list": "All of them",
-    "footR": "Right foot",
-    "footL": "Left foot",
-    "sideR": "Right foot only",
-    "sideL": "Left foot only",
-    "sideRL": "Both feet",
     "pairs": "Comes in a pair: both sides are stimulated",
     "probeHere": "Apply the probe here",
-    "probeSlide": "Slide to see where the probe goes",
     "viewPoints": "Meridian points",
     "viewOrgans": "Organ areas",
     "viewProbe": "Probe positions",
-    "viewProbeFor": "for therapists"
+    "viewProbeFor": "for therapists",
+    "slideAria": "Slide to change the view",
+    "figHint": "Slide to change the view  ·  Pinch to zoom  ·  Tap a name",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "zoomReset": "Reset zoom"
   },
   "hub": {
     "title": "Knowledge",
@@ -80,7 +79,7 @@
     },
     "reflex": {
       "title": "Organ Reflex Areas",
-      "intro": "Find the reflex area for your problem. Pick a map, then tap a number to see where the area is.",
+      "intro": "Find the reflex area for your problem. Pick a map, then tap an organ to see where its area is.",
       "items": [
         {
           "id": "foot",
@@ -113,7 +112,7 @@
   "charts": {
     "back": {
       "title": "Back and shoulders",
-      "intro": "Tap a number on the picture, or a name in the list, to see where the point is and what it is often stimulated for.",
+      "intro": "The acupoints are marked on the picture with their names. Tap a name to see where the point is and what it is often stimulated for.",
       "note": "Most points come in pairs, one on each side of the spine. Both sides are stimulated.",
       "items": [
         {
@@ -268,7 +267,7 @@
       "refLabel": "References",
       "refs": "WHO Standard Acupuncture Point Locations (2008), Healthline, Cleveland Clinic",
       "disc": "Positions are a guide only. Your therapist will find the exact spot. For education only, not a diagnosis.",
-      "intro": "These are the areas on the back that match the organs. Slide, or tap a number, to see where each one is.",
+      "intro": "These are the areas on the back that match the organs. Tap an organ to see where its area is.",
       "note": "The picture is seen from behind, so the left of the picture is your left side and the right is your right side. The organs are drawn as if your back were see-through.",
       "items": [
         {
@@ -276,7 +275,8 @@
           "name": "Lungs and chest",
           "alt": "",
           "where": "Upper back, across both shoulder blades, one lung area on each side of the spine.",
-          "uses": "Often stimulated with the probe for a tight chest and shallow breathing from stress."
+          "uses": "Often stimulated with the probe for a tight chest and shallow breathing from stress.",
+          "short": "Lungs"
         },
         {
           "id": "heart",
@@ -290,21 +290,24 @@
           "name": "Liver and gallbladder",
           "alt": "",
           "where": "Right side of the mid-back, just below the shoulder blade, over the lower ribs.",
-          "uses": "Often stimulated with the probe for tiredness and a heavy feeling after rich meals."
+          "uses": "Often stimulated with the probe for tiredness and a heavy feeling after rich meals.",
+          "short": "Liver"
         },
         {
           "id": "stomach",
           "name": "Stomach, spleen and pancreas",
           "alt": "",
           "where": "Left side of the mid-back, below the shoulder blade, over the lower ribs.",
-          "uses": "Often stimulated with the probe for a bloated or unsettled stomach after meals."
+          "uses": "Often stimulated with the probe for a bloated or unsettled stomach after meals.",
+          "short": "Stomach"
         },
         {
           "id": "kidneys",
           "name": "Kidneys and adrenals",
           "alt": "",
           "where": "Lower back, one on each side of the spine, just above the waist.",
-          "uses": "Often stimulated with the probe for a tired lower back and heavy, tired legs."
+          "uses": "Often stimulated with the probe for a tired lower back and heavy, tired legs.",
+          "short": "Kidneys"
         },
         {
           "id": "intestines",
@@ -346,7 +349,7 @@
       "refLabel": "Source",
       "refs": "The clinic's standard treatment routines, in general terms",
       "disc": "Your therapist adjusts every session to you. For education only, not a diagnosis.",
-      "intro": "For therapists: the steps of a neck, shoulder and back session. Slide to follow where the probe goes, one step at a time.",
+      "intro": "For therapists: the steps of a neck, shoulder and back session, in order. Tap a step to see where the probe goes.",
       "note": "Steps 1 to 5 follow a neck and shoulder routine and steps 6 and 7 a lower back routine. Hands, arms, buttocks and legs are not on this picture.",
       "items": [
         {
@@ -354,7 +357,8 @@
           "name": "Shoulder tops",
           "alt": "",
           "where": "On the top of both shoulders, around Jianjing, along the edge of the shoulder.",
-          "uses": "Glide the probe slowly along the edge of the shoulder, forward and back, then repeat on the other side."
+          "uses": "Glide the probe slowly along the edge of the shoulder, forward and back, then repeat on the other side.",
+          "short": "Shoulders"
         },
         {
           "id": "blades",
@@ -368,21 +372,24 @@
           "name": "Base of the neck",
           "alt": "",
           "where": "On the spine, in the dip just below the bump at the base of the neck (Dazhui).",
-          "uses": "Rest the probe here for a short hold."
+          "uses": "Rest the probe here for a short hold.",
+          "short": "Neck base"
         },
         {
           "id": "gv_upper",
           "name": "Spine, upper back",
           "alt": "",
           "where": "Down the middle of the spine, from the base of the neck to between the shoulder blades.",
-          "uses": "Glide slowly down the middle of the spine from the base of the neck, then back up, and repeat."
+          "uses": "Glide slowly down the middle of the spine from the base of the neck, then back up, and repeat.",
+          "short": "Upper spine"
         },
         {
           "id": "bl_upper",
           "name": "Upper back, beside the spine",
           "alt": "",
           "where": "On both sides of the spine, around Fengmen and Feishu.",
-          "uses": "Rest the probe on each of these points in turn, left and right."
+          "uses": "Rest the probe on each of these points in turn, left and right.",
+          "short": "Beside spine"
         },
         {
           "id": "gv_lower",
@@ -396,7 +403,8 @@
           "name": "Sides of the waist",
           "alt": "",
           "where": "Around the waist on both sides, along the belt line.",
-          "uses": "Glide the probe around the waist from front to back and back again, and rest it for a moment on any tight knots."
+          "uses": "Glide the probe around the waist from front to back and back again, and rest it for a moment on any tight knots.",
+          "short": "Waist"
         }
       ]
     },
@@ -430,7 +438,7 @@
       "refLabel": "References",
       "refs": "Healthline, WebMD",
       "disc": "A sensitive spot is not a diagnosis. For education only.",
-      "intro": "Points on the sole and toes that lie on the meridians. Slide, or tap a number, to see where each one is.",
+      "intro": "Points on the sole and toes that lie on the meridians. Tap a name to see where it is.",
       "note": "The toe points sit beside the corners of the toenails and the heel points just below the ankle bones, so they are drawn at the edges of the foot. Your therapist finds the exact spot.",
       "items": [
         {
@@ -486,7 +494,7 @@
     },
     "foot": {
       "title": "Foot map",
-      "intro": "Reflexology is a traditional idea that the sole of the foot is a map of the body. Tap a number to see where that organ area is on the foot.",
+      "intro": "Reflexology is a traditional idea that the sole of the foot is a map of the body. Tap an organ to see where its area is on the foot.",
       "note": "The heart area matters most on the left foot, and the liver area on the right foot. Your therapist usually works on both feet.",
       "items": [
         {
@@ -494,7 +502,8 @@
           "name": "Head and brain",
           "alt": "",
           "where": "The pad of the big toe.",
-          "uses": "Often stimulated with the probe for a tired head, tension headaches and a busy mind."
+          "uses": "Often stimulated with the probe for a tired head, tension headaches and a busy mind.",
+          "short": "Head"
         },
         {
           "id": "sinus",
@@ -522,14 +531,16 @@
           "name": "Neck and thyroid",
           "alt": "",
           "where": "The base of the big toe, just below the toe pad.",
-          "uses": "Often stimulated with the probe for a stiff neck and a tight throat."
+          "uses": "Often stimulated with the probe for a stiff neck and a tight throat.",
+          "short": "Neck"
         },
         {
           "id": "lungs",
           "name": "Lungs and chest",
           "alt": "",
           "where": "The ball of the foot, on both sides of the heart area.",
-          "uses": "Often stimulated with the probe for a tight chest and shallow breathing from stress."
+          "uses": "Often stimulated with the probe for a tight chest and shallow breathing from stress.",
+          "short": "Lungs"
         },
         {
           "id": "heart",
@@ -543,14 +554,16 @@
           "name": "Liver and gallbladder",
           "alt": "",
           "where": "Just below the ball of the foot, on the outer side. It matters most on the right foot.",
-          "uses": "Often stimulated with the probe for tiredness and a heavy feeling after rich meals."
+          "uses": "Often stimulated with the probe for tiredness and a heavy feeling after rich meals.",
+          "short": "Liver"
         },
         {
           "id": "stomach",
           "name": "Stomach",
           "alt": "",
           "where": "Just below the ball of the foot, on the inner (big-toe) side.",
-          "uses": "Often stimulated with the probe for a bloated or unsettled stomach after meals."
+          "uses": "Often stimulated with the probe for a bloated or unsettled stomach after meals.",
+          "short": "Stomach"
         },
         {
           "id": "pancreas",
@@ -571,7 +584,8 @@
           "name": "Kidneys and adrenals",
           "alt": "",
           "where": "The heel, on the outer (little-toe) side, with the adrenal gland on top.",
-          "uses": "Often stimulated with the probe for a tired lower back and heavy, tired legs."
+          "uses": "Often stimulated with the probe for a tired lower back and heavy, tired legs.",
+          "short": "Kidneys"
         },
         {
           "id": "bladder",
@@ -664,7 +678,7 @@
       "refLabel": "Source",
       "refs": "The clinic's standard treatment routines, in general terms",
       "disc": "Your therapist adjusts every session to you. For education only, not a diagnosis.",
-      "intro": "For therapists: the steps of a sole session. Slide to follow where the probe goes, one step at a time.",
+      "intro": "For therapists: the steps of a sole session, in order. Tap a step to see where the probe goes.",
       "note": "These are the sole steps of the leg routine. The calf, buttock and lower back steps are on other pictures.",
       "items": [
         {
@@ -672,7 +686,8 @@
           "name": "Centre of the sole",
           "alt": "",
           "where": "The dip in the front part of the sole, below the second and third toes (Yongquan).",
-          "uses": "Start here: rest the probe flat on the sole with light contact and make small circles."
+          "uses": "Start here: rest the probe flat on the sole with light contact and make small circles.",
+          "short": "Sole centre"
         },
         {
           "id": "toejoints",
@@ -686,7 +701,8 @@
           "name": "Closing stroke toward the heel",
           "alt": "",
           "where": "Down the middle of the sole, from the toes to the heel.",
-          "uses": "To finish, glide slowly from the toes toward the heel and ankle, in the direction of the heart."
+          "uses": "To finish, glide slowly from the toes toward the heel and ankle, in the direction of the heart.",
+          "short": "Closing stroke"
         }
       ]
     }
