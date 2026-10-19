@@ -21,11 +21,103 @@
     "figHint": "Gelongsor tukar paparan  ·  Cubit untuk zum  ·  Ketik nama",
     "zoomIn": "Zum masuk",
     "zoomOut": "Zum keluar",
-    "zoomReset": "Set semula zum"
+    "zoomReset": "Set semula zum",
+    "partScope": "Apa yang anda akan temui di sini",
+    "partAssess": "Mulakan Penilaian Badan"
   },
   "hub": {
     "title": "Pengetahuan",
-    "intro": "Panduan ringkas tentang titik, peta dan tanda yang mungkin anda temui dalam sesi anda.",
+    "intro": "Panduan ringkas tentang badan anda, kesihatan anda dan perkara yang mungkin anda temui dalam sesi anda.",
+    "partsHead": "Kesihatan anda, dalam 5 bahagian",
+    "toolsHead": "Titik, peta & tanda",
+    "parts": [
+      {
+        "id": "c1",
+        "title": "Simptom",
+        "sub": "Terokai ketidakselesaan bahagian demi bahagian pada peta badan",
+        "intro": "Ketik satu bahagian badan untuk membaca tentang ketidakselesaan yang sering dirasai di situ.",
+        "scope": [
+          "Kepala & leher",
+          "Muka",
+          "Dada",
+          "Belakang",
+          "Tangan & lengan",
+          "Perut",
+          "Kaki",
+          "Tapak kaki"
+        ]
+      },
+      {
+        "id": "c2",
+        "title": "Sejarah kesihatan",
+        "sub": "Kecederaan lalu, pembedahan, ubat & alahan",
+        "intro": "Kecederaan lalu, pembedahan, ubat dan alahan anda membantu ahli terapi menjadikan sesi anda selesa dan selamat. Nota ringkas tentang setiap satu akan menyusul.",
+        "scope": [
+          "Kecederaan atau kemalangan lalu",
+          "Pembedahan lalu",
+          "Ubat & suplemen",
+          "Alahan"
+        ]
+      },
+      {
+        "id": "c3",
+        "title": "Keadaan kesihatan",
+        "sub": "Keadaan biasa, diterangkan dengan perkataan mudah",
+        "intro": "Nota dalam bahasa mudah tentang keadaan kesihatan biasa, dan apa yang perlu diberitahu kepada ahli terapi. Nota ringkas tentang setiap satu akan menyusul.",
+        "scope": [
+          "Jantung & saluran darah",
+          "Gula darah, lemak, asid urik & tiroid",
+          "Hati, pundi hempedu & pankreas",
+          "Perut & usus",
+          "Paru-paru & pernafasan",
+          "Buah pinggang & sistem kencing",
+          "Otak & saraf",
+          "Tulang, sendi & tulang belakang",
+          "Autoimun & reumatik",
+          "Darah",
+          "Kulit, rambut & kuku",
+          "Mata",
+          "Telinga, hidung & tekak",
+          "Mulut & gigi",
+          "Kesihatan wanita",
+          "Kehamilan & penyusuan",
+          "Kesihatan lelaki",
+          "Jangkitan",
+          "Kanser & ketumbuhan",
+          "Seluruh badan & umum"
+        ]
+      },
+      {
+        "id": "c4",
+        "title": "Tabiat harian",
+        "sub": "Tidur, pergerakan, makanan, merokok, alkohol dan kerja",
+        "intro": "Bagaimana tabiat harian boleh mempengaruhi perasaan badan anda. Nota ringkas tentang setiap satu akan menyusul.",
+        "scope": [
+          "Tidur",
+          "Senaman & duduk lama",
+          "Makan & minum",
+          "Merokok",
+          "Alkohol",
+          "Kerja & persekitaran"
+        ]
+      },
+      {
+        "id": "c5",
+        "title": "Keadaan emosi",
+        "sub": "Tekanan, kebimbangan dan mood, dan cara ia muncul pada badan",
+        "intro": "Tekanan, kebimbangan dan mood murung sering juga muncul pada badan. Nota ringkas tentang setiap satu akan menyusul.",
+        "scope": [
+          "Tekanan",
+          "Risau & kebimbangan",
+          "Mood murung & tenaga",
+          "Baran & mudah marah",
+          "Ketakutan & panik",
+          "Tumpuan & fikiran",
+          "Perubahan hidup",
+          "Keadaan yang doktor maklumkan kepada anda"
+        ]
+      }
+    ],
     "topics": [
       {
         "id": "points",

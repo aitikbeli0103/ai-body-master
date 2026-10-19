@@ -21,11 +21,103 @@
     "figHint": "Slide to change the view  ·  Pinch to zoom  ·  Tap a name",
     "zoomIn": "Zoom in",
     "zoomOut": "Zoom out",
-    "zoomReset": "Reset zoom"
+    "zoomReset": "Reset zoom",
+    "partScope": "What you'll find here",
+    "partAssess": "Start Body Assessment"
   },
   "hub": {
     "title": "Knowledge",
-    "intro": "Simple guides to the points, maps and marks you may meet in your sessions.",
+    "intro": "Simple guides to your body, your health and what you may meet in your sessions.",
+    "partsHead": "Your health, in 5 parts",
+    "toolsHead": "Points, maps & marks",
+    "parts": [
+      {
+        "id": "c1",
+        "title": "Symptoms",
+        "sub": "Explore discomfort area by area on the body map",
+        "intro": "Tap a part of the body to read about the discomforts people often feel there.",
+        "scope": [
+          "Head & neck",
+          "Face",
+          "Chest",
+          "Back",
+          "Hands & arms",
+          "Abdomen",
+          "Legs",
+          "Feet"
+        ]
+      },
+      {
+        "id": "c2",
+        "title": "Health history",
+        "sub": "Past injuries, operations, medicines & allergies",
+        "intro": "Your past injuries, operations, medicines and allergies help your therapist keep your session comfortable and safe. Short notes on each are on the way.",
+        "scope": [
+          "Past injuries or accidents",
+          "Past operations",
+          "Medicines & supplements",
+          "Allergies"
+        ]
+      },
+      {
+        "id": "c3",
+        "title": "Health conditions",
+        "sub": "Common conditions, explained in simple words",
+        "intro": "Plain-language notes on common health conditions, and what to tell your therapist about them. Short notes on each are on the way.",
+        "scope": [
+          "Heart & blood vessels",
+          "Blood sugar, fats, uric acid & thyroid",
+          "Liver, gallbladder & pancreas",
+          "Stomach & intestines",
+          "Lungs & breathing",
+          "Kidneys & urinary",
+          "Brain & nerves",
+          "Bones, joints & spine",
+          "Autoimmune & rheumatic",
+          "Blood",
+          "Skin, hair & nails",
+          "Eyes",
+          "Ears, nose & throat",
+          "Mouth & teeth",
+          "Women's health",
+          "Pregnancy & breastfeeding",
+          "Men's health",
+          "Infections",
+          "Cancer & tumours",
+          "Whole body & general"
+        ]
+      },
+      {
+        "id": "c4",
+        "title": "Daily habits",
+        "sub": "Sleep, movement, food, smoking, alcohol and work",
+        "intro": "How your everyday habits can affect the way your body feels. Short notes on each are on the way.",
+        "scope": [
+          "Sleep",
+          "Exercise & sitting",
+          "Eating & drinking",
+          "Smoking",
+          "Alcohol",
+          "Work & surroundings"
+        ]
+      },
+      {
+        "id": "c5",
+        "title": "Emotional state",
+        "sub": "Stress, worry and mood, and how they show up in the body",
+        "intro": "Stress, worry and low mood often show up in the body too. Short notes on each are on the way.",
+        "scope": [
+          "Stress & pressure",
+          "Worry & anxiety",
+          "Low mood & energy",
+          "Temper & irritability",
+          "Fears & panic",
+          "Focus & overthinking",
+          "Life changes",
+          "Conditions a doctor told you about"
+        ]
+      }
+    ],
     "topics": [
       {
         "id": "points",
