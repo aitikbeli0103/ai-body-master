@@ -3,16 +3,148 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta name="theme-color" content="#fcf3ee">
+<link rel="icon" href="data:,">
+<meta name="description" content="AI Body Master - Smart Soothing Care. Simple body-map guides and a personalised wellness plan.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AI Body Master">
+<meta property="og:description" content="Smart Soothing Care. Simple body-map guides and a personalised wellness plan.">
 <title>AI Body Master</title>
 <style>
 html,body{margin:0;padding:0;height:100%;background:#fcf3ee;overflow:hidden}
 iframe{display:block;border:0;width:100vw;height:100vh;height:100dvh}
+.splash{position:fixed;top:0;right:0;bottom:0;left:0;z-index:10;display:flex;align-items:center;justify-content:center;box-sizing:border-box;padding:24px;
+  background:linear-gradient(165deg,#fde8ef 0%,#f5ecff 52%,#e8f1ff 100%);color:#14143f;text-align:center;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans","PingFang SC","Microsoft YaHei",sans-serif;
+  opacity:0;animation:splash-in .25s ease .2s forwards;transition:opacity .3s ease}
+.splash.gone{opacity:0!important;animation:none;pointer-events:none}
+.box{max-width:320px}
+.ring{width:46px;height:46px;margin:0 auto 22px;box-sizing:border-box;border:4px solid rgba(155,77,255,.16);border-top-color:#ff5d8f;border-radius:50%;animation:spin 1s linear infinite}
+.name{font-size:28px;font-weight:800;letter-spacing:-.5px}
+.tag{margin-top:4px;font-size:14px;color:#5b5b82}
+.msg{margin:22px 0 0;font-size:15px;line-height:1.5;color:#4a4a70;min-height:1.5em}
+.retry{margin-top:18px;padding:12px 26px;border:0;border-radius:999px;font:inherit;font-size:15px;font-weight:700;color:#fff;cursor:pointer;
+  background:linear-gradient(90deg,#ff8a3d,#ff4f8b 55%,#9b4dff);box-shadow:0 6px 18px rgba(255,79,139,.28)}
+.retry[hidden]{display:none}
+@keyframes splash-in{to{opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.ring{animation:none}.splash{transition:none}}
 </style>
 </head>
 <body>
-<iframe id="app" title="AI Body Master" allow="fullscreen" allowfullscreen></iframe>
-<script>document.getElementById('app').src = 'app.html?v=' + Date.now();</script>
+<div id="splash" class="splash" role="status" aria-live="polite">
+  <div class="box">
+    <div class="ring" aria-hidden="true"></div>
+    <div class="name">AI Body Master</div>
+    <div class="tag">Smart Soothing Care</div>
+    <p id="msg" class="msg">Loading…</p>
+    <button id="retry" class="retry" type="button" hidden>Try again</button>
+    <noscript><p class="msg">This app needs JavaScript. Please turn it on in your browser settings.</p></noscript>
+  </div>
+</div>
+<iframe id="app" title="AI Body Master" allow="fullscreen" aria-hidden="true"></iframe>
+<noscript><style>#msg,.ring{display:none}.splash{opacity:1;animation:none}</style></noscript>
+<script>
+/* Start-up page. The app itself (app.html, about 7 MB) is one big file.
+   Before: every visit asked for app.html?v=<now>, a brand-new address each time, so the whole file was downloaded again on every visit.
+   Now: a tiny request asks the server which version is live (its ETag, which changes with every publish). The app is opened as
+   app.html?v=<that version>. Same version = the browser re-uses its copy; a new publish = a new address = the new app, at once.
+   If anything about this fails, the app is opened the old way (a fresh download), so it can never be worse than before.
+   Also: a loading screen, a hint on slow connections, and a message + Try again button when there is no internet. */
+(function () {
+  'use strict';
+  var frame = document.getElementById('app');
+  var splash = document.getElementById('splash');
+  var msg = document.getElementById('msg');
+  var retry = document.getElementById('retry');
+  var web = /^https?:$/.test(location.protocol);
+
+  var T = {
+    en: { loading: 'Loading…', slow: 'Still loading. The first visit loads the whole app, so a slow connection takes longer. Later visits are faster.',
+          stuck: 'This is taking longer than usual. Please check your internet connection.', offline: 'No internet connection. Please check your connection and try again.', retry: 'Try again' },
+    zh: { loading: '正在加载…', slow: '仍在加载。首次打开需要加载整个应用，网络较慢时会久一些，之后再打开会更快。',
+          stuck: '加载时间比平时长，请检查网络连接。', offline: '没有网络连接，请检查网络后重试。', retry: '重试' },
+    ms: { loading: 'Sedang dimuatkan…', slow: 'Masih dimuatkan. Kali pertama membuka akan memuatkan keseluruhan aplikasi, jadi sambungan yang perlahan mengambil masa lebih lama. Kali seterusnya lebih pantas.',
+          stuck: 'Ini mengambil masa lebih lama daripada biasa. Sila semak sambungan internet anda.', offline: 'Tiada sambungan internet. Sila semak sambungan anda dan cuba lagi.', retry: 'Cuba lagi' },
+    id: { loading: 'Memuat…', slow: 'Masih memuat. Saat pertama dibuka, seluruh aplikasi dimuat sehingga koneksi yang lambat butuh waktu lebih lama. Kunjungan berikutnya lebih cepat.',
+          stuck: 'Ini memakan waktu lebih lama dari biasanya. Silakan periksa koneksi internet Anda.', offline: 'Tidak ada koneksi internet. Periksa koneksi Anda, lalu coba lagi.', retry: 'Coba lagi' }
+  };
+  var lang = 'en';
+  try {
+    var prefs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'en'];
+    for (var i = 0; i < prefs.length; i++) {
+      var p = String(prefs[i]).toLowerCase().slice(0, 2);
+      if (T[p]) { lang = p; break; }
+    }
+  } catch (e) {}
+  var tx = T[lang];
+  document.documentElement.lang = lang;
+  retry.textContent = tx.retry;
+
+  var timers = [], shown = false, runId = 0;
+  function later(fn, ms) { timers.push(setTimeout(fn, ms)); }
+  function clearTimers() { while (timers.length) clearTimeout(timers.pop()); }
+  function say(kind, withRetry) { msg.textContent = tx[kind]; retry.hidden = !withRetry; }
+
+  function reveal() {
+    if (shown) return;
+    shown = true; clearTimers();
+    frame.removeAttribute('aria-hidden');
+    splash.className = 'splash gone';
+    setTimeout(function () { if (splash.parentNode) splash.parentNode.removeChild(splash); }, 400);
+  }
+
+  // true = the app has put something on screen (or we cannot look inside), null = the frame shows a browser error page
+  function painted() {
+    try {
+      var d = frame.contentDocument;
+      if (!d) return web ? null : true;
+      return !!(d.body && d.body.children.length && (d.body.innerText || '').replace(/\s+/g, '').length > 0);
+    } catch (e) { return true; }
+  }
+
+  frame.addEventListener('load', function () {
+    if (!frame.getAttribute('src') || shown) return;
+    var mine = runId, tries = 0;
+    (function check() {
+      if (mine !== runId || shown) return;
+      var p = painted();
+      if (p === true || ++tries > 100) return reveal();
+      if (p === null) { clearTimers(); return say('stuck', true); }
+      setTimeout(check, 80);
+    })();
+  });
+
+  function openApp(version) { frame.src = 'app.html?v=' + version; }
+  function fresh() { openApp('t' + new Date().getTime()); }   // the old way: a new address, so a fresh download
+
+  function start() {
+    runId++; clearTimers(); say('loading', false);
+    later(function () { say('slow', false); }, 8000);
+    later(function () { say('stuck', true); }, 30000);
+    if (!web || typeof fetch !== 'function') return fresh();
+    var ctl = typeof AbortController === 'function' ? new AbortController() : null;
+    var giveUp = ctl ? setTimeout(function () { ctl.abort(); }, 6000) : 0;
+    fetch('app.html', { method: 'HEAD', cache: 'no-store', signal: ctl ? ctl.signal : undefined }).then(function (r) {
+      clearTimeout(giveUp);
+      try { r.arrayBuffer().then(null, function () {}); } catch (e) {}   // finish the request cleanly (HEAD has no body)
+      if (r.status === 404 || r.status >= 500) { clearTimers(); return say('stuck', true); }
+      var raw = r.headers.get('etag') || r.headers.get('last-modified') || '';
+      var token = raw.replace(/^W\//, '').replace(/[^A-Za-z0-9]+/g, '').slice(0, 48);
+      token ? openApp('e' + token) : fresh();
+    }).catch(function () {
+      clearTimeout(giveUp);
+      if (navigator.onLine === false) {
+        clearTimers(); say('offline', true);
+        var again = function () { window.removeEventListener('online', again); start(); };
+        window.addEventListener('online', again);
+      } else fresh();
+    });
+  }
+
+  retry.addEventListener('click', function () { start(); });
+  start();
+})();
+</script>
 </body>
 </html>
