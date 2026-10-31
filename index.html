@@ -119,7 +119,10 @@ iframe{display:block;border:0;width:100vw;height:100vh;height:100dvh}
     })();
   });
 
-  function openApp(version) { frame.src = 'app.html?v=' + version; }
+  function openApp(version) { frame.src = 'app.html?v=' + version + passQuery(); }
+  /* the public health pages link here with ?cond=<id>&lg=xx: hand those two on to the app (nothing else) */
+  function passQuery() { var extra = ''; try { var m = /[?&]cond=(yd[a-z]{2}_\d{1,40})(?:&|$)/.exec(window.location.search); if (m) extra += '&cond=' + m[1];
+    var l = /[?&]lg=(en|zh|ms)(?:&|$)/.exec(window.location.search); if (l) extra += '&lg=' + l[1]; } catch (e) {} return extra; }
   function fresh() { openApp('t' + new Date().getTime()); }   // the old way: a new address, so a fresh download
 
   function start() {
