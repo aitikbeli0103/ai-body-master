@@ -36,4 +36,9 @@ h1{font-size:30px;line-height:1.15;letter-spacing:-.01em;margin:14px 4px 6px;fon
 .steps{margin:0;padding-left:24px}.steps li{margin:6px 0}.az{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}.az a{padding:6px 10px;border-radius:10px;background:rgba(255,255,255,.8);text-decoration:none;font-weight:800}
 .allp{text-align:center}.pill{display:inline-block;padding:12px 22px;border-radius:999px;background:rgba(255,255,255,.9);border:1.5px solid #fff;text-decoration:none;font-weight:800;color:#2c2f8f}
 .foot{max-width:720px;margin:0 auto;padding:10px 16px 40px;font-size:13px;color:var(--mute);text-align:center}.disc{font-weight:700}
+.fam-line{margin-top:8px}.fam-line a{font-weight:700;color:var(--ink);text-decoration:none;white-space:nowrap}
+.famgrid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr;gap:10px}.card.fam{flex-direction:row;align-items:center;gap:12px;text-align:left;padding:12px 14px}
+.card.fam .dot{flex:none;width:14px;height:14px;border-radius:50%;background:var(--tone);box-shadow:0 0 0 4px color-mix(in srgb,var(--tone) 22%,transparent)}
+.card.fam span:not(.dot){flex:1;font-weight:800}.card.fam small{flex:1.6;color:var(--mute);font-size:12px;line-height:1.35}
+@media (min-width:600px){.famgrid{grid-template-columns:repeat(3,minmax(0,1fr))}.card.fam{flex-direction:column;text-align:center}.card.fam span:not(.dot),.card.fam small{flex:none}}
 @media (min-width:600px){.cards{grid-template-columns:repeat(3,minmax(0,1fr))}.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.sys{grid-template-columns:repeat(4,minmax(0,1fr))}}
