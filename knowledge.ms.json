@@ -51,7 +51,7 @@
         "id": "c2",
         "title": "Sejarah kesihatan",
         "sub": "Kecederaan lalu, pembedahan, ubat & alahan",
-        "intro": "Kecederaan lalu, pembedahan, ubat dan alahan anda membantu ahli terapi menjadikan sesi anda selesa dan selamat. Nota ringkas tentang setiap satu akan menyusul.",
+        "intro": "Kecederaan lalu, pembedahan, ubat dan alahan anda membantu ahli terapi menjadikan sesi anda selesa dan selamat.",
         "scope": [
           "Kecederaan atau kemalangan lalu",
           "Pembedahan lalu",
@@ -63,58 +63,43 @@
         "id": "c3",
         "title": "Keadaan kesihatan",
         "sub": "Keadaan biasa, diterangkan dengan perkataan mudah",
-        "intro": "Nota dalam bahasa mudah tentang keadaan kesihatan biasa, dan apa yang perlu diberitahu kepada ahli terapi. Nota ringkas tentang setiap satu akan menyusul.",
+        "intro": "Nota dalam bahasa mudah tentang keadaan kesihatan biasa, dan apa yang perlu diberitahu kepada ahli terapi.",
         "scope": [
-          "Jantung & saluran darah",
-          "Gula darah, lemak, asid urik & tiroid",
-          "Hati, pundi hempedu & pankreas",
-          "Perut & usus",
-          "Paru-paru & pernafasan",
-          "Buah pinggang & sistem kencing",
-          "Otak & saraf",
-          "Tulang, sendi & tulang belakang",
-          "Autoimun & reumatik",
-          "Darah",
-          "Kulit, rambut & kuku",
-          "Mata",
-          "Telinga, hidung & tekak",
-          "Mulut & gigi",
-          "Kesihatan wanita",
-          "Kehamilan & penyusuan",
-          "Kesihatan lelaki",
-          "Jangkitan",
-          "Kanser & ketumbuhan",
-          "Seluruh badan & umum"
+          "Tekanan darah & jantung",
+          "Gula dalam darah",
+          "Lemak darah & asid urik",
+          "Hati",
+          "Buah pinggang & air kencing",
+          "Kiraan darah",
+          "Tiroid",
+          "Berat & badan",
+          "X-ray, imbasan & ujian lain",
+          "Beritahu kami sebelum sesi"
         ]
       },
       {
         "id": "c4",
         "title": "Tabiat harian",
         "sub": "Tidur, pergerakan, makanan, merokok, alkohol dan kerja",
-        "intro": "Bagaimana tabiat harian boleh mempengaruhi perasaan badan anda. Nota ringkas tentang setiap satu akan menyusul.",
+        "intro": "Bagaimana tabiat harian boleh mempengaruhi perasaan badan anda.",
         "scope": [
           "Tidur",
-          "Senaman & duduk lama",
-          "Makan & minum",
-          "Merokok",
-          "Alkohol",
-          "Kerja & persekitaran"
+          "Senaman & aktiviti",
+          "Makanan & minuman",
+          "Merokok & alkohol",
+          "Skrin & postur",
+          "Tabiat tandas"
         ]
       },
       {
         "id": "c5",
         "title": "Keadaan emosi",
         "sub": "Tekanan, kebimbangan dan mood, dan cara ia muncul pada badan",
-        "intro": "Tekanan, kebimbangan dan mood murung sering juga muncul pada badan. Nota ringkas tentang setiap satu akan menyusul.",
+        "intro": "Tekanan, kebimbangan dan mood murung sering juga muncul pada badan.",
         "scope": [
-          "Tekanan",
-          "Risau & kebimbangan",
-          "Mood murung & tenaga",
-          "Baran & mudah marah",
-          "Ketakutan & panik",
-          "Tumpuan & fikiran",
-          "Perubahan hidup",
-          "Keadaan yang doktor maklumkan kepada anda"
+          "Perasaan anda dalam 2 minggu lalu",
+          "Apa yang membebankan anda",
+          "Diberitahu oleh doktor"
         ]
       }
     ],
