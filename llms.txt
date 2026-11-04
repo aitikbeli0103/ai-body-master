@@ -1,0 +1,78 @@
+# AI Body Master
+
+> AI Body Master is a needle-free meridian wellness service in Malaysia. A therapist applies a gentle device probe to meridian points; it supports your wellbeing and never replaces your medicine or your doctor.
+
+Free health guide with 1852 condition and symptom pages in English, Simplified Chinese and Bahasa Malaysia. Each page says what it is, common signs, causes, when to see a doctor first, and self-care. For education only, not a diagnosis. If you feel unwell, see a doctor first.
+
+## Health guide
+
+- [Health guide in English](https://aitikbeli0103.github.io/ai-body-master/health/en/index.html)
+- [Health guide in Chinese](https://aitikbeli0103.github.io/ai-body-master/health/zh/index.html)
+- [Health guide in Bahasa Malaysia](https://aitikbeli0103.github.io/ai-body-master/health/ms/index.html)
+- [All conditions A-Z](https://aitikbeli0103.github.io/ai-body-master/health/en/all.html)
+
+## By body system
+
+- [Alcohol](https://aitikbeli0103.github.io/ai-body-master/health/en/s/alcohol.html)
+- [Allergies](https://aitikbeli0103.github.io/ai-body-master/health/en/s/alg.html)
+- [Ankle & foot](https://aitikbeli0103.github.io/ai-body-master/health/en/s/inj.foot.html)
+- [Any other bone or soft-tissue injury](https://aitikbeli0103.github.io/ai-body-master/health/en/s/inj.soft.html)
+- [Autoimmune & rheumatic](https://aitikbeli0103.github.io/ai-body-master/health/en/s/immune.html)
+- [Back & spine](https://aitikbeli0103.github.io/ai-body-master/health/en/s/inj.back.html)
+- [Blood](https://aitikbeli0103.github.io/ai-body-master/health/en/s/blood.html)
+- [Blood sugar, fats, uric acid & thyroid](https://aitikbeli0103.github.io/ai-body-master/health/en/s/metab.html)
+- [Bones, joints & spine](https://aitikbeli0103.github.io/ai-body-master/health/en/s/bone.html)
+- [Brain & nerves](https://aitikbeli0103.github.io/ai-body-master/health/en/s/neuro.html)
+- [Cancer & tumours](https://aitikbeli0103.github.io/ai-body-master/health/en/s/cancer.html)
+- [Chest & ribs](https://aitikbeli0103.github.io/ai-body-master/health/en/s/inj.chest.html)
+- [Ears, nose & throat](https://aitikbeli0103.github.io/ai-body-master/health/en/s/ent.html)
+- [Eating & drinking](https://aitikbeli0103.github.io/ai-body-master/health/en/s/food.html)
+- [Eyes](https://aitikbeli0103.github.io/ai-body-master/health/en/s/eye.html)
+- [Focus & overthinking](https://aitikbeli0103.github.io/ai-body-master/health/en/s/mind.html)
+- [Head & neck](https://aitikbeli0103.github.io/ai-body-master/health/en/s/inj.head.html)
+- [Heart & blood vessels](https://aitikbeli0103.github.io/ai-body-master/health/en/s/heart.html)
+- [Infections](https://aitikbeli0103.github.io/ai-body-master/health/en/s/infect.html)
+- [Kidneys & urinary](https://aitikbeli0103.github.io/ai-body-master/health/en/s/kidney.html)
+- [Liver, gallbladder & pancreas](https://aitikbeli0103.github.io/ai-body-master/health/en/s/liver.html)
+- [Lungs & breathing](https://aitikbeli0103.github.io/ai-body-master/health/en/s/lung.html)
+- [Men's health](https://aitikbeli0103.github.io/ai-body-master/health/en/s/men.html)
+- [Mouth & teeth](https://aitikbeli0103.github.io/ai-body-master/health/en/s/mouth.html)
+- [Pelvis, hip, knee & leg](https://aitikbeli0103.github.io/ai-body-master/health/en/s/inj.leg.html)
+- [Shoulder, arm & hand](https://aitikbeli0103.github.io/ai-body-master/health/en/s/inj.arm.html)
+- [Skin, hair & nails](https://aitikbeli0103.github.io/ai-body-master/health/en/s/skin.html)
+- [Sleep](https://aitikbeli0103.github.io/ai-body-master/health/en/s/sleep.html)
+- [Smoking](https://aitikbeli0103.github.io/ai-body-master/health/en/s/smoke.html)
+- [Stomach & intestines](https://aitikbeli0103.github.io/ai-body-master/health/en/s/gut.html)
+- [Told by a doctor: anxiety, fears & stress](https://aitikbeli0103.github.io/ai-body-master/health/en/s/dx.anx.html)
+- [Told by a doctor: attention & development](https://aitikbeli0103.github.io/ai-body-master/health/en/s/dx.dev.html)
+- [Told by a doctor: eating](https://aitikbeli0103.github.io/ai-body-master/health/en/s/dx.eat.html)
+- [Told by a doctor: mood](https://aitikbeli0103.github.io/ai-body-master/health/en/s/dx.mood.html)
+- [Told by a doctor: other](https://aitikbeli0103.github.io/ai-body-master/health/en/s/dx.other.html)
+- [Told by a doctor: sleep & tiredness](https://aitikbeli0103.github.io/ai-body-master/health/en/s/dx.sleep.html)
+- [Whole body & general](https://aitikbeli0103.github.io/ai-body-master/health/en/s/gen.html)
+- [Women's health](https://aitikbeli0103.github.io/ai-body-master/health/en/s/women.html)
+- [Work & surroundings](https://aitikbeli0103.github.io/ai-body-master/health/en/s/work.html)
+
+## By body part
+
+- [Head](https://aitikbeli0103.github.io/ai-body-master/health/en/p/head.html)
+- [Neck](https://aitikbeli0103.github.io/ai-body-master/health/en/p/neck.html)
+- [Chest](https://aitikbeli0103.github.io/ai-body-master/health/en/p/chest.html)
+- [Abdomen](https://aitikbeli0103.github.io/ai-body-master/health/en/p/abdomen.html)
+- [Lower back](https://aitikbeli0103.github.io/ai-body-master/health/en/p/waist.html)
+- [Back](https://aitikbeli0103.github.io/ai-body-master/health/en/p/back.html)
+- [Pelvis](https://aitikbeli0103.github.io/ai-body-master/health/en/p/pelvis.html)
+- [Reproductive](https://aitikbeli0103.github.io/ai-body-master/health/en/p/repro.html)
+- [Arms & legs](https://aitikbeli0103.github.io/ai-body-master/health/en/p/limbs.html)
+- [Skin](https://aitikbeli0103.github.io/ai-body-master/health/en/p/skin.html)
+- [Bones & muscles](https://aitikbeli0103.github.io/ai-body-master/health/en/p/msk.html)
+- [Blood](https://aitikbeli0103.github.io/ai-body-master/health/en/p/blood.html)
+- [Whole body](https://aitikbeli0103.github.io/ai-body-master/health/en/p/whole.html)
+
+## Optional
+
+- [Sitemap](https://aitikbeli0103.github.io/ai-body-master/sitemap.xml)
+- [AI Body Master app](https://aitikbeli0103.github.io/ai-body-master/)
+- [TikBeli Rewards](https://tikbeli-team.vercel.app/): Beauty salon members, treatments, packages and rewards
+- [Skin Academy](https://skin-scanner.skin-scanner-worker.workers.dev/): AI skin scan, skin problems explained, ingredients and care
+- [Kickick Line Dance](https://fionagan2749.github.io/kickicklinedance/): Line dance classes, events and student community
