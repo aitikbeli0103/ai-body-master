@@ -141,7 +141,9 @@ var $ = function (id) { return document.getElementById(id); };
 var esc = function (s) { return String(s).replace(/[&<>"']/g, function (c) { return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]; }); };
 var t = function (x) { return x[lg] || x.en; };
 var tx = function () { return UI[lg]; };
-var rm = function (n) { return 'RM ' + n; };
+var IDR = +(qs.get('idr') || 0), RND = +(qs.get('rnd') || 1000), cur = IDR ? 'Rp' : 'RM';
+var amt = function (n) { return IDR ? (Math.round(n * IDR / RND) * RND).toLocaleString('id-ID') : n; };
+var rm = function (n) { return cur + ' ' + amt(n); };
 var ttId = function (u) { var m = u.match(/\/video\/(\d+)/); return m ? m[1] : ''; };
 var ttHandle = function (u) { var m = u.match(/tiktok\.com\/(@[\w.]+)/); return m ? m[1] : ''; };
 var art = function () { return D.art[lg] || D.art.en; };
@@ -236,7 +238,7 @@ function render() {
     h.push('</div>');
   }
   // price + name
-  h.push('<div class="info"><div class="priceRow"><span class="price"><small>RM</small>' + D.priceFrom + '<em>' + esc(u.from) + '</em><s class="rp">' + esc(u.rp.replace('{rp}', D.rp)) + '</s></span><span class="groupTag">' + esc(D.group) + '</span></div>');
+  h.push('<div class="info"><div class="priceRow"><span class="price"><small>' + cur + '</small>' + amt(D.priceFrom) + '<em>' + esc(u.from) + '</em><s class="rp">' + esc(IDR ? 'RP: ' + rm(D.rp) : u.rp.replace('{rp}', D.rp)) + '</s></span><span class="groupTag">' + esc(D.group) + '</span></div>');
   h.push('<h1 class="title">' + esc(t(D.title)) + '</h1><p class="summary">' + esc(t(D.summary)) + '</p>');
   h.push('<div class="tags">' + u.tags.map(function (x) { return '<span class="tag">' + ICON.spark + esc(x) + '</span>'; }).join('') + '</div></div>');
   // package row
@@ -283,7 +285,7 @@ function render() {
     var th = thumb(), s = [];
     s.push('<div class="sheetBack" id="sheetBack"><div class="sheet" role="dialog" aria-label="' + esc(u.choose) + '">');
     s.push('<button type="button" class="sheetClose" id="sheetClose" aria-label="' + esc(u.close) + '">' + ICON.x + '</button>');
-    s.push('<div class="sheetHead"><span class="sheetPic"><img src="' + esc(th) + '" alt=""><span class="trtTag">' + esc(u.trt) + '</span></span><span class="sheetPrice">' + (pick ? '<small>RM</small>' + pick.price : '<small>RM</small>' + D.priceFrom + '<em>' + esc(u.from) + '</em>') + '</span></div>');
+    s.push('<div class="sheetHead"><span class="sheetPic"><img src="' + esc(th) + '" alt=""><span class="trtTag">' + esc(u.trt) + '</span></span><span class="sheetPrice">' + (pick ? '<small>' + cur + '</small>' + amt(pick.price) : '<small>' + cur + '</small>' + amt(D.priceFrom) + '<em>' + esc(u.from) + '</em>') + '</span></div>');
     s.push('<div class="sheetTitle">' + esc(u.allPkgs.replace('{n}', D.packages.length)) + '</div><div class="choiceList">');
     D.packages.forEach(function (p) {
       s.push('<button type="button" class="choice' + (S.pick === p.code ? ' choiceOn' : '') + '" data-pick="' + esc(p.code) + '" aria-pressed="' + (S.pick === p.code) + '"><span class="choicePic"><img src="' + esc(th) + '" alt=""><span class="trtTag">' + esc(u.trt) + '</span></span><span class="choiceMain"><span class="choiceLabel">' + esc(u.trial + ' · ' + p.label) + '</span></span><span class="choicePrice">' + esc(rm(p.price)) + '</span></button>');
