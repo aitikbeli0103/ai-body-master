@@ -104,11 +104,19 @@ window.ABM_L10N = (function () {
     if (o && typeof o === 'object') { var r = {}; Object.keys(o).forEach(function (k) { r[k] = SKIP[k] ? o[k] : loc(o[k], lg); }); return r; }
     return o;
   }
+  /* an Indonesian text that came ready-made: {E}, {CRISIS1}, {CRISIS2}, {P:n} become the country's facts; a stray 999 too */
+  function place(o) {
+    if (typeof o === 'string') { var s = country(o); return s.indexOf('999') < 0 ? s : s.replace(/(^|[^\d])999(?!\d)/g, function (a, b) { return b + C.emergencyEn; }); }
+    if (Array.isArray(o)) return o.map(place);
+    if (o && typeof o === 'object') { var r = {}; Object.keys(o).forEach(function (k) { r[k] = SKIP[k] ? o[k] : place(o[k]); }); return r; }
+    return o;
+  }
   function fill(o) {
     if (Array.isArray(o)) { o.forEach(fill); return o; }
     if (!o || typeof o !== 'object') return o;
     if ('en' in o && ('zh' in o || 'ms' in o)) {
       if (!('id' in o)) o.id = tree(o.en);
+      else if (!o.__p) { o.id = place(o.id); try { Object.defineProperty(o, '__p', {value: 1}); } catch (e) {} }   /* Indonesian brought by the file itself (sickness pages): fill in the country's facts once */
       if (C.other) ['en', 'zh', 'ms'].forEach(function (lg) { if (lg in o) o[lg] = loc(o[lg], lg); });
     }
     Object.keys(o).forEach(function (k) { if (k !== 'en' && k !== 'zh' && k !== 'ms' && k !== 'id') { var v = o[k]; if (v && typeof v === 'object') fill(v); } });
