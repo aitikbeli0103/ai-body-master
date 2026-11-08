@@ -9,6 +9,7 @@ Free health guide with 1852 condition and symptom pages in English, Simplified C
 - [Health guide in English](https://aitikbeli0103.github.io/ai-body-master/health/en/index.html)
 - [Health guide in Chinese](https://aitikbeli0103.github.io/ai-body-master/health/zh/index.html)
 - [Health guide in Bahasa Malaysia](https://aitikbeli0103.github.io/ai-body-master/health/ms/index.html)
+- [Health guide in Bahasa Indonesia](https://aitikbeli0103.github.io/ai-body-master/health/id/index.html)
 - [All conditions A-Z](https://aitikbeli0103.github.io/ai-body-master/health/en/all.html)
 
 ## By body system

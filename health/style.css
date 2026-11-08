@@ -43,4 +43,6 @@ h1{font-size:30px;line-height:1.15;letter-spacing:-.01em;margin:14px 4px 6px;fon
 .card.fam .dot{flex:none;width:14px;height:14px;border-radius:50%;background:var(--tone);box-shadow:0 0 0 4px color-mix(in srgb,var(--tone) 22%,transparent)}
 .card.fam span:not(.dot){flex:1;font-weight:800}.card.fam small{flex:1.6;color:var(--mute);font-size:12px;line-height:1.35}
 @media (min-width:600px){.famgrid{grid-template-columns:repeat(3,minmax(0,1fr))}.card.fam{flex-direction:column;text-align:center}.card.fam span:not(.dot),.card.fam small{flex:none}}
+.t4 .brand>span{min-width:0;overflow:hidden}.t4 .brand b{font-size:15px;overflow:hidden;text-overflow:ellipsis}.t4 .brand small{overflow:hidden;text-overflow:ellipsis}.t4 .langs{gap:4px}.t4 .lp{padding:6px 8px;font-size:12px}
+@media (max-width:380px){.t4 .brand small{display:none}}
 @media (min-width:600px){.cards{grid-template-columns:repeat(3,minmax(0,1fr))}.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.sys{grid-template-columns:repeat(4,minmax(0,1fr))}}
