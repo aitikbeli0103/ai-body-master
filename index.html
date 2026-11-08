@@ -73,8 +73,10 @@ iframe{display:block;border:0;width:100vw;height:100vh;height:100dvh}
     id: { loading: 'Memuat…', slow: 'Masih memuat. Saat pertama dibuka, seluruh aplikasi dimuat sehingga koneksi yang lambat butuh waktu lebih lama. Kunjungan berikutnya lebih cepat.',
           stuck: 'Ini memakan waktu lebih lama dari biasanya. Silakan periksa koneksi internet Anda.', offline: 'Tidak ada koneksi internet. Periksa koneksi Anda, lalu coba lagi.', retry: 'Coba lagi' }
   };
-  var lang = 'en';
-  try {
+  var lang = 'en', saved = null;
+  try { saved = localStorage.getItem('abm-lang'); } catch (e) {}   /* the language picked last time inside the app */
+  if (T[saved]) lang = saved;
+  else try {
     var prefs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'en'];
     for (var i = 0; i < prefs.length; i++) {
       var p = String(prefs[i]).toLowerCase().slice(0, 2);
